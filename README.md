@@ -26,8 +26,8 @@ Argument | Description | Used By
 {desc} | A longer description of the content you are sharing | Most
 {app_id} | The App ID | Facebook
 {redirect_url} | The url a sharer will be redirected to after a successful share | Facebook
-{via} | optional Twitter username of content author | Twitter 
-{hashtags} | optional Hashtags appended onto the tweet | Twitter
+{via} | optional Twitter username of content author (don't include "@") | Twitter 
+{hashtags} | optional Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter
 {provider} | Company who is sharing the url | Delicous
 
 
@@ -39,77 +39,71 @@ Facebook has two methods of sharing. The simpler option is to use the link "Shar
 #### Sharer:
 
 ```
-http://www.facebook.com/sharer.php?s=100&p[url]={url}&p[images][0]={img-ne}&p[title]={title}&p[summary]={desc}
+http://www.facebook.com/sharer.php?s=100&p[url]={url}&p[images][0]={img}&p[title]={title}&p[summary]={desc}
 ```
 
 #### Feed Dialog:
 
 ```
-https://www.facebook.com/dialog/feed?app_id={$app_id}&link={url}&picture={img-ne}&name={title}&caption={desc}&redirect_uri={redirect_url}
+https://www.facebook.com/dialog/feed?app_id={app_id}&link={url}&picture={img}&name={title}&caption={desc}&redirect_uri={redirect_url}
 ```
 
 ### Twitter
 
 ```
-https://twitter.com/share?url={img-ne}&text={title}&via={via}&hashtags={hashtags}
+https://twitter.com/share?url={url}&text={title}&via={via}&hashtags={hashtags}
 ```
 
 ### Google+
 
 ```
-https://plus.google.com/share?url={url-ne}
+https://plus.google.com/share?url={url}
 ```
 
 ### Pinterest
 
 ```
-https://pinterest.com/pin/create/bookmarklet/?media={img-ne}&url={url-ne}&title={title}&is_video=false&description={desc}
+https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&title={title}&is_video=false&description={desc}
 ```
 
 ### Linked In
 
 ```
-http://www.linkedin.com/shareArticle?url={url-ne}&title={title}
+http://www.linkedin.com/shareArticle?url={url}&title={title}
 ```
 
 ### Buffer
 
 ```
-http://bufferapp.com/add?text={title}&url={url-ne}
+http://bufferapp.com/add?text={title}&url={url}
 ```
 
 ### Digg
 
 ```
-http://digg.com/submit?url={url-ne}&title={title}
+http://digg.com/submit?url={url}&title={title}
 ```
 
 ### Tumblr
 
 ```
-http://www.tumblr.com/share/link?url={url-ne}&name={title}&description={desc}
+http://www.tumblr.com/share/link?url={url}&name={title}&description={desc}
 ```
 
 ### Reddit
 
 ```
-http://reddit.com/submit?url={url-ne}&title={title}
+http://reddit.com/submit?url={url}&title={title}
 ```
 
 ### StumbleUpon
 
 ```
-http://www.stumbleupon.com/submit?url={url-ne}&title={title}
+http://www.stumbleupon.com/submit?url={url}&title={title}
 ```
 
-### Delicous
+### Delicious
 
 ```
 https://delicious.com/save?v=5&provider={provider}&noui&jump=close&url={url}&title={title}
-```
-
-### Email
-
-```
-mailto:friend@example.com?subject={title}&body={desc}%20-%20{url-ne}
 ```
