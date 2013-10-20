@@ -63,43 +63,43 @@ https://plus.google.com/share?url={url-ne}
 ### Pinterest
 
 ```
-https://pinterest.com/pin/create/bookmarklet/?media={img-ne}&url={img-ne}&title={title}&is_video=false&description={desc}
+https://pinterest.com/pin/create/bookmarklet/?media={img-ne}&url={url-ne}&title={title}&is_video=false&description={desc}
 ```
 
 ### Linked In
 
 ```
-http://www.linkedin.com/shareArticle?url={img-ne}&title={title}
+http://www.linkedin.com/shareArticle?url={url-ne}&title={title}
 ```
 
 ### Buffer
 
 ```
-http://bufferapp.com/add?text={title}&url={img-ne}
+http://bufferapp.com/add?text={title}&url={url-ne}
 ```
 
 ### Digg
 
 ```
-http://digg.com/submit?url={img-ne}&title={title}
+http://digg.com/submit?url={url-ne}&title={title}
 ```
 
 ### Tumblr
 
 ```
-http://www.tumblr.com/share/link?url={img-ne}&name={title}&description={desc}
+http://www.tumblr.com/share/link?url={url-ne}&name={title}&description={desc}
 ```
 
 ### Reddit
 
 ```
-http://reddit.com/submit?url={img-ne}&title={title}
+http://reddit.com/submit?url={url-ne}&title={title}
 ```
 
 ### StumbleUpon
 
 ```
-http://www.stumbleupon.com/submit?url={img-ne}&title={title}
+http://www.stumbleupon.com/submit?url={url-ne}&title={title}
 ```
 
 ### Delicous
@@ -111,5 +111,5 @@ https://delicious.com/save?v=5&provider={provider}&noui&jump=close&url={url}&tit
 ### Email
 
 ```
-mailto:friend@example.com?subject={title}&body={desc}%20-%20{img-ne}
+mailto:friend@example.com?subject={title}&body={desc}%20-%20{url-ne}
 ```
