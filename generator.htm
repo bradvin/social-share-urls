@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Social Network Link Generator</title>
+<!--	<script src="js/app.js" type="text/javascript"></script>
+	<link href="css/app.css" rel="stylesheet"/> -->
+
+	<script>
+	// create social networking pop-ups
+	(function() {
+	
+		var Networks = [
+			{
+				name: 'Facebook',
+				url: 'http://www.facebook.com/sharer.php?s=100&p[url]={url}&p[images][0]={img}&p[title]={title}&p[summary]={desc}'
+			},
+			{
+				name: 'Facebook (feed dialog)',
+				url: 'https://www.facebook.com/dialog/feed?app_id={app_id}&link={url}&picture={img}&name={title}&caption={desc}&redirect_uri={redirect_url}'
+			},
+			{
+				name: 'Twitter',
+				url: 'https://twitter.com/share?url={url}&text={title}&via={via}&hashtags={hashtags}'
+			},
+			{
+				name: 'Google+',
+				url: 'https://plus.google.com/share?url={url}',
+			},
+			{
+				name: 'Pinterest',
+				url: 'https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&title={title}&is_video=false&description={desc}',
+			},
+			{
+				name: 'Linked In',
+				url: 'http://www.linkedin.com/shareArticle?url={url}&title={title}',
+			},
+			{
+				name: 'Buffer',
+				url: 'http://bufferapp.com/add?text={title}&url={url}',
+			},
+			{
+				name: 'Digg',
+				url: 'http://digg.com/submit?url={url}&title={title}',
+			},
+			{
+				name: 'Tumblr',
+				url: 'http://www.tumblr.com/share/link?url={url}&name={title}&description={desc}',
+			},
+			{
+				name: 'Reddit',
+				url: 'http://reddit.com/submit?url={url}&title={title}',
+			},
+			{
+				name: 'StumbleUpon',
+				url: 'http://www.stumbleupon.com/submit?url={url}&title={title}',
+			},
+			{
+				name: 'Delicious',
+				url: 'https://delicious.com/save?v=5&provider={provider}&noui&jump=close&url={url}&title={title}',
+			}
+		];
+		
+		this.generateUrl = function(url, opt) {
+			var prop, arg, arg_ne;
+			for (prop in opt) {
+				arg = '{' + prop + '}';
+				if  (url.indexOf(arg) !== -1) {
+					url = url.replace(new RegExp(arg, 'g'), encodeURIComponent(opt[prop]));
+				}
+				arg_ne = '{' + prop + '-ne}';
+				if  (url.indexOf(arg_ne) !== -1) {
+					url = url.replace(new RegExp(arg_ne, 'g'), opt[prop]);
+				}
+			}
+			return url;
+		};
+		
+		var _this = this;
+		
+		window.generateSocialUrls = function(opt) {
+			if (typeof opt !== 'object') { return false; }
+			var links = [], network;
+			for (var i = 0; i < Networks.length; i++) {
+				network = Networks[i];
+				links[network.name] = _this.generateUrl(network.url, opt);
+			}
+			return links;
+		}
+		
+		
+	
+		// link selector and pop-up window size
+		var Config = {
+			Link: "a.share",
+			Width: 500,
+			Height: 500
+		};
+	 
+		// add handler links
+		var slink = document.querySelectorAll(Config.Link);
+		for (var a = 0; a < slink.length; a++) {
+			slink[a].onclick = PopupHandler;
+		}
+	 
+		// create popup
+		function PopupHandler(e) {
+	 
+			e = (e ? e : window.event);
+			var t = (e.target ? e.target : e.srcElement);
+	 
+			// popup position
+			var
+				px = Math.floor(((screen.availWidth || 1024) - Config.Width) / 2),
+				py = Math.floor(((screen.availHeight || 700) - Config.Height) / 2);
+	 
+			// open popup
+			var popup = window.open(t.href, "social", 
+				"width="+Config.Width+",height="+Config.Height+
+				",left="+px+",top="+py+
+				",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
+			if (popup) {
+				popup.focus();
+				if (e.preventDefault) e.preventDefault();
+				e.returnValue = false;
+			}
+	 
+			return !!popup;
+		}
+	 
+	}());
+	</script>
+</head>
+<body>
+	<script>
+		var links = window.generateSocialUrls({
+			url: 'http://fooplugins.com',
+			img: 'http://fooplugins.com/wp-content/plugins/fooboxV2/img/foobot.png',
+			title: 'FooPlugins',
+			desc: 'A jQuery and WordPress Plugins Marketplace',
+			redirect_url: 'http://fooplugins.com/contact/',
+			app_id: '215402498629351',
+			via: 'fooplugins',
+			hashtags: 'jQuery,WordPress'
+		});
+		for (link in links) {
+			document.write('<a target="_blank" href="' + links[link] + '" title="' + links[link] + '">' + link + '</a><br />');
+		}
+	</script>
+</body>
+</html>
+
