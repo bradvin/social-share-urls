@@ -5,7 +5,8 @@
 	<title>Social Network Link Generator</title>
 <!--	<script src="js/app.js" type="text/javascript"></script>
 	<link href="css/app.css" rel="stylesheet"/> -->
-
+    <script src="http://cdn.jsdelivr.net/zepto/1.0rc1/zepto.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="font.css">
 	<script>
 	// create social networking pop-ups
 	(function() {
@@ -13,52 +14,64 @@
 		var Networks = [
 			{
 				name: 'Facebook',
+				class: 'facebook',
 				url: 'http://www.facebook.com/sharer.php?s=100&p[url]={url}&p[images][0]={img}&p[title]={title}&p[summary]={desc}'
 			},
 			{
 				name: 'Facebook (feed dialog)',
+				class: 'facebook',
 				url: 'https://www.facebook.com/dialog/feed?app_id={app_id}&link={url}&picture={img}&name={title}&caption={desc}&redirect_uri={redirect_url}'
 			},
 			{
 				name: 'Twitter',
+				class: 'twitter',
 				url: 'https://twitter.com/share?url={url}&text={title}&via={via}&hashtags={hashtags}'
 			},
 			{
 				name: 'Google+',
+				class: 'google',
 				url: 'https://plus.google.com/share?url={url}',
 			},
 			{
 				name: 'Pinterest',
-				url: 'https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&title={title}&is_video=false&description={desc}',
+				class: 'pinterest',
+				url: 'https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&is_video={is_video}&description={title}',
 			},
 			{
 				name: 'Linked In',
+				class: 'linkedin',
 				url: 'http://www.linkedin.com/shareArticle?url={url}&title={title}',
 			},
 			{
 				name: 'Buffer',
+				class: 'buffer',
 				url: 'http://bufferapp.com/add?text={title}&url={url}',
 			},
 			{
 				name: 'Digg',
+				class: 'digg',
 				url: 'http://digg.com/submit?url={url}&title={title}',
 			},
 			{
 				name: 'Tumblr',
+				class: 'tumblr',
 				url: 'http://www.tumblr.com/share/link?url={url}&name={title}&description={desc}',
 			},
 			{
 				name: 'Reddit',
+				class: 'reddit',
 				url: 'http://reddit.com/submit?url={url}&title={title}',
 			},
 			{
 				name: 'StumbleUpon',
+				class: 'stumbleupon',
 				url: 'http://www.stumbleupon.com/submit?url={url}&title={title}',
 			},
 			{
 				name: 'Delicious',
+				class: 'delicious',
 				url: 'https://delicious.com/save?v=5&provider={provider}&noui&jump=close&url={url}&title={title}',
-			}
+			}	
 		];
 		
 		this.generateUrl = function(url, opt) {
@@ -73,7 +86,21 @@
 					url = url.replace(new RegExp(arg_ne, 'g'), opt[prop]);
 				}
 			}
-			return url;
+			return this.cleanUrl(url);
+		};
+		
+		this.cleanUrl = function(fullUrl) {
+			//firstly, remove any expressions we may have left in the url
+			fullUrl = fullUrl.replace(/\{([^{}]*)}/g, '');
+			
+			//then remove any empty parameters left in the url
+			var params = fullUrl.match(/[^\=\&\?]+=[^\=\&\?]+/g),
+				url = fullUrl.split("?")[0];
+			if (params && params.length > 0) {
+				url += "?" + params.join("&");
+			}
+			
+			return url;		
 		};
 		
 		var _this = this;
@@ -83,42 +110,33 @@
 			var links = [], network;
 			for (var i = 0; i < Networks.length; i++) {
 				network = Networks[i];
-				links[network.name] = _this.generateUrl(network.url, opt);
+				links.push({
+					name : network.name,
+					class : network.class,
+					url : _this.generateUrl(network.url, opt)
+				});
 			}
 			return links;
-		}
-		
-		
-	
-		// link selector and pop-up window size
-		var Config = {
-			Link: "a.share",
-			Width: 500,
-			Height: 500
 		};
-	 
-		// add handler links
-		var slink = document.querySelectorAll(Config.Link);
-		for (var a = 0; a < slink.length; a++) {
-			slink[a].onclick = PopupHandler;
-		}
-	 
-		// create popup
-		function PopupHandler(e) {
-	 
+
+		window.doPopup = function(e) {
 			e = (e ? e : window.event);
-			var t = (e.target ? e.target : e.srcElement);
+			var t = (e.target ? e.target : e.srcElement),
+				width = t.data-width || 800,
+				height = t.data-height || 500;
+			
 	 
 			// popup position
 			var
-				px = Math.floor(((screen.availWidth || 1024) - Config.Width) / 2),
-				py = Math.floor(((screen.availHeight || 700) - Config.Height) / 2);
+				px = Math.floor(((screen.availWidth || 1024) - width) / 2),
+				py = Math.floor(((screen.availHeight || 700) - height) / 2);
 	 
 			// open popup
 			var popup = window.open(t.href, "social", 
-				"width="+Config.Width+",height="+Config.Height+
+				"width="+width+",height="+height+
 				",left="+px+",top="+py+
 				",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
+				
 			if (popup) {
 				popup.focus();
 				if (e.preventDefault) e.preventDefault();
@@ -126,26 +144,49 @@
 			}
 	 
 			return !!popup;
-		}
+		};
 	 
 	}());
 	</script>
 </head>
 <body>
+	<h1>Social Link Generator</h1>
+	URL : <input type="input" id="input_url" value="http://fooplugins.com" /><br />
+	Image : <input type="input" id="input_img" value="http://fooplugins.com/wp-content/uploads/2013/04/FooBot-YouTube-800.png" /><br />
+	Title : <input type="input" id="input_title" value="FooPlugins - a jQuery and WordPress Plugin MarketPlace" /><br />
+	Description : <input type="input" id="input_desc" value="We sell free and premium plugins written in jQuery and WordPress" /><br />
+	FaceBook App Id : <input type="input" id="input_app_id" value="215402498629351" /><br />
+	FaceBook Redirect Url : <input type="input" id="input_redirect_url" value="http://fooplugins.com/" /><br />
+	Twitter Via : <input type="input" id="input_via" value="fooplugins" /><br />
+	Twitter Hastags : <input type="input" id="input_hashtags" value="jQuery,WordPress" /><br />
+	<input id="btn_generate" type="button" value="Generate" />
+	<div id="share_target" class="social_links"></div>
 	<script>
-		var links = window.generateSocialUrls({
-			url: 'http://fooplugins.com',
-			img: 'http://fooplugins.com/wp-content/plugins/fooboxV2/img/foobot.png',
-			title: 'FooPlugins',
-			desc: 'A jQuery and WordPress Plugins Marketplace',
-			redirect_url: 'http://fooplugins.com/contact/',
-			app_id: '215402498629351',
-			via: 'fooplugins',
-			hashtags: 'jQuery,WordPress'
+		$(function() {
+			$('#btn_generate').on('click', function(e) {
+				var params = {
+					url: $('#input_url').val(),
+					img: $('#input_img').val(),
+					title: $('#input_title').val(),
+					desc: $('#input_desc').val(),
+					redirect_url: $('#input_redirect_url').val(),
+					app_id: $('#input_app_id').val(),
+					via: $('#input_via').val(),
+					hashtags: $('#input_hashtags').val()
+				},
+				links = window.generateSocialUrls(params),
+				$target = $('#share_target');
+				
+				$target.html(''); //clear!
+				
+				for (var i = 0; i < links.length; i++) {
+					var link = links[i];
+					$target.append('<a class="soc ' + link.class + '" target="_blank" href="' + link.url + '" title="' + link.name + '"></a>');
+				}
+				
+				$target.find('a').on('click', window.doPopup);
+			});
 		});
-		for (link in links) {
-			document.write('<a target="_blank" href="' + links[link] + '" title="' + links[link] + '">' + link + '</a><br />');
-		}
 	</script>
 </body>
 </html>
