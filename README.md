@@ -4,7 +4,7 @@ This is intended to help you share your content on all the popular social networ
 
 ## Supported Social Networks
 
-* Facebook
+* [Facebook](#facebook)
 * Twitter
 * Google+
 * Pinterest
