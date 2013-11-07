@@ -5,16 +5,16 @@ This is intended to help you share your content on all the popular social networ
 ## Supported Social Networks
 
 * [Facebook](#facebook)
-* Twitter
-* Google+
-* Pinterest
-* Linked In
-* Buffer
-* Digg
-* StumbleUpon
-* Tumblr
-* Reddit
-* Delicious
+* [Twitter](#twitter)
+* [Google+](#google)
+* [Pinterest](#pinterest)
+* [Linked In](#linked-in)
+* [Buffer](#buffer)
+* [Digg](#digg)
+* [StumbleUpon](#stumbleupon)
+* [Tumblr](#tumblr)
+* [Reddit](#reddit)
+* [Delicious](#delicious)
 
 ## URL Arguments
 
