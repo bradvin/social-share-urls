@@ -28,7 +28,8 @@ Argument | Description | Used By
 {redirect_url} | The url a sharer will be redirected to after a successful share | Facebook
 {via} | optional Twitter username of content author (don't include "@") | Twitter 
 {hashtags} | optional Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter
-{provider} | Company who is sharing the url | Delicous
+{provider} | Company who is sharing the url | Delicious
+{is_video} | If the content is a video or not | Pinterest
 
 
 ### Facebook
@@ -63,7 +64,7 @@ https://plus.google.com/share?url={url}
 ### Pinterest
 
 ```
-https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&title={title}&is_video=false&description={desc}
+https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&is_video={is_video}&description={title}
 ```
 
 ### Linked In
