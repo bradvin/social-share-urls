@@ -46,7 +46,7 @@ http://www.facebook.com/sharer.php?s=100&p[url]={url}&p[images][0]={img}&p[title
 #### Feed Dialog:
 
 ```
-https://www.facebook.com/dialog/feed?app_id={app_id}&link={url}&picture={img}&name={title}&caption={desc}&redirect_uri={redirect_url}
+https://www.facebook.com/dialog/feed?app_id={app_id}&link={url}&picture={img}&name={title}&description={desc}&redirect_uri={redirect_url}
 ```
 
 ### Twitter

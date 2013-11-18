@@ -11,7 +11,7 @@
 		{
 			name: 'Facebook (feed dialog)',
 			class: 'facebook',
-			url: 'https://www.facebook.com/dialog/feed?app_id={app_id}&link={url}&picture={img}&name={title}&caption={desc}&redirect_uri={redirect_url}'
+			url: 'https://www.facebook.com/dialog/feed?app_id={app_id}&link={url}&picture={img}&name={title}&description={desc}&redirect_uri={redirect_url}'
 		},
 		{
 			name: 'Twitter',
