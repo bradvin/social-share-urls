@@ -40,7 +40,7 @@ Facebook has two methods of sharing. The simpler option is to use the link "Shar
 #### Sharer:
 
 ```
-http://www.facebook.com/sharer.php?s=100&p[url]={url}&p[images][0]={img}&p[title]={title}&p[summary]={desc}
+http://www.facebook.com/sharer.php?u={url}
 ```
 
 #### Feed Dialog:
