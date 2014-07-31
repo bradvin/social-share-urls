@@ -26,7 +26,7 @@ Argument | Description | Used By
 {desc} | A longer description of the content you are sharing | Most
 {app_id} | The App ID | Facebook
 {redirect_url} | The url a sharer will be redirected to after a successful share | Facebook
-{via} | optional Twitter username of content author (don't include "@") | Twitter 
+{via} | optional Twitter username of content author (don't include "@") | Twitter
 {hashtags} | optional Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter
 {provider} | Company who is sharing the url | Delicious
 {is_video} | If the content is a video or not | Pinterest
@@ -34,8 +34,7 @@ Argument | Description | Used By
 
 ### Facebook
 
-Facebook has two methods of sharing. The simpler option is to use the link "Sharer", but their newer “Feed Dialog” option offers more customization, but on the other hand, requires a Facebook App ID.
-[Facebook Feed Dialog vs. Share Link Dialog](http://www.local-pc-guy.com/web-dev/facebook-feed-dialog-vs-share-link-dialog) is a great article explaining the differences between the two methods.
+Facebook has two methods of sharing. The "Sharer" link is simple but the preferred Facebook way is using the [Share Dialog](https://developers.facebook.com/docs/sharing/reference/share-dialog). This method does require an app id but offers more flexibility.
 
 #### Sharer:
 
@@ -43,10 +42,10 @@ Facebook has two methods of sharing. The simpler option is to use the link "Shar
 http://www.facebook.com/sharer.php?u={url}
 ```
 
-#### Feed Dialog:
+#### Share Dialog:
 
 ```
-https://www.facebook.com/dialog/feed?app_id={app_id}&link={url}&picture={img}&name={title}&description={desc}&redirect_uri={redirect_url}
+https://www.facebook.com/dialog/share?app_id={app_id}&display=page&href={url}&redirect_uri={redirect_url}
 ```
 
 ### Twitter

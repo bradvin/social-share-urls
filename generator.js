@@ -1,7 +1,7 @@
 (function (window, undefined) {
 
 	window.SocialShare = { };
-	
+
 	SocialShare.Networks = [
 		{
 			name: 'Facebook',
@@ -9,9 +9,9 @@
 			url: 'http://www.facebook.com/sharer.php?s=100&p[url]={url}&p[images][0]={img}&p[title]={title}&p[summary]={desc}'
 		},
 		{
-			name: 'Facebook (feed dialog)',
+			name: 'Facebook (share dialog)',
 			class: 'facebook',
-			url: 'https://www.facebook.com/dialog/feed?app_id={app_id}&link={url}&picture={img}&name={title}&description={desc}&redirect_uri={redirect_url}'
+			url: 'https://www.facebook.com/dialog/share?app_id={app_id}&display=page&href={url}&redirect_uri={redirect_url}'
 		},
 		{
 			name: 'Twitter',
@@ -62,9 +62,9 @@
 			name: 'Delicious',
 			class: 'delicious',
 			url: 'https://delicious.com/save?v=5&provider={provider}&noui&jump=close&url={url}&title={title}',
-		}	
+		}
 	];
-	
+
 	SocialShare.generateSocialUrls = function(opt) {
 		if (typeof opt !== 'object') { return false; }
 		var links = [], network;
@@ -77,8 +77,8 @@
 			});
 		}
 		return links;
-	};	
-	
+	};
+
 	SocialShare.generateUrl = function(url, opt) {
 		var prop, arg, arg_ne;
 		for (prop in opt) {
@@ -93,46 +93,46 @@
 		}
 		return this.cleanUrl(url);
 	};
-	
+
 	SocialShare.cleanUrl = function(fullUrl) {
 		//firstly, remove any expressions we may have left in the url
 		fullUrl = fullUrl.replace(/\{([^{}]*)}/g, '');
-		
+
 		//then remove any empty parameters left in the url
 		var params = fullUrl.match(/[^\=\&\?]+=[^\=\&\?]+/g),
 			url = fullUrl.split("?")[0];
 		if (params && params.length > 0) {
 			url += "?" + params.join("&");
 		}
-		
-		return url;		
+
+		return url;
 	};
-	
+
 	SocialShare.doPopup = function(e) {
 		e = (e ? e : window.event);
 		var t = (e.target ? e.target : e.srcElement),
 			width = t.data-width || 800,
 			height = t.data-height || 500;
-		
- 
+
+
 		// popup position
 		var
 			px = Math.floor(((screen.availWidth || 1024) - width) / 2),
 			py = Math.floor(((screen.availHeight || 700) - height) / 2);
- 
+
 		// open popup
-		var popup = window.open(t.href, "social", 
+		var popup = window.open(t.href, "social",
 			"width="+width+",height="+height+
 			",left="+px+",top="+py+
 			",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
-			
+
 		if (popup) {
 			popup.focus();
 			if (e.preventDefault) e.preventDefault();
 			e.returnValue = false;
 		}
- 
+
 		return !!popup;
 	};
- 
+
 })(window);
