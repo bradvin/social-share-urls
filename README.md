@@ -87,7 +87,7 @@ http://digg.com/submit?url={url}&title={title}
 ### Tumblr
 
 ```
-http://www.tumblr.com/share/link?url={url}&name={title}&description={desc}
+https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&caption={desc}
 ```
 
 ### Reddit
