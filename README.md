@@ -51,7 +51,7 @@ https://www.facebook.com/dialog/share?app_id={app_id}&display=page&href={url}&re
 ### Twitter
 
 ```
-https://twitter.com/share?url={url}&text={title}&via={via}&hashtags={hashtags}
+https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hashtags}
 ```
 
 ### Google+

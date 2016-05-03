@@ -16,7 +16,7 @@
 		{
 			name: 'Twitter',
 			class: 'twitter',
-			url: 'https://twitter.com/share?url={url}&text={title}&via={via}&hashtags={hashtags}'
+			url: 'https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hashtags}'
 		},
 		{
 			name: 'Google+',
