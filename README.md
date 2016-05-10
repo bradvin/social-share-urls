@@ -39,7 +39,7 @@ Facebook has two methods of sharing. The "Sharer" link is simple but the preferr
 #### Sharer:
 
 ```
-http://www.facebook.com/sharer.php?u={url}
+https://www.facebook.com/sharer.php?u={url}
 ```
 
 #### Share Dialog:
@@ -66,16 +66,16 @@ https://plus.google.com/share?url={url}
 https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&is_video={is_video}&description={title}
 ```
 
-### Linked In
+### LinkedIn
 
 ```
-http://www.linkedin.com/shareArticle?url={url}&title={title}
+https://www.linkedin.com/shareArticle?url={url}&title={title}
 ```
 
 ### Buffer
 
 ```
-http://bufferapp.com/add?text={title}&url={url}
+https://buffer.com/add?text={title}&url={url}
 ```
 
 ### Digg
@@ -93,7 +93,7 @@ https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&capti
 ### Reddit
 
 ```
-http://reddit.com/submit?url={url}&title={title}
+https://reddit.com/submit?url={url}&title={title}
 ```
 
 ### StumbleUpon

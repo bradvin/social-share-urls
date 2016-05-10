@@ -6,7 +6,7 @@
 		{
 			name: 'Facebook',
 			class: 'facebook',
-			url: 'http://www.facebook.com/sharer.php?s=100&p[url]={url}&p[images][0]={img}&p[title]={title}&p[summary]={desc}'
+			url: 'https://www.facebook.com/sharer.php?s=100&p[url]={url}&p[images][0]={img}&p[title]={title}&p[summary]={desc}'
 		},
 		{
 			name: 'Facebook (share dialog)',
@@ -31,12 +31,12 @@
 		{
 			name: 'Linked In',
 			class: 'linkedin',
-			url: 'http://www.linkedin.com/shareArticle?url={url}&title={title}',
+			url: 'https://www.linkedin.com/shareArticle?url={url}&title={title}',
 		},
 		{
 			name: 'Buffer',
 			class: 'buffer',
-			url: 'http://bufferapp.com/add?text={title}&url={url}',
+			url: 'https://buffer.com/add?text={title}&url={url}',
 		},
 		{
 			name: 'Digg',
@@ -46,12 +46,12 @@
 		{
 			name: 'Tumblr',
 			class: 'tumblr',
-			url: 'http://www.tumblr.com/share/link?url={url}&name={title}&description={desc}',
+			url: 'https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&caption={desc}',
 		},
 		{
 			name: 'Reddit',
 			class: 'reddit',
-			url: 'http://reddit.com/submit?url={url}&title={title}',
+			url: 'https://reddit.com/submit?url={url}&title={title}',
 		},
 		{
 			name: 'StumbleUpon',
