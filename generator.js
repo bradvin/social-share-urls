@@ -123,18 +123,16 @@
 			class: 'skype',
 			url: 'https://web.skype.com/share?url={url}',
 		},
-			 	// JS Error: "Error Fetching Network Resource"
-			 	// (Note the Protocol)
-	//	{				
-	//		name: 'Viber',
-	//		class: 'viber',
-	//		url: 'viber://forward?text={url}',
-	//	},
-	//	{
-	//		name: 'WhatsApp',
-	//		class: 'whatsapp',
-	//		url: 'whatsapp://send?text={url}',
-	//	},
+		{				
+			name: 'Viber',
+			class: 'viber',
+			url: 'viber://forward?text={url}',
+		},
+		{
+			name: 'WhatsApp',
+			class: 'whatsapp',
+			url: 'whatsapp://send?text={url}',
+		},
 		{
 			name: 'Telegram.me',
 			class: 'telegramme',
