@@ -16,7 +16,7 @@ This is intended to help you share your content on all the popular social networ
 * [Reddit](#reddit)
 * [Delicious](#delicious)
 * [Blogger](#blogger)
-* [Live Journal](#livejournal)
+* [LiveJournal](#livejournal)
 * [MySpace](#myspace)
 * [Yahoo](#yahoo)
 * [FriendFeed](#friendfeed)
