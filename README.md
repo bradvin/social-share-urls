@@ -31,7 +31,7 @@ This is intended to help you share your content on all the popular social networ
 * [WhatsApp](#whatsapp)
 * [Telegram.me](#telegramme)
 * [VK](#vk)
-* [OK.ru](#okru)
+* [OKru](#okru)
 * [Douban](#douban)
 * [Baidu](#baidu)
 * [QZone](#qzone)
@@ -137,7 +137,7 @@ https://delicious.com/save?v=5&provider={provider}&noui&jump=close&url={url}&tit
 https://www.blogger.com/blog-this.g?u={url}&n={title}&t={desc}
 ```
 
-### Live Journal
+### LiveJournal
 
 ```
 http://www.livejournal.com/update.bml?subject={title}&event={url}
@@ -155,13 +155,13 @@ https://myspace.com/post?u={url}&t={title}&c=desc
 http://compose.mail.yahoo.com/?body={url}
 ```
 
-### Friend Feed
+### FriendFeed
 
 ```
 http://friendfeed.com/?url={url}
 ```
 
-### News Vine
+### NewsVine
 
 ```
 http://www.newsvine.com/_tools/seed&save?u={url}
@@ -227,13 +227,13 @@ https://telegram.me/share/url?url={url}&text={title}
 http://oauth.vk.com/authorize?client_id=-1&redirect_uri={url}&display=widget&caption={title}
 ```
 
-### OK.ru
+### OKru
 
 ```
 https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl={url}&title={title}
 ```
 
-### OK.ru
+### Douban
 
 ```
 http://www.douban.com/recommend/?url={url}&title={title}
