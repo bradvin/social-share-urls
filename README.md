@@ -224,7 +224,7 @@ https://telegram.me/share/url?url={url}&text={title}
 ### VK
 
 ```
-http://oauth.vk.com/authorize?client_id=-1&redirect_uri={url}&display=widget&caption={title}
+http://vk.com/share.php?url={url}
 ```
 
 ### OKru
