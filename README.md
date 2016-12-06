@@ -15,6 +15,29 @@ This is intended to help you share your content on all the popular social networ
 * [Tumblr](#tumblr)
 * [Reddit](#reddit)
 * [Delicious](#delicious)
+* [Blogger](#blogger)
+* [LiveJournal](#livejournal)
+* [MySpace](#myspace)
+* [Yahoo](#yahoo)
+* [FriendFeed](#friendfeed)
+* [NewsVine](#newsvine)
+* [EverNote](#evernote)
+* [GetPocket](#getpocket)
+* [FlipBoard](#flipboard)
+* [InstaPaper](#instapaper)
+* [Line.me](#lineme)
+* [Skype](#skype)
+* [Viber](#viber)
+* [WhatsApp](#whatsapp)
+* [Telegram.me](#telegramme)
+* [VK](#vk)
+* [OKru](#okru)
+* [Douban](#douban)
+* [Baidu](#baidu)
+* [QZone](#qzone)
+* [Xing](#xing)
+* [RenRen](#renren)
+* [Weibo](#weibo)
 
 ## URL Arguments
 
@@ -106,4 +129,142 @@ http://www.stumbleupon.com/submit?url={url}&title={title}
 
 ```
 https://delicious.com/save?v=5&provider={provider}&noui&jump=close&url={url}&title={title}
+```
+
+### Blogger
+
+```
+https://www.blogger.com/blog-this.g?u={url}&n={title}&t={desc}
+```
+
+### LiveJournal
+
+```
+http://www.livejournal.com/update.bml?subject={title}&event={url}
+```
+
+### MySpace
+
+```
+https://myspace.com/post?u={url}&t={title}&c=desc
+```
+
+### Yahoo
+
+```
+http://compose.mail.yahoo.com/?body={url}
+```
+
+### FriendFeed
+
+```
+http://friendfeed.com/?url={url}
+```
+
+### NewsVine
+
+```
+http://www.newsvine.com/_tools/seed&save?u={url}
+```
+
+### EverNote
+
+```
+http://www.evernote.com/clip.action?url={url}
+```
+
+### GetPocket
+
+```
+https://getpocket.com/save?url={url}
+```
+
+### FlipBoard
+
+```
+https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
+```
+
+### InstaPaper
+
+```
+http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
+```
+
+### Line.me
+
+```
+http://line.me/R/msg/text/?{url}
+```
+
+### Skype
+
+```
+https://web.skype.com/share?url={url}
+```
+
+### Viber
+
+```
+viber://forward?text={url}
+```
+
+### WhatsApp
+
+```
+whatsapp://send?text={url}
+```
+
+### Telegram.me
+
+```
+https://telegram.me/share/url?url={url}&text={title}
+```
+
+### VK
+
+```
+http://vk.com/share.php?url={url}
+```
+
+### OKru
+
+```
+https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl={url}&title={title}
+```
+
+### Douban
+
+```
+http://www.douban.com/recommend/?url={url}&title={title}
+```
+
+### Baidu
+
+```
+http://cang.baidu.com/do/add?it={title}&iu={url}
+```
+
+### QZone
+
+```
+http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}
+```
+
+### Xing
+
+```
+https://www.xing.com/app/user?op=share&url={url}
+```
+
+### RenRen
+
+```
+http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={title}
+```
+
+### Weibo
+
+```
+http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ralateUid=
 ```
