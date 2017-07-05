@@ -8,7 +8,7 @@ This is intended to help you share your content on all the popular social networ
 * [Twitter](#twitter)
 * [Google+](#google)
 * [Pinterest](#pinterest)
-* [Linked In](#linked-in)
+* [Linked In](#linkedin)
 * [Buffer](#buffer)
 * [Digg](#digg)
 * [StumbleUpon](#stumbleupon)
