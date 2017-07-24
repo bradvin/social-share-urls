@@ -194,7 +194,7 @@ http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
 ### Line.me
 
 ```
-http://line.me/R/msg/text/?{url}
+https://lineit.line.me/share/ui?url={url}
 ```
 
 ### Skype
