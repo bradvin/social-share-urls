@@ -8,7 +8,7 @@ This is intended to help you share your content on all the popular social networ
 * [Twitter](#twitter)
 * [Google+](#google)
 * [Pinterest](#pinterest)
-* [Linked In](#linked-in)
+* [Linked In](#linkedin)
 * [Buffer](#buffer)
 * [Digg](#digg)
 * [StumbleUpon](#stumbleupon)
@@ -92,8 +92,10 @@ https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&is_video={is
 ### LinkedIn
 
 ```
-https://www.linkedin.com/shareArticle?url={url}&title={title}
+https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary={desc}&source={provider}
 ```
+
+<code>Source:</code> [Share On LinkedIn](https://developer.linkedin.com/docs/share-on-linkedin)
 
 ### Buffer
 
