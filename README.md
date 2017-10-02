@@ -218,7 +218,7 @@ whatsapp://send?text={url}
 ### Telegram.me
 
 ```
-https://telegram.me/share/url?url={url}&text={title}
+https://t.me/share/url?url={url}&text={title}
 ```
 
 ### VK
