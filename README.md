@@ -92,7 +92,7 @@ https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&is_video={is
 ### LinkedIn
 
 ```
-https://www.linkedin.com/shareArticle?url={url}&title={title}
+https://www.linkedin.com/shareArticle?url={url}&title={title}&summary={desc}
 ```
 
 ### Buffer
