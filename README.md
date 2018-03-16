@@ -92,8 +92,10 @@ https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&is_video={is
 ### LinkedIn
 
 ```
-https://www.linkedin.com/shareArticle?url={url}&title={title}
+https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary={desc}&source={provider}
 ```
+
+<code>Source:</code> [Share On LinkedIn](https://developer.linkedin.com/docs/share-on-linkedin)
 
 ### Buffer
 
