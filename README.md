@@ -54,6 +54,7 @@ Argument | Description | Used By
 {provider} | Company who is sharing the url | Delicious
 {is_video} | If the content is a video or not | Pinterest
 {phonenumber} | An applicable phone number, if there is one | Whatsapp
+{pagetype} | Type of page, either "page" or "popup" | Facebook
 
 ### Facebook
 
@@ -70,8 +71,10 @@ https://www.facebook.com/sharer.php?u={url}
 #### Share Dialog:
 
 ```
-https://www.facebook.com/dialog/share?app_id={app_id}&display=page&href={url}&redirect_uri={redirect_url}
+https://www.facebook.com/dialog/share?app_id={app_id}&display={pagetype}&href={url}&redirect_uri={redirect_url}
 ```
+
+<code>Source:</code> [FaceBook: Share Dialog](https://developers.facebook.com/docs/sharing/reference/share-dialog)
 
 ### Twitter
 
