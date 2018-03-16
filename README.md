@@ -53,7 +53,7 @@ Argument | Description | Used By
 {hashtags} | optional Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter
 {provider} | Company who is sharing the url | Delicious
 {is_video} | If the content is a video or not | Pinterest
-
+{phonenumber} | An applicable phone number, if there is one | Whatsapp
 
 ### Facebook
 
@@ -95,7 +95,7 @@ https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&is_video={is
 https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary={desc}&source={provider}
 ```
 
-<code>Source:</code> [Share On LinkedIn](https://developer.linkedin.com/docs/share-on-linkedin)
+<code>Source:</code> [LinkedIn: Share On LinkedIn](https://developer.linkedin.com/docs/share-on-linkedin)
 
 ### Buffer
 
@@ -214,8 +214,10 @@ viber://forward?text={url}
 ### WhatsApp
 
 ```
-whatsapp://send?text={url}
+whatsapp://send?text={url}&phone={phonenumber}
 ```
+
+<code>Source:</code> [Whatsapp: Using Click to Chat](https://faq.whatsapp.com/en/android/26000030/?category=5245251)
 
 ### Telegram.me
 
