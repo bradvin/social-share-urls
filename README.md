@@ -61,9 +61,13 @@ Facebook has two methods of sharing. The "Sharer" link is simple but the preferr
 
 #### Sharer:
 
+**DEPRECATED**
+
 ```
 https://www.facebook.com/sharer.php?u={url}
 ```
+
+<code>Source:</code> [FaceBook: We have changed the behavior of the sharer plugin...](https://developers.facebook.com/x/bugs/357750474364812/)
 
 #### Share Dialog:
 
