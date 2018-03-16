@@ -58,7 +58,7 @@ Argument | Description | Used By
 
 ### Facebook
 
-Facebook has two methods of sharing. The "Sharer" link is simple but the preferred Facebook way is using the [Share Dialog](https://developers.facebook.com/docs/sharing/reference/share-dialog). This method does require an app id but offers more flexibility.
+Facebook has two methods of sharing. The "Sharer" link is simple but the preferred Facebook way is using the Share Dialog. This method does require an app id but offers more flexibility.
 
 #### Sharer:
 
