@@ -88,6 +88,8 @@ https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hash
 https://plus.google.com/share?url={url}
 ```
 
+<code>Source:</code> [Google: Google+ Platform, Web, Share](https://developers.google.com/+/web/share/)
+
 ### Pinterest
 
 ```
