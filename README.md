@@ -242,7 +242,7 @@ whatsapp://send?text={url}&phone={phonenumber}
 ### Telegram.me
 
 ```
-https://telegram.me/share/url?url={url}&text={title}
+https://t.me/share/url?url={url}&text={title}
 ```
 
 ### VK
