@@ -127,6 +127,8 @@ https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary=
 https://buffer.com/add?text={title}&url={url}
 ```
 
+<code>Source:</code> Unable to locate source.  Link was added in 2013.  However, dev-testing has verified that this works by merely substituting random values for the above and logging in through Linkedin.
+
 ### Digg
 
 ```
