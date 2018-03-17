@@ -59,12 +59,12 @@ Argument | Description | Used By
 {desc} | A longer description of the content you are sharing | Most
 {app_id} | The App ID | Facebook
 {redirect_url} | The url a sharer will be redirected to after a successful share | Facebook
+{page_type} | Type of page, either "page" or "popup" | Facebook
 {via} | optional Twitter username of content author (don't include "@") | Twitter
 {hashtags} | optional Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter
 {provider} | Company who is sharing the url | Delicious
 {is_video} | If the content is a video or not | Pinterest
 {phonenumber} | An applicable phone number, if there is one | Whatsapp
-{pagetype} | Type of page, either "page" or "popup" | Facebook
 
 ### Facebook
 
@@ -81,7 +81,8 @@ https://www.facebook.com/sharer.php?u={url}
 #### Share Dialog:
 
 ```
-https://www.facebook.com/dialog/share?app_id={app_id}&display={pagetype}&href={url}&redirect_uri={redirect_url}
+https://www.facebook.com/dialog/share?app_id={app_id}&display={page_
+type}&href={url}&redirect_uri={redirect_url}
 ```
 
 <code>Source:</code> [FaceBook: Share Dialog](https://developers.facebook.com/docs/sharing/reference/share-dialog)
