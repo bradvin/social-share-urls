@@ -6,6 +6,8 @@ This is intended to help you share your content on all the popular social networ
 
 ## Supported Social Networks
 
+### Multi-Language Social Media
+
 * [Facebook](#facebook)
 * [Twitter](#twitter)
 * [Google+](#google)
@@ -27,11 +29,17 @@ This is intended to help you share your content on all the popular social networ
 * [GetPocket](#getpocket)
 * [FlipBoard](#flipboard)
 * [InstaPaper](#instapaper)
+
+### Phone/Audio-Based Social Media
+
 * [Line.me](#lineme)
 * [Skype](#skype)
 * [Viber](#viber)
 * [WhatsApp](#whatsapp)
 * [Telegram.me](#telegramme)
+
+### Non-English Social Media
+
 * [VK](#vk)
 * [OKru](#okru)
 * [Douban](#douban)
