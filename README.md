@@ -1,6 +1,6 @@
 # Social Share URLs
 
-This is project is intended to help you integrate sharing on social media within your code.
+This project is intended to help you integrate sharing on social media within your code.
 
 ![alt text](https://github.com/bradvin/social-share-urls/blob/master/images/sharelinks.jpg "ShareLinks Icons")
 
