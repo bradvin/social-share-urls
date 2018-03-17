@@ -107,6 +107,7 @@ https://plus.google.com/share?url={url}
 
 ```
 http://pinterest.com/pin/create/button/?url={url}
+http://pinterest.com/pin/create/link/?url={url}
 ```
 
 <code>Source:</code> [Pinterest: Save Button](https://developers.pinterest.com/docs/widgets/save/?)
