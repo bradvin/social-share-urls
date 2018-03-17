@@ -84,6 +84,8 @@ https://www.facebook.com/dialog/share?app_id={app_id}&display={pagetype}&href={u
 https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hashtags}
 ```
 
+<code>Source:</code> [Twitter: Tweet Button Parameter Reference](https://dev.twitter.com/web/tweet-button/parameters)
+
 ### Google+
 
 ```
