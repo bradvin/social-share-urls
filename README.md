@@ -106,8 +106,11 @@ https://plus.google.com/share?url={url}
 ### Pinterest
 
 ```
-https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&is_video={is_video}&description={title}
+http://pinterest.com/pin/create/button/?url={url}
 ```
+
+<code>Source:</code> [Pinterest: Save Button](https://developers.pinterest.com/docs/widgets/save/?)
+
 
 ### LinkedIn
 
