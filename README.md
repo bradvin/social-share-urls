@@ -98,7 +98,7 @@ https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hash
 ### Google+
 
 ```
-https://plus.google.com/share?url={url}
+https://plus.google.com/share?url={url}&text={desc}
 ```
 
 <code>Source:</code> [Google: Google+ Platform, Web, Share](https://developers.google.com/+/web/share/)
