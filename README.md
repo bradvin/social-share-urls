@@ -60,11 +60,12 @@ Argument | Description | Used By
 {app_id} | The App ID | Facebook
 {redirect_url} | The url a sharer will be redirected to after a successful share | Facebook
 {page_type} | Type of page, either "page" or "popup" | Facebook
-{via} | optional Twitter username of content author (don't include "@") | Twitter
-{hashtags} | optional Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter
+{via} | Twitter username of content author (don't include "@") | Twitter
+{hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter
+{language_code} | A language code from the ISO 639-1 Code specification. | Google
 {provider} | Company who is sharing the url | Delicious
 {is_video} | If the content is a video or not | Pinterest
-{phonenumber} | An applicable phone number, if there is one | Whatsapp
+{phone_number} | An applicable phone number, if there is one | Whatsapp
 
 ### Facebook
 
@@ -90,7 +91,7 @@ type}&href={url}&redirect_uri={redirect_url}
 ### Twitter
 
 ```
-https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hashtags}
+https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hash_tags}
 ```
 
 <code>Source:</code> [Twitter: Tweet Button Parameter Reference](https://dev.twitter.com/web/tweet-button/parameters)
@@ -98,10 +99,10 @@ https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hash
 ### Google+
 
 ```
-https://plus.google.com/share?url={url}&text={desc}
+https://plus.google.com/share?url={url}&text={desc}&hl={language_code}
 ```
 
-<code>Source:</code> [Google: Google+ Platform, Web, Share](https://developers.google.com/+/web/share/)
+<code>Source:</code>[Google: Google+ Platform, Web, Share](https://developers.google.com/+/web/share/)
 
 ### Pinterest
 
@@ -240,7 +241,7 @@ viber://forward?text={url}
 ### WhatsApp
 
 ```
-whatsapp://send?text={url}&phone={phonenumber}
+whatsapp://send?text={url}&phone={phone_number}
 ```
 
 <code>Source:</code> [Whatsapp: Using Click to Chat](https://faq.whatsapp.com/en/android/26000030/?category=5245251)
