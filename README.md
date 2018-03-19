@@ -142,8 +142,10 @@ https://buffer.com/add?text={title}&url={url}
 ### Digg
 
 ```
-http://digg.com/submit?url={url}&title={title}
+http://digg.com/submit?url={url}
 ```
+
+<code>Source:</code> Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ### Tumblr
 
