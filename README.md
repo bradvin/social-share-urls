@@ -49,6 +49,10 @@ This project is intended to help you integrate sharing on social media within yo
 * [RenRen](#renren)
 * [Weibo](#weibo)
 
+### Locally/Personally-Run Social Media
+
+* [WordPress](#wordpress)
+
 ## URL Arguments
 
 Argument | Description | Used By
@@ -302,3 +306,11 @@ http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={titl
 ```
 http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ralateUid=
 ```
+
+### WordPress
+
+```
+http://www.example.com/website-where-you-installed-wordpress/wp-admin/press-this.php?u{url}=&t={title}&s={text}&i={img}
+```
+
+<code>Source :</code> [WordPress: Codex > Press This > Technical Note 1](https://codex.wordpress.org/Press_This)
