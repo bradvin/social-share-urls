@@ -59,9 +59,9 @@ This project is intended to help you integrate sharing on social media within yo
 Argument | Description | Used By
 --- | --- | ---
 {url} | The url you want to share (**encoded**) | All
-{img} | The image/thumbnail to use when sharing | Most
 {title} | The page title of the url you want to share | Most
 {desc} | A longer description of the content you are sharing | Most
+{image} | The url to the image/thumbnail to use when sharing | Some
 {app_id} | The App ID | Facebook
 {redirect_url} | The url a sharer will be redirected to after a successful share | Facebook
 {page_type} | Type of page, either "page" or "popup" | Facebook
@@ -232,7 +232,7 @@ http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
 ### SurfingBird
 
 ```
-http://surfingbird.ru/share?url={url}&description={text}&screenshot={img}&title={title}
+http://surfingbird.ru/share?url={url}&description={text}&screenshot={image}&title={title}
 ```
 
 <code>Source:</code> Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
@@ -327,7 +327,7 @@ http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ral
 ### WordPress
 
 ```
-http://www.example.com/website_where_you_installed_wordpress/wp-admin/press-this.php?u={url}&t={title}&s={text}&i={img}
+http://www.example.com/website_where_you_installed_wordpress/wp-admin/press-this.php?u={url}&t={title}&s={text}&i={image}
 ```
 
 <code>Source :</code> [WordPress: Codex > Press This > Technical Note 1](https://codex.wordpress.org/Press_This)
