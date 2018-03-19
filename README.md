@@ -71,6 +71,8 @@ Argument | Description | Used By
 {is_video} | If the content is a video or not | Pinterest
 {phone_number} | An applicable phone number, if there is one | Whatsapp
 
+## Multi-Language Social Media
+
 ### Facebook
 
 Facebook has two methods of sharing. The "Sharer" link is simple but the preferred Facebook way is using the Share Dialog. This method does require an app id but offers more flexibility.
@@ -226,6 +228,8 @@ https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
 http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
 ```
 
+## Phone/Audio-Based Social Media
+
 ### Line.me
 
 ```
@@ -258,6 +262,8 @@ whatsapp://send?text={url}&phone={phone_number}
 https://telegram.me/share/url?url={url}&text={title}
 https://t.me/share/url?url={url}&text={title}
 ```
+
+## Non-English Social Media
 
 ### VK
 
@@ -306,6 +312,8 @@ http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={titl
 ```
 http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ralateUid=
 ```
+
+## Locally/Personally-Run Social Media
 
 ### WordPress
 
