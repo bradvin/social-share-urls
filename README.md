@@ -29,6 +29,7 @@ This project is intended to help you integrate sharing on social media within yo
 * [GetPocket](#getpocket)
 * [FlipBoard](#flipboard)
 * [InstaPaper](#instapaper)
+* [SurfingBird.ru](#surfingbird)
 
 ### Phone/Audio-Based Social Media
 
@@ -227,6 +228,14 @@ https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
 ```
 http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
 ```
+
+### SurfingBird.ru
+
+```
+http://surfingbird.ru/share?url={url}&description={text}&screenshot={img}&title={title}
+```
+
+<code>Source:</code> Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ## Phone/Audio-Based Social Media
 
