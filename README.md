@@ -30,6 +30,7 @@ This project is intended to help you integrate sharing on social media within yo
 * [FlipBoard](#flipboard)
 * [InstaPaper](#instapaper)
 * [SurfingBird](#surfingbird)
+* [Diaspora](#diaspora)
 
 ### Phone/Audio-Based Social Media
 
@@ -237,7 +238,19 @@ http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
 http://surfingbird.ru/share?url={url}&description={text}&screenshot={image}&title={title}
 ```
 
-<code>Source:</code> Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
+<code>Source:</code>
+* Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
+* Requires login to work.
+
+### Diaspora
+
+```
+https://share.diasporafoundation.org/?title={title}&url={url}
+```
+
+<code>Source:</code>
+* [Diaspora: Share all teh internetz!](https://share.diasporafoundation.org/about.html)
+* Requires login to work.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ## Phone/Audio-Based Social Media
 
