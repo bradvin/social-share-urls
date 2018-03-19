@@ -102,7 +102,9 @@ https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hash
 https://plus.google.com/share?url={url}&text={desc}&hl={language_code}
 ```
 
-<code>Source:</code>[Google: Google+ Platform, Web, Share](https://developers.google.com/+/web/share/)
+<code>Source:</code>
+* [Google: Google+ Platform, Web, Share](https://developers.google.com/+/web/share/)
+* Regarding `text` parameter: Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ### Pinterest
 
