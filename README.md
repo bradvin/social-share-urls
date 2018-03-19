@@ -29,7 +29,7 @@ This project is intended to help you integrate sharing on social media within yo
 * [GetPocket](#getpocket)
 * [FlipBoard](#flipboard)
 * [InstaPaper](#instapaper)
-* [SurfingBird.ru](#surfingbird)
+* [SurfingBird](#surfingbird)
 
 ### Phone/Audio-Based Social Media
 
@@ -229,7 +229,7 @@ https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
 http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
 ```
 
-### SurfingBird.ru
+### SurfingBird
 
 ```
 http://surfingbird.ru/share?url={url}&description={text}&screenshot={img}&title={title}
