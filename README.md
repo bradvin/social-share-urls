@@ -318,7 +318,7 @@ http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ral
 ### WordPress
 
 ```
-http://www.example.com/website-where-you-installed-wordpress/wp-admin/press-this.php?u={url}&t={title}&s={text}&i={img}
+http://www.example.com/website_where_you_installed_wordpress/wp-admin/press-this.php?u={url}&t={title}&s={text}&i={img}
 ```
 
 <code>Source :</code> [WordPress: Codex > Press This > Technical Note 1](https://codex.wordpress.org/Press_This)
