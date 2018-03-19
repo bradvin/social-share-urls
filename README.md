@@ -238,9 +238,7 @@ http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
 http://surfingbird.ru/share?url={url}&description={text}&screenshot={image}&title={title}
 ```
 
-<code>Source:</code>
-* Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
-* Requires login to work.
+<code>Source:</code> Unable to find official source.  Requires login to work.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ### Diaspora
 
