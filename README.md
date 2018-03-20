@@ -32,6 +32,7 @@ This project is intended to help you integrate sharing on social media within yo
 * [SurfingBird](#surfingbird)
 * [Diaspora](#diaspora)
 * [Flattr](#flattr)
+* [HackerNews](#hackernews)
 
 ### Phone/Audio-Based Social Media
 
@@ -264,6 +265,14 @@ https://flattr.com/submit/auto?user_id={user_id}&url={url}&title={title}&descrip
 <code>Source:</code>
 * [URL Auto Submit Documentation](https://blog.flattr.com/2011/11/url-auto-submit-documentation/)
 * Requires all user_id, url, and title parameters to be precisely formatted.  Functionality tested and verified by SocialShare Dev's in 2018.
+
+### HackerNews
+
+````
+https://news.ycombinator.com/submitlink?u={url}&t={title}
+````
+
+<code>Source:</code> Unable to find official source.  Requires login to work.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ## Phone/Audio-Based Social Media
 
