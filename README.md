@@ -56,6 +56,7 @@ This project is intended to help you integrate sharing on social media within yo
 ### Locally/Personally-Run Social Media
 
 * [WordPress](#wordpress)
+* [Mail](#mail)
 
 ## URL Arguments
 
@@ -76,6 +77,7 @@ Argument | Description | Used By
 {phone_number} | An applicable phone number, if there is one | Whatsapp
 {user_id} | The id of a particular user on a social media service | Flattr
 {category} | A section to submit the share/comment to | Flattr
+{email_address} | Where a social share is directed | Mail
 
 ## Multi-Language Social Media
 
@@ -370,3 +372,9 @@ http://www.example.com/website_where_you_installed_wordpress/wp-admin/press-this
 ```
 
 <code>Source :</code> [WordPress: Codex > Press This > Technical Note 1](https://codex.wordpress.org/Press_This)
+
+### Mail
+
+````
+mailto:{email_address}?subject={title}&body={desc}
+````
