@@ -24,7 +24,6 @@ This project is intended to help you integrate sharing on social media within yo
 * [MySpace](#myspace)
 * [Yahoo](#yahoo)
 * [FriendFeed](#friendfeed)
-* [NewsVine](#newsvine)
 * [EverNote](#evernote)
 * [GetPocket](#getpocket)
 * [FlipBoard](#flipboard)
@@ -200,12 +199,6 @@ http://compose.mail.yahoo.com/?body={url}
 
 ```
 http://friendfeed.com/?url={url}
-```
-
-### NewsVine
-
-```
-http://www.newsvine.com/_tools/seed&save?u={url}
 ```
 
 ### EverNote
