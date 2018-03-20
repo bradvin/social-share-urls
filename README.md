@@ -266,6 +266,8 @@ viber://forward?text={url}
 ### WhatsApp
 
 ```
+https://web.whatsapp.com/send?text={url}&phone={phone_number}
+https://api.whatsapp.com/send?text={url}&phone={phone_number}
 whatsapp://send?text={url}&phone={phone_number}
 ```
 
