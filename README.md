@@ -11,7 +11,7 @@ This project is intended to help you integrate sharing on social media within yo
 * [Facebook](#facebook)
 * [Twitter](#twitter)
 * [Google+](#google)
-* [GoogleBookmarks](#googlemarks)
+* [GoogleBookmarks](#googlebookmarks)
 * [Pinterest](#pinterest)
 * [Linked In](#linkedin)
 * [Buffer](#buffer)
@@ -31,6 +31,7 @@ This project is intended to help you integrate sharing on social media within yo
 * [InstaPaper](#instapaper)
 * [SurfingBird](#surfingbird)
 * [Diaspora](#diaspora)
+* [Flattr](#flattr)
 
 ### Phone/Audio-Based Social Media
 
@@ -67,11 +68,13 @@ Argument | Description | Used By
 {redirect_url} | The url a sharer will be redirected to after a successful share | Facebook
 {page_type} | Type of page, either "page" or "popup" | Facebook
 {via} | Twitter username of content author (don't include "@") | Twitter
-{hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter
+{hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter, Flattr
 {language_code} | A language code from the ISO 639-1 Code specification. | Google
 {provider} | Company who is sharing the url | Delicious
 {is_video} | If the content is a video or not | Pinterest
 {phone_number} | An applicable phone number, if there is one | Whatsapp
+{user_id} | The id of a particular user on a social media service | Flattr
+{category} | A section to submit the share/comment to | Flattr
 
 ## Multi-Language Social Media
 
@@ -251,6 +254,16 @@ https://share.diasporafoundation.org/?title={title}&url={url}
 <code>Source:</code>
 * [Diaspora: Share all teh internetz!](https://share.diasporafoundation.org/about.html)
 * Requires login to work.  Functionality tested and verified by SocialShare Dev's in 2018.
+
+### Flattr
+
+````
+https://flattr.com/submit/auto?user_id={user_id}&url={url}&title={title}&description={desc}&language={language_code}&tags={hash_tags}&hidden=HIDDEN&category={category}
+````
+
+<code>Source:</code>
+* [URL Auto Submit Documentation](https://blog.flattr.com/2011/11/url-auto-submit-documentation/)
+* Requires all user_id, url, and title parameters to be precisely formatted.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ## Phone/Audio-Based Social Media
 
