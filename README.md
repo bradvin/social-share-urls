@@ -11,6 +11,7 @@ This project is intended to help you integrate sharing on social media within yo
 * [Facebook](#facebook)
 * [Twitter](#twitter)
 * [Google+](#google)
+* [GoogleBookmarks](#googlemarks)
 * [Pinterest](#pinterest)
 * [Linked In](#linkedin)
 * [Buffer](#buffer)
@@ -112,6 +113,14 @@ https://plus.google.com/share?url={url}&text={desc}&hl={language_code}
 <code>Source:</code>
 * [Google: Google+ Platform, Web, Share](https://developers.google.com/+/web/share/)
 * Regarding `text` parameter: Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
+
+### GoogleBookmarks
+
+````
+https://www.google.com/bookmarks/mark?op=edit&bkmk={url}&title={title}&annotation={desc}&labels={tags}
+````
+
+<code>Source:</code> Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ### Pinterest
 
