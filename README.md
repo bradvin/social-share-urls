@@ -178,6 +178,10 @@ https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&capti
 https://reddit.com/submit?url={url}&title={title}
 ```
 
+<code>Source:</code>
+* [RedDit: put reddit.com buttons on your site](https://www.reddit.com/buttons/)
+* Regarding `title` Parameter: Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
+
 ### StumbleUpon
 
 ```
