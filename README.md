@@ -70,7 +70,7 @@ Argument | Description | Used By
 {redirect_url} | The url a sharer will be redirected to after a successful share | Facebook
 {page_type} | Type of page, either "page" or "popup" | Facebook
 {via} | Twitter username of content author (don't include "@") | Twitter
-{hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter, Flattr
+{hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter, Flattr, Tumblr
 {language_code} | A language code from the ISO 639-1 Code specification. | Google
 {provider} | Company who is sharing the url | Delicious
 {is_video} | If the content is a video or not | Pinterest
@@ -165,8 +165,12 @@ http://digg.com/submit?url={url}
 ### Tumblr
 
 ```
-https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&caption={desc}
+https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&caption={desc}&tags={hash_tags}
 ```
+
+<code>Source:</code>
+* [Tumblr: Post to Tumblr](https://www.tumblr.com/docs/en/share_button)
+* Requires login.  Functionality tested and verified by SocialShare Dev's in 2018.  A described language parameter appeared to have no effect.
 
 ### Reddit
 
