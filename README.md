@@ -170,7 +170,7 @@ https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&capti
 
 <code>Source:</code>
 * [Tumblr: Post to Tumblr](https://www.tumblr.com/docs/en/share_button)
-* Requires login.  Functionality tested and verified by SocialShare Dev's in 2018.  A described language parameter appeared to have no effect.
+* Requires login.  Functionality tested and verified by SocialShare Dev's in 2018.  A described language parameter (`data-locale`) appeared to have no effect (and, therefore, is not listed here).
 
 ### Reddit
 
