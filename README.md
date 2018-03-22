@@ -19,7 +19,6 @@ This project is intended to help you integrate sharing on social media within yo
 * [StumbleUpon](#stumbleupon)
 * [Tumblr](#tumblr)
 * [Reddit](#reddit)
-* [Delicious](#delicious)
 * [Blogger](#blogger)
 * [LiveJournal](#livejournal)
 * [MySpace](#myspace)
@@ -186,12 +185,6 @@ https://reddit.com/submit?url={url}&title={title}
 
 ```
 http://www.stumbleupon.com/submit?url={url}&title={title}
-```
-
-### Delicious
-
-```
-https://delicious.com/save?v=5&provider={provider}&noui&jump=close&url={url}&title={title}
 ```
 
 ### Blogger
