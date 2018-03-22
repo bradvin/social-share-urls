@@ -71,7 +71,6 @@ Argument | Description | Used By
 {via} | Twitter username of content author (don't include "@") | Twitter
 {hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter, Flattr, Tumblr
 {language_code} | A language code from the ISO 639-1 Code specification. | Google
-{provider} | Company who is sharing the url | Delicious
 {is_video} | If the content is a video or not | Pinterest
 {phone_number} | An applicable phone number, if there is one | Whatsapp
 {user_id} | The id of a particular user on a social media service | Flattr
