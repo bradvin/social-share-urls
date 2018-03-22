@@ -206,6 +206,10 @@ https://www.blogger.com/blog-this.g?u={url}&n={title}&t={desc}
 http://www.livejournal.com/update.bml?subject={title}&event={url}
 ```
 
+<code>Source:</code> 
+* [LiveJournal: LiveJournal share button](https://www.livejournal.com/developer/extshare)
+* Functionality tested and verified by SocialShare Dev's in 2018.
+
 ### MySpace
 
 ```
