@@ -250,6 +250,10 @@ https://getpocket.com/save?url={url}
 https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
 ```
 
+<code>Source :</code>
+* [FlipBoard: Social Plugins](https://about.flipboard.com/social-plugins/?tool=browser)
+* Requires login and properly formatted URL with http/https protocol.  Functionality tested and verified by SocialShare Dev's in 2018.
+
 ### InstaPaper
 
 ```
