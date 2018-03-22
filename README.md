@@ -73,7 +73,7 @@ Argument | Description | Used By
 {phone_number} | An applicable phone number, if there is one | Whatsapp
 {user_id} | The id of a particular user on a social media service | Flattr
 {category} | A section to submit the share/comment to | Flattr
-{email_address} | Where a social share is directed | Mail
+{email_address} | Where a social share is directed | Mail, Yahoo
 
 ## Multi-Language Social Media
 
