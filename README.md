@@ -21,7 +21,6 @@ This project is intended to help you integrate sharing on social media within yo
 * [Reddit](#reddit)
 * [Blogger](#blogger)
 * [LiveJournal](#livejournal)
-* [MySpace](#myspace)
 * [Yahoo](#yahoo)
 * [EverNote](#evernote)
 * [GetPocket](#getpocket)
@@ -200,12 +199,6 @@ http://www.livejournal.com/update.bml?subject={title}&event={url}
 <code>Source:</code> 
 * [LiveJournal: LiveJournal share button](https://www.livejournal.com/developer/extshare)
 * Functionality tested and verified by SocialShare Dev's in 2018.
-
-### MySpace
-
-```
-https://myspace.com/post?u={url}&t={title}&c=desc
-```
 
 ### Yahoo
 
