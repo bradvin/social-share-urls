@@ -181,8 +181,12 @@ https://reddit.com/submit?url={url}&title={title}
 ### StumbleUpon
 
 ```
-http://www.stumbleupon.com/submit?url={url}&title={title}
+http://www.stumbleupon.com/submit?url={url}
 ```
+
+<code>Source :</code>
+* [StackOverflow: How to submit a link to StumbleUpon with a title](https://webapps.stackexchange.com/questions/19942/how-to-submit-a-link-to-stumbleupon-with-a-title)
+* Unable to find official source.  Requires login.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ### Blogger
 
