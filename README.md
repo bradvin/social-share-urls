@@ -63,12 +63,12 @@ Argument | Description | Used By
 {url} | The url you want to share (**encoded**) | All
 {title} | The page title of the url you want to share | Most
 {desc} | A longer description of the content you are sharing | Most
-{image} | The url to the image/thumbnail to use when sharing | Some
 {app_id} | The App ID | Facebook
 {redirect_url} | The url a sharer will be redirected to after a successful share | Facebook
 {page_type} | Type of page, either "page" or "popup" | Facebook
 {via} | Twitter username of content author (don't include "@") | Twitter
 {hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter, Flattr, Tumblr
+{image} | The url to the image/thumbnail to use when sharing | SurfingBird, WordPress
 {language_code} | A language code from the ISO 639-1 Code specification. | Google
 {is_video} | If the content is a video or not | Pinterest
 {phone_number} | An applicable phone number, if there is one | Whatsapp
