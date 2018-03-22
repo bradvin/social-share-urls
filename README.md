@@ -240,6 +240,10 @@ http://www.evernote.com/clip.action?url={url}
 https://getpocket.com/save?url={url}
 ```
 
+<code>Source:</code>
+* [getPocket: Pocket Button Documentation](https://getpocket.com/publisher/button_docs)
+* Regarding `url` Parameter: Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
+
 ### FlipBoard
 
 ```
