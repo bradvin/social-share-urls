@@ -375,6 +375,8 @@ http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={titl
 http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ralateUid=
 ```
 
+<code>Source :</code> [Weibo: ShareCode](http://open.weibo.com/wiki/ShareCode)
+
 ## Locally/Personally-Run Social Media
 
 ### WordPress
