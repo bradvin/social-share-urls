@@ -23,7 +23,6 @@ This project is intended to help you integrate sharing on social media within yo
 * [LiveJournal](#livejournal)
 * [MySpace](#myspace)
 * [Yahoo](#yahoo)
-* [FriendFeed](#friendfeed)
 * [EverNote](#evernote)
 * [GetPocket](#getpocket)
 * [FlipBoard](#flipboard)
@@ -212,12 +211,6 @@ https://myspace.com/post?u={url}&t={title}&c=desc
 
 ```
 http://compose.mail.yahoo.com/?body={url}
-```
-
-### FriendFeed
-
-```
-http://friendfeed.com/?url={url}
 ```
 
 ### EverNote
