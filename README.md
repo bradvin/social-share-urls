@@ -207,8 +207,12 @@ http://www.livejournal.com/update.bml?subject={title}&event={url}
 ### Yahoo
 
 ```
-http://compose.mail.yahoo.com/?body={url}
+http://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}
 ```
+
+<code>Source :</code>
+* [StackOverflow: Yahoo email compose link not working - compose.mail.yahoo.com](https://stackoverflow.com/questions/26379594/yahoo-email-compose-link-not-working-compose-mail-yahoo-com)
+* Unable to find official source.  Requires login.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ### EverNote
 
