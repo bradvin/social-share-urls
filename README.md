@@ -245,6 +245,10 @@ https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
 http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
 ```
 
+<code>Source :</code>
+* [InstaPaper: InstaPaper Browser Extensions](https://www.instapaper.com/save)
+* Requires login and Chrome (does not work in FireFox).  Functionality tested and verified by SocialShare Dev's in 2018.
+
 ### SurfingBird
 
 ```
