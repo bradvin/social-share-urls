@@ -222,7 +222,7 @@ http://www.evernote.com/clip.action?url={url}
 ### GetPocket
 
 ```
-https://getpocket.com/save?url={url}
+https://getpocket.com/edit?url={url}
 ```
 
 <code>Source:</code>
