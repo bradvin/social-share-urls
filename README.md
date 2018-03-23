@@ -394,3 +394,5 @@ http://www.example.com/website_where_you_installed_wordpress/wp-admin/press-this
 ````
 mailto:{email_address}?subject={title}&body={desc}
 ````
+
+<code>Source :</code> [RFC 2368: The mailto URL schem](https://www.ietf.org/rfc/rfc2368.txt)
