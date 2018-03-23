@@ -194,6 +194,10 @@ http://www.stumbleupon.com/submit?url={url}
 https://www.blogger.com/blog-this.g?u={url}&n={title}&t={desc}
 ```
 
+<code>Source :</code>
+* [StackOverflow:Blog / Share on Blogger Link](https://stackoverflow.com/questions/22573164/blog-share-on-blogger-link)
+* Unable to find official source.  Requires login, a blog tied to your blogger account, and either no `url` or that the `url` be perfectly formatted with protocols (http/https, etc.).  Functionality tested and verified by SocialShare Dev's in 2018.
+
 ### LiveJournal
 
 ```
