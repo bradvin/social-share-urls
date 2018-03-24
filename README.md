@@ -4,9 +4,9 @@ This project is intended to help you integrate sharing on social media within yo
 
 What we try to provide :
 
-* Regularly-tested, basic URL formats of popular, social media sites that directly link to share/like pages on that social media for the specified URL parameters. (i.e., `example.com/someSocialMediaSite/share?url=yourWebsiteURL`)
-* A source for each URL format, so that you can find out more if you need to do something more interesting.
-* Source code libraries to provide basic utilities for generating these social media links.
+* `Regularly-tested, basic URL formats of popular, social media sites` : that directly link to share/like pages on that social media for the specified URL parameters. (i.e., `example.com/someSocialMediaSite/share?url=yourWebsiteURL`)
+* `A source` : for each URL format, so that you can find out more if you need to do something more interesting.
+* `Source code libraries` : to provide basic utilities for generating these social media links.
 
 ![alt text](https://github.com/bradvin/social-share-urls/blob/master/images/sharelinks.jpg "ShareLinks Icons")
 
