@@ -368,8 +368,10 @@ https://www.xing.com/app/user?op=share&url={url}
 ### RenRen
 
 ```
-http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={title}
+http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={title}&description={desc}
 ```
+
+<code>Source :</code> Unable to find official source. Functionality tested and verified by SocialShare Dev's in 2018.  Each of the four parameters are verified to provide something unique.
 
 ### Weibo
 
