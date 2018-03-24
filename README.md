@@ -27,7 +27,6 @@ What we try to provide :
 * [Reddit](#reddit)
 * [Blogger](#blogger)
 * [LiveJournal](#livejournal)
-* [Yahoo](#yahoo)
 * [EverNote](#evernote)
 * [GetPocket](#getpocket)
 * [FlipBoard](#flipboard)
@@ -56,10 +55,15 @@ What we try to provide :
 * [RenRen](#renren)
 * [Weibo](#weibo)
 
+### Email-Based Social Media
+
+* [GMail](#gmail)
+* [Yahoo](#yahoo)
+* [EMail](#email)
+
 ### Locally/Personally-Run Social Media
 
 * [WordPress](#wordpress)
-* [Mail](#mail)
 
 ## URL Arguments
 
@@ -213,16 +217,6 @@ http://www.livejournal.com/update.bml?subject={title}&event={url}
 <code>Source:</code> 
 * [LiveJournal: LiveJournal share button](https://www.livejournal.com/developer/extshare)
 * Functionality tested and verified by SocialShare Dev's in 2018.
-
-### Yahoo
-
-```
-http://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}
-```
-
-<code>Source :</code>
-* [StackOverflow: Yahoo email compose link not working - compose.mail.yahoo.com](https://stackoverflow.com/questions/26379594/yahoo-email-compose-link-not-working-compose-mail-yahoo-com)
-* Unable to find official source.  Requires login.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ### EverNote
 
@@ -385,6 +379,36 @@ http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ral
 
 <code>Source :</code> [Weibo: ShareCode](http://open.weibo.com/wiki/ShareCode)
 
+## Email-Based Social Media
+
+### GMail
+
+````
+https://mail.google.com/mail/?view=cm&to={email_address}&su={title}&body={url}&bcc={email_address}&cc={email_address}
+````
+
+<code>Source:</code>
+* [StackOverflow: URL to compose a message in Gmail](https://stackoverflow.com/questions/6548570/url-to-compose-a-message-in-gmail-with-full-gmail-interface-and-specified-to-b)
+* Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
+
+### Yahoo
+
+```
+http://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}
+```
+
+<code>Source :</code>
+* [StackOverflow: Yahoo email compose link not working - compose.mail.yahoo.com](https://stackoverflow.com/questions/26379594/yahoo-email-compose-link-not-working-compose-mail-yahoo-com)
+* Unable to find official source.  Requires login.  Functionality tested and verified by SocialShare Dev's in 2018.
+
+### EMail
+
+````
+mailto:{email_address}?subject={title}&body={desc}
+````
+
+<code>Source :</code> [RFC 2368: The mailto URL scheme](https://www.ietf.org/rfc/rfc2368.txt)
+
 ## Locally/Personally-Run Social Media
 
 ### WordPress
@@ -394,11 +418,3 @@ http://www.example.com/website_where_you_installed_wordpress/wp-admin/press-this
 ```
 
 <code>Source :</code> [WordPress: Codex > Press This > Technical Note 1](https://codex.wordpress.org/Press_This)
-
-### Mail
-
-````
-mailto:{email_address}?subject={title}&body={desc}
-````
-
-<code>Source :</code> [RFC 2368: The mailto URL scheme](https://www.ietf.org/rfc/rfc2368.txt)
