@@ -365,6 +365,10 @@ http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}
 https://www.xing.com/app/user?op=share&url={url}
 ```
 
+<code>Source :</code>
+* [Xing: Groups > WordPress > Suche Social Media Plugin (German)](https://www.xing.com/communities/posts/suche-social-media-plugin-1010272530)
+* Unable to find official source. Functionality tested and verified by SocialShare Dev's in 2018.
+
 ### RenRen
 
 ```
