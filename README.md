@@ -1,6 +1,6 @@
 # Social Share URLs
 
-This project is intended to help you integrate sharing on social media within your code.
+This project is intended to help you integrate sharing on social media within your code.  We have been actively doing this since 2013.
 
 What we try to provide :
 
