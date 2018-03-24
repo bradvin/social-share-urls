@@ -4,7 +4,7 @@ This project is intended to help you integrate sharing on social media within yo
 
 What we try to provide :
 
-* **Regularly-Tested, Basic Share-URL Formats of Popular, Social Media ** : Directly linking to share/like pages on that social media for the specified URL parameters. (i.e., `example.com/someSocialMediaSite/share?url=yourWebsiteURL`)
+* **Regularly-Tested, Basic Share-URL Formats of Popular, Social Media** : Directly linking to share/like pages on that social media for the specified URL parameters. (i.e., `example.com/someSocialMediaSite/share?url=yourWebsiteURL`)
 * **A Reference Source** : For each service and URL format, so that you can find out more if you need to do something more interesting.
 * **Source Code Libraries** : To provide basic utilities for generating these social media links.
 
