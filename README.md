@@ -49,7 +49,6 @@ What we try to provide :
 * [VK](#vk)
 * [OKru](#okru)
 * [Douban](#douban)
-* [Baidu](#baidu)
 * [QZone](#qzone)
 * [Xing](#xing)
 * [RenRen](#renren)
@@ -347,12 +346,6 @@ https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl={url}&title={titl
 http://www.douban.com/recommend/?url={url}&title={title}
 ```
 
-### Baidu
-
-```
-http://cang.baidu.com/do/add?it={title}&iu={url}
-```
-
 ### QZone
 
 ```
@@ -426,3 +419,13 @@ http://www.example.com/website_where_you_installed_wordpress/wp-admin/press-this
 ```
 
 <code>Source :</code> [WordPress: Codex > Press This > Technical Note 1](https://codex.wordpress.org/Press_This)
+
+## Deprecated Social Share URLs
+
+Once supported, but no longer.
+
+### Baidu : Links failed in 2018.
+### EchoJS : Flagrant SSL-security errors revealed in 2018.
+### Del.icio.us : Links failed in 2018.
+### FriendFeed: Links failed in 2018.
+### NewsVine : Acquired by NBC in Oct., 2016.
