@@ -424,8 +424,22 @@ http://www.example.com/website_where_you_installed_wordpress/wp-admin/press-this
 
 Once supported, but no longer.
 
-### Baidu : Links failed in 2018.
-### EchoJS : Flagrant SSL-security errors revealed in 2018.
-### Del.icio.us : Links failed in 2018.
-### FriendFeed: Links failed in 2018.
-### NewsVine : Acquired by NBC in Oct., 2016.
+### Baidu :
+
+* Links failed in 2018.
+
+### EchoJS :
+
+* Flagrant SSL-security errors revealed in 2018.
+
+### Del.icio.us :
+
+* Links failed in 2018.
+
+### FriendFeed :
+
+* Links failed in 2018.
+
+### NewsVine :
+
+* Acquired by NBC in Oct., 2017.
