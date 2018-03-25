@@ -64,6 +64,14 @@ What we try to provide :
 
 * [WordPress](#wordpress)
 
+### Deprecated Social Share URLs
+
+* [Baidu](#baidu)
+* [EchoJS](#echojs)
+* [Delicious](#delicious)
+* [FriendFeed](#friendfeed)
+* [NewsVine](#newsvine)
+
 ## URL Arguments
 
 Argument | Description | Used By
@@ -424,22 +432,22 @@ http://www.example.com/website_where_you_installed_wordpress/wp-admin/press-this
 
 Once supported, but no longer.
 
-### Baidu :
+### Baidu
 
 * Links failed in 2018.
 
-### EchoJS :
+### EchoJS
 
 * Flagrant SSL-security errors revealed in 2018.
 
-### Del.icio.us :
+### Delicious
 
 * Links failed in 2018.
 
-### FriendFeed :
+### FriendFeed
 
 * Links failed in 2018.
 
-### NewsVine :
+### NewsVine
 
 * Acquired by NBC in Oct., 2017.
