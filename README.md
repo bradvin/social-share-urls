@@ -354,6 +354,10 @@ https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl={url}&title={titl
 http://www.douban.com/recommend/?url={url}&title={title}
 ```
 
+<code>Source :</code>
+* [Douban: 使用"send to"把你喜欢的文章从GReader发送到9点推荐 - 豆瓣](https://www.douban.com/note/41684220/)
+* Functionality tested and verified by SocialShare Dev's in 2018.
+
 ### QZone
 
 ```
