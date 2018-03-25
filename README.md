@@ -228,8 +228,12 @@ http://www.livejournal.com/update.bml?subject={title}&event={url}
 ### EverNote
 
 ```
-http://www.evernote.com/clip.action?url={url}
+http://www.evernote.com/clip.action?url={url}&title={title}
 ```
+
+<code>Source :</code>
+* [EverNote Discussion: Non-JavaScript web clipper?](https://discussion.evernote.com/topic/21170-archived-non-javascript-web-clipper/)
+* Unable to find official source.  Requires login to work.  Functionality tested and verified by SocialShare Dev's in 2018.
 
 ### GetPocket
 
