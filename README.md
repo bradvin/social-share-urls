@@ -359,6 +359,8 @@ http://cang.baidu.com/do/add?it={title}&iu={url}
 http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}
 ```
 
+<code>Source :</code> Unable to find official source.  Functionality tested and verified by SocialShare Dev's in 2018.
+
 ### Xing
 
 ```
