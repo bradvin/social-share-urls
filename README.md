@@ -673,6 +673,6 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 * Social-share service discontinued in 2018.  Confirmed after the test requirements: installing WhatsApp on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Whatsapp Official Specifications is a Failure](https://faq.whatsapp.com/en/android/26000030/?category=5245251).  Official development @whatsapp has been negligent in response to inquiries.
 
-    * Official WhatsApp Response: "Unfortunately, that is not supported at the moment. We are always working to improve our app and will take your suggestion into consideration." (Wed, Mar 28, 2018)
+    * Official WhatsApp Response: "Unfortunately, that is not supported at the moment. We are always working to improve our app and will take your suggestion into consideration. [Request #172349248330585]" (Wed, Mar 28, 2018)
 
     * ~~whatsapp://send?text={url}~~
