@@ -529,8 +529,8 @@ threema://compose?text=Hello&id={user_id}
 <code>Source :</code>
 * *Official Source :* [Threema: Threema Gateway > Developers > Threema Message API](https://gateway.threema.ch/en/developer/api)
 * *Unofficial Source :* [Threema-Forum.de › Threema, News & Hilfe › Tipps und Tricks > URL-Aktionen](https://threema-forum.de/thread-2860.html)
-* *Test Notes :* 
-* *Test Results :* 
+* *Test Notes :* Unable to test.  Pay-only app without developer testing mode.
+* *Test Results :*  Unable to test.  Pay-only app without developer testing mode.
 
 ## Email-Based Social Media
 
