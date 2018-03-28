@@ -593,7 +593,7 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 ### AIM
 
-# AIM was shut down in late 2017.
+* AIM was shut down in late 2017.
 
     * ~~http://lifestream.aol.com/share/?url={url}&title={title}&description={desc}~~
 
