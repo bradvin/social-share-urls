@@ -523,14 +523,14 @@ http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ral
 ### Threema
 
 ```
-threema://compose?text=Hello&id={user_id}
+threema://compose?text={url}&id={user_id}
 ```
 
 <code>Source :</code>
 * *Official Source :* [Threema: Threema Gateway > Developers > Threema Message API](https://gateway.threema.ch/en/developer/api)
 * *Unofficial Source :* [Threema-Forum.de › Threema, News & Hilfe › Tipps und Tricks > URL-Aktionen](https://threema-forum.de/thread-2860.html)
-* *Test Notes :* Unable to test.  Pay-only app without developer testing mode.
-* *Test Results :*  Unable to test.  Pay-only app without developer testing mode.
+* *Test Notes :* If no user_id is provided, user is asked to select a contact, and then the message with text parameter is filled in.  If you need to test without paying for the app, there are free trials here: `https://work.threema.ch/en/offers`.  Special thanks to Threema for providing free credentials to Social Share dev's for testing Threema.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
 ## Email-Based Social Media
 
