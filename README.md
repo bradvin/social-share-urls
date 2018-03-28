@@ -619,7 +619,7 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 * Links failed in 2018.  There are numerous, active complaints for this service, discoverable by just searching the web.
 
-* ~~fb-messenger://share?link={url}&app_id={app_id}~~
+    * ~~fb-messenger://share?link={url}&app_id={app_id}~~
 
 ### FriendFeed
 
