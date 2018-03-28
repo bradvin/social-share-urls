@@ -629,7 +629,7 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 ### Mail.ru
 
-* Massive security flaws were revealed in 2017 and 2018, causing Mail.ru to be added to the uBlock Origin blacklist.  User password leak: currently active.  Additionally, testing by Social Share dev's determined that the API no longer works.
+* Massive security flaws were revealed in 2017 and 2018, causing Mail.ru to be added to the uBlock Origin blacklist.  User password leak: currently active.  Additionally, testing by Social Share dev's in 2018 determined that the API no longer works.
 
     * ~~https://connect.mail.ru/share?share_url={url}~~
 
