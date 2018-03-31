@@ -805,4 +805,5 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 * Social-share service discontinued in 2018.  Confirmed after the test requirements: installing WhatsApp on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Whatsapp Official Specifications is a Failure](https://faq.whatsapp.com/en/android/26000030/?category=5245251).
 
     * Official WhatsApp Response: "Sorry, but your description was not clear enough for our agents to understand the issue. Please explain the issue more thoroughly."
-    *  ~~whatsapp://send?text={url}~~    * 
+    
+    *  ~~whatsapp://send?text={url}~~
