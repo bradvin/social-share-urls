@@ -459,8 +459,6 @@ http://www.addthis.com/bookmark.php?url={url}
 * *Test Notes :* The above-described url-format does not appear in the official documentation.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
-	https://agiletortoise.com/drafts/
-
 ## Phone/Audio-Based Social Media
 
 ### Skype
