@@ -568,7 +568,7 @@ http://www.douban.com/recommend/?url={url}&title={title}
 <code>Source :</code>
 * *Official Source :* [Douban: 使用"send to"把你喜欢的文章从GReader发送到9点推荐 - 豆瓣](https://www.douban.com/note/41684220/)
 * *Unofficial Source :*
-    * [ChaoZhuoWang.com: 首页>>论坛中心>>常用技巧>>查看帖子网页常用分享代码大全(前端必备)](Home >> Forum Center >> Common Skills >> Webpage commonly used to share code Daquan (front-end must-haves))](http://chaozhuowang.com/viewtopic.php?t=37&sid=339fee1d29cc98518e5f33deb920bc8a)
+    * [ChaoZhuoWang.com: 首页>>论坛中心>>常用技巧>>查看帖子网页常用分享代码大全(前端必备)(Home >> Forum Center >> Common Skills >> Webpage commonly used to share code Daquan (front-end must-haves))](http://chaozhuowang.com/viewtopic.php?t=37&sid=339fee1d29cc98518e5f33deb920bc8a)
     * [Blog.Sina.Com.cn: HTML页面分享 (HTML page sharing [This blog post contains pictures])](http://blog.sina.com.cn/s/blog_3f6b8ac00100ia1w.html)
     * [GitHub: surmon-china/surmon.me > surmon.me/components/layout/share.vue](https://github.com/surmon-china/surmon.me/blob/master/components/layout/share.vue)
 * *Test Notes :* None.
