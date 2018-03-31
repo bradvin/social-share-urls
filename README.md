@@ -730,74 +730,86 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 *Use at your own merciless peril.*
 
-### AIM
-
 # AIM was shut down in late 2017.
+
     *  ~~http://lifestream.aol.com/share/?url={url}&title={title}&description={desc}~~
 
 ### Baidu
 
 * Links failed in 2018.
+
     *  ~~http://cang.baidu.com/do/add?it={title}&iu={url}~~
 
 ### Delicious
 
 * Links failed in 2018.
+
     *  ~~https://delicious.com/save?v=5&provider={provider}&noui&jump=close&url={url}&title={title}~~
 
 ### EchoJS
 
 * Flagrant SSL-security errors revealed in 2018.  User password leak: currently active.
+
     *  ~~http://www.echojs.com/submit?u={url}&t={title}~~
 
 ### FBMessenger
 
 * Links failed in 2018.  There are numerous, active complaints for this service, discoverable by just searching the web.
+
     *  ~~fb-messenger://share?link={url}&app_id={app_id}~~
 
 ### FriendFeed
 
 * Links failed in 2018.
+
     *  ~~http://friendfeed.com/?url={url}~~
 
 ### Mail.ru
 
 * Massive security flaws were revealed in 2017 and 2018, causing Mail.ru to be added to the uBlock Origin blacklist.  User password leak: currently active.  Additionally, testing by Social Share dev's determined that the API no longer works.
+
     *  ~~https://connect.mail.ru/share?share_url={url}~~
 
 ### MySpace
 
 * Links failed in 2018.
+
     *  ~~https://myspace.com/post?u={url}&t={title}&c={desc}~~
 
 ### NewsVine
 
 * Acquired by NBC in Oct., 2017.  Redirects to NBCNews.
+
     *  ~~http://www.newsvine.com/_tools/seed&save?u={url}~~
 
 ### Ping.fm
 
 * Shut down on 5 July 2012.
+
     *  ~~http://ping.fm/ref/?link={url}&title={title}&body={desc}~~
 
 ### ScoopIt
 
 * URL requires login, accounts requires authorizing with several social media parties, and on Chrome and Firefox, using Windows, iOS, and Android, account creation could not be completed.  This was the longest service to test that did not require software to be downloaded and locally installed.
+
     *  ~~http://www.scoop.it/bookmarklet?url={url}~~
 
 ### SinaWeibo
 
 * Acquired by Weibo.
+
     *  ~~http://v.t.sina.com.cn/share/share.php?url={url}&title={title}~~
 
 ### SlashDot
 
 * Links failed in 2018 with error message, "New bookmark creation is no longer supported."
+
     *  ~~https://slashdot.org/bookmark.pl?url={url}&title={title}~~
 
 ### Viber
 
 * Social-share service discontinued in 2018.  Confirmed after the test requirements: installing Viber on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Viber Official Specifications is a Failure](https://developers.viber.com/docs/tools/share-button/).  Official development @viber has been negligent in response to inquiries.
+
     *  ~~viber://forward?text={url}~~
 
 ### WhatsApp
