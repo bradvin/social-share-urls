@@ -113,6 +113,7 @@ Argument | Description | Used By
 ### Google+
 
 <code>Global Rank :</code>  `1` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`, `text`, `hl`.
 
 ```
@@ -131,6 +132,7 @@ https://plus.google.com/share?url={url}&text={desc}&hl={language_code}
 ### GoogleBookmarks
 
 <code>Global Rank :</code>  `1` (apr. 3, 2018)
+
 <code>Parameters :</code> `bkmk`, `title`, `annotation`, `labels`.
 
 ```
@@ -188,6 +190,7 @@ type}&href={url}&redirect_uri={redirect_url}
 ### Reddit
 
 <code>Global Rank :</code>  `6` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`, `title`.
 
 ```
@@ -206,6 +209,7 @@ https://reddit.com/submit?url={url}&title={title}
 ### Twitter
 
 <code>Global Rank :</code>  `12` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`, `text`, `via`, `hashtags`.
 
 ```
@@ -224,6 +228,7 @@ https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hash
 ### LinkedIn
 
 <code>Global Rank :</code>  `30` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`, `title`, `summary`, `source`.
 
 ```
@@ -242,6 +247,7 @@ https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary=
 ### Tumblr
 
 <code>Global Rank :</code>  `57` (apr. 3, 2018)
+
 <code>Parameters :</code> `canonicalUrl`, `title`, `caption`, `tags`.
 
 ```
@@ -260,6 +266,7 @@ https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&capti
 ### Pinterest
 
 <code>Global Rank :</code>  `79` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`.
 
 ```
@@ -279,6 +286,7 @@ http://pinterest.com/pin/create/link/?url={url}
 ### Blogger
 
 <code>Global Rank :</code>  `183` (apr. 3, 2018)
+
 <code>Parameters :</code> `u`, `n`, `t`.
 
 ```
@@ -297,6 +305,7 @@ https://www.blogger.com/blog-this.g?u={url}&n={title}&t={desc}
 ### LiveJournal
 
 <code>Global Rank :</code>  `263` (apr. 3, 2018)
+
 <code>Parameters :</code> `subject`, `event`.
 
 ```
@@ -315,6 +324,7 @@ http://www.livejournal.com/update.bml?subject={title}&event={url}
 ### EverNote
 
 <code>Global Rank :</code>  `494` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`, `title`.
 
 ```
@@ -333,6 +343,7 @@ http://www.evernote.com/clip.action?url={url}&title={title}
 ### AddThis
 
 <code>Global Rank :</code>  `561` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`.
 
 ```
@@ -351,6 +362,7 @@ http://www.addthis.com/bookmark.php?url={url}
 ### GetPocket
 
 <code>Global Rank :</code>  `669` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`.
 
 ```
@@ -369,6 +381,7 @@ https://getpocket.com/edit?url={url}
 ### HackerNews
 
 <code>Global Rank :</code>  `1,650` (apr. 3, 2018)
+
 <code>Parameters :</code> `u`, `t`.
 
 ```
@@ -387,6 +400,7 @@ https://news.ycombinator.com/submitlink?u={url}&t={title}
 ### StumbleUpon
 
 <code>Global Rank :</code>  `1,948` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`.
 
 ```
@@ -405,6 +419,7 @@ http://www.stumbleupon.com/submit?url={url}
 ### Digg
 
 <code>Global Rank :</code>  `2,367` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`.
 
 ```
@@ -423,6 +438,7 @@ http://digg.com/submit?url={url}
 ### Buffer
 
 <code>Global Rank :</code>  `2,487` (apr. 3, 2018)
+
 <code>Parameters :</code> `text`, `url`.
 
 ```
@@ -441,6 +457,7 @@ https://buffer.com/add?text={title}&url={url}
 ### FlipBoard
 
 <code>Global Rank :</code>  `3,638` (apr. 3, 2018)
+
 <code>Parameters :</code> `title`, `url`.
 
 ```
@@ -459,6 +476,7 @@ https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
 ### InstaPaper
 
 <code>Global Rank :</code>  `13,660` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`, `title`, `description`.
 
 ```
@@ -477,6 +495,7 @@ http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
 ### SurfingBird
 
 <code>Global Rank :</code>  `21,985` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`, `description`, `screenshot`, `title`.
 
 ```
@@ -495,6 +514,7 @@ http://surfingbird.ru/share?url={url}&description={text}&screenshot={image}&titl
 ### Flattr
 
 <code>Global Rank :</code>  `132,899` (apr. 3, 2018)
+
 <code>Parameters :</code> `user_id`, `url`, `title`, `description`, `language`, `tags`, `category`.
 
 ```
@@ -513,6 +533,7 @@ https://flattr.com/submit/auto?user_id={user_id}&url={url}&title={title}&descrip
 ### Diaspora
 
 <code>Global Rank :</code>  `262,184` (apr. 3, 2018)
+
 <code>Parameters :</code> `title`, `url`.
 
 ```
@@ -533,6 +554,7 @@ https://share.diasporafoundation.org/?title={title}&url={url}
 ### SMS
 
 <code>Global Rank :</code>  `N/A`
+
 <code>Parameters :</code> `sms`, `body`.
 
 ````
@@ -550,6 +572,7 @@ sms:{phone_number}?body={desc}
 ### Line.me
 
 <code>Global Rank :</code>  `360` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`, `text`.
 
 ```
@@ -568,6 +591,7 @@ https://lineit.line.me/share/ui?url={url}&text={desc}
 ### Skype
 
 <code>Global Rank :</code>  `375` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`, `text`.
 
 ```
@@ -586,6 +610,7 @@ https://web.skype.com/share?url={url}&text={desc}
 ### Telegram.me
 
 <code>Global Rank :</code>  `456` (apr. 3, 2018)
+
 <code>Parameters :</code> `url`, `text`.
 
 ```
@@ -606,7 +631,9 @@ https://telegram.me/share/url?url={url}&text={title}
 ### QZone
 
 <code>Global Rank :</code>  `9` (apr. 3, 2018)
+
 <code>Language :</code> Chinese.
+
 <code>Parameters :</code> `url`.
 
 ```
@@ -625,7 +652,9 @@ http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}
 ### VK
 
 <code>Global Rank :</code>  `17` (apr. 3, 2018)
+
 <code>Language :</code> Russian.
+
 <code>Parameters :</code> `url`, `title`, `comment`.
 
 ```
@@ -644,7 +673,9 @@ http://vk.com/share.php?url={url}&title={title}&comment={desc}
 ### Weibo
 
 <code>Global Rank :</code>  `21` (apr. 3, 2018)
+
 <code>Language :</code> Chinese.
+
 <code>Parameters :</code> `url`, `title`, `pic`.
 
 ```
@@ -663,8 +694,11 @@ http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ral
 ### OKru
 
 <code>Global Rank :</code>  `46` (apr. 3, 2018)
+
 <code>AKA :</code>  AKA "Odnoklassniki" (English: "Classmates").
+
 <code>Language :</code> Russian.
+
 <code>Parameters :</code> `st.shareUrl`.
 
 ```
@@ -683,7 +717,9 @@ https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl={url}
 ### Douban
 
 <code>Global Rank :</code>  `900` (apr. 3, 2018)
+
 <code>Language :</code> Chinese.
+
 <code>Parameters :</code> `url`, `title`.
 
 ```
@@ -702,7 +738,9 @@ http://www.douban.com/recommend/?url={url}&title={title}
 ### XING
 
 <code>Global Rank :</code>  `1,377` (apr. 3, 2018)
+
 <code>Language :</code> German.
+
 <code>Parameters :</code> `url`.
 
 ```
@@ -721,8 +759,11 @@ https://www.xing.com/app/user?op=share&url={url}
 ### RenRen
 
 <code>Global Rank :</code>  `1,508` (apr. 3, 2018)
+
 <code>AKA :</code> Xiaonei.
+
 <code>Language :</code> Chinese.
+
 <code>Parameters :</code> `resourceUrl`, `srcUrl`, `title`, `description`.
 
 ```
@@ -741,7 +782,9 @@ http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={titl
 ### Threema
 
 <code>Global Rank :</code>  `82,555` (apr. 3, 2018)
+
 <code>Language :</code> German.
+
 <code>Parameters :</code> `text`, `id`.
 
 ```
@@ -762,6 +805,7 @@ threema://compose?text={url}&id={user_id}
 ### GMail
 
 <code>Global Rank :</code>  `1` (apr. 3, 2018)
+
 <code>Parameters :</code> `to`, `su`, `body`, `bcc`, `cc`.
 
 ```
@@ -780,6 +824,7 @@ https://mail.google.com/mail/?view=cm&to={email_address}&su={title}&body={url}&b
 ### EMail
 
 <code>Global Rank :</code>  `N/A`
+
 <code>Parameters :</code> `mailto`, `subject`, `body`.
 
 ```
@@ -798,6 +843,7 @@ mailto:{email_address}?subject={title}&body={desc}
 ### Yahoo
 
 <code>Global Rank :</code>  `7` (apr. 3, 2018)
+
 <code>Parameters :</code> `to`, `subject`, `body`.
 
 ```
@@ -819,6 +865,7 @@ http://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}
 ### WordPress
 
 <code>Global Rank :</code>  `N/A`
+
 <code>Parameters :</code> `u`, `t`, `s`, `i`.
 
 ```
