@@ -7,6 +7,7 @@ What we try to provide :
 * **Regularly-Tested, Basic Share-URL Formats of Popular, Social Media** : Directly linking to share/like pages on that social media with fillable URL, text, and other parameters.
     * For example : `example.com/someSocialMediaSite/share?url=yourWebsiteURL&text=someMessageAboutYourSite`.
     * URL's are organized into category (`multi-language`, `phone-based`, `email-based`, etc.).
+    * Each URL category is sorted by `Alexa`-rank.  Know what's important without having to track down the info.
 * **Reference Sources** : For each service, URL format, and set of parameters, so that you can feel confident about these links and find out more if you need to do something more interesting.
     * We include primary sources (official documentation or official dev blogs).  We try to provide at least one of these per service.
     * We also include secondary sources (like forum conversations or StackOverflow questions).  We try to provide at least three of these per service.
@@ -19,58 +20,58 @@ What we try to provide :
 
 ### Multi-Language Social Media
 
-* [Facebook](#facebook)
-* [Twitter](#twitter)
 * [Google+](#google)
 * [GoogleBookmarks](#googlebookmarks)
-* [Pinterest](#pinterest)
-* [Linked In](#linkedin)
-* [Buffer](#buffer)
-* [Digg](#digg)
-* [StumbleUpon](#stumbleupon)
-* [Tumblr](#tumblr)
+* [Facebook](#facebook)
 * [Reddit](#reddit)
+* [Twitter](#twitter)
+* [LinkedIn](#linkedin)
+* [Tumblr](#tumblr)
+* [Pinterest](#pinterest)
 * [Blogger](#blogger)
 * [LiveJournal](#livejournal)
 * [EverNote](#evernote)
+* [AddThis](#addthis)
 * [GetPocket](#getpocket)
+* [HackerNews](#hackernews)
+* [StumbleUpon](#stumbleupon)
+* [Digg](#digg)
+* [Buffer](#buffer)
 * [FlipBoard](#flipboard)
 * [InstaPaper](#instapaper)
 * [SurfingBird](#surfingbird)
-* [Diaspora](#diaspora)
 * [Flattr](#flattr)
-* [HackerNews](#hackernews)
-* [AddThis](#addthis)
+* [Diaspora](#diaspora)
 
 ### Phone/Audio-Based Social Media
 
-* [Skype](#skype)
-* [Line.me](#lineme)
-* [Telegram.me](#telegramme)
 * [SMS](#sms)
+* [Line.me](#lineme)
+* [Skype](#skype)
+* [Telegram.me](#telegramme)
 
 ### Non-English Social Media
 
+* [QZone](#qzone)
 * [VK](#vk)
+* [Weibo](#weibo)
 * [OKru](#okru)
 * [Douban](#douban)
-* [QZone](#qzone)
 * [XING](#xing)
 * [RenRen](#renren)
-* [Weibo](#weibo)
 * [Threema](#threema)
 
 ### Email-Based Social Media
 
+* [EMail](#email)
 * [GMail](#gmail)
 * [Yahoo](#yahoo)
-* [EMail](#email)
 
 ### Locally/Personally-Run Social Media
 
 * [WordPress](#wordpress)
 
-### Deprecated Social Share URLs
+### Deprecated Social Media Share Links
 
 * [AIM](#aim)
 * [Baidu](#baidu)
@@ -109,55 +110,10 @@ Argument | Description | Used By
 
 ## Multi-Language Social Media
 
-### Facebook
-
-#### Facebook (with Sharer)
-
-```
-https://www.facebook.com/sharer.php?u={url}
-```
-
-<code>Source :</code>
-* *Official Source :* [FaceBook: We have changed the behavior of the sharer plugin...](https://developers.facebook.com/x/bugs/357750474364812/)
-* *Unofficial Source :*
-    * [StackOverflow: Facebook share link - no javascript](https://stackoverflow.com/q/9120539/2430549)
-    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
-    * [StackOverflow: will facebook sharer functionality be supported?](https://stackoverflow.com/q/7907506/2430549)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
-
-#### Facebook (with Share Dialog)
-
-```
-https://www.facebook.com/dialog/share?app_id={app_id}&display={page_
-type}&href={url}&redirect_uri={redirect_url}
-```
-
-<code>Source :</code>
-* *Official Source :* [FaceBook: Share Dialog](https://developers.facebook.com/docs/sharing/reference/share-dialog)
-* *Unofficial Source :*
-    * [StackOverflow: How create a Facebook share button without SDK or custom app id?](https://stackoverflow.com/q/26547292/2430549)
-    * [StackOverflow: Facebook Sharer PHP application redirect](https://stackoverflow.com/q/42727636/2430549)
-    * [StackOverflow: What is redirect_url for the share dialog?](https://stackoverflow.com/q/33859108/2430549)
-* *Test Notes :* Requires registering in order to get an App_Id.  Working test account is available in the official documentation, so you can avoid this requirement for tesing and you can test with `https://www.facebook.com/dialog/share?app_id=145634995501895&someOtherParameters=SomeOtherValues`.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
-
-### Twitter
-
-```
-https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hash_tags}
-```
-
-<code>Source :</code>
-* *Official Source :* [Twitter: Tweet Button Parameter Reference](https://dev.twitter.com/web/tweet-button/parameters)
-* *Unofficial Source :*
-    * [StackOverflow: How do you include hashtags within Twitter share link text?](https://stackoverflow.com/a/13849543/2430549)
-    * [StackOverflow: Custom design for Twitter button with events](https://stackoverflow.com/q/15413159/2430549)
-    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
-
 ### Google+
+
+<code>Global Rank :</code>  `1` (apr. 3, 2018)
+<code>Parameters :</code> `url`, `text`, `hl`.
 
 ```
 https://plus.google.com/share?url={url}&text={desc}&hl={language_code}
@@ -174,6 +130,9 @@ https://plus.google.com/share?url={url}&text={desc}&hl={language_code}
 
 ### GoogleBookmarks
 
+<code>Global Rank :</code>  `1` (apr. 3, 2018)
+<code>Parameters :</code> `bkmk`, `title`, `annotation`, `labels`.
+
 ```
 https://www.google.com/bookmarks/mark?op=edit&bkmk={url}&title={title}&annotation={desc}&labels={tags}
 ```
@@ -187,7 +146,121 @@ https://www.google.com/bookmarks/mark?op=edit&bkmk={url}&title={title}&annotatio
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
+### Facebook
+
+<code>Global Rank :</code>  `3` (apr. 3, 2018)
+
+#### Facebook (with Sharer)
+
+<code>Parameters :</code> `u`.
+
+```
+https://www.facebook.com/sharer.php?u={url}
+```
+
+<code>Source :</code>
+* *Official Source :* [FaceBook: We have changed the behavior of the sharer plugin...](https://developers.facebook.com/x/bugs/357750474364812/)
+* *Unofficial Source :*
+    * [StackOverflow: Facebook share link - no javascript](https://stackoverflow.com/q/9120539/2430549)
+    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
+    * [StackOverflow: will facebook sharer functionality be supported?](https://stackoverflow.com/q/7907506/2430549)
+* *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+
+#### Facebook (with Share Dialog)
+
+<code>Parameters :</code> `app_id`, `page_type`, `href`, `redirect_url`.
+
+```
+https://www.facebook.com/dialog/share?app_id={app_id}&display={page_
+type}&href={url}&redirect_uri={redirect_url}
+```
+
+<code>Source :</code>
+* *Official Source :* [FaceBook: Share Dialog](https://developers.facebook.com/docs/sharing/reference/share-dialog)
+* *Unofficial Source :*
+    * [StackOverflow: How create a Facebook share button without SDK or custom app id?](https://stackoverflow.com/q/26547292/2430549)
+    * [StackOverflow: Facebook Sharer PHP application redirect](https://stackoverflow.com/q/42727636/2430549)
+    * [StackOverflow: What is redirect_url for the share dialog?](https://stackoverflow.com/q/33859108/2430549)
+* *Test Notes :* Requires registering in order to get an App_Id.  Working test account is available in the official documentation, so you can avoid this requirement for tesing and you can test with `https://www.facebook.com/dialog/share?app_id=145634995501895&someOtherParameters=SomeOtherValues`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+
+### Reddit
+
+<code>Global Rank :</code>  `6` (apr. 3, 2018)
+<code>Parameters :</code> `url`, `title`.
+
+```
+https://reddit.com/submit?url={url}&title={title}
+```
+
+<code>Source :</code>
+* *Official Source :* [RedDit: put reddit.com buttons on your site](https://www.reddit.com/buttons/)
+* *Unofficial Source :*
+    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
+    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
+    * [StackOverflow: Social media sharing without scripts](https://stackoverflow.com/q/28548347/2430549)
+* *Test Notes :* Regarding `title` Parameter: Unable to find official source.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+
+### Twitter
+
+<code>Global Rank :</code>  `12` (apr. 3, 2018)
+<code>Parameters :</code> `url`, `text`, `via`, `hashtags`.
+
+```
+https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hash_tags}
+```
+
+<code>Source :</code>
+* *Official Source :* [Twitter: Tweet Button Parameter Reference](https://dev.twitter.com/web/tweet-button/parameters)
+* *Unofficial Source :*
+    * [StackOverflow: How do you include hashtags within Twitter share link text?](https://stackoverflow.com/a/13849543/2430549)
+    * [StackOverflow: Custom design for Twitter button with events](https://stackoverflow.com/q/15413159/2430549)
+    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
+* *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+
+### LinkedIn
+
+<code>Global Rank :</code>  `30` (apr. 3, 2018)
+<code>Parameters :</code> `url`, `title`, `summary`, `source`.
+
+```
+https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary={desc}&source={provider}
+```
+
+<code>Source :</code>
+* *Official Source :* [LinkedIn: Share On LinkedIn, Section: "Customized URL"](https://developer.linkedin.com/docs/share-on-linkedin)
+* *Unofficial Source :*
+    * [StackOverflow: How to make custom linkedin share button](https://stackoverflow.com/q/10713542/2430549)
+    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
+    * [StackOverflow: Social media sharing without scripts](https://stackoverflow.com/q/28548347/2430549)
+* *Test Notes :* URL max is 1,024 characters, title/source max is 200 characters, and summary max is 256 characters.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+
+### Tumblr
+
+<code>Global Rank :</code>  `57` (apr. 3, 2018)
+<code>Parameters :</code> `canonicalUrl`, `title`, `caption`, `tags`.
+
+```
+https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&caption={desc}&tags={hash_tags}
+```
+
+<code>Source :</code>
+* *Official Source :* [Tumblr: Post to Tumblr](https://www.tumblr.com/docs/en/share_button)
+* *Unofficial Source :*
+    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
+    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
+    * [StackOverflow: Sharing to Tumblr using AngularJS ng-click is banned](https://stackoverflow.com/q/32924603/2430549)
+* *Test Notes :* Requires login.  A described language parameter (`data-locale`) appeared to have no effect (and, therefore, is not listed here).
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+
 ### Pinterest
+
+<code>Global Rank :</code>  `79` (apr. 3, 2018)
+<code>Parameters :</code> `url`.
 
 ```
 http://pinterest.com/pin/create/button/?url={url}
@@ -203,98 +276,10 @@ http://pinterest.com/pin/create/link/?url={url}
 * *Test Notes :* Requires the user to select an image to "pin" the URL with.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
-
-### LinkedIn
-
-```
-https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary={desc}&source={provider}
-```
-
-<code>Source :</code>
-* *Official Source :* [LinkedIn: Share On LinkedIn, Section: "Customized URL"](https://developer.linkedin.com/docs/share-on-linkedin)
-* *Unofficial Source :*
-    * [StackOverflow: How to make custom linkedin share button](https://stackoverflow.com/q/10713542/2430549)
-    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
-    * [StackOverflow: Social media sharing without scripts](https://stackoverflow.com/q/28548347/2430549)
-* *Test Notes :* URL max is 1,024 characters, title/source max is 200 characters, and summary max is 256 characters.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
-
-### Buffer
-
-```
-https://buffer.com/add?text={title}&url={url}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: How can I add text to end of a url with javascript?](https://stackoverflow.com/q/46722058/2430549)
-    * [Pinterest: (URL is in regular use)](https://www.pinterest.com/pin/)
-    * [GitHubGist: maheshwaghmare/social-share-url-patterns.txt](https://gist.github.com/maheshwaghmare/9cd0cbac931ead48c0a47a0c7f2ff88c)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
-
-### Digg
-
-```
-http://digg.com/submit?url={url}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/q/12448134/2430549)
-    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
-    * [StackOverflow: Social media sharing without scripts](https://stackoverflow.com/q/28548347/2430549)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
-
-### Tumblr
-
-```
-https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&caption={desc}&tags={hash_tags}
-```
-
-<code>Source :</code>
-* *Official Source :* [Tumblr: Post to Tumblr](https://www.tumblr.com/docs/en/share_button)
-* *Unofficial Source :*
-    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
-    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
-    * [StackOverflow: Sharing to Tumblr using AngularJS ng-click is banned](https://stackoverflow.com/q/32924603/2430549)
-* *Test Notes :* Requires login.  A described language parameter (`data-locale`) appeared to have no effect (and, therefore, is not listed here).
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
-
-### Reddit
-
-```
-https://reddit.com/submit?url={url}&title={title}
-```
-
-<code>Source :</code>
-* *Official Source :* [RedDit: put reddit.com buttons on your site](https://www.reddit.com/buttons/)
-* *Unofficial Source :*
-    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
-    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
-    * [StackOverflow: Social media sharing without scripts](https://stackoverflow.com/q/28548347/2430549)
-* *Test Notes :* Regarding `title` Parameter: Unable to find official source.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
-
-### StumbleUpon
-
-```
-http://www.stumbleupon.com/submit?url={url}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: How to submit a link to StumbleUpon with a title](https://webapps.stackexchange.com/q/19942/182463)
-    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
-    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
-* *Test Notes :* Requires login.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
-
 ### Blogger
+
+<code>Global Rank :</code>  `183` (apr. 3, 2018)
+<code>Parameters :</code> `u`, `n`, `t`.
 
 ```
 https://www.blogger.com/blog-this.g?u={url}&n={title}&t={desc}
@@ -311,6 +296,9 @@ https://www.blogger.com/blog-this.g?u={url}&n={title}&t={desc}
 
 ### LiveJournal
 
+<code>Global Rank :</code>  `263` (apr. 3, 2018)
+<code>Parameters :</code> `subject`, `event`.
+
 ```
 http://www.livejournal.com/update.bml?subject={title}&event={url}
 ```
@@ -326,6 +314,9 @@ http://www.livejournal.com/update.bml?subject={title}&event={url}
 
 ### EverNote
 
+<code>Global Rank :</code>  `494` (apr. 3, 2018)
+<code>Parameters :</code> `url`, `title`.
+
 ```
 http://www.evernote.com/clip.action?url={url}&title={title}
 ```
@@ -339,7 +330,28 @@ http://www.evernote.com/clip.action?url={url}&title={title}
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
+### AddThis
+
+<code>Global Rank :</code>  `561` (apr. 3, 2018)
+<code>Parameters :</code> `url`.
+
+```
+http://www.addthis.com/bookmark.php?url={url}
+```
+
+<code>Source :</code>
+* *Official Source :* [AddThis: Social Buttons](http://www.addthis.com/social-buttons)
+* *Unofficial Source :*
+    * [StackOverflow: Good looking sharethis / addthis / addtoany without javascript](https://stackoverflow.com/q/20816307/2430549)
+    * [StackOverflow: AddThis button will not work inside AJAX, but will work normally](https://stackoverflow.com/q/1603835/2430549)
+    * [StackOverflow: Impact of Share Button on Web Page Performance](https://stackoverflow.com/q/4902586/2430549)
+* *Test Notes :* The above-described url-format does not appear in the official documentation.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
+
 ### GetPocket
+
+<code>Global Rank :</code>  `669` (apr. 3, 2018)
+<code>Parameters :</code> `url`.
 
 ```
 https://getpocket.com/edit?url={url}
@@ -354,7 +366,82 @@ https://getpocket.com/edit?url={url}
 * *Test Notes :* Regarding `url` Parameter: Unable to find official source.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
+### HackerNews
+
+<code>Global Rank :</code>  `1,650` (apr. 3, 2018)
+<code>Parameters :</code> `u`, `t`.
+
+```
+https://news.ycombinator.com/submitlink?u={url}&t={title}
+```
+
+<code>Source :</code>
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [Giant Swarm: Building a Smart Client-Side JavaScript "Discuss on Hacker News" Button](https://blog.giantswarm.io/client-side-javascript-smart-hackernews-button/)
+    * [Justin Duke: Creating Hacker News Share Links Seeded with a URL and Title](http://jmduke.com/posts/share-links-hacker-news/)
+    * [The Old Reader: List of Sharing Service URLs](https://theoldreader.uservoice.com/knowledgebase/articles/294010-list-of-sharing-service-urls)
+* *Test Notes :* Requires login to work.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
+
+### StumbleUpon
+
+<code>Global Rank :</code>  `1,948` (apr. 3, 2018)
+<code>Parameters :</code> `url`.
+
+```
+http://www.stumbleupon.com/submit?url={url}
+```
+
+<code>Source :</code>
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [StackOverflow: How to submit a link to StumbleUpon with a title](https://webapps.stackexchange.com/q/19942/182463)
+    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
+    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
+* *Test Notes :* Requires login.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+
+### Digg
+
+<code>Global Rank :</code>  `2,367` (apr. 3, 2018)
+<code>Parameters :</code> `url`.
+
+```
+http://digg.com/submit?url={url}
+```
+
+<code>Source :</code>
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/q/12448134/2430549)
+    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
+    * [StackOverflow: Social media sharing without scripts](https://stackoverflow.com/q/28548347/2430549)
+* *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+
+### Buffer
+
+<code>Global Rank :</code>  `2,487` (apr. 3, 2018)
+<code>Parameters :</code> `text`, `url`.
+
+```
+https://buffer.com/add?text={title}&url={url}
+```
+
+<code>Source :</code>
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [StackOverflow: How can I add text to end of a url with javascript?](https://stackoverflow.com/q/46722058/2430549)
+    * [Pinterest: (URL is in regular use)](https://www.pinterest.com/pin/)
+    * [GitHubGist: maheshwaghmare/social-share-url-patterns.txt](https://gist.github.com/maheshwaghmare/9cd0cbac931ead48c0a47a0c7f2ff88c)
+* *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+
 ### FlipBoard
+
+<code>Global Rank :</code>  `3,638` (apr. 3, 2018)
+<code>Parameters :</code> `title`, `url`.
 
 ```
 https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
@@ -371,6 +458,9 @@ https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
 
 ### InstaPaper
 
+<code>Global Rank :</code>  `13,660` (apr. 3, 2018)
+<code>Parameters :</code> `url`, `title`, `description`.
+
 ```
 http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
 ```
@@ -386,6 +476,9 @@ http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
 
 ### SurfingBird
 
+<code>Global Rank :</code>  `21,985` (apr. 3, 2018)
+<code>Parameters :</code> `url`, `description`, `screenshot`, `title`.
+
 ```
 http://surfingbird.ru/share?url={url}&description={text}&screenshot={image}&title={title}
 ```
@@ -399,22 +492,10 @@ http://surfingbird.ru/share?url={url}&description={text}&screenshot={image}&titl
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
-### Diaspora
-
-```
-https://share.diasporafoundation.org/?title={title}&url={url}
-```
-
-<code>Source :</code>
-* *Official Source :* [Diaspora: Share all teh internetz!](https://share.diasporafoundation.org/about.html)
-* *Unofficial Source :*
-    * [Diaspora: Discussions > Host 'Advanced Sharer for diaspora*' on diasporafoundation.org](https://discourse.diasporafoundation.org/t/host-advanced-sharer-for-diaspora-on-diasporafoundation-org/520/6)
-    * [Drupal: Add Diaspora option](https://www.drupal.org/project/social_simple/issues/2898005)
-    * [Mastodon Meta Discussion Board: Mastodon Share Button](https://discourse.joinmastodon.org/t/mastodon-share-button/762)
-* *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
-
 ### Flattr
+
+<code>Global Rank :</code>  `132,899` (apr. 3, 2018)
+<code>Parameters :</code> `user_id`, `url`, `title`, `description`, `language`, `tags`, `category`.
 
 ```
 https://flattr.com/submit/auto?user_id={user_id}&url={url}&title={title}&description={desc}&language={language_code}&tags={hash_tags}&hidden=HIDDEN&category={category}
@@ -429,54 +510,47 @@ https://flattr.com/submit/auto?user_id={user_id}&url={url}&title={title}&descrip
 * *Test Notes :* Requires all user_id, url, and title parameters to be precisely formatted.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
-### HackerNews
+### Diaspora
+
+<code>Global Rank :</code>  `262,184` (apr. 3, 2018)
+<code>Parameters :</code> `title`, `url`.
 
 ```
-https://news.ycombinator.com/submitlink?u={url}&t={title}
+https://share.diasporafoundation.org/?title={title}&url={url}
 ```
 
 <code>Source :</code>
-* *Official Source :* Unable to locate.
+* *Official Source :* [Diaspora: Share all teh internetz!](https://share.diasporafoundation.org/about.html)
 * *Unofficial Source :*
-    * [Giant Swarm: Building a Smart Client-Side JavaScript "Discuss on Hacker News" Button](https://blog.giantswarm.io/client-side-javascript-smart-hackernews-button/)
-    * [Justin Duke: Creating Hacker News Share Links Seeded with a URL and Title](http://jmduke.com/posts/share-links-hacker-news/)
-    * [The Old Reader: List of Sharing Service URLs](https://theoldreader.uservoice.com/knowledgebase/articles/294010-list-of-sharing-service-urls)
+    * [Diaspora: Discussions > Host 'Advanced Sharer for diaspora*' on diasporafoundation.org](https://discourse.diasporafoundation.org/t/host-advanced-sharer-for-diaspora-on-diasporafoundation-org/520/6)
+    * [Drupal: Add Diaspora option](https://www.drupal.org/project/social_simple/issues/2898005)
+    * [Mastodon Meta Discussion Board: Mastodon Share Button](https://discourse.joinmastodon.org/t/mastodon-share-button/762)
 * *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
-
-### AddThis
-
-```
-http://www.addthis.com/bookmark.php?url={url}
-```
-
-<code>Source :</code>
-* *Official Source :* [AddThis: Social Buttons](http://www.addthis.com/social-buttons)
-* *Unofficial Source :*
-    * [StackOverflow: Good looking sharethis / addthis / addtoany without javascript](https://stackoverflow.com/q/20816307/2430549)
-    * [StackOverflow: AddThis button will not work inside AJAX, but will work normally](https://stackoverflow.com/q/1603835/2430549)
-    * [StackOverflow: Impact of Share Button on Web Page Performance](https://stackoverflow.com/q/4902586/2430549)
-* *Test Notes :* The above-described url-format does not appear in the official documentation.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
 ## Phone/Audio-Based Social Media
 
-### Skype
+### SMS
 
-```
-https://web.skype.com/share?url={url}&text={desc}
-```
+<code>Global Rank :</code>  `N/A`
+<code>Parameters :</code> `sms`, `body`.
 
-<code>Source :</code>
+````
+sms:{phone_number}?body={desc}
+````
+
 * *Official Source :* Unable to locate.
 * *Unofficial Source :*
-    * [StackOverflow: How to share website links in wechat](https://stackoverflow.com/q/38826417/2430549)
-    * [StackOverflow: web scraping - getting values of particular nodes inside an element](https://stackoverflow.com/q/36301454/2430549)
-    * [GitHub: Automattic/jetpack > Add Skype share button to Jetpack #3170](https://github.com/Automattic/jetpack/issues/3170)
-* *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+    * [StackOverflow: How to programmatically send SMS on the iPhone?](https://stackoverflow.com/q/10848/2430549)
+    * [StackOverflow: Send SMS in android](https://stackoverflow.com/q/4967448/2430549)
+    * [StackOverflow: How to pre-populate the sms body text via an html link](https://stackoverflow.com/q/6480462/2430549)
+* *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
 ### Line.me
+
+<code>Global Rank :</code>  `360` (apr. 3, 2018)
+<code>Parameters :</code> `url`, `text`.
 
 ```
 https://lineit.line.me/share/ui?url={url}&text={desc}
@@ -491,11 +565,32 @@ https://lineit.line.me/share/ui?url={url}&text={desc}
 * *Test Notes :* Requires login to work and perfectly formatted URL with protocol parameters (http/https, etc.).  Creating an account requires software install.  Above-described URL parameters are not indicated in the official documentation.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### Telegram.me
+### Skype
+
+<code>Global Rank :</code>  `375` (apr. 3, 2018)
+<code>Parameters :</code> `url`, `text`.
 
 ```
-https://telegram.me/share/url?url={url}&text={title}
+https://web.skype.com/share?url={url}&text={desc}
+```
+
+<code>Source :</code>
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [StackOverflow: How to share website links in wechat](https://stackoverflow.com/q/38826417/2430549)
+    * [StackOverflow: web scraping - getting values of particular nodes inside an element](https://stackoverflow.com/q/36301454/2430549)
+    * [GitHub: Automattic/jetpack > Add Skype share button to Jetpack #3170](https://github.com/Automattic/jetpack/issues/3170)
+* *Test Notes :* Requires login to work.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+
+### Telegram.me
+
+<code>Global Rank :</code>  `456` (apr. 3, 2018)
+<code>Parameters :</code> `url`, `text`.
+
+```
 https://t.me/share/url?url={url}&text={title}
+https://telegram.me/share/url?url={url}&text={title}
 ```
 
 * *Official Source :* Unable to locate.
@@ -506,23 +601,32 @@ https://t.me/share/url?url={url}&text={title}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### SMS
-
-````
-sms:{phone_number}?body={desc}
-````
-
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: How to programmatically send SMS on the iPhone?](https://stackoverflow.com/q/10848/2430549)
-    * [StackOverflow: Send SMS in android](https://stackoverflow.com/q/4967448/2430549)
-    * [StackOverflow: How to pre-populate the sms body text via an html link](https://stackoverflow.com/q/6480462/2430549)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
-
 ## Non-English Social Media
 
+### QZone
+
+<code>Global Rank :</code>  `9` (apr. 3, 2018)
+<code>Language :</code> Chinese.
+<code>Parameters :</code> `url`.
+
+```
+http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}
+```
+
+<code>Source :</code>
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [StackOverflow: social share css issue](https://stackoverflow.com/q/33186760/2430549)
+    * [StackOverflow: How to clear the element in a open popup box](https://stackoverflow.com/a/17159801/2430549)
+    * [StackOverflow: How to use hexo to pop up a picture](https://stackoverflow.com/q/45308945/2430549)
+* *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+
 ### VK
+
+<code>Global Rank :</code>  `17` (apr. 3, 2018)
+<code>Language :</code> Russian.
+<code>Parameters :</code> `url`, `title`, `comment`.
 
 ```
 http://vk.com/share.php?url={url}&title={title}&comment={desc}
@@ -537,10 +641,31 @@ http://vk.com/share.php?url={url}&title={title}&comment={desc}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
+### Weibo
+
+<code>Global Rank :</code>  `21` (apr. 3, 2018)
+<code>Language :</code> Chinese.
+<code>Parameters :</code> `url`, `title`, `pic`.
+
+```
+http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ralateUid=
+```
+
+<code>Source :</code>
+* *Official Source :* [Weibo: ShareCode](http://open.weibo.com/wiki/ShareCode)
+* *Unofficial Source :*
+    * [StackOverflow: Renren, Weibo, and Baidu Like buttons using only HTML (No Javascript)](https://stackoverflow.com/q/10490443/2430549)
+    * [Blog.CSDN.net: QQ空间、新浪微博、腾讯微博等一键分享API链接代码](https://blog.csdn.net/qq_23994787/article/details/78162814)
+    * [CTOLib.com: Share.js：一键分享到微博、QQ空间、QQ好友、微信、腾讯微博等](http://java.ctolib.com/article/comments/1075)
+* *Test Notes :* Requires login and software install to work.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+
 ### OKru
 
+<code>Global Rank :</code>  `46` (apr. 3, 2018)
 <code>AKA :</code>  AKA "Odnoklassniki" (English: "Classmates").
 <code>Language :</code> Russian.
+<code>Parameters :</code> `st.shareUrl`.
 
 ```
 https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl={url}
@@ -557,7 +682,9 @@ https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl={url}
 
 ### Douban
 
+<code>Global Rank :</code>  `900` (apr. 3, 2018)
 <code>Language :</code> Chinese.
+<code>Parameters :</code> `url`, `title`.
 
 ```
 http://www.douban.com/recommend/?url={url}&title={title}
@@ -572,26 +699,11 @@ http://www.douban.com/recommend/?url={url}&title={title}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### QZone
-
-<code>Language :</code> Chinese.
-
-```
-http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: social share css issue](https://stackoverflow.com/q/33186760/2430549)
-    * [StackOverflow: How to clear the element in a open popup box](https://stackoverflow.com/a/17159801/2430549)
-    * [StackOverflow: How to use hexo to pop up a picture](https://stackoverflow.com/q/45308945/2430549)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
 ### XING
 
+<code>Global Rank :</code>  `1,377` (apr. 3, 2018)
 <code>Language :</code> German.
+<code>Parameters :</code> `url`.
 
 ```
 https://www.xing.com/app/user?op=share&url={url}
@@ -608,8 +720,10 @@ https://www.xing.com/app/user?op=share&url={url}
 
 ### RenRen
 
-<code>Language :</code> Chinese.
+<code>Global Rank :</code>  `1,508` (apr. 3, 2018)
 <code>AKA :</code> Xiaonei.
+<code>Language :</code> Chinese.
+<code>Parameters :</code> `resourceUrl`, `srcUrl`, `title`, `description`.
 
 ```
 http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={title}&description={desc}
@@ -624,26 +738,11 @@ http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={titl
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### Weibo
-
-<code>Language :</code> Chinese.
-
-```
-http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ralateUid=
-```
-
-<code>Source :</code>
-* *Official Source :* [Weibo: ShareCode](http://open.weibo.com/wiki/ShareCode)
-* *Unofficial Source :*
-    * [StackOverflow: Renren, Weibo, and Baidu Like buttons using only HTML (No Javascript)](https://stackoverflow.com/q/10490443/2430549)
-    * [Blog.CSDN.net: QQ空间、新浪微博、腾讯微博等一键分享API链接代码](https://blog.csdn.net/qq_23994787/article/details/78162814)
-    * [CTOLib.com: Share.js：一键分享到微博、QQ空间、QQ好友、微信、腾讯微博等](http://java.ctolib.com/article/comments/1075)
-* *Test Notes :* Requires login and software install to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
 ### Threema
 
+<code>Global Rank :</code>  `82,555` (apr. 3, 2018)
 <code>Language :</code> German.
+<code>Parameters :</code> `text`, `id`.
 
 ```
 threema://compose?text={url}&id={user_id}
@@ -662,6 +761,9 @@ threema://compose?text={url}&id={user_id}
 
 ### GMail
 
+<code>Global Rank :</code>  `1` (apr. 3, 2018)
+<code>Parameters :</code> `to`, `su`, `body`, `bcc`, `cc`.
+
 ```
 https://mail.google.com/mail/?view=cm&to={email_address}&su={title}&body={url}&bcc={email_address}&cc={email_address}
 ```
@@ -675,23 +777,10 @@ https://mail.google.com/mail/?view=cm&to={email_address}&su={title}&body={url}&b
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### Yahoo
-
-```
-http://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: Yahoo email compose link not working - compose.mail.yahoo.com](https://stackoverflow.com/q/26379594/2430549)
-    * [StackOverflow: What is the format of compose links to web mail clients such as Gmail, Yahoo Mail, Hotmail and AOL?](https://stackoverflow.com/q/4982702/2430549)
-    * [StackOverflow: mailto: links and webmail](https://stackoverflow.com/a/14139725/2430549)
-    * [javascript commands work singly but not sequentially as a bookmarklet](https://stackoverflow.com/q/25874385/2430549)
-* *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
 ### EMail
+
+<code>Global Rank :</code>  `N/A`
+<code>Parameters :</code> `mailto`, `subject`, `body`.
 
 ```
 mailto:{email_address}?subject={title}&body={desc}
@@ -706,9 +795,31 @@ mailto:{email_address}?subject={title}&body={desc}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `1998` and `2018`.
 
+### Yahoo
+
+<code>Global Rank :</code>  `7` (apr. 3, 2018)
+<code>Parameters :</code> `to`, `subject`, `body`.
+
+```
+http://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}
+```
+
+<code>Source :</code>
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [StackOverflow: Yahoo email compose link not working - compose.mail.yahoo.com](https://stackoverflow.com/q/26379594/2430549)
+    * [StackOverflow: What is the format of compose links to web mail clients such as Gmail, Yahoo Mail, Hotmail and AOL?](https://stackoverflow.com/q/4982702/2430549)
+    * [StackOverflow: mailto: links and webmail](https://stackoverflow.com/a/14139725/2430549)
+    * [StackOverflow: javascript commands work singly but not sequentially as a bookmarklet](https://stackoverflow.com/q/25874385/2430549)
+* *Test Notes :* Requires login to work.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+
 ## Locally/Personally-Run Social Media
 
 ### WordPress
+
+<code>Global Rank :</code>  `N/A`
+<code>Parameters :</code> `u`, `t`, `s`, `i`.
 
 ```
 http://www.example.com/website_where_you_installed_wordpress/wp-admin/press-this.php?u={url}&t={title}&s={text}&i={image}
@@ -729,6 +840,8 @@ http://www.example.com/website_where_you_installed_wordpress/wp-admin/press-this
 Once supported, but no longer.  Some of these may be well-documented.  They are no longer supported because the share links no longer provide the desired action.  These are listed for the sake of completion.
 
 *Use at your own merciless peril.*
+
+### AIM
 
 # AIM was shut down in late 2017.
 
