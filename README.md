@@ -90,23 +90,24 @@ What we try to provide :
 
 ## URL Arguments
 
+Your URL should be placed in the `url` parameter; if not available, you will need to construct a message about your URL and place that message in the `title` or `text` parameters.
+
 Argument | Description | Used By
 --- | --- | ---
-{url} | The url you want to share (**encoded**) | All
-{title} | The page title of the url you want to share | Most
-{desc} | A longer description of the content you are sharing | Most
-{app_id} | The App ID | Facebook
-{redirect_url} | The url a sharer will be redirected to after a successful share | Facebook
-{page_type} | Type of page, either "page" or "popup" | Facebook
-{via} | Username of content author (don't include "@") | Twitter
-{hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#") | Twitter, Flattr, Tumblr
-{image} | The url to the image/thumbnail to use when sharing | SurfingBird, WordPress
-{language_code} | A language code from the ISO 639-1 Code specification. | Google
-{is_video} | If the content is a video or not | Pinterest
-{phone_number} | An applicable phone number, if there is one | Whatsapp
-{user_id} | The id of a particular user on a social media service | Flattr, Threema
-{category} | A section to submit the share/comment to | Flattr
-{email_address} | Where a social share is directed.  You will most likely want to leave this blank, so the user can fill it in. | Mail, Yahoo, GMail
+{url} | The URL-encoded link you want to share.  Service may reject link if not encoded. | Google+, GoogleBookmarks, Facebook, Reddit, Twitter, LinkedIn, Tumblr, Pinterest, Blogger, LiveJournal, EverNote, AddThis, GetPocket, HackerNews, StumbleUpon, Digg, Buffer, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, Line.me, Skype, Telegram.me, QZone, VK, Weibo, OKru, Douban, XING, RenRen, GMail, Yahoo, WordPress
+{title} | The page title of the url you want to share. | GoogleBookmarks, Reddit, LinkedIn, Tumblr, Blogger, LiveJournal, EverNote, HackerNews, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, VK, Weibo, Douban, RenRen, EMail, GMail, Yahoo, WordPress
+{text} | A longer description of the content you are sharing. | Google+, GoogleBookmarks, Twitter, LinkedIn, Tumblr, Blogger, Buffer, InstaPaper, SurfingBird, Flattr, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress
+{hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#"). | GoogleBookmarks, Twitter, Tumblr, Flattr
+{user_id} | The username/id of a particular user on a social media service. | Twitter, Flattr, Threema
+{email_address} | Where a social share is directed.  You will most likely want to leave this blank, so the user can fill it in. | EMail, GMail, Yahoo
+{language_code} | A language code from the ISO 639-1 Code specification. | Google+, Flattr
+{image} | The url to the image/thumbnail to use when sharing. | SurfingBird, WordPress
+{app_id} | The App ID. | Facebook
+{redirect_url} | The url a sharer will be redirected to after a successful share. | Facebook
+{page_type} | Type of page, either "page" or "popup." | Facebook
+{phone_number} | An applicable phone number, if there is one. | SMS
+{category} | A section to submit the share/comment to. | Flattr
+{provider} | Service providing the share link. | LinkedIn
 
 ## Multi-Language Social Media
 
@@ -117,7 +118,7 @@ Argument | Description | Used By
 <code>Parameters :</code> `url`, `text`, `hl`.
 
 ```
-https://plus.google.com/share?url={url}&text={desc}&hl={language_code}
+https://plus.google.com/share?url={url}&text={text}&hl={language_code}
 ```
 
 <code>Source :</code>
@@ -136,7 +137,7 @@ https://plus.google.com/share?url={url}&text={desc}&hl={language_code}
 <code>Parameters :</code> `bkmk`, `title`, `annotation`, `labels`.
 
 ```
-https://www.google.com/bookmarks/mark?op=edit&bkmk={url}&title={title}&annotation={desc}&labels={tags}
+https://www.google.com/bookmarks/mark?op=edit&bkmk={url}&title={title}&annotation={text}&labels={hash_tags}
 ```
 
 <code>Source :</code>
@@ -213,7 +214,7 @@ https://reddit.com/submit?url={url}&title={title}
 <code>Parameters :</code> `url`, `text`, `via`, `hashtags`.
 
 ```
-https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hash_tags}
+https://twitter.com/intent/tweet?url={url}&text={title}&via={user_id}&hashtags={hash_tags}
 ```
 
 <code>Source :</code>
@@ -232,7 +233,7 @@ https://twitter.com/intent/tweet?url={url}&text={title}&via={via}&hashtags={hash
 <code>Parameters :</code> `url`, `title`, `summary`, `source`.
 
 ```
-https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary={desc}&source={provider}
+https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary={text}&source={provider}
 ```
 
 <code>Source :</code>
@@ -251,7 +252,7 @@ https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary=
 <code>Parameters :</code> `canonicalUrl`, `title`, `caption`, `tags`.
 
 ```
-https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&caption={desc}&tags={hash_tags}
+https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&caption={text}&tags={hash_tags}
 ```
 
 <code>Source :</code>
@@ -290,7 +291,7 @@ http://pinterest.com/pin/create/link/?url={url}
 <code>Parameters :</code> `u`, `n`, `t`.
 
 ```
-https://www.blogger.com/blog-this.g?u={url}&n={title}&t={desc}
+https://www.blogger.com/blog-this.g?u={url}&n={title}&t={text}
 ```
 
 <code>Source :</code>
@@ -480,7 +481,7 @@ https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
 <code>Parameters :</code> `url`, `title`, `description`.
 
 ```
-http://www.instapaper.com/edit?url={url}&title={title}&description={desc}
+http://www.instapaper.com/edit?url={url}&title={title}&description={text}
 ```
 
 <code>Source :</code>
@@ -518,7 +519,7 @@ http://surfingbird.ru/share?url={url}&description={text}&screenshot={image}&titl
 <code>Parameters :</code> `user_id`, `url`, `title`, `description`, `language`, `tags`, `category`.
 
 ```
-https://flattr.com/submit/auto?user_id={user_id}&url={url}&title={title}&description={desc}&language={language_code}&tags={hash_tags}&hidden=HIDDEN&category={category}
+https://flattr.com/submit/auto?user_id={user_id}&url={url}&title={title}&description={text}&language={language_code}&tags={hash_tags}&hidden=HIDDEN&category={category}
 ```
 
 <code>Source :</code>
@@ -558,7 +559,7 @@ https://share.diasporafoundation.org/?title={title}&url={url}
 <code>Parameters :</code> `sms`, `body`.
 
 ````
-sms:{phone_number}?body={desc}
+sms:{phone_number}?body={text}
 ````
 
 * *Official Source :* Unable to locate.
@@ -576,7 +577,7 @@ sms:{phone_number}?body={desc}
 <code>Parameters :</code> `url`, `text`.
 
 ```
-https://lineit.line.me/share/ui?url={url}&text={desc}
+https://lineit.line.me/share/ui?url={url}&text={text}
 ```
 
 <code>Source :</code>
@@ -595,7 +596,7 @@ https://lineit.line.me/share/ui?url={url}&text={desc}
 <code>Parameters :</code> `url`, `text`.
 
 ```
-https://web.skype.com/share?url={url}&text={desc}
+https://web.skype.com/share?url={url}&text={text}
 ```
 
 <code>Source :</code>
@@ -658,7 +659,7 @@ http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}
 <code>Parameters :</code> `url`, `title`, `comment`.
 
 ```
-http://vk.com/share.php?url={url}&title={title}&comment={desc}
+http://vk.com/share.php?url={url}&title={title}&comment={text}
 ```
 
 <code>Source :</code>
@@ -679,7 +680,7 @@ http://vk.com/share.php?url={url}&title={title}&comment={desc}
 <code>Parameters :</code> `url`, `title`, `pic`.
 
 ```
-http://service.weibo.com/share/share.php?url={url}&appkey=&title={text}&pic=&ralateUid=
+http://service.weibo.com/share/share.php?url={url}&appkey=&title={title}&pic=&ralateUid=
 ```
 
 <code>Source :</code>
@@ -767,7 +768,7 @@ https://www.xing.com/app/user?op=share&url={url}
 <code>Parameters :</code> `resourceUrl`, `srcUrl`, `title`, `description`.
 
 ```
-http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={title}&description={desc}
+http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={title}&description={text}
 ```
 
 <code>Source :</code>
@@ -802,6 +803,25 @@ threema://compose?text={url}&id={user_id}
 
 ## Email-Based Social Media
 
+### EMail
+
+<code>Global Rank :</code>  `N/A`
+
+<code>Parameters :</code> `mailto`, `subject`, `body`.
+
+```
+mailto:{email_address}?subject={title}&body={text}
+```
+
+<code>Source :</code>
+* *Official Source :* [RFC 2368: The mailto URL scheme](https://www.ietf.org/rfc/rfc2368.txt)
+* *Unofficial Source :*
+    * [StackOverflow: Can I set subject/content of email using mailto:?](https://stackoverflow.com/q/4782068/2430549)
+    * [StackOverflow: MailTo with HTML body](https://stackoverflow.com/q/5620324/2430549)
+    * [StackOverflow: mailto link multiple body lines](https://stackoverflow.com/q/10356329/2430549)
+* *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `1998` and `2018`.
+
 ### GMail
 
 <code>Global Rank :</code>  `1` (apr. 3, 2018)
@@ -820,25 +840,6 @@ https://mail.google.com/mail/?view=cm&to={email_address}&su={title}&body={url}&b
     * [UbuntuForums: how to transform (firefox+gmail) in the system email client](https://ubuntuforums.org/showthread.php?t=346070)
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
-### EMail
-
-<code>Global Rank :</code>  `N/A`
-
-<code>Parameters :</code> `mailto`, `subject`, `body`.
-
-```
-mailto:{email_address}?subject={title}&body={desc}
-```
-
-<code>Source :</code>
-* *Official Source :* [RFC 2368: The mailto URL scheme](https://www.ietf.org/rfc/rfc2368.txt)
-* *Unofficial Source :*
-    * [StackOverflow: Can I set subject/content of email using mailto:?](https://stackoverflow.com/q/4782068/2430549)
-    * [StackOverflow: MailTo with HTML body](https://stackoverflow.com/q/5620324/2430549)
-    * [StackOverflow: mailto link multiple body lines](https://stackoverflow.com/q/10356329/2430549)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `1998` and `2018`.
 
 ### Yahoo
 
@@ -892,7 +893,7 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 # AIM was shut down in late 2017.
 
-    *  ~~http://lifestream.aol.com/share/?url={url}&title={title}&description={desc}~~
+    *  ~~http://lifestream.aol.com/share/?url={url}&title={title}&description={text}~~
 
 ### Baidu
 
@@ -934,7 +935,7 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 * Links failed in 2018.
 
-    *  ~~https://myspace.com/post?u={url}&t={title}&c={desc}~~
+    *  ~~https://myspace.com/post?u={url}&t={title}&c={text}~~
 
 ### NewsVine
 
@@ -946,7 +947,7 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 * Shut down on 5 July 2012.
 
-    *  ~~http://ping.fm/ref/?link={url}&title={title}&body={desc}~~
+    *  ~~http://ping.fm/ref/?link={url}&title={title}&body={text}~~
 
 ### ScoopIt
 
@@ -970,12 +971,14 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 * Social-share service discontinued in 2018.  Confirmed after the test requirements: installing Viber on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Viber Official Specifications is a Failure](https://developers.viber.com/docs/tools/share-button/).  Official development @viber has been negligent in response to inquiries.
 
+    * Official Viber Response: "Your feedback will be considered as our teams work on upcoming versions.  I’ll be closing this ticket, but feel free to reply to me with any further suggestions."  [Case: #4641960]
+
     *  ~~viber://forward?text={url}~~
 
 ### WhatsApp
 
 * Social-share service discontinued in 2018.  Confirmed after the test requirements: installing WhatsApp on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Whatsapp Official Specifications is a Failure](https://faq.whatsapp.com/en/android/26000030/?category=5245251).
 
-    * Official WhatsApp Response: "Sorry, but your description was not clear enough for our agents to understand the issue. Please explain the issue more thoroughly."
+    * Official WhatsApp Response: "Sorry, but your description was not clear enough for our agents to understand the issue. Please explain the issue more thoroughly." [Request #172349248330585]
     
     *  ~~whatsapp://send?text={url}~~
