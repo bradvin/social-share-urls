@@ -13,63 +13,65 @@ What we try to provide :
     * We also include secondary sources (like forum conversations or StackOverflow questions).  We try to provide at least three of these per service.
 * **Source Code Libraries** : To provide basic utilities for generating these social media links in any environment that you need.
     * Currently supporting libraries in : `JavaScript`.
+* **Icons** : Public domain and permissively-licensed, at an amazing `450x450` resolution.
+    * Currently supported themes: `background & shadow`.
 
-![Share Links - Do You Have Them?](https://github.com/bradvin/social-share-urls/blob/master/images/sharelinks.jpg "ShareLinks Icons")
+![Share Links - Do You Have Them?](./images/sharelinks.jpg "ShareLinks Icons")
 
 ## Supported Social Networks
 
 ### Multi-Language Social Media
 
-* [Google+](#google)
-* [GoogleBookmarks](#googlebookmarks)
-* [Facebook](#facebook)
-* [Reddit](#reddit)
-* [Twitter](#twitter)
-* [LinkedIn](#linkedin)
-* [Tumblr](#tumblr)
-* [Pinterest](#pinterest)
-* [Blogger](#blogger)
-* [LiveJournal](#livejournal)
-* [EverNote](#evernote)
-* [AddThis](#addthis)
-* [GetPocket](#getpocket)
-* [HackerNews](#hackernews)
-* [StumbleUpon](#stumbleupon)
-* [Digg](#digg)
-* [Buffer](#buffer)
-* [FlipBoard](#flipboard)
-* [InstaPaper](#instapaper)
-* [SurfingBird](#surfingbird)
-* [Flattr](#flattr)
-* [Diaspora](#diaspora)
+* <img src="./images/logo-icons/google.plus.jpg" width="15px;"/> [Google+](#google)
+* <img src="./images/logo-icons/google.bookmarks.jpg" width="15px;"/> [GoogleBookmarks](#googlebookmarks)
+* <img src="./images/logo-icons/facebook.jpg" width="15px;"/> [Facebook](#facebook)
+* <img src="./images/logo-icons/reddit.jpg" width="15px;"/> [Reddit](#reddit)
+* <img src="./images/logo-icons/twitter.jpg" width="15px;"/> [Twitter](#twitter)
+* <img src="./images/logo-icons/linkedin.jpg" width="15px;"/> [LinkedIn](#linkedin)
+* <img src="./images/logo-icons/tumblr.jpg" width="15px;"/> [Tumblr](#tumblr)
+* <img src="./images/logo-icons/pinterest.jpg" width="15px;"/> [Pinterest](#pinterest)
+* <img src="./images/logo-icons/blogger.jpg" width="15px;"/> [Blogger](#blogger)
+* <img src="./images/logo-icons/livejournal.jpg" width="15px;"/> [LiveJournal](#livejournal)
+* <img src="./images/logo-icons/evernote.jpg" width="15px;"/> [EverNote](#evernote)
+* <img src="./images/logo-icons/add.this.jpg" width="15px;"/> [AddThis](#addthis)
+* <img src="./images/logo-icons/getpocket.jpg" width="15px;"/> [GetPocket](#getpocket)
+* <img src="./images/logo-icons/hacker.news.jpg" width="15px;"/> [HackerNews](#hackernews)
+* <img src="./images/logo-icons/stumbleupon.jpg" width="15px;"/> [StumbleUpon](#stumbleupon)
+* <img src="./images/logo-icons/digg.jpg" width="15px;"/> [Digg](#digg)
+* <img src="./images/logo-icons/buffer.jpg" width="15px;"/> [Buffer](#buffer)
+* <img src="./images/logo-icons/flipboard.jpg" width="15px;"/> [FlipBoard](#flipboard)
+* <img src="./images/logo-icons/instapaper.jpg" width="15px;"/> [InstaPaper](#instapaper)
+* <img src="./images/logo-icons/surfingbird.ru.jpg" width="15px;"/> [SurfingBird](#surfingbird)
+* <img src="./images/logo-icons/flattr.jpg" width="15px;"/> [Flattr](#flattr)
+* <img src="./images/logo-icons/diaspora.jpg" width="15px;"/> [Diaspora](#diaspora)
 
 ### Phone/Audio-Based Social Media
 
-* [SMS](#sms)
-* [Line.me](#lineme)
-* [Skype](#skype)
-* [Telegram.me](#telegramme)
+* <img src="./images/logo-icons/sms.jpg" width="15px;"/> [SMS](#sms)
+* <img src="./images/logo-icons/line.me.jpg" width="15px;"/> [Line.me](#lineme)
+* <img src="./images/logo-icons/skype.jpg" width="15px;"/> [Skype](#skype)
+* <img src="./images/logo-icons/telegram.me.jpg" width="15px;"/> [Telegram.me](#telegramme)
 
 ### Non-English Social Media
 
-* [QZone](#qzone)
-* [VK](#vk)
-* [Weibo](#weibo)
-* [OKru](#okru)
-* [Douban](#douban)
-* [XING](#xing)
-* [RenRen](#renren)
-* [Threema](#threema)
+* <img src="./images/logo-icons/qzone.jpg" width="15px;"/> [QZone](#qzone)
+* <img src="./images/logo-icons/vk.jpg" width="15px;"/> [VK](#vk)
+* <img src="./images/logo-icons/weibo.jpg" width="15px;"/> [Weibo](#weibo)
+* <img src="./images/logo-icons/okru.jpg" width="15px;"/> [OKru](#okru)
+* <img src="./images/logo-icons/douban.jpg" width="15px;"/> [Douban](#douban)
+* <img src="./images/logo-icons/xing.jpg" width="15px;"/> [XING](#xing)
+* <img src="./images/logo-icons/renren.jpg" width="15px;"/> [RenRen](#renren)
+* <img src="./images/logo-icons/threema.jpg" width="15px;"/> [Threema](#threema)
 
 ### Email-Based Social Media
 
-* [EMail](#email)
-* [GMail](#gmail)
-* [Yahoo](#yahoo)
+* <img src="./images/logo-icons/email.jpg" width="15px;"/> [EMail](#email)
+* <img src="./images/logo-icons/gmail.jpg" width="15px;"/> [GMail](#gmail)
+* <img src="./images/logo-icons/yahoo.jpg" width="15px;"/> [Yahoo](#yahoo)
 
 ### Locally/Personally-Run Social Media
 
-* [WordPress](#wordpress)
+* <img src="./images/logo-icons/wordpress.jpg" width="15px;"/> [WordPress](#wordpress)
 
 ### Deprecated Social Media Share Links
 
