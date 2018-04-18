@@ -556,7 +556,7 @@ https://share.diasporafoundation.org/?title={title}&url={url}
 
 ### SMS
 
-<img src="./images/logo-icons/sms.jpg" width="25px"/> <code>Global Rank :</code>  `N/A`
+<img src="./images/logo-icons/sms.jpg" width="25px"/> <code>Global Rank :</code>  `N/A` (image by FatCow Web Hosting, CC BY License)
 
 <code>Parameters :</code> `sms`, `body`.
 
@@ -807,7 +807,7 @@ threema://compose?text={url}&id={user_id}
 
 ### EMail
 
-<img src="./images/logo-icons/email.jpg" width="25px"/> <code>Global Rank :</code>  `N/A`
+<img src="./images/logo-icons/email.jpg" width="25px"/> <code>Global Rank :</code>  `N/A` (image by Mark James, CC BY License)
 
 <code>Parameters :</code> `mailto`, `subject`, `body`.
 
