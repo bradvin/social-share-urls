@@ -113,7 +113,7 @@ Argument | Description | Used By
 
 ## Multi-Language Social Media
 
-### Google+
+### &nbsp;<img src="./images/logo-icons/google.plus.jpg" width="25px"/> Google+
 
 <code>Global Rank :</code>  `1` (apr. 3, 2018)
 
