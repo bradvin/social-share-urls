@@ -75,20 +75,20 @@ What we try to provide :
 
 ### Deprecated Social Media Share Links
 
-* [AIM](#aim)
-* [Baidu](#baidu)
-* [EchoJS](#echojs)
-* [Delicious](#delicious)
-* [FriendFeed](#friendfeed)
-* [Mail.Ru](#mailru)
-* [MySpace](#myspace)
-* [NewsVine](#newsvine)
-* [Ping.fm](#pingfm)
-* [ScoopIt](#scoopit)
-* [SinnaWeibo](#sinaweibo)
-* [SlashDot](#slashdot)
-* [Viber](#viber)
-* [WhatsApp](#whatsapp)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [AIM](#aim)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Baidu](#baidu)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [EchoJS](#echojs)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Delicious](#delicious)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [FriendFeed](#friendfeed)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Mail.Ru](#mailru)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [MySpace](#myspace)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [NewsVine](#newsvine)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Ping.fm](#pingfm)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [ScoopIt](#scoopit)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [SinnaWeibo](#sinaweibo)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [SlashDot](#slashdot)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Viber](#viber)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [WhatsApp](#whatsapp)
 
 ## URL Arguments
 
@@ -556,7 +556,7 @@ https://share.diasporafoundation.org/?title={title}&url={url}
 
 ### SMS
 
-<img src="./images/logo-icons/sms.jpg" width="25px"/> <code>Global Rank :</code>  `N/A` (image by FatCow Web Hosting, CC BY License)
+<img src="./images/logo-icons/sms.jpg" width="25px"/> <code>Global Rank :</code>  `N/A`
 
 <code>Parameters :</code> `sms`, `body`.
 
@@ -807,7 +807,7 @@ threema://compose?text={url}&id={user_id}
 
 ### EMail
 
-<img src="./images/logo-icons/email.jpg" width="25px"/> <code>Global Rank :</code>  `N/A` (image by Mark James, CC BY License)
+<img src="./images/logo-icons/email.jpg" width="25px"/> <code>Global Rank :</code>  `N/A`
 
 <code>Parameters :</code> `mailto`, `subject`, `body`.
 
@@ -893,85 +893,85 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 ### AIM
 
-* AIM was shut down in late 2017.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> AIM was shut down in late 2017.
 
     *  ~~http://lifestream.aol.com/share/?url={url}&title={title}&description={text}~~
 
 ### Baidu
 
-* Links failed in 2018.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in `2018`.
 
     *  ~~http://cang.baidu.com/do/add?it={title}&iu={url}~~
 
 ### Delicious
 
-* Links failed in 2018.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in `2018`.
 
     *  ~~https://delicious.com/save?v=5&provider={provider}&noui&jump=close&url={url}&title={title}~~
 
 ### EchoJS
 
-* Flagrant SSL-security errors revealed in 2018.  User password leak: currently active.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Flagrant SSL-security errors revealed in `2018`.  User password leak: currently active.
 
     *  ~~http://www.echojs.com/submit?u={url}&t={title}~~
 
 ### FBMessenger
 
-* Links failed in 2018.  There are numerous, active complaints for this service, discoverable by just searching the web.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in `2018`.  There are numerous, active complaints for this service, discoverable by just searching the web.
 
     *  ~~fb-messenger://share?link={url}&app_id={app_id}~~
 
 ### FriendFeed
 
-* Links failed in 2018.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in `2018`.
 
     *  ~~http://friendfeed.com/?url={url}~~
 
 ### Mail.ru
 
-* Massive security flaws were revealed in 2017 and 2018, causing Mail.ru to be added to the uBlock Origin blacklist.  User password leak: currently active.  Additionally, testing by Social Share dev's determined that the API no longer works.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Massive security flaws were revealed in 2017 and 2018, causing Mail.ru to be added to the uBlock Origin blacklist.  User password leak: currently active.  Additionally, testing by Social Share dev's determined that the API no longer works.
 
     *  ~~https://connect.mail.ru/share?share_url={url}~~
 
 ### MySpace
 
-* Links failed in 2018.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in `2018`.
 
     *  ~~https://myspace.com/post?u={url}&t={title}&c={text}~~
 
 ### NewsVine
 
-* Acquired by NBC in Oct., 2017.  Redirects to NBCNews.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Acquired by NBC in Oct., 2017.  Redirects to NBCNews.
 
     *  ~~http://www.newsvine.com/_tools/seed&save?u={url}~~
 
 ### Ping.fm
 
-* Shut down on 5 July 2012.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Shut down on 5 July 2012.
 
     *  ~~http://ping.fm/ref/?link={url}&title={title}&body={text}~~
 
 ### ScoopIt
 
-* URL requires login, accounts requires authorizing with several social media parties, and on Chrome and Firefox, using Windows, iOS, and Android, account creation could not be completed.  This was the longest service to test that did not require software to be downloaded and locally installed.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> URL requires login, accounts requires authorizing with several social media parties, and on Chrome and Firefox, using Windows, iOS, and Android, account creation could not be completed.  This was the longest service to test that did not require software to be downloaded and locally installed.
 
     *  ~~http://www.scoop.it/bookmarklet?url={url}~~
 
 ### SinaWeibo
 
-* Acquired by Weibo.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Acquired by Weibo.
 
     *  ~~http://v.t.sina.com.cn/share/share.php?url={url}&title={title}~~
 
 ### SlashDot
 
-* Links failed in 2018 with error message, "New bookmark creation is no longer supported."
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in 2018 with error message, "New bookmark creation is no longer supported."
 
     *  ~~https://slashdot.org/bookmark.pl?url={url}&title={title}~~
 
 ### Viber
 
-* Social-share service discontinued in 2018.  Confirmed after the test requirements: installing Viber on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Viber Official Specifications is a Failure](https://developers.viber.com/docs/tools/share-button/).  Official development @viber has been negligent in response to inquiries.
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2018.  Confirmed after the test requirements: installing Viber on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Viber Official Specifications is a Failure](https://developers.viber.com/docs/tools/share-button/).  Official development @viber has been negligent in response to inquiries.
 
     * Official Viber Response: "Your feedback will be considered as our teams work on upcoming versions.  I’ll be closing this ticket, but feel free to reply to me with any further suggestions."  [Case: #4641960]
 
@@ -979,7 +979,7 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 ### WhatsApp
 
-* Social-share service discontinued in 2018.  Confirmed after the test requirements: installing WhatsApp on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Whatsapp Official Specifications is a Failure](https://faq.whatsapp.com/en/android/26000030/?category=5245251).
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2018.  Confirmed after the test requirements: installing WhatsApp on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Whatsapp Official Specifications is a Failure](https://faq.whatsapp.com/en/android/26000030/?category=5245251).
 
     * Official WhatsApp Response: "Sorry, but your description was not clear enough for our agents to understand the issue. Please explain the issue more thoroughly." [Request #172349248330585]
     
