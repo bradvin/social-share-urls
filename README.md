@@ -18,6 +18,12 @@ What we try to provide :
 
 ![Share Links - Do You Have Them?](./images/sharelinks.jpg "ShareLinks Icons")
 
+## Just Want the Gist?
+
+Want to download just the URL's from this project?  
+
+Then check out our GitHub Gist : https://gist.github.com/HoldOffHunger/1998b92acb80bc83547baeaff68aaaf4
+
 ## Supported Social Networks
 
 ### Multi-Language Social Media
@@ -45,13 +51,6 @@ What we try to provide :
 * <img src="./images/logo-icons/flattr.jpg" width="15px;"/> [Flattr](#flattr)
 * <img src="./images/logo-icons/diaspora.jpg" width="15px;"/> [Diaspora](#diaspora)
 
-### Phone/Audio-Based Social Media
-
-* <img src="./images/logo-icons/sms.jpg" width="15px;"/> [SMS](#sms)
-* <img src="./images/logo-icons/line.me.jpg" width="15px;"/> [Line.me](#lineme)
-* <img src="./images/logo-icons/skype.jpg" width="15px;"/> [Skype](#skype)
-* <img src="./images/logo-icons/telegram.me.jpg" width="15px;"/> [Telegram.me](#telegramme)
-
 ### Non-English Social Media
 
 * <img src="./images/logo-icons/qzone.jpg" width="15px;"/> [QZone](#qzone)
@@ -62,6 +61,13 @@ What we try to provide :
 * <img src="./images/logo-icons/xing.jpg" width="15px;"/> [XING](#xing)
 * <img src="./images/logo-icons/renren.jpg" width="15px;"/> [RenRen](#renren)
 * <img src="./images/logo-icons/threema.jpg" width="15px;"/> [Threema](#threema)
+
+### Phone/Audio-Based Social Media
+
+* <img src="./images/logo-icons/sms.jpg" width="15px;"/> [SMS](#sms)
+* <img src="./images/logo-icons/line.me.jpg" width="15px;"/> [Line.me](#lineme)
+* <img src="./images/logo-icons/skype.jpg" width="15px;"/> [Skype](#skype)
+* <img src="./images/logo-icons/telegram.me.jpg" width="15px;"/> [Telegram.me](#telegramme)
 
 ### Email-Based Social Media
 
@@ -104,10 +110,10 @@ Argument | Description | Used By
 {email_address} | Where a social share is directed.  You will most likely want to leave this blank, so the user can fill it in. | EMail, GMail, Yahoo
 {language_code} | A language code from the ISO 639-1 Code specification. | Google+, Flattr
 {image} | The url to the image/thumbnail to use when sharing. | SurfingBird, WordPress
+{phone_number} | An applicable phone number, if there is one. | SMS, Telegram.me
 {app_id} | The App ID. | Facebook
 {redirect_url} | The url a sharer will be redirected to after a successful share. | Facebook
 {page_type} | Type of page, either "page" or "popup." | Facebook
-{phone_number} | An applicable phone number, if there is one. | SMS
 {category} | A section to submit the share/comment to. | Flattr
 {provider} | Service providing the share link. | LinkedIn
 
@@ -177,8 +183,7 @@ https://www.facebook.com/sharer.php?u={url}
 <code>Parameters :</code> `app_id`, `page_type`, `href`, `redirect_url`.
 
 ```
-https://www.facebook.com/dialog/share?app_id={app_id}&display={page_
-type}&href={url}&redirect_uri={redirect_url}
+https://www.facebook.com/dialog/share?app_id={app_id}&display={page_type}&href={url}&redirect_uri={redirect_url}
 ```
 
 <code>Source :</code>
@@ -552,83 +557,6 @@ https://share.diasporafoundation.org/?title={title}&url={url}
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
-## Phone/Audio-Based Social Media
-
-### SMS
-
-<img src="./images/logo-icons/sms.jpg" width="25px"/> <code>Global Rank :</code>  `N/A`
-
-<code>Parameters :</code> `sms`, `body`.
-
-````
-sms:{phone_number}?body={text}
-````
-
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: How to programmatically send SMS on the iPhone?](https://stackoverflow.com/q/10848/2430549)
-    * [StackOverflow: Send SMS in android](https://stackoverflow.com/q/4967448/2430549)
-    * [StackOverflow: How to pre-populate the sms body text via an html link](https://stackoverflow.com/q/6480462/2430549)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
-
-### Line.me
-
-<img src="./images/logo-icons/line.me.jpg" width="25px"/> <code>Global Rank :</code>  `360` (apr. 3, 2018)
-
-<code>Parameters :</code> `url`, `text`.
-
-```
-https://lineit.line.me/share/ui?url={url}&text={text}
-```
-
-<code>Source :</code>
-* *Official Source :* [Line Social Plugins](https://social-plugins.line.me/)
-* *Unofficial Source :*
-    * [GitHub: MikeCheng1208/LineShare_Example](https://github.com/MikeCheng1208/LineShare_Example)
-    * [zhi-yuan-chenge.blogspot.com: 【JS】LINE分享方法(桌機跟手機)](http://zhi-yuan-chenge.blogspot.com/2016/09/jsline.html)
-    * [TheCodingStuff.com: PHP social sharing URLs](https://thecodingstuff.com/php-social-sharing-urls/)
-* *Test Notes :* Requires login to work and perfectly formatted URL with protocol parameters (http/https, etc.).  Creating an account requires software install.  Above-described URL parameters are not indicated in the official documentation.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
-### Skype
-
-<img src="./images/logo-icons/skype.jpg" width="25px"/> <code>Global Rank :</code>  `375` (apr. 3, 2018)
-
-<code>Parameters :</code> `url`, `text`.
-
-```
-https://web.skype.com/share?url={url}&text={text}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: How to share website links in wechat](https://stackoverflow.com/q/38826417/2430549)
-    * [StackOverflow: web scraping - getting values of particular nodes inside an element](https://stackoverflow.com/q/36301454/2430549)
-    * [GitHub: Automattic/jetpack > Add Skype share button to Jetpack #3170](https://github.com/Automattic/jetpack/issues/3170)
-* *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
-### Telegram.me
-
-<img src="./images/logo-icons/telegram.me.jpg" width="25px"/> <code>Global Rank :</code>  `456` (apr. 3, 2018)
-
-<code>Parameters :</code> `url`, `text`.
-
-```
-https://t.me/share/url?url={url}&text={title}
-https://telegram.me/share/url?url={url}&text={title}
-```
-
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: Share a link via URL scheme (via Telegram for example)](https://stackoverflow.com/q/31356360/2430549)
-    * [StackOverflow: Add some html and php codes bottom of wordpress post content](https://stackoverflow.com/q/42056234/2430549)
-    * [StackOverflow: There's a new Telegram “button” for websites - need help to use it on blogspot](https://stackoverflow.com/q/33927242/2430549)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
 ## Non-English Social Media
 
 ### QZone
@@ -802,6 +730,84 @@ threema://compose?text={url}&id={user_id}
     * [PushSafer.com: Threema](https://www.pushsafer.com/en/url_schemes)
 * *Test Notes :* If no user_id is provided, user is asked to select a contact, and then the message with text parameter is filled in.  If you need to test without paying for the app, there are free trials here: `https://work.threema.ch/en/offers`.  Special thanks to Threema for providing free credentials to Social Share dev's for testing Threema.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
+
+## Phone/Audio-Based Social Media
+
+### SMS
+
+<img src="./images/logo-icons/sms.jpg" width="25px"/> <code>Global Rank :</code>  `N/A`
+
+<code>Parameters :</code> `sms`, `body`.
+
+````
+sms:{phone_number}?body={text}
+````
+
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [StackOverflow: How to programmatically send SMS on the iPhone?](https://stackoverflow.com/q/10848/2430549)
+    * [StackOverflow: Send SMS in android](https://stackoverflow.com/q/4967448/2430549)
+    * [StackOverflow: How to pre-populate the sms body text via an html link](https://stackoverflow.com/q/6480462/2430549)
+* *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
+
+### Line.me
+
+<img src="./images/logo-icons/line.me.jpg" width="25px"/> <code>Global Rank :</code>  `360` (apr. 3, 2018)
+
+<code>Parameters :</code> `url`, `text`.
+
+```
+https://lineit.line.me/share/ui?url={url}&text={text}
+```
+
+<code>Source :</code>
+* *Official Source :* [Line Social Plugins](https://social-plugins.line.me/)
+* *Unofficial Source :*
+    * [GitHub: MikeCheng1208/LineShare_Example](https://github.com/MikeCheng1208/LineShare_Example)
+    * [zhi-yuan-chenge.blogspot.com: 【JS】LINE分享方法(桌機跟手機)](http://zhi-yuan-chenge.blogspot.com/2016/09/jsline.html)
+    * [TheCodingStuff.com: PHP social sharing URLs](https://thecodingstuff.com/php-social-sharing-urls/)
+* *Test Notes :* Requires login to work and perfectly formatted URL with protocol parameters (http/https, etc.).  Creating an account requires software install.  Above-described URL parameters are not indicated in the official documentation.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+
+### Skype
+
+<img src="./images/logo-icons/skype.jpg" width="25px"/> <code>Global Rank :</code>  `375` (apr. 3, 2018)
+
+<code>Parameters :</code> `url`, `text`.
+
+```
+https://web.skype.com/share?url={url}&text={text}
+```
+
+<code>Source :</code>
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [StackOverflow: How to share website links in wechat](https://stackoverflow.com/q/38826417/2430549)
+    * [StackOverflow: web scraping - getting values of particular nodes inside an element](https://stackoverflow.com/q/36301454/2430549)
+    * [GitHub: Automattic/jetpack > Add Skype share button to Jetpack #3170](https://github.com/Automattic/jetpack/issues/3170)
+* *Test Notes :* Requires login to work.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+
+### Telegram.me
+
+<img src="./images/logo-icons/telegram.me.jpg" width="25px"/> <code>Global Rank :</code>  `456` (apr. 3, 2018)
+
+<code>Parameters :</code> `url`, `text`, `to`.
+
+```
+https://t.me/share/url?url={url}&text={title}&to={phone_number}
+https://telegram.me/share/url?url={url}&text={title}&to={phone_number}
+tg://msg?url={url}&text={title}&to={phone_number}
+```
+
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [StackOverflow: Share a link via URL scheme (via Telegram for example)](https://stackoverflow.com/q/31356360/2430549)
+    * [StackOverflow: Add some html and php codes bottom of wordpress post content](https://stackoverflow.com/q/42056234/2430549)
+    * [StackOverflow: There's a new Telegram “button” for websites - need help to use it on blogspot](https://stackoverflow.com/q/33927242/2430549)
+* *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
 ## Email-Based Social Media
 
