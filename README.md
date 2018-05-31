@@ -14,7 +14,8 @@ What we try to provide :
 * **Source Code Libraries** : To provide basic utilities for generating these social media links in any environment that you need.
     * Currently supporting libraries in : `JavaScript`.
 * **Icons** : Public domain and permissively-licensed, at an amazing `450x450` resolution.
-    * Currently supported themes: `background & shadow`.
+    * Currently supported themes: `opaque background` (1x set), `white background` (1x set), `background & shadow` (1x set), `colorized background` (10x sets).
+    * Want to know about the icons?  Check it out : https://github.com/bradvin/social-share-urls/tree/master/images
 
 ![Share Links - Do You Have Them?](./images/sharelinks.jpg "ShareLinks Icons")
 
