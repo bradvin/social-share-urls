@@ -1,6 +1,6 @@
 # The Anarchist Code of Conduct
 
-Version 1.0, May 22, 2018
+Version 1.0, May 22, 2018, by HoldOffHunger
 
 ## Introduction
 
