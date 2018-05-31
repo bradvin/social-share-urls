@@ -75,7 +75,7 @@ But by having an agreement, at least discussion should be easier.
 * Any censuring organization, such as religious, social, cultural, economic, or political institutions, such as family, friends, churches, newspapers, publishers, radio stations, etc..
 * Any third party without their direct consent.
 
-### Authoritarianism, or the spread of behavior that is designed to overturn the standards described so far, such attempts to advance, support, or aid any of the following :
+### Authoritarianism, or the spread of behavior that is designed to overturn the standards described so far, such as attempts to advance, support, or aid any of the following :
 
 * Sexism,
 * Racism,
