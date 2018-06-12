@@ -111,7 +111,6 @@
 		public function GetSocialMediaSiteLinks_WithShareLinks($args)
 		{
 			$url = urlencode($args['url']);
-			$img = urlencode($args['img']);
 			$title = urlencode($args['title']);
 			$image = urlencode($args['image']);
 			$desc = urlencode($args['desc']);
