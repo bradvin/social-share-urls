@@ -17,7 +17,7 @@ What we try to provide :
     * Currently supported themes: `opaque background` (1x set), `white background` (1x set), `background & shadow` (1x set), `colorized background` (10x sets).
     * Want to know about the icons?  Check it out : https://github.com/bradvin/social-share-urls/tree/master/images
 
-![Share Links - Do You Have Them?](./images/sharelinks.jpg "ShareLinks Icons")
+![Share Links - Do You Have Them?](./images/social-share.jpg "ShareLinks Icons")
 
 ## Just Want the Gist?
 
