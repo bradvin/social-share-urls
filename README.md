@@ -12,7 +12,7 @@ What we try to provide :
     * We include primary sources (official documentation or official dev blogs).  We try to provide at least one of these per service.
     * We also include secondary sources (like forum conversations or StackOverflow questions).  We try to provide at least three of these per service.
 * **Source Code Libraries** : To provide basic utilities for generating these social media links in any environment that you need.
-    * Currently supporting libraries in : `PHP`, `JavaScript`.
+    * Currently supporting libraries in : `PHP`, `ReactJS`, `JavaScript`.
 * **Icons** : Public domain and permissively-licensed, at an amazing `450x450` resolution.
     * Currently supported themes: `opaque background` (1x set), `white background` (1x set), `background & shadow` (1x set), `colorized background` (10x sets).
     * Want to know about the icons?  Check it out : https://github.com/bradvin/social-share-urls/tree/master/images
