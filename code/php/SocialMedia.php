@@ -118,7 +118,6 @@
 			$via = urlencode($args['via']);
 			$hash_tags = urlencode($args['hashtags']);
 			$provider = urlencode($args['provider']);
-			$is_video = urlencode($args['isvideo']);
 			$language = urlencode($args['language']);
 			$user_id = urlencode($args['userid']);
 			$category = urlencode($args['category']);
@@ -147,7 +146,7 @@
 				'evernote'=>'http://www.evernote.com/clip.action?url=' . $url . '&title=' . $text,
 				'getpocket'=>'https://getpocket.com/edit?url=' . $url,
 				'facebook'=>'http://www.facebook.com/sharer.php?u=' . $url,
-				'flattr'=>'https://flattr.com/submit/auto?user_id=' . $user_id . '&url=' . $url . '&title=' . $title . '&description=' . $text . '&language=' . $language_code . '&tags=' . $hash_tags . '&hidden=HIDDEN&category=' . $category,
+				'flattr'=>'https://flattr.com/submit/auto?user_id=' . $user_id . '&url=' . $url . '&title=' . $title . '&description=' . $text . '&language=' . $language . '&tags=' . $hash_tags . '&hidden=HIDDEN&category=' . $category,
 				'flipboard'=>'https://share.flipboard.com/bookmarklet/popout?v=2&title=' . $text . '&url=' . $url, 
 				'gmail'=>'https://mail.google.com/mail/?view=cm&to=' . $email_address . '&su=' . $title . '&body=' . $url . '&bcc=' . $bcc_email_address . '&cc=' . $cc_email_address,
 				'google.bookmarks'=>'https://www.google.com/bookmarks/mark?op=edit&bkmk=' . $url . '&title=' . $title . '&annotation=' . $text . '&labels=' . $hash_tags . '',
