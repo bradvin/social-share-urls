@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table, td {
+	border:solid 1px black;
+}
+
+#input-table, #output-table {
+	width: 80%;
+	margin: auto;
+}
+
+.input-label, .output-label {
+	white-space: nowrap;
+}
+
+textarea, input {
+	width: 60%;
+}
