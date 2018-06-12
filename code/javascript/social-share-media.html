@@ -1,0 +1,285 @@
+<html>
+
+<head>
+
+	<title>Social Network Link Generator</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script type='text/javascript' src="javascript/social-share-media.js"></script>
+	<link rel="stylesheet" href="css/social-share-media.css"></link>
+	
+	<meta http-equiv="content-type" content="text/css/javascript/php; charset=UTF-8" />
+	
+</head>
+
+<body>
+	<h1>Social Link Generator</h1>
+	
+	<h2>Input</h2>
+	
+	<table id="input-table">
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">URL :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_url" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Title :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_title" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%" valign="top">
+				<span class="input-label">Description :</span>
+			</td>
+			
+			<td>
+				<textarea id="input_description" rows="4" cols="40"></textarea>
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Image :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_image" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">App ID :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_appid" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Redirect URL :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_redirect_url" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Via :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_via" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Hash Tags :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_hash_tags" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Provider :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_provider" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Language :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_language" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">User ID :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_user_id" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Category :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_category" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Phone Number :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_phone_number" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Email Address :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_email_address" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">CC Email Address :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_cc_email_address" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">BCC Email Address :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_bcc_email_address" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td colspan="2">
+				<span class="input-label">Generate URLs : <input type="button" id="generate-social-media-urls" value="Generate"></input></span>
+			</td>
+			
+		</tr>
+		
+	</table>
+	
+	<h2>Output</h2>
+	
+	<table id="output-table">
+		
+		<tr>
+		
+			<td>
+				Output will appear here.
+			</td>
+			
+		</tr>
+	
+	</table>
+	
+	<script type="text/javascript">
+		$(document).ready(function(e){
+			$('#generate-social-media-urls').click(function(e) {
+				const socialmedia = GetSocialMediaSites_WithShareLinks_OrderedByPopularity();
+				const socialmediaurls = GetSocialMediaSiteLinks_WithShareLinks({
+					'url':$('#input_url').val(),
+					'title':$('#input_title').val(),
+					'image':$('#input_image').val(),
+					'desc':$('#input_description').val(),
+					'appid':$('#input_appid').val(),
+					'redirecturl':$('#input_redirect_url').val(),
+					'via':$('#input_via').val(),
+					'hashtags':$('#input_hash_tags').val(),
+					'provider':$('#input_provider').val(),
+					'language':$('#input_language').val(),
+					'userid':$('#input_user_id').val(),
+					'category':$('#input_category').val(),
+					'phonenumber':$('#input_phone_number').val(),
+					'emailaddress':$('#input_email_address').val(),
+					'ccemailaddress':$('#input_cc_email_address').val(),
+					'bccemailaddress':$('#input_bcc_email_address').val(),
+				});
+				
+				var children = [];
+				
+				for(var i = 0; i < socialmedia.length; i++) {
+					const socialmedium = socialmedia[i];
+					
+					children.push(
+						'<tr><td class="output-label">' +
+						socialmedium +
+						'</td><td>' +
+						socialmediaurls[socialmedium] +
+						'</td></tr>'
+					);
+				}
+				
+				$('#output-table').empty();
+				$('#output-table').append(children.join());
+				
+				return true;	// success
+			});
+		});
+	</script>
+	
+</body>
+
+</html>
