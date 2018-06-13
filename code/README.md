@@ -4,7 +4,7 @@ The Social Share Code Libraries project provides source code libraries for writi
 
 All code is released under the permissive BSD-3-Clause License, so you should be able to use it in any of your projects, even if they are not permissively licensed like the BSD-3-Clause License.
 
-![Share Links - Do You Have Them?](./images/sharelinks.jpg "ShareLinks Icons")
+![Share Links - Do You Have Them?](../images/sharelinks.jpg "ShareLinks Icons")
 
 ## What does this Project provide?
 
