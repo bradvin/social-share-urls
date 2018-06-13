@@ -93,6 +93,8 @@ https://github.com/bradvin/social-share-urls
 `Code Sandbox` :
 
 * [JSBin.com : Social Share Media Javascript Demo](https://jsbin.com/jubacez/edit?html,output)
+* IdeOne.com : Does Not Compile, Unknown Error.
+* CodeSandbox.io : Does Not Compile, Unknown Error.
 
 `Sample Use` :
 
