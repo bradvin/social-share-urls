@@ -125,7 +125,7 @@ sub GetSocialMediaSiteLinks_WithShareLinks {
 		$text .= $desc;
 	}
 	
-	return [
+	return {
 		'add.this'=>'http://www.addthis.com/bookmark.php?url=' . $url,
 		'blogger'=>'https://www.blogger.com/blog-this.g?u=' . $url . '&n=' . $title . '&t=' . $desc,
 		'buffer'=>'https://buffer.com/add?text=' . $text . '&url=' . $url,
@@ -163,5 +163,5 @@ sub GetSocialMediaSiteLinks_WithShareLinks {
 		'weibo'=>'http://service.weibo.com/share/share.php?url=' . $url . '&appkey=&title=' . $title . '&pic=&ralateUid=',
 		'xing'=>'https://www.xing.com/app/user?op=share&url=' . $url,
 		'yahoo'=>'http://compose.mail.yahoo.com/?to=' . $email_address . '&subject=' . $title . '&body=' . $text,
-	];
+	};
 }
