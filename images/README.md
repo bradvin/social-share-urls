@@ -4,7 +4,7 @@ The Social Share Icons project is trying to provide freely-distributed and permi
 
 All of these logos are owned by their respective, corporate holders, but everything we may have added that is copyrightable, such as cropping, stylizing, margin-setting, background-colors, shadows, or other graphical effects, are released into the `'''public domain'''`.
 
-![Share Links - Do You Have Them?](./images/sharelinks.jpg "ShareLinks Icons")
+![Share Links - Do You Have Them?](../images/sharelinks.jpg "ShareLinks Icons")
 
 ## What does this Project provide?
 
