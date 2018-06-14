@@ -45,7 +45,7 @@ https://github.com/bradvin/social-share-urls
 	
 	$social_media_names = $socmed->GetSocialMediaSites_WithShareLinks_OrderedByPopularity();
 	$social_media_urls = $socmed->GetSocialMediaSiteLinks_WithShareLinks([
-		url=>'http://w...content-available-to-author-only...t.com/',
+		url=>'http://www.earthfluent.com/',
 		title=>'EarthFluent',
 	]);
 	
@@ -141,7 +141,7 @@ https://github.com/bradvin/social-share-urls
 
 	my @social_media_names = @{GetSocialMediaSites_WithShareLinks_OrderedByPopularity() || []};
 	my $social_media_urls = GetSocialMediaSiteLinks_WithShareLinks({
-			url=>'https://w...content-available-to-author-only...t.com/',
+			url=>'https://www.earthfluent.com/',
 			title=>'EarthFluent',
 	});
 	 
