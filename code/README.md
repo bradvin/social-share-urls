@@ -132,7 +132,6 @@ https://github.com/bradvin/social-share-urls
 `Online Demo` :
 
 * [EarthFluent.com : Social Share Media JavaScript Demo](http://www.earthfluent.com/social-share-media.html)
-
 * [EarthFluent.com : Learn Japanese Online](https://www.earthfluent.com/japanese/view.php?action=index#share)
 * [Peter Kropotkin : The Great French Revolution](https://www.revoltlib.com/anarchism/the-great-french-revolution/view.php#share)
 * [Remove Duplicate Lines : Removing Duplicate Entries from Lists](http://www.removeduplicatelines.com/)
