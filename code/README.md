@@ -10,6 +10,7 @@ All code is released under the permissive BSD-3-Clause License, so you should be
 
 * Social Media Source Code Libraries
     * `PHP`
+    * `Java`
     * `ReactJS`
     * `JavaScript`
     * `Perl`
@@ -23,6 +24,7 @@ https://github.com/bradvin/social-share-urls
 ## Libraries?
 
 * [PHP](#php)
+* [Java](#java)
 * [ReactJS](#reactjs)
 * [JavaScript](#javascript)
 * [Perl](#perl)
@@ -58,6 +60,37 @@ https://github.com/bradvin/social-share-urls
 `Library Files` :
 
 * [/code/php/SocialMedia.php](https://github.com/bradvin/social-share-urls/blob/master/code/php/SocialMedia.php)
+
+### Java
+
+`Online Demo` :
+
+* `N/A`
+
+`Code Sandbox` :
+
+* [IdeOne.com](https://ideone.com/MuwKas)
+
+`Sample Use` :
+
+	class main {
+		public static void main (String[] args) {
+			SocialMedia sm = new SocialMedia();
+			Map<String, String> socialmediaargs = new HashMap<String, String>(){{
+				put("url", "http://w...content-available-to-author-only...t.com/");
+				put("title", "EarthFluent");
+			}};
+			Map<String, String> socialmediasites = sm.GetSocialMediaSiteLinks_WithShareLinks(socialmediaargs);
+	 
+			for (String socialmedia : sm.GetSocialMediaSites_WithShareLinks_OrderedByPopularity()) {
+				System.out.println(socialmedia + " : " + socialmediasites.get(socialmedia));
+			}
+		}
+	}
+
+`Library Files` :
+
+* [/code/java/SocialMedia.java](https://github.com/bradvin/social-share-urls/blob/master/code/java/SocialMedia.java)
 
 ### ReactJS
 
