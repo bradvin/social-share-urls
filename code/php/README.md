@@ -12,7 +12,7 @@ This is a sub-project of Social Share URL's, a project for documenting the shari
 
 https://github.com/bradvin/social-share-urls
 
-https://github.com/bradvin/social-share-urls/tree/master/code/php
+https://github.com/bradvin/social-share-urls/tree/master/code/
 
 ### PHP
 
