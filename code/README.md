@@ -33,8 +33,8 @@ https://github.com/bradvin/social-share-urls
 
 `Online Demo` :
 
-* [EarthFluent.com : Learn French Online](https://www.earthfluent.com/french/view.php?action=index#comments)
 * [Mikhail Bakunin : God and the State](http://www.revoltlib.com/anarchism/god-and-the-state/view.php#share)
+* [EarthFluent.com : Learn French Online](https://www.earthfluent.com/french/view.php?action=index#share)
 * [List Keywords : Finding and Listing Your Keywords For You](http://www.listkeywords.com/)
 
 `Code Sandbox` :
@@ -67,7 +67,9 @@ https://github.com/bradvin/social-share-urls
 
 `Online Demo` :
 
-* [EarthFluent.com : Learn Spanish Online](https://www.earthfluent.com/spanish/view.php?action=index#comments)
+* [EarthFluent.com : Learn Spanish Online](https://www.earthfluent.com/spanish/view.php?action=index#share)
+* [Alexander Berkman : Prison Memoirs of an Anarchist](https://www.revoltlib.com/anarchism/prison-memoirs-of-an-anarchist/view.php#share)
+* [Sort Words : Sort Words : Sorting Your Lists of Words For You](http://www.sortwords.com/)
 
 `Code Sandbox` :
 
@@ -100,7 +102,9 @@ https://github.com/bradvin/social-share-urls
 
 `Online Demo` :
 
-* [EarthFluent.com : Learn Chinese Online](https://www.earthfluent.com/chinese/view.php?action=index#comments)
+* [EarthFluent.com : Learn Chinese Online](https://www.earthfluent.com/chinese/view.php?action=index#share)
+* [Lucy Parsons : The Principles of Anarchism](https://www.revoltlib.com/anarchism/the-principles-of-anarchism/view.php#share)
+* [Remove Blank Lines : Removing Blank Lines from Lists](http://www.removeblanklines.com/)
 
 `Code Sandbox` :
 
@@ -128,7 +132,10 @@ https://github.com/bradvin/social-share-urls
 `Online Demo` :
 
 * [EarthFluent.com : Social Share Media JavaScript Demo](http://www.earthfluent.com/social-share-media.html)
-* [EarthFluent.com : Learn Japanese Online](https://www.earthfluent.com/japanese/view.php?action=index#comments)
+
+* [EarthFluent.com : Learn Japanese Online](https://www.earthfluent.com/japanese/view.php?action=index#share)
+* [Peter Kropotkin : The Great French Revolution](https://www.revoltlib.com/anarchism/the-great-french-revolution/view.php#share)
+* [Remove Duplicate Lines : Removing Duplicate Entries from Lists](http://www.removeduplicatelines.com/)
 
 `Code Sandbox` :
 
@@ -173,7 +180,9 @@ https://github.com/bradvin/social-share-urls
 
 `Online Demo` :
 
-* [EarthFluent.com : Learn Russian Online](https://www.earthfluent.com/russian/view.php?action=index#comments)
+* [Murray Bookchin : Society and Ecology](https://www.revoltlib.com/anarchism/society-and-ecology/view.php#share)
+* [EarthFluent.com : Learn Russian Online](https://www.earthfluent.com/russian/view.php?action=index#share)
+* [Remove Spacing : Removing Spaces and Spacing from Your Text](http://www.removespacing.com/)
 
 `Code Sandbox` :
 
