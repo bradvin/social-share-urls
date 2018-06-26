@@ -81,7 +81,7 @@ https://github.com/bradvin/social-share-urls
 		public static void main (String[] args) {
 			SocialMedia sm = new SocialMedia();
 			Map<String, String> socialmediaargs = new HashMap<String, String>(){{
-				put("url", "http://w...content-available-to-author-only...t.com/");
+				put("url", "http://www.earthfluent.com/");
 				put("title", "EarthFluent");
 			}};
 			Map<String, String> socialmediasites = sm.GetSocialMediaSiteLinks_WithShareLinks(socialmediaargs);
