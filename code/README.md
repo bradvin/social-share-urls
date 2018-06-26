@@ -65,7 +65,7 @@ https://github.com/bradvin/social-share-urls
 
 `Online Demo` :
 
-* `N/A`
+* [EarthFluent.com : Learn Spanish Online](https://www.earthfluent.com/spanish/view.php?action=index#comments)
 
 `Code Sandbox` :
 
@@ -96,7 +96,7 @@ https://github.com/bradvin/social-share-urls
 
 `Online Demo` :
 
-* `N/A`
+* [EarthFluent.com : Learn Chinese Online](https://www.earthfluent.com/chinese/view.php?action=index#comments)
 
 `Code Sandbox` :
 
@@ -122,6 +122,7 @@ https://github.com/bradvin/social-share-urls
 `Online Demo` :
 
 * [EarthFluent.com : Social Share Media JavaScript Demo](http://www.earthfluent.com/social-share-media.html)
+* [EarthFluent.com : Learn Japanese Online](https://www.earthfluent.com/japanese/view.php?action=index#comments)
 
 `Code Sandbox` :
 
@@ -164,7 +165,7 @@ https://github.com/bradvin/social-share-urls
 
 `Online Demo` :
 
-* `N/A`
+* [EarthFluent.com : Learn Russian Online](https://www.earthfluent.com/russian/view.php?action=index#comments)
 
 `Code Sandbox` :
 
