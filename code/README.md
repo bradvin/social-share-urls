@@ -223,8 +223,6 @@ https://github.com/bradvin/social-share-urls
 	})
 	
 	sm.GetSocialMediaSites_WithShareLinks_OrderedByPopularity().each{
-	#sm.GetSocialMediaSites_WithShareLinks_OrderedByAlphabet().each{
-	#sm.GetSocialMediaSites_NiceNames().keys.each{
 	  |socialmedia|
 	    puts socialmedia + ' : ' + socialmediaurls[socialmedia]
 	}
