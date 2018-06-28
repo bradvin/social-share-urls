@@ -19,6 +19,7 @@ https://github.com/bradvin/social-share-urls
 * [Java](#java)
 * [ReactJS](#reactjs)
 * [JavaScript](#javascript)
+* [Ruby](#ruby)
 * [Perl](#perl)
 
 ### PHP
@@ -197,6 +198,40 @@ https://github.com/bradvin/social-share-urls
 * [/code/javascript/social-share-media.html](https://github.com/bradvin/social-share-urls/blob/master/code/javascript/social-share-media.html)
 * [/code/javascript/css/social-share-media.css](https://github.com/bradvin/social-share-urls/blob/master/code/javascript/css/social-share-media.css)
 * [/code/javascript/javascript/social-share-media.js](https://github.com/bradvin/social-share-urls/blob/master/code/javascript/javascript/social-share-media.js)
+
+---
+
+### Ruby
+
+`Online Demo` :
+
+* [Peter Kropotkin : Modern Science and Anarchism](http://www.revoltlib.com/anarchism/modern-science-and-anarchism/view.php#share)
+* [EarthFluent.com : Learn Korean Online](https://www.earthfluent.com/korean/view.php?action=index#share)
+* [Sort Words : Sorting Your Lists of Words For You](http://www.sortwords.com/)
+
+`Code Sandbox` :
+
+* [ideone.com](https://ideone.com/ySblDV)
+
+`Sample Use` :
+
+	sm = SocialMedia.new
+	
+	socialmediaurls = sm.GetSocialMediaSiteLinks_WithShareLinks({
+	  'title'=>'EarthFluent',
+	  'url'=>'http://www.earthfluent.com/',
+	})
+	
+	sm.GetSocialMediaSites_WithShareLinks_OrderedByPopularity().each{
+	#sm.GetSocialMediaSites_WithShareLinks_OrderedByAlphabet().each{
+	#sm.GetSocialMediaSites_NiceNames().keys.each{
+	  |socialmedia|
+	    puts socialmedia + ' : ' + socialmediaurls[socialmedia]
+	}
+
+`Library Files` :
+
+* [/code/ruby/SocialMedia.rb](https://github.com/bradvin/social-share-urls/blob/master/code/ruby/SocialMedia.rb)
 
 ---
 
