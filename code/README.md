@@ -19,6 +19,7 @@ https://github.com/bradvin/social-share-urls
 * [Java](#java)
 * [ReactJS](#reactjs)
 * [JavaScript](#javascript)
+* [C](#c)
 * [Ruby](#ruby)
 * [Perl](#perl)
 
@@ -198,6 +199,39 @@ https://github.com/bradvin/social-share-urls
 * [/code/javascript/social-share-media.html](https://github.com/bradvin/social-share-urls/blob/master/code/javascript/social-share-media.html)
 * [/code/javascript/css/social-share-media.css](https://github.com/bradvin/social-share-urls/blob/master/code/javascript/css/social-share-media.css)
 * [/code/javascript/javascript/social-share-media.js](https://github.com/bradvin/social-share-urls/blob/master/code/javascript/javascript/social-share-media.js)
+
+---
+
+### C
+
+`Online Demo` :
+
+* [Emma Goldman : Anarchism, What it Really Stands For](https://www.revoltlib.com/anarchism/anarchism-what-it-really-stands-for/view.php#share)
+* [EarthFluent.com : Learn Chinese Online](https://www.earthfluent.com/chinese/view.php?action=index#share)
+* [List Keywords : Finding and Listing Your Keywords For You](http://www.listkeywords.com/)
+
+`Code Sandbox` :
+
+* [ideone.com](https://ideone.com/dNZTJJ)
+
+`Sample Use` :
+
+	int main(void) {
+		SocialMedia sm = buildUrls();
+	 
+		for(int i = 0; i < SOCIALMEDIASERVICES; i++) {
+			printf("%s", sm.urlsOrderedByPopularity[i]);
+			printf(" : ");
+			printf("%s", sm.urls[i]);
+			printf("\n");
+		}
+	 
+		return 0;
+	}
+
+`Library Files` :
+
+* [/code/c/SocialMedia.c](https://github.com/bradvin/social-share-urls/blob/master/code/c/SocialMedia.c)
 
 ---
 
