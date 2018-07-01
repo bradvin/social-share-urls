@@ -225,7 +225,7 @@ struct SocialMedia_Interface buildUrls(void) {
 	sprintf(sms, "%s%s%s%s", "sms:", sma.phone_number, "?body=", text);
 	
 	char stumbleupon[URLSIZE];
-	sprintf(stumbleupon, "%s%s%s%s", sma.url, "&title=", text);
+	sprintf(stumbleupon, "%s%s%s%s", "http://www.stumbleupon.com/submit?url=", sma.url, "&title=", text);
 	
 	char surfingbird[URLSIZE];
 	sprintf(surfingbird, "%s%s%s%s%s%s%s%s", "http://surfingbird.ru/share?url=", sma.url, "&description=", sma.desc, "&screenshot=", sma.image, "&title=", sma.title);
