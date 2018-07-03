@@ -12,7 +12,7 @@ What we try to provide :
     * We include primary sources (official documentation or official dev blogs).  We try to provide at least one of these per service.
     * We also include secondary sources (like forum conversations or StackOverflow questions).  We try to provide at least three of these per service.
 * **Source Code Libraries** : To provide basic utilities for generating these social media links in any environment that you need.
-    * Currently supporting libraries in : `PHP`, `Python`, `Java`, `ReactJS`, `JavaScript`, `C++`, `C`, `MySQL`, `Ruby`, `Perl`.
+    * Currently supporting libraries in : `PHP`, `Python`, `Java`, `ReactJS`, `JavaScript`, `C++`, `C`, `MySQL`, `Ruby`, `Perl`, `Objective-C`.
     * Documentation: Each library has its own demo's, online sandboxes, and sample-use code.
     * Want to know about the code?  Check it out : https://github.com/bradvin/social-share-urls/tree/master/code
 * **Icons** : Public domain and permissively-licensed, at an amazing `450x450` resolution.
