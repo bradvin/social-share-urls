@@ -422,12 +422,12 @@
 	xing = [xing stringByAppendingString:url];
 
 	NSString* yahoo = @"";
-	xing = [xing stringByAppendingString:@"http://compose.mail.yahoo.com/?to="];
-	xing = [xing stringByAppendingString:email_address];
-	xing = [xing stringByAppendingString:@"&subject="];
-	xing = [xing stringByAppendingString:title];
-	xing = [xing stringByAppendingString:@"&body="];
-	xing = [xing stringByAppendingString:fulltext];
+	yahoo = [yahoo stringByAppendingString:@"http://compose.mail.yahoo.com/?to="];
+	yahoo = [yahoo stringByAppendingString:email_address];
+	yahoo = [yahoo stringByAppendingString:@"&subject="];
+	yahoo = [yahoo stringByAppendingString:title];
+	yahoo = [yahoo stringByAppendingString:@"&body="];
+	yahoo = [yahoo stringByAppendingString:fulltext];
 
 		// NOTE : This ordering must identically match urlsOrderedByPopularity.
 
