@@ -21,6 +21,7 @@ https://github.com/bradvin/social-share-urls
 * [JavaScript](#javascript)
 * [C++](#c++)
 * [C](#c)
+* [CSharp](#csharp)
 * [Ruby](#ruby)
 * [Perl](#perl)
 * [Swift](#swift)
@@ -268,6 +269,42 @@ https://github.com/bradvin/social-share-urls
 `Library Files` :
 
 * [/code/c/SocialMedia.c](https://github.com/bradvin/social-share-urls/blob/master/code/c/SocialMedia.c)
+
+---
+
+### CSharp
+
+`Online Demo` :
+
+* [Peter Kropotkin : Fields, Factories, and Workshops](https://www.revoltlib.com/anarchism/fields,-factories,-and-workshops/view.php#share)
+* [EarthFluent.com : Learn Hindi Online](https://www.earthfluent.com/hindi/view.php?action=index#share)
+* [List Keywords : Finding and Listing Your Keywords For You](http://www.listkeywords.com/)
+
+`Code Sandbox` :
+
+* [IdeOne.com](https://ideone.com/G0rysr)
+
+`Sample Use` :
+
+	public class Application
+	{
+		public static void Main()
+		{
+			SocialMedia sm = new SocialMedia(
+				"EarthFluent",
+				"http%3A%2F%2Fwww.earthfluent.com%2F"
+			);
+	
+			for (int i = 0; i < Globals.SOCIALMEDIASERVICES; i++)
+			{
+				Console.WriteLine(sm.servicesSortedByPopularity[i] + " : " + sm.urls[i]);
+			}
+		}
+	}
+
+`Library Files` :
+
+* [/code/csharp/SocialMedia.cs](https://github.com/bradvin/social-share-urls/blob/master/code/csharp/SocialMedia.cs)
 
 ---
 
