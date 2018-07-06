@@ -23,7 +23,7 @@ https://github.com/bradvin/social-share-urls
 * [C](#c)
 * [CSharp](#csharp)
 * [Ruby](#ruby)
-* [VB.NET](#vb.net)
+* [VB.NET](#vbnet)
 * [Perl](#perl)
 * [Swift](#swift)
 * [ObjectiveC](#objectivec)
