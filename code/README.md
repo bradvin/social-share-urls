@@ -131,7 +131,7 @@ https://github.com/bradvin/social-share-urls
 
 ---
 
-### Go
+### Golang
 
 `Online Demo` :
 
