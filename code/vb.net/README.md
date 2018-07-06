@@ -28,18 +28,32 @@ https://github.com/bradvin/social-share-urls/tree/master/code/
 
 `Sample Use` :
 
-	int main() {
-		SocialMedia sm;
-	
-		for(int i = 0; i < SOCIALMEDIASERVICES; i++) {
-			printf("%s", sm.urlsOrderedByPopularity[i]);
-			printf(" : ");
-			printf("%s", sm.urls[i]);
-			printf("\n");
-		}
-	
-		return 0;
-	}
+	Public Class App
+		Public Shared Sub Main()
+			Dim sm As New SocialMedium(
+				"EarthFluent",
+				"http%3A%2F%2Fwww.earthfluent.com%2F",
+				"Want%20to%20learn%20another%20language%3F%20%20Learn%20Spanish%2C%20French%2C%20Italian%2C%20German%2C%20Japanese%2C%20Chinese%2C%20Hindi%2C%20Indonesian%2C%20Dutch%2C%20Polish%2C%20Portuguese%2C%20or%20Russian%21",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				""
+			)
+			For index As Integer = 0 To 36
+				Console.WriteLine(sm.urlsOrderedByPopularity(index) + " : " + sm.urls(index))
+			Next
+			Console.WriteLine(sm.urlsOrderedByPopularity(0))
+		End Sub
+	End Class
 
 `Library Files` :
 
