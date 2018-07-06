@@ -5,7 +5,7 @@ This project is intended to help you integrate sharing on social media within yo
 What we try to provide :
 
 * **Source Code Libraries** : To provide basic utilities for generating these social media links in any environment that you need.
-    * Currently supporting libraries in : [PHP](./code/php/), [Python](./code/python/), [Java](./code/java/), [ReactJS](./code/reactjs/), [JavaScript](./code/javascript/), [C++](./code/cpp/), [C](./code/c/), [MySQL](./code/mysql/), [C#](./code/csharp/), [Ruby](./code/ruby/), [Perl](./code/perl/), [Swift](./code/swift/), [Objective-C](./code/swift/).
+    * Currently supporting libraries in : [PHP](./code/php/), [Python](./code/python/), [Java](./code/java/), [ReactJS](./code/reactjs/), [JavaScript](./code/javascript/), [C++](./code/cpp/), [C](./code/c/), [MySQL](./code/mysql/), [C#](./code/csharp/), [Ruby](./code/ruby/), [VB.Net](./code/vb.net/), [Perl](./code/perl/), [Swift](./code/swift/), [Objective-C](./code/swift/).
     * Documentation: Each library has its own demo's, online sandboxes, and sample-use code.
     * Want to know about the code?  Check it out : https://github.com/bradvin/social-share-urls/tree/master/code
 * **Icons** : Public domain and permissively-licensed, at an amazing `450x450` resolution.
