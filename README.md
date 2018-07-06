@@ -2,6 +2,8 @@
 
 This project is intended to help you integrate sharing on social media within your code.  We have been actively doing this since 2013.
 
+![Share Links - Do You Have Them?](./images/social-share.jpg "ShareLinks Icons")
+
 What we try to provide :
 
 * **Source Code Libraries** : To provide basic utilities for generating these social media links in any environment that you need.
@@ -18,9 +20,6 @@ What we try to provide :
 * **Reference Sources** : For each service, URL format, and set of parameters, so that you can feel confident about these links and find out more if you need to do something more interesting.
     * We include primary sources (official documentation or official dev blogs).  We try to provide at least one of these per service.
     * We also include secondary sources (like forum conversations or StackOverflow questions).  We try to provide at least three of these per service.
-
-
-![Share Links - Do You Have Them?](./images/social-share.jpg "ShareLinks Icons")
 
 ## Just Want the Gist?
 
