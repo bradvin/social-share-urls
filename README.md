@@ -2,7 +2,7 @@
 
 This project is intended to help you integrate sharing on social media within your code.  We have been actively doing this since 2013.
 
-<img src="./images/social-share-dev.jpg" width="500px;"/>
+<p align="center"><img src="./images/social-share-dev.jpg" width="400px;"/></p>
 
 ![Share Links - Do You Have Them?](./images/social-share.jpg "ShareLinks Icons")
 
