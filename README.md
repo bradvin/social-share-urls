@@ -29,6 +29,14 @@ Want to download just the URL's from this project?
 
 Then check out our GitHub Gist : https://gist.github.com/HoldOffHunger/1998b92acb80bc83547baeaff68aaaf4
 
+## Demos
+
+Some sites using this project :
+
+* [Mikhail Bakunin : God and the State](http://www.revoltlib.com/anarchism/god-and-the-state/view.php#share)
+* [EarthFluent.com : Learn French Online](https://www.earthfluent.com/french/view.php?action=index#share)
+* [List Keywords : Finding and Listing Your Keywords For You](http://www.listkeywords.com/)
+
 ## Supported Social Networks
 
 ### Multi-Language Social Media
