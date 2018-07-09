@@ -2,7 +2,7 @@
 
 This project is intended to help you integrate sharing on social media within your code.  We have been actively doing this since 2013.
 
-<p align="center"><img src="./images/social-share-dev.jpg" width="400px;"/></p>
+![Share Links - Do You Have Them?](./images/social-share.jpg "ShareLinks Icons")
 
 What we try to provide :
 
@@ -21,7 +21,7 @@ What we try to provide :
     * We include primary sources (official documentation or official dev blogs).  We try to provide at least one of these per service.
     * We also include secondary sources (like forum conversations or StackOverflow questions).  We try to provide at least three of these per service.
 
-![Share Links - Do You Have Them?](./images/social-share.jpg "ShareLinks Icons")
+<p align="center"><img src="./images/social-share-dev.jpg" width="400px;"/></p>
 
 ## Just Want the Gist?
 
