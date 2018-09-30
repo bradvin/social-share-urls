@@ -63,6 +63,7 @@ Some sites using this project :
 * <img src="./images/logo-icons/surfingbird.ru.jpg" width="15px;"/> [SurfingBird](#surfingbird)
 * <img src="./images/logo-icons/flattr.jpg" width="15px;"/> [Flattr](#flattr)
 * <img src="./images/logo-icons/diaspora.jpg" width="15px;"/> [Diaspora](#diaspora)
+* <img src="./images/logo-icons/whatsapp.jpg" width="15px;"/> [Whatsapp](#whatsapp)
 
 ### Non-English Social Media
 
@@ -107,7 +108,6 @@ Some sites using this project :
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [SinnaWeibo](#sinaweibo)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [SlashDot](#slashdot)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Viber](#viber)
-* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [WhatsApp](#whatsapp)
 
 ## URL Arguments
 
@@ -117,7 +117,7 @@ Argument | Description | Used By
 --- | --- | ---
 {url} | The URL-encoded link you want to share.  Service may reject link if not encoded. | Google+, GoogleBookmarks, Facebook, Reddit, Twitter, LinkedIn, Tumblr, Pinterest, Blogger, LiveJournal, EverNote, AddThis, GetPocket, HackerNews, StumbleUpon, Digg, Buffer, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, Line.me, Skype, Telegram.me, QZone, VK, Weibo, OKru, Douban, XING, RenRen, GMail, Yahoo, WordPress
 {title} | The page title of the url you want to share. | GoogleBookmarks, Reddit, LinkedIn, Tumblr, Blogger, LiveJournal, EverNote, HackerNews, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, VK, Weibo, Douban, RenRen, EMail, GMail, Yahoo, WordPress
-{text} | A longer description of the content you are sharing. | Google+, GoogleBookmarks, Twitter, LinkedIn, Tumblr, Blogger, Buffer, InstaPaper, SurfingBird, Flattr, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress
+{text} | A longer description of the content you are sharing. | Google+, GoogleBookmarks, Twitter, LinkedIn, Tumblr, Blogger, Buffer, InstaPaper, SurfingBird, Flattr, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress, Whatsapp
 {hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#"). | GoogleBookmarks, Twitter, Tumblr, Flattr
 {user_id} | The username/id of a particular user on a social media service. | Twitter, Flattr, Threema
 {email_address} | Where a social share is directed.  You will most likely want to leave this blank, so the user can fill it in. | EMail, GMail, Yahoo
@@ -570,6 +570,19 @@ https://share.diasporafoundation.org/?title={title}&url={url}
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
+### WhatsApp
+
+<img src="./images/logo-icons/whatsapp.jpg" width="25px"/>
+
+<code>Parameter :</code> `text`.
+
+```
+https://wa.me/?text=urlencodedtext
+```
+
+<code>Source :</code>
+* *Official Source :* [WhatsApp: Using Click to Chat!](https://faq.whatsapp.com/en/android/26000030/?category=5245251)
+
 ## Non-English Social Media
 
 ### QZone
@@ -996,10 +1009,3 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
     *  ~~viber://forward?text={url}~~
 
-### WhatsApp
-
-* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2018.  Confirmed after the test requirements: installing WhatsApp on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Whatsapp Official Specifications is a Failure](https://faq.whatsapp.com/en/android/26000030/?category=5245251).
-
-    * Official WhatsApp Response: "Sorry, but your description was not clear enough for our agents to understand the issue. Please explain the issue more thoroughly." [Request #172349248330585]
-    
-    *  ~~whatsapp://send?text={url}~~
