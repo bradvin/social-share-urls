@@ -681,24 +681,19 @@ http://www.douban.com/recommend/?url={url}&title={title}
 
 ### XING
 
-<img src="./images/logo-icons/xing.jpg" width="25px"/> <code>Global Rank :</code>  `1,377` (apr. 3, 2018)
+<img src="./images/logo-icons/xing.jpg" width="25px"/> <code>Global Rank :</code>  `2,076` (jan. 11, 2019)
 
 <code>Language :</code> German.
 
 <code>Parameters :</code> `url`.
 
 ```
-https://www.xing.com/app/user?op=share&url={url}
+https://www.xing.com/spi/shares/new?url={url}
 ```
 
 <code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [XING: Groups > WordPress > Suche Social Media Plugin (German)](https://www.xing.com/communities/posts/suche-social-media-plugin-1010272530)
-    * [Drupal: Adding support for XING](https://www.drupal.org/node/1049038)
-    * [Kriesi.at: Xing in Social Share](https://kriesi.at/support/topic/xing-in-social-share/)
-* *Test Notes :* Requires login to work and precisely formatted URL (with protocal http/https parameters).
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Official Source :* https://dev.xing.com/plugins/share_button/docs#custom-design
+* *Test Notes :* Requires login to work.
 
 ### RenRen
 
