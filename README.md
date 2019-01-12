@@ -98,7 +98,7 @@ Some sites using this project :
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [EchoJS](#echojs)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Delicious](#delicious)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [FriendFeed](#friendfeed)
-* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Google+] (#google)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Google+](#google)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Mail.Ru](#mailru)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [MySpace](#myspace)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [NewsVine](#newsvine)
