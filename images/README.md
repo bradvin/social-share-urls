@@ -41,7 +41,6 @@ https://github.com/bradvin/social-share-urls
 * <img src="../images/logo-icons/getpocket.jpg" width="15px;"/> [GetPocket](#getpocket)
 * <img src="../images/logo-icons/gmail.jpg" width="15px;"/> [Gmail](#gmail)
 * <img src="../images/logo-icons/google.bookmarks.jpg" width="15px;"/> [GoogleBookmarks](#googlebookmarks)
-* <img src="../images/logo-icons/google.plus.jpg" width="15px;"/> [Google+](#google)
 * <img src="../images/logo-icons/hacker.news.jpg" width="15px;"/> [HackerNews](#hackernews)
 * <img src="../images/logo-icons/instapaper.jpg" width="15px;"/> [InstaPaper](#instapaper)
 * <img src="../images/logo-icons/line.me.jpg" width="15px;"/> [Line.me](#lineme)
@@ -157,12 +156,6 @@ https://github.com/bradvin/social-share-urls
 <code>Site :</code> [https://www.google.com/bookmarks](https://www.google.com/bookmarks)
 
 <img src="../images/logo-icons-opaque-background/google.bookmarks.png" width="50px"/> <img src="../images/logo-icons-white-background/google.bookmarks.jpg" width="50px"/> <img src="../images/logo-icons/google.bookmarks.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-01/google.bookmarks.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-02/google.bookmarks.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-03/google.bookmarks.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-04/google.bookmarks.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-05/google.bookmarks.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-06/google.bookmarks.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-07/google.bookmarks.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-08/google.bookmarks.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-09/google.bookmarks.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-10/google.bookmarks.jpg" width="50px"/>
-
-### Google+
-
-<code>Site :</code> [https://plus.google.com/](https://plus.google.com/)
-
-<img src="../images/logo-icons-opaque-background/google.plus.png" width="50px"/> <img src="../images/logo-icons-white-background/google.plus.jpg" width="50px"/> <img src="../images/logo-icons/google.plus.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-01/google.plus.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-02/google.plus.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-03/google.plus.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-04/google.plus.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-05/google.plus.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-06/google.plus.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-07/google.plus.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-08/google.plus.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-09/google.plus.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-10/google.plus.jpg" width="50px"/>
 
 ### HackerNews
 

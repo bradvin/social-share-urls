@@ -41,7 +41,6 @@ Some sites using this project :
 
 ### Multi-Language Social Media
 
-* <img src="./images/logo-icons/google.plus.jpg" width="15px;"/> [Google+](#google)
 * <img src="./images/logo-icons/google.bookmarks.jpg" width="15px;"/> [GoogleBookmarks](#googlebookmarks)
 * <img src="./images/logo-icons/facebook.jpg" width="15px;"/> [Facebook](#facebook)
 * <img src="./images/logo-icons/reddit.jpg" width="15px;"/> [Reddit](#reddit)
@@ -99,6 +98,7 @@ Some sites using this project :
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [EchoJS](#echojs)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Delicious](#delicious)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [FriendFeed](#friendfeed)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Google+] (#google)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Mail.Ru](#mailru)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [MySpace](#myspace)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [NewsVine](#newsvine)
@@ -115,13 +115,13 @@ Your URL should be placed in the `url` parameter; if not available, you will nee
 
 Argument | Description | Used By
 --- | --- | ---
-{url} | The URL-encoded link you want to share.  Service may reject link if not encoded. | Google+, GoogleBookmarks, Facebook, Reddit, Twitter, LinkedIn, Tumblr, Pinterest, Blogger, LiveJournal, EverNote, AddThis, GetPocket, HackerNews, StumbleUpon, Digg, Buffer, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, Line.me, Skype, Telegram.me, QZone, VK, Weibo, OKru, Douban, XING, RenRen, GMail, Yahoo, WordPress
+{url} | The URL-encoded link you want to share.  Service may reject link if not encoded. | GoogleBookmarks, Facebook, Reddit, Twitter, LinkedIn, Tumblr, Pinterest, Blogger, LiveJournal, EverNote, AddThis, GetPocket, HackerNews, StumbleUpon, Digg, Buffer, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, Line.me, Skype, Telegram.me, QZone, VK, Weibo, OKru, Douban, XING, RenRen, GMail, Yahoo, WordPress
 {title} | The page title of the url you want to share. | GoogleBookmarks, Reddit, LinkedIn, Tumblr, Blogger, LiveJournal, EverNote, HackerNews, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, VK, Weibo, Douban, RenRen, EMail, GMail, Yahoo, WordPress
-{text} | A longer description of the content you are sharing. | Google+, GoogleBookmarks, Twitter, LinkedIn, Tumblr, Blogger, Buffer, InstaPaper, SurfingBird, Flattr, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress
+{text} | A longer description of the content you are sharing. | GoogleBookmarks, Twitter, LinkedIn, Tumblr, Blogger, Buffer, InstaPaper, SurfingBird, Flattr, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress
 {hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#"). | GoogleBookmarks, Twitter, Tumblr, Flattr
 {user_id} | The username/id of a particular user on a social media service. | Twitter, Flattr, Threema
 {email_address} | Where a social share is directed.  You will most likely want to leave this blank, so the user can fill it in. | EMail, GMail, Yahoo
-{language_code} | A language code from the ISO 639-1 Code specification. | Google+, Flattr
+{language_code} | A language code from the ISO 639-1 Code specification. | Flattr
 {image} | The url to the image/thumbnail to use when sharing. | SurfingBird, WordPress
 {phone_number} | An applicable phone number, if there is one. | SMS, Telegram.me
 {app_id} | The App ID. | Facebook
@@ -131,25 +131,6 @@ Argument | Description | Used By
 {provider} | Service providing the share link. | LinkedIn
 
 ## Multi-Language Social Media
-
-### Google+
-
-<img src="./images/logo-icons/google.plus.jpg" width="25px"/> <code>Global Rank :</code>  `1` (apr. 3, 2018)
-
-<code>Parameters :</code> `url`, `text`, `hl`.
-
-```
-https://plus.google.com/share?url={url}&text={text}&hl={language_code}
-```
-
-<code>Source :</code>
-* *Official Source :* [Google: Google+ Platform, Web, Share](https://developers.google.com/+/web/share/)
-* *Unofficial Source :*
-    * [StackOverflow: Google Plus share in a popup](https://stackoverflow.com/q/9022416/2430549)
-    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
-    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
-* *Test Notes :* Regarding `text` parameter: Unable to find official source.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
 ### GoogleBookmarks
 
@@ -945,6 +926,12 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in `2018`.
 
     *  ~~http://friendfeed.com/?url={url}~~
+
+### Google+
+
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> A breach of security in the network in late `2018` caused Google to decide to end the social network.
+
+    * ~~https://plus.google.com/share?url={url}&text={text}&hl={language_code}~~
 
 ### Mail.ru
 
