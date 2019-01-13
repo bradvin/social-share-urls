@@ -671,7 +671,7 @@ http://www.douban.com/recommend/?url={url}&title={title}
 <code>Parameters :</code> `url`.
 
 ```
-https://www.xing.com/app/user?op=share&url={url}
+https://www.xing.com/spi/shares/new?url={url}
 ```
 
 <code>Source :</code>
