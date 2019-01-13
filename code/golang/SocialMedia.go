@@ -28,7 +28,6 @@ func SocialMediaInterface() SocialMedia {
 	sm := SocialMediaDefault()
 
 	sm.urlsOrderedByPopularity = [...]string{
-			"google.plus",
 			"google.bookmarks",
 			"facebook",
 			"reddit",
@@ -95,7 +94,6 @@ func SocialMediaInterface() SocialMedia {
 	var hackernews string = "https://news.ycombinator.com/submitlink?u=" + sm.url + "&t=" + sm.title
 	var okru string = "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=" + sm.url
 	var pinterest string = "http://pinterest.com/pin/create/button/?url=" + sm.url
-	var googleplus string = "https://plus.google.com/share?url=" + sm.url + "&text=" + sm.text + "&hl=" + sm.language
 	var qzone string = "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=" + sm.url
 	var reddit string = "https://reddit.com/submit?url=" + sm.url + "&title=" + sm.title
 	var renren string = "http://widget.renren.com/dialog/share?resourceUrl=" + sm.url + "&srcUrl=" + sm.url + "&title=" + sm.text + "&description=" + sm.desc
@@ -109,13 +107,12 @@ func SocialMediaInterface() SocialMedia {
 	var twitter string = "https://twitter.com/intent/tweet?url=" + sm.url + "&text=" + sm.text + "&via=" + sm.via + "&hashtags=" + sm.hash_tags
 	var vk string = "http://vk.com/share.php?url=" + sm.url + "&title=" + sm.title + "&comment=" + sm.desc
 	var weibo string = "http://service.weibo.com/share/share.php?url=" + sm.url + "&appkey=&title=" + sm.title + "&pic=&ralateUid="
-	var xing string = "https://www.xing.com/app/user?op=share&url=" + sm.url
+	var xing string = "https://www.xing.com/spi/shares/new?url=" + sm.url
 	var yahoo string = "http://compose.mail.yahoo.com/?to=" + sm.email_address + "&subject=" + sm.title + "&body=" + sm.text
 
 		// NOTE : This ordering must identically match urlsOrderedByPopularity.
 
 	var index int = 0
-	sm.urls[index] = googleplus
 	index++
 	
 	sm.urls[index] = googlebookmarks

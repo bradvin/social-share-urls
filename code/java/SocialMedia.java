@@ -34,7 +34,6 @@ class SocialMedia {
 			put("hacker.news", "HackerNews");
 			put("ok.ru", "OK.ru");
 			put("pinterest.com", "Pinterest");
-			put("google.plus", "GooglePlus");
 			put("qzone", "QZone");
 			put("reddit", "Reddit");
 			put("renren", "RenRen");
@@ -61,7 +60,6 @@ class SocialMedia {
 
 	public String[] GetSocialMediaSites_WithShareLinks_OrderedByPopularity() {
 		return new String[]{
-			"google.plus",
 			"google.bookmarks",
 			"facebook",
 			"reddit",
@@ -179,7 +177,6 @@ class SocialMedia {
 			put("hacker.news", "https://news.ycombinator.com/submitlink?u=" + args.get("url") + "&t=" + args.get("title"));
 			put("ok.ru", "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=" + args.get("url"));
 			put("pinterest", "http://pinterest.com/pin/create/button/?url=" + args.get("url"));
-			put("google.plus", "https://plus.google.com/share?url=" + args.get("url") + "&text=" + args.get("text") + "&hl=" + args.get("language"));
 			put("qzone", "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=" + args.get("url"));
 			put("reddit", "https://reddit.com/submit?url=" + args.get("url") + "&title=" + args.get("title"));
 			put("renren", "http://widget.renren.com/dialog/share?resourceUrl=" + args.get("url") + "&srcUrl=" + args.get("url") + "&title=" + args.get("text") + "&description=" + args.get("desc"));
@@ -193,7 +190,7 @@ class SocialMedia {
 			put("twitter", "https://twitter.com/intent/tweet?url=" + args.get("url") + "&text=" + args.get("text") + "&via=" + args.get("via") + "&hashtags=" + args.get("hash_tags"));
 			put("vk", "http://vk.com/share.php?url=" + args.get("url") + "&title=" + args.get("title") + "&comment=" + args.get("desc"));
 			put("weibo", "http://service.weibo.com/share/share.php?url=" + args.get("url") + "&appkey=&title=" + args.get("title") + "&pic=&ralateUid=");
-			put("xing", "https://www.xing.com/app/user?op=share&url=" + args.get("url"));
+			put("xing", "https://www.xing.com/spi/shares/new?url=" + args.get("url"));
 			put("yahoo", "http://compose.mail.yahoo.com/?to=" + args.get("email_address") + "&subject=" + args.get("title") + "&body=" + args.get("text"));
 		}};
 		

@@ -50,7 +50,6 @@ struct SocialMedia_Interface {
 	{
 	},
 	{
-		"google.plus",
 		"google.bookmarks",
 		"facebook",
 		"reddit",
@@ -103,7 +102,6 @@ struct SocialMedia_Interface {
 		"getpocket",
 		"gmail",
 		"google.bookmarks",
-		"google.plus",
 		"hacker.news",
 		"instapaper",
 		"line.me",
@@ -206,9 +204,6 @@ struct SocialMedia_Interface buildUrls(void) {
 	char pinterest[URLSIZE];
 	sprintf(pinterest, "%s%s", "http://pinterest.com/pin/create/button/?url=", sma.url);
 	
-	char googleplus[URLSIZE];
-	sprintf(googleplus, "%s%s%s%s%s%s", "https://plus.google.com/share?url=", sma.url, "&text=", text, "&hl=", sma.language);
-	
 	char qzone[URLSIZE];
 	sprintf(qzone, "%s%s", "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=", sma.url);
 	
@@ -249,7 +244,7 @@ struct SocialMedia_Interface buildUrls(void) {
 	sprintf(weibo, "%s%s%s%s%s", "http://service.weibo.com/share/share.php?url=", sma.url, "&appkey=&title=", sma.title, "&pic=&ralateUid=");
 	
 	char xing[URLSIZE];
-	sprintf(xing, "%s%s", "https://www.xing.com/app/user?op=share&url=", sma.url);
+	sprintf(xing, "%s%s", "https://www.xing.com/spi/shares/new?url=", sma.url);
 	
 	char yahoo[URLSIZE];
 	sprintf(yahoo, "%s%s%s%s%s%s", "http://compose.mail.yahoo.com/?to=", sma.email_address, "&subject=", sma.title, "&body=", text);
@@ -259,7 +254,6 @@ struct SocialMedia_Interface buildUrls(void) {
 
 			// NOTE : This ordering must identically match urlsOrderedByPopularity.
 
-	strcpy(urllist[i++], googleplus);
 	strcpy(urllist[i++], googlebookmarks);
 	strcpy(urllist[i++], facebook);
 	strcpy(urllist[i++], reddit);

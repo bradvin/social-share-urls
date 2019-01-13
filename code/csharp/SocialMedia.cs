@@ -28,7 +28,6 @@ public class SocialMedia
 
 	public string[] urls = new string[Globals.SOCIALMEDIASERVICES];
 	public string[] servicesSortedByPopularity = {
-		"google.plus",
 		"google.bookmarks",
 		"facebook",
 		"reddit",
@@ -150,7 +149,6 @@ public class SocialMedia
 		string hackernews = "https://news.ycombinator.com/submitlink?u=" + url + "&t=" + title;
 		string okru = "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=" + url;
 		string pinterest = "http://pinterest.com/pin/create/button/?url=" + url;
-		string googleplus = "https://plus.google.com/share?url=" + url + "&text=" + text + "&hl=" + language;
 		string qzone = "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=" + url;
 		string reddit = "https://reddit.com/submit?url=" + url + "&title=" + title;
 		string renren = "http://widget.renren.com/dialog/share?resourceUrl=" + url + "&srcUrl=" + url + "&title=" + text + "&description=" + desc;
@@ -164,12 +162,11 @@ public class SocialMedia
 		string twitter = "https://twitter.com/intent/tweet?url=" + url + "&text=" + text + "&via=" + via + "&hashtags=" + hash_tags;
 		string vk = "http://vk.com/share.php?url=" + url + "&title=" + title + "&comment=" + desc;
 		string weibo = "http://service.weibo.com/share/share.php?url=" + url + "&appkey=&title=" + title + "&pic=&ralateUid=";
-		string xing = "https://www.xing.com/app/user?op=share&url=" + url;
+		string xing = "https://www.xing.com/spi/shares/new?url=" + url;
 		string yahoo = "http://compose.mail.yahoo.com/?to=" + email_address + "&subject=" + title + "&body=" + text;
 		
 		int i = 0;
 		
-		urls[i++] = googleplus;
 		urls[i++] = googlebookmarks;
 		urls[i++] = facebook;
 		urls[i++] = reddit;

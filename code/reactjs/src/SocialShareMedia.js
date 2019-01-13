@@ -31,7 +31,6 @@ export default class SocialShareMedia extends React.Component {
       "hacker.news": "HackerNews",
       "ok.ru": "OK.ru",
       "pinterest.com": "Pinterest",
-      "google.plus": "GooglePlus",
       qzone: "QZone",
       reddit: "Reddit",
       renren: "RenRen",
@@ -55,7 +54,6 @@ export default class SocialShareMedia extends React.Component {
 
   GetSocialMediaSites_WithShareLinks_OrderedByPopularity() {
     return [
-      "google.plus",
       "google.bookmarks",
       "facebook",
       "reddit",
@@ -245,13 +243,6 @@ export default class SocialShareMedia extends React.Component {
       "ok.ru":
         "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=" + url,
       pinterest: "http://pinterest.com/pin/create/button/?url=" + url,
-      "google.plus":
-        "https://plus.google.com/share?url=" +
-        url +
-        "&text=" +
-        text +
-        "&hl=" +
-        language,
       qzone:
         "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=" + url,
       reddit: "https://reddit.com/submit?url=" + url + "&title=" + title,
@@ -316,7 +307,7 @@ export default class SocialShareMedia extends React.Component {
         "&appkey=&title=" +
         title +
         "&pic=&ralateUid=",
-      xing: "https://www.xing.com/app/user?op=share&url=" + url,
+      xing: "https://www.xing.com/spi/shares/new?url=" + url,
       yahoo:
         "http://compose.mail.yahoo.com/?to=" +
         email_address +

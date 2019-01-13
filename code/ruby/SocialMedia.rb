@@ -25,7 +25,6 @@ class SocialMedia
       'hacker.news'=>'HackerNews',
       'ok.ru'=>'OK.ru',
       'pinterest.com'=>'Pinterest',
-      'google.plus'=>'GooglePlus',
       'qzone'=>'QZone',
       'reddit'=>'Reddit',
       'renren'=>'RenRen',
@@ -46,7 +45,6 @@ class SocialMedia
   
   def GetSocialMediaSites_WithShareLinks_OrderedByPopularity
     return [
-      'google.plus',
       'google.bookmarks',
       'facebook',
       'reddit',
@@ -145,7 +143,6 @@ class SocialMedia
       'hacker.news'=>'https://news.ycombinator.com/submitlink?u=' + args['url'] + '&t=' + args['title'],
       'ok.ru'=>'https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=' + args['url'],
       'pinterest'=>'http://pinterest.com/pin/create/button/?url=' + args['url'] ,
-      'google.plus'=>'https://plus.google.com/share?url=' + args['url'] + '&text=' + text + '&hl=' + args['language'],
       'qzone'=>'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + args['url'],
       'reddit'=>'https://reddit.com/submit?url=' + args['url'] + '&title=' + args['title'],
       'renren'=>'http://widget.renren.com/dialog/share?resourceUrl=' + args['url'] + '&srcUrl=' + args['url'] + '&title=' + text + '&description=' + args['desc'],
@@ -159,7 +156,7 @@ class SocialMedia
       'twitter'=>'https://twitter.com/intent/tweet?url=' + args['url'] + '&text=' + text + '&via=' + args['via'] + '&hashtags=' + args['hash_tags'],
       'vk'=>'http://vk.com/share.php?url=' + args['url'] + '&title=' + args['title'] + '&comment=' + args['desc'],
       'weibo'=>'http://service.weibo.com/share/share.php?url=' + args['url'] + '&appkey=&title=' + args['title'] + '&pic=&ralateUid=',
-      'xing'=>'https://www.xing.com/app/user?op=share&url=' + args['url'],
+      'xing'=>'https://www.xing.com/spi/shares/new?url=' + args['url'],
       'yahoo'=>'http://compose.mail.yahoo.com/?to=' + args['email_address'] + '&subject=' + args['title'] + '&body=' + text,
     }
   end

@@ -79,7 +79,6 @@
 	bcc_email_address = @"";
 
 	urlsOrderedByPopularity = [NSArray arrayWithObjects:
-			@"google.plus",
 			@"google.bookmarks",
 			@"facebook",
 			@"reddit",
@@ -133,7 +132,6 @@
 			@"getpocket",
 			@"gmail",
 			@"google.bookmarks",
-			@"google.plus",
 			@"hacker.news",
 			@"instapaper",
 			@"line.me",
@@ -312,14 +310,6 @@
 	pinterest = [pinterest stringByAppendingString:@"http://pinterest.com/pin/create/button/?url="];
 	pinterest = [pinterest stringByAppendingString:url];
 
-	NSString* googleplus = @"";
-	googleplus = [googleplus stringByAppendingString:@"https://plus.google.com/share?url="];
-	googleplus = [googleplus stringByAppendingString:url];
-	googleplus = [googleplus stringByAppendingString:@"&text="];
-	googleplus = [googleplus stringByAppendingString:fulltext];
-	googleplus = [googleplus stringByAppendingString:@"&hl="];
-	googleplus = [googleplus stringByAppendingString:language];
-
 	NSString* qzone = @"";
 	qzone = [qzone stringByAppendingString:@"http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url="];
 	qzone = [qzone stringByAppendingString:url];
@@ -418,7 +408,7 @@
 	weibo = [weibo stringByAppendingString:@"&pic=&ralateUid="];
 
 	NSString* xing = @"";
-	xing = [xing stringByAppendingString:@"https://www.xing.com/app/user?op=share&url="];
+	xing = [xing stringByAppendingString:@"https://www.xing.com/spi/shares/new?url="];
 	xing = [xing stringByAppendingString:url];
 
 	NSString* yahoo = @"";
@@ -432,7 +422,6 @@
 		// NOTE : This ordering must identically match urlsOrderedByPopularity.
 
 	urls = [NSArray arrayWithObjects:
-			googleplus,
 			googlebookmarks,
 			facebook,
 			reddit,

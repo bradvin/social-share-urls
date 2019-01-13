@@ -31,7 +31,6 @@ class SocialMedia {
 
 		char urls[SOCIALMEDIASERVICES][URLSIZE];
 		char urlsOrderedByPopularity[SOCIALMEDIASERVICES][URLSIZE] = {
-			"google.plus",
 			"google.bookmarks",
 			"facebook",
 			"reddit",
@@ -155,9 +154,6 @@ SocialMedia::SocialMedia() {
 	char pinterest[URLSIZE];
 	sprintf(pinterest, "%s%s", "http://pinterest.com/pin/create/button/?url=", url);
 	
-	char googleplus[URLSIZE];
-	sprintf(googleplus, "%s%s%s%s%s%s", "https://plus.google.com/share?url=", url, "&text=", text, "&hl=", language);
-	
 	char qzone[URLSIZE];
 	sprintf(qzone, "%s%s", "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=", url);
 	
@@ -198,7 +194,7 @@ SocialMedia::SocialMedia() {
 	sprintf(weibo, "%s%s%s%s%s", "http://service.weibo.com/share/share.php?url=", url, "&appkey=&title=", title, "&pic=&ralateUid=");
 	
 	char xing[URLSIZE];
-	sprintf(xing, "%s%s", "https://www.xing.com/app/user?op=share&url=", url);
+	sprintf(xing, "%s%s", "https://www.xing.com/spi/shares/new?url=", url);
 	
 	char yahoo[URLSIZE];
 	sprintf(yahoo, "%s%s%s%s%s%s", "http://compose.mail.yahoo.com/?to=", email_address, "&subject=", title, "&body=", text);
@@ -207,7 +203,6 @@ SocialMedia::SocialMedia() {
 
 		// NOTE : This ordering must identically match urlsOrderedByPopularity.
 	
-	strcpy(urls[i++], googleplus);
 	strcpy(urls[i++], googlebookmarks);
 	strcpy(urls[i++], facebook);
 	strcpy(urls[i++], reddit);

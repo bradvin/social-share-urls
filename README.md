@@ -97,8 +97,10 @@ Some sites using this project :
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Baidu](#baidu)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [EchoJS](#echojs)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Delicious](#delicious)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [EchoJS](#echojs)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [FBMessenger](#fbmessenger)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [FriendFeed](#friendfeed)
-* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Google+](#google)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Google+](#googleplus)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Mail.Ru](#mailru)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [MySpace](#myspace)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [NewsVine](#newsvine)
@@ -132,7 +134,7 @@ Argument | Description | Used By
 
 ## Multi-Language Social Media
 
-### GoogleBookmarks
+### <a name="googlebookmarks" /> GoogleBookmarks
 
 <img src="./images/logo-icons/google.bookmarks.jpg" width="25px"/> <code>Global Rank :</code>  `1` (apr. 3, 2018)
 
@@ -151,7 +153,7 @@ https://www.google.com/bookmarks/mark?op=edit&bkmk={url}&title={title}&annotatio
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
-### Facebook
+### <a name="facebook" /> Facebook
 
 <img src="./images/logo-icons/facebook.jpg" width="25px"/> <code>Global Rank :</code>  `3` (apr. 3, 2018)
 
@@ -189,7 +191,7 @@ https://www.facebook.com/dialog/share?app_id={app_id}&display={page_type}&href={
 * *Test Notes :* Requires registering in order to get an App_Id.  Working test account is available in the official documentation, so you can avoid this requirement for tesing and you can test with `https://www.facebook.com/dialog/share?app_id=145634995501895&someOtherParameters=SomeOtherValues`.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
-### Reddit
+### <a name="reddit" /> Reddit
 
 <img src="./images/logo-icons/reddit.jpg" width="25px"/> <code>Global Rank :</code>  `6` (apr. 3, 2018)
 
@@ -208,7 +210,7 @@ https://reddit.com/submit?url={url}&title={title}
 * *Test Notes :* Regarding `title` Parameter: Unable to find official source.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
-### Twitter
+### <a name="twitter" /> Twitter
 
 <img src="./images/logo-icons/twitter.jpg" width="25px"/> <code>Global Rank :</code>  `12` (apr. 3, 2018)
 
@@ -227,7 +229,7 @@ https://twitter.com/intent/tweet?url={url}&text={title}&via={user_id}&hashtags={
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
-### LinkedIn
+### <a name="linkedin" /> LinkedIn
 
 <img src="./images/logo-icons/linkedin.jpg" width="25px"/> <code>Global Rank :</code>  `30` (apr. 3, 2018)
 
@@ -246,7 +248,7 @@ https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary=
 * *Test Notes :* URL max is 1,024 characters, title/source max is 200 characters, and summary max is 256 characters.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
-### Tumblr
+### <a name="tumblr" /> Tumblr
 
 <img src="./images/logo-icons/tumblr.jpg" width="25px"/> <code>Global Rank :</code>  `57` (apr. 3, 2018)
 
@@ -265,7 +267,7 @@ https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&capti
 * *Test Notes :* Requires login.  A described language parameter (`data-locale`) appeared to have no effect (and, therefore, is not listed here).
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
-### Pinterest
+### <a name="pinterest" />  Pinterest
 
 <img src="./images/logo-icons/pinterest.jpg" width="25px"/> <code>Global Rank :</code>  `79` (apr. 3, 2018)
 
@@ -285,7 +287,7 @@ http://pinterest.com/pin/create/link/?url={url}
 * *Test Notes :* Requires the user to select an image to "pin" the URL with.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
-### Blogger
+### <a name="blogger" /> Blogger
 
 <img src="./images/logo-icons/blogger.jpg" width="25px"/> <code>Global Rank :</code>  `183` (apr. 3, 2018)
 
@@ -304,7 +306,7 @@ https://www.blogger.com/blog-this.g?u={url}&n={title}&t={text}
 * *Test Notes :* Requires login, a blog tied to your blogger account, and either no `url` or that the `url` be perfectly formatted with protocols (http/https, etc.).
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### LiveJournal
+### <a name="livejournal" /> LiveJournal
 
 <img src="./images/logo-icons/livejournal.jpg" width="25px"/> <code>Global Rank :</code>  `263` (apr. 3, 2018)
 
@@ -323,7 +325,7 @@ http://www.livejournal.com/update.bml?subject={title}&event={url}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### EverNote
+### <a name="evernote" /> EverNote
 
 <img src="./images/logo-icons/evernote.jpg" width="25px"/> <code>Global Rank :</code>  `494` (apr. 3, 2018)
 
@@ -342,7 +344,7 @@ http://www.evernote.com/clip.action?url={url}&title={title}
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### AddThis
+### <a name="addthis" /> AddThis
 
 <img src="./images/logo-icons/add.this.jpg" width="25px"/> <code>Global Rank :</code>  `561` (apr. 3, 2018)
 
@@ -361,7 +363,7 @@ http://www.addthis.com/bookmark.php?url={url}
 * *Test Notes :* The above-described url-format does not appear in the official documentation.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
-### GetPocket
+### <a name="getpocket" /> GetPocket
 
 <img src="./images/logo-icons/getpocket.jpg" width="25px"/> <code>Global Rank :</code>  `669` (apr. 3, 2018)
 
@@ -380,7 +382,7 @@ https://getpocket.com/edit?url={url}
 * *Test Notes :* Regarding `url` Parameter: Unable to find official source.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### HackerNews
+### <a name="hackernews" /> HackerNews
 
 <img src="./images/logo-icons/hacker.news.jpg" width="25px"/> <code>Global Rank :</code>  `1,650` (apr. 3, 2018)
 
@@ -399,7 +401,7 @@ https://news.ycombinator.com/submitlink?u={url}&t={title}
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
-### StumbleUpon
+### <a name="stumbleupon" /> StumbleUpon
 
 <img src="./images/logo-icons/stumbleupon.jpg" width="25px"/> <code>Global Rank :</code>  `1,948` (apr. 3, 2018)
 
@@ -418,7 +420,7 @@ http://www.stumbleupon.com/submit?url={url}
 * *Test Notes :* Requires login.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
-### Digg
+### <a name="digg" /> Digg
 
 <img src="./images/logo-icons/digg.jpg" width="25px"/> <code>Global Rank :</code>  `2,367` (apr. 3, 2018)
 
@@ -437,7 +439,7 @@ http://digg.com/submit?url={url}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
-### Buffer
+### <a name="buffer" /> Buffer
 
 <img src="./images/logo-icons/buffer.jpg" width="25px"/> <code>Global Rank :</code>  `2,487` (apr. 3, 2018)
 
@@ -456,7 +458,7 @@ https://buffer.com/add?text={title}&url={url}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
-### FlipBoard
+### <a name="flipboard" /> FlipBoard
 
 <img src="./images/logo-icons/flipboard.jpg" width="25px"/> <code>Global Rank :</code>  `3,638` (apr. 3, 2018)
 
@@ -475,7 +477,7 @@ https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
 * *Test Notes :* Requires login and properly formatted URL with http/https protocol.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### InstaPaper
+### <a name="instapaper" /> InstaPaper
 
 <img src="./images/logo-icons/instapaper.jpg" width="25px"/> <code>Global Rank :</code>  `13,660` (apr. 3, 2018)
 
@@ -494,7 +496,7 @@ http://www.instapaper.com/edit?url={url}&title={title}&description={text}
 * *Test Notes :* Requires login and Chrome (does not work in FireFox).
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### SurfingBird
+### <a name="surfingbird" /> SurfingBird
 
 <img src="./images/logo-icons/surfingbird.ru.jpg" width="25px"/> <code>Global Rank :</code>  `21,985` (apr. 3, 2018)
 
@@ -513,7 +515,7 @@ http://surfingbird.ru/share?url={url}&description={text}&screenshot={image}&titl
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
-### Flattr
+### <a name="flattr" /> Flattr
 
 <img src="./images/logo-icons/flattr.jpg" width="25px"/> <code>Global Rank :</code>  `132,899` (apr. 3, 2018)
 
@@ -532,7 +534,7 @@ https://flattr.com/submit/auto?user_id={user_id}&url={url}&title={title}&descrip
 * *Test Notes :* Requires all user_id, url, and title parameters to be precisely formatted.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
-### Diaspora
+### <a name="diaspora" /> Diaspora
 
 <img src="./images/logo-icons/diaspora.jpg" width="25px"/> <code>Global Rank :</code>  `262,184` (apr. 3, 2018)
 
@@ -553,7 +555,7 @@ https://share.diasporafoundation.org/?title={title}&url={url}
 
 ## Non-English Social Media
 
-### QZone
+### <a name="qzone" /> QZone
 
 <img src="./images/logo-icons/qzone.jpg" width="25px"/> <code>Global Rank :</code>  `9` (apr. 3, 2018)
 
@@ -574,7 +576,7 @@ http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### VK
+### <a name="vk" /> VK
 
 <img src="./images/logo-icons/vk.jpg" width="25px"/> <code>Global Rank :</code>  `17` (apr. 3, 2018)
 
@@ -595,7 +597,7 @@ http://vk.com/share.php?url={url}&title={title}&comment={text}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### Weibo
+### <a name="weibo" /> Weibo
 
 <img src="./images/logo-icons/weibo.jpg" width="25px"/> <code>Global Rank :</code>  `21` (apr. 3, 2018)
 
@@ -616,7 +618,7 @@ http://service.weibo.com/share/share.php?url={url}&appkey=&title={title}&pic=&ra
 * *Test Notes :* Requires login and software install to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### OKru
+### <a name="okru" /> OKru
 
 <img src="./images/logo-icons/okru.jpg" width="25px"/> <code>Global Rank :</code>  `46` (apr. 3, 2018)
 
@@ -639,7 +641,7 @@ https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl={url}
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### Douban
+### <a name="douban" /> Douban
 
 <img src="./images/logo-icons/douban.jpg" width="25px"/> <code>Global Rank :</code>  `900` (apr. 3, 2018)
 
@@ -660,7 +662,7 @@ http://www.douban.com/recommend/?url={url}&title={title}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### XING
+### <a name="xing" /> XING
 
 <img src="./images/logo-icons/xing.jpg" width="25px"/> <code>Global Rank :</code>  `1,377` (apr. 3, 2018)
 
@@ -673,7 +675,8 @@ https://www.xing.com/app/user?op=share&url={url}
 ```
 
 <code>Source :</code>
-* *Official Source :* Unable to locate.
+* *Official Source :*
+    * [Share on XING with custom design](https://dev.xing.com/plugins/share_button/docs#custom-design)
 * *Unofficial Source :*
     * [XING: Groups > WordPress > Suche Social Media Plugin (German)](https://www.xing.com/communities/posts/suche-social-media-plugin-1010272530)
     * [Drupal: Adding support for XING](https://www.drupal.org/node/1049038)
@@ -681,7 +684,7 @@ https://www.xing.com/app/user?op=share&url={url}
 * *Test Notes :* Requires login to work and precisely formatted URL (with protocal http/https parameters).
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### RenRen
+### <a name="renren" /> RenRen
 
 <img src="./images/logo-icons/renren.jpg" width="25px"/> <code>Global Rank :</code>  `1,508` (apr. 3, 2018)
 
@@ -704,7 +707,7 @@ http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={titl
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### Threema
+### <a name="threema" /> Threema
 
 <img src="./images/logo-icons/threema.jpg" width="25px"/> <code>Global Rank :</code>  `82,555` (apr. 3, 2018)
 
@@ -727,7 +730,7 @@ threema://compose?text={url}&id={user_id}
 
 ## Phone/Audio-Based Social Media
 
-### SMS
+### <a name="sms" /> SMS
 
 <img src="./images/logo-icons/sms.jpg" width="25px"/> <code>Global Rank :</code>  `N/A`
 
@@ -745,7 +748,7 @@ sms:{phone_number}?body={text}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
-### Line.me
+### <a name="lineme" /> Line.me
 
 <img src="./images/logo-icons/line.me.jpg" width="25px"/> <code>Global Rank :</code>  `360` (apr. 3, 2018)
 
@@ -764,7 +767,7 @@ https://lineit.line.me/share/ui?url={url}&text={text}
 * *Test Notes :* Requires login to work and perfectly formatted URL with protocol parameters (http/https, etc.).  Creating an account requires software install.  Above-described URL parameters are not indicated in the official documentation.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### Skype
+### <a name="skype" /> Skype
 
 <img src="./images/logo-icons/skype.jpg" width="25px"/> <code>Global Rank :</code>  `375` (apr. 3, 2018)
 
@@ -783,7 +786,7 @@ https://web.skype.com/share?url={url}&text={text}
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### Telegram.me
+### <a name="telegramme" /> Telegram.me
 
 <img src="./images/logo-icons/telegram.me.jpg" width="25px"/> <code>Global Rank :</code>  `456` (apr. 3, 2018)
 
@@ -805,7 +808,7 @@ tg://msg?url={url}&text={title}&to={phone_number}
 
 ## Email-Based Social Media
 
-### EMail
+### <a name="email" /> EMail
 
 <img src="./images/logo-icons/email.jpg" width="25px"/> <code>Global Rank :</code>  `N/A`
 
@@ -824,7 +827,7 @@ mailto:{email_address}?subject={title}&body={text}
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `1998` and `2018`.
 
-### GMail
+### <a name="gmail" /> GMail
 
 <img src="./images/logo-icons/gmail.jpg" width="25px"/> <code>Global Rank :</code>  `1` (apr. 3, 2018)
 
@@ -843,7 +846,7 @@ https://mail.google.com/mail/?view=cm&to={email_address}&su={title}&body={url}&b
 * *Test Notes :* None.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
-### Yahoo
+### <a name="yahoo" /> Yahoo
 
 <img src="./images/logo-icons/yahoo.jpg" width="25px"/> <code>Global Rank :</code>  `7` (apr. 3, 2018)
 
@@ -865,7 +868,7 @@ http://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}
 
 ## Locally/Personally-Run Social Media
 
-### WordPress
+### <a name="wordpress" /> WordPress
 
 <img src="./images/logo-icons/wordpress.jpg" width="25px"/> <code>Global Rank :</code>  `N/A`
 
@@ -891,91 +894,91 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 *Use at your own merciless peril.*
 
-### AIM
+### <a name="aim" /> AIM
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> AIM was shut down in late 2017.
 
     *  ~~http://lifestream.aol.com/share/?url={url}&title={title}&description={text}~~
 
-### Baidu
+### <a name="baidu" /> Baidu
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in `2018`.
 
     *  ~~http://cang.baidu.com/do/add?it={title}&iu={url}~~
 
-### Delicious
+### <a name="delicious" /> Delicious
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in `2018`.
 
     *  ~~https://delicious.com/save?v=5&provider={provider}&noui&jump=close&url={url}&title={title}~~
 
-### EchoJS
+### <a name="echojs" /> EchoJS
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Flagrant SSL-security errors revealed in `2018`.  User password leak: currently active.
 
     *  ~~http://www.echojs.com/submit?u={url}&t={title}~~
 
-### FBMessenger
+### <a name="fbmessenger" /> FBMessenger
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in `2018`.  There are numerous, active complaints for this service, discoverable by just searching the web.
 
     *  ~~fb-messenger://share?link={url}&app_id={app_id}~~
 
-### FriendFeed
+### <a name="friendfeed" /> FriendFeed
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in `2018`.
 
     *  ~~http://friendfeed.com/?url={url}~~
 
-### Google+
+### <a name="googleplus" /> Google+
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> A breach of security in the network in late `2018` caused Google to decide to end the social network.
 
     * ~~https://plus.google.com/share?url={url}&text={text}&hl={language_code}~~
 
-### Mail.ru
+### <a name="mailru" /> Mail.ru
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Massive security flaws were revealed in 2017 and 2018, causing Mail.ru to be added to the uBlock Origin blacklist.  User password leak: currently active.  Additionally, testing by Social Share dev's determined that the API no longer works.
 
     *  ~~https://connect.mail.ru/share?share_url={url}~~
 
-### MySpace
+### <a name="myspace" /> MySpace
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in `2018`.
 
     *  ~~https://myspace.com/post?u={url}&t={title}&c={text}~~
 
-### NewsVine
+### <a name="newsvine" /> NewsVine
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Acquired by NBC in Oct., 2017.  Redirects to NBCNews.
 
     *  ~~http://www.newsvine.com/_tools/seed&save?u={url}~~
 
-### Ping.fm
+### <a name="pingfm" /> Ping.fm
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Shut down on 5 July 2012.
 
     *  ~~http://ping.fm/ref/?link={url}&title={title}&body={text}~~
 
-### ScoopIt
+### <a name="scoopit" /> ScoopIt
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> URL requires login, accounts requires authorizing with several social media parties, and on Chrome and Firefox, using Windows, iOS, and Android, account creation could not be completed.  This was the longest service to test that did not require software to be downloaded and locally installed.
 
     *  ~~http://www.scoop.it/bookmarklet?url={url}~~
 
-### SinaWeibo
+### <a name="sinaweibo" /> SinaWeibo
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Acquired by Weibo.
 
     *  ~~http://v.t.sina.com.cn/share/share.php?url={url}&title={title}~~
 
-### SlashDot
+### <a name="slashdot" /> SlashDot
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in 2018 with error message, "New bookmark creation is no longer supported."
 
     *  ~~https://slashdot.org/bookmark.pl?url={url}&title={title}~~
 
-### Viber
+### <a name="viber" /> Viber
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2018.  Confirmed after the test requirements: installing Viber on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Viber Official Specifications is a Failure](https://developers.viber.com/docs/tools/share-button/).  Official development @viber has been negligent in response to inquiries.
 
@@ -983,7 +986,7 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
     *  ~~viber://forward?text={url}~~
 
-### WhatsApp
+### <a name="whatsapp" /> WhatsApp
 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2018.  Confirmed after the test requirements: installing WhatsApp on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Whatsapp Official Specifications is a Failure](https://faq.whatsapp.com/en/android/26000030/?category=5245251).
 

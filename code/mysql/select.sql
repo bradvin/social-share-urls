@@ -79,7 +79,6 @@ SELECT
 	CONCAT('https://news.ycombinator.com/submitlink?u=', URL, '&t=', Title) as HackerNews,
 	CONCAT('https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=', URL) as OKRU,
 	CONCAT('http://pinterest.com/pin/create/button/?url=', URL) as Pinterest,
-	CONCAT('https://plus.google.com/share?url=', URL, '&text=', Description, '&hl=', Language) as GooglePlus,
 	CONCAT('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=', URL) as QZone,
 	CONCAT('https://reddit.com/submit?url=', URL, '&title=', Title) as RedDit,
 	CONCAT('http://widget.renren.com/dialog/share?resourceUrl=', URL, '&srcUrl=', URL, '&title=', Title, '&description=', Description) as RenRen,
@@ -93,6 +92,6 @@ SELECT
 	CONCAT('https://twitter.com/intent/tweet?url=', URL, '&text=', Description, '&via=', Via, '&hashtags=', HashTags) as Twitter,
 	CONCAT('http://vk.com/share.php?url=', URL, '&title=', Title, '&comment=', Description) as VK,
 	CONCAT('http://service.weibo.com/share/share.php?url=', URL, '&appkey=&title=', Title, '&pic=&ralateUid=') as Weibo,
-	CONCAT('https://www.xing.com/app/user?op=share&url=', URL) as Xing,
+	CONCAT('https://www.xing.com/spi/shares/new?url=', URL) as Xing,
 	CONCAT('http://compose.mail.yahoo.com/?to=', EmailAddress, '&subject=', Title, '&body=', URL) as Yahoo
 FROM URLRecord;

@@ -28,7 +28,6 @@ function GetSocialMediaSites_NiceNames() {
 		'hacker.news':'HackerNews',
 		'ok.ru':'OK.ru',
 		'pinterest.com':'Pinterest',
-		'google.plus':'GooglePlus',
 		'qzone':'QZone',
 		'reddit':'Reddit',
 		'renren':'RenRen',
@@ -52,7 +51,6 @@ function GetSocialMediaSites_NiceNames() {
 
 function GetSocialMediaSites_WithShareLinks_OrderedByPopularity() {
 	return [
-		'google.plus',
 		'google.bookmarks',
 		'facebook',
 		'reddit',
@@ -174,7 +172,6 @@ function GetSocialMediaSiteLinks_WithShareLinks(args) {
 		'hacker.news':'https://news.ycombinator.com/submitlink?u=' + url + '&t=' + title,
 		'ok.ru':'https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=' + url,
 		'pinterest':'http://pinterest.com/pin/create/button/?url=' + url ,
-		'google.plus':'https://plus.google.com/share?url=' + url + '&text=' + text + '&hl=' + language,
 		'qzone':'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + url,
 		'reddit':'https://reddit.com/submit?url=' + url + '&title=' + title,
 		'renren':'http://widget.renren.com/dialog/share?resourceUrl=' + url + '&srcUrl=' + url + '&title=' + text + '&description=' + desc,
@@ -188,7 +185,7 @@ function GetSocialMediaSiteLinks_WithShareLinks(args) {
 		'twitter':'https://twitter.com/intent/tweet?url=' + url + '&text=' + text + '&via=' + via + '&hashtags=' + hash_tags,
 		'vk':'http://vk.com/share.php?url=' + url + '&title=' + title + '&comment=' + desc,
 		'weibo':'http://service.weibo.com/share/share.php?url=' + url + '&appkey=&title=' + title + '&pic=&ralateUid=',
-		'xing':'https://www.xing.com/app/user?op=share&url=' + url,
+		'xing':'https://www.xing.com/spi/shares/new?url=' + url,
 		'yahoo':'http://compose.mail.yahoo.com/?to=' + email_address + '&subject=' + title + '&body=' + text,
 	};
 }

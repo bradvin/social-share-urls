@@ -20,7 +20,6 @@ Public Class SocialMedium
 
 	Public urls(37) As String
 	Public urlsOrderedByPopularity As String() = {
-			"google.plus",
 			"google.bookmarks",
 			"facebook",
 			"reddit",
@@ -122,7 +121,6 @@ Public Class SocialMedium
 		Dim hackernews As String = "https://news.ycombinator.com/submitlink?u=" + url + "&t=" + title
 		Dim okru As String = "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=" + url
 		Dim pinterest As String = "http://pinterest.com/pin/create/button/?url=" + url
-		Dim googleplus As String = "https://plus.google.com/share?url=" + url + "&text=" + text + "&hl=" + language
 		Dim qzone As String = "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=" + url
 		Dim reddit As String = "https://reddit.com/submit?url=" + url + "&title=" + title
 		Dim renren As String = "http://widget.renren.com/dialog/share?resourceUrl=" + url + "&srcUrl=" + url + "&title=" + text + "&description=" + desc
@@ -136,13 +134,10 @@ Public Class SocialMedium
 		Dim twitter As String = "https://twitter.com/intent/tweet?url=" + url + "&text=" + text + "&via=" + via + "&hashtags=" + hash_tags
 		Dim vk As String = "http://vk.com/share.php?url=" + url + "&title=" + title + "&comment=" + desc
 		Dim weibo As String = "http://service.weibo.com/share/share.php?url=" + url + "&appkey=&title=" + title + "&pic=&ralateUid="
-		Dim xing As String = "https://www.xing.com/app/user?op=share&url=" + url
+		Dim xing As String = "https://www.xing.com/spi/shares/new?url=" + url
 		Dim yahoo As String = "http://compose.mail.yahoo.com/?to=" + email_address + "&subject=" + title + "&body=" + text
 
 		Dim index As Integer = 0
-		
-		urls(index) = googleplus
-		index = index + 1
 		
 		urls(index) = googlebookmarks
 		index = index + 1

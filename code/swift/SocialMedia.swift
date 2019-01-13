@@ -79,7 +79,6 @@ class SocialMedia {
 		var hackernews = "https://news.ycombinator.com/submitlink?u=" + url + "&t=" + title
 		var okru = "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=" + url
 		var pinterest = "http://pinterest.com/pin/create/button/?url=" + url
-		var googleplus = "https://plus.google.com/share?url=" + url + "&text=" + text + "&hl=" + language
 		var qzone = "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=" + url
 		var reddit = "https://reddit.com/submit?url=" + url + "&title=" + title
 		var renren = "http://widget.renren.com/dialog/share?resourceUrl=" + url + "&srcUrl=" + url + "&title=" + text + "&description=" + desc
@@ -93,10 +92,9 @@ class SocialMedia {
 		var twitter = "https://twitter.com/intent/tweet?url=" + url + "&text=" + text + "&via=" + via + "&hashtags=" + hash_tags
 		var vk = "http://vk.com/share.php?url=" + url + "&title=" + title + "&comment=" + desc
 		var weibo = "http://service.weibo.com/share/share.php?url=" + url + "&appkey=&title=" + title + "&pic=&ralateUid="
-		var xing = "https://www.xing.com/app/user?op=share&url=" + url
+		var xing = "https://www.xing.com/spi/shares/new?url=" + url
 		var yahoo = "http://compose.mail.yahoo.com/?to=" + email_address + "&subject=" + title + "&body=" + text
 
-		self.urls.append(googleplus)
 		self.urls.append(googlebookmarks)
 		self.urls.append(facebook)
 		self.urls.append(reddit)
@@ -152,7 +150,6 @@ class SocialMedia {
 		"getpocket",
 		"gmail",
 		"google.bookmarks",
-		"google.plus",
 		"hacker.news",
 		"instapaper",
 		"line.me",
@@ -178,7 +175,6 @@ class SocialMedia {
 	]
 
 	var servicesSortedByPopularity = [
-		"google.plus",
 		"google.bookmarks",
 		"facebook",
 		"reddit",
