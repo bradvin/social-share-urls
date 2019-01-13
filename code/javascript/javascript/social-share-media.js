@@ -188,7 +188,7 @@ function GetSocialMediaSiteLinks_WithShareLinks(args) {
 		'twitter':'https://twitter.com/intent/tweet?url=' + url + '&text=' + text + '&via=' + via + '&hashtags=' + hash_tags,
 		'vk':'http://vk.com/share.php?url=' + url + '&title=' + title + '&comment=' + desc,
 		'weibo':'http://service.weibo.com/share/share.php?url=' + url + '&appkey=&title=' + title + '&pic=&ralateUid=',
-		'xing':'https://www.xing.com/app/user?op=share&url=' + url,
+		'xing':'https://www.xing.com/spi/shares/new?url=' + url,
 		'yahoo':'http://compose.mail.yahoo.com/?to=' + email_address + '&subject=' + title + '&body=' + text,
 	};
 }
