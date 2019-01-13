@@ -53,7 +53,6 @@ https://github.com/bradvin/social-share-urls
 * <img src="../images/logo-icons/renren.jpg" width="15px;"/> [Renren](#renren)
 * <img src="../images/logo-icons/skype.jpg" width="15px;"/> [Skype](#skype)
 * <img src="../images/logo-icons/sms.jpg" width="15px;"/> [SMS](#sms)
-* <img src="../images/logo-icons/stumbleupon.jpg" width="15px;"/> [StumbleUpon](#stumbleupon)
 * <img src="../images/logo-icons/surfingbird.ru.jpg" width="15px;"/> [Surfingbird.ru](#surfingbirdru)
 * <img src="../images/logo-icons/telegram.me.jpg" width="15px;"/> [Telegram.me](#telegramme)
 * <img src="../images/logo-icons/threema.jpg" width="15px;"/> [Threema](#threema)
@@ -228,12 +227,6 @@ https://github.com/bradvin/social-share-urls
 <code>Site :</code> N/A
 
 <img src="../images/logo-icons-opaque-background/sms.png" width="50px"/> <img src="../images/logo-icons-white-background/sms.jpg" width="50px"/> <img src="../images/logo-icons/sms.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-01/sms.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-02/sms.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-03/sms.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-04/sms.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-05/sms.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-06/sms.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-07/sms.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-08/sms.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-09/sms.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-10/sms.jpg" width="50px"/>
-
-### StumbleUpon
-
-<code>Site :</code> [https://www.stumbleupon.com/](https://www.stumbleupon.com/)
-
-<img src="../images/logo-icons-opaque-background/stumbleupon.png" width="50px"/> <img src="../images/logo-icons-white-background/stumbleupon.jpg" width="50px"/> <img src="../images/logo-icons/stumbleupon.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-01/stumbleupon.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-02/stumbleupon.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-03/stumbleupon.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-04/stumbleupon.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-05/stumbleupon.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-06/stumbleupon.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-07/stumbleupon.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-08/stumbleupon.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-09/stumbleupon.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-10/stumbleupon.jpg" width="50px"/>
 
 ### Surfingbird.ru
 
