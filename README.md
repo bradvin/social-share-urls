@@ -961,7 +961,7 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 
 ### <a name="stumbleupon" /> StumbleUpon/Mix
 
-* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service moved from stumbleupon.com to mix.com, where it ceased to function `2019`.  Attempted use produces result, "We couldn't gather the information from this website.  Please double-check your link or try again later."
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service moved from stumbleupon.com to mix.com, where it ceased to function in `2019`.  Attempted use produces result, "We couldn't gather the information from this website.  Please double-check your link or try again later."
 
     *  ~~http://mix.com/submit?url={url}~~
 
