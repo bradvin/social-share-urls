@@ -84,7 +84,6 @@ SELECT
 	CONCAT('http://widget.renren.com/dialog/share?resourceUrl=', URL, '&srcUrl=', URL, '&title=', Title, '&description=', Description) as RenRen,
 	CONCAT('https://web.skype.com/share?url=', URL, '&text=', description) as Skype,
 	CONCAT('sms:', PhoneNumber, '?body=', Description) as SMS,
-	CONCAT('http://www.stumbleupon.com/submit?url=', URL, '&title=', Description) as StumbleUpon,
 	CONCAT('http://surfingbird.ru/share?url=', URL, '&description=', Description, '&screenshot=', Image, '&title=', Title) as SurfingBird,
 	CONCAT('https://t.me/share/url?url=', URL, '&text=', Description, '&to=', PhoneNumber) as Telegramme,
 	CONCAT('threema://compose?text=', URL, '&id=', UserID) as Threema,

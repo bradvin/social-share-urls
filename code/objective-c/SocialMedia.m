@@ -92,7 +92,6 @@
 			@"add.this",
 			@"getpocket",
 			@"hacker.news",
-			@"stumbleupon",
 			@"digg",
 			@"buffer",
 			@"flipboard",
@@ -144,7 +143,6 @@
 			@"renren",
 			@"skype",
 			@"sms",
-			@"stumbleupon",
 			@"surfingbird.ru",
 			@"telegram.me",
 			@"threema",
@@ -342,12 +340,6 @@
 	sms = [sms stringByAppendingString:@"?body="];
 	sms = [sms stringByAppendingString:fulltext];
 
-	NSString* stumbleupon = @"";
-	stumbleupon = [stumbleupon stringByAppendingString:@"http://www.stumbleupon.com/submit?url="];
-	stumbleupon = [stumbleupon stringByAppendingString:url];
-	stumbleupon = [stumbleupon stringByAppendingString:@"&title="];
-	stumbleupon = [stumbleupon stringByAppendingString:fulltext];
-
 	NSString* surfingbird = @"";
 	surfingbird = [surfingbird stringByAppendingString:@"http://surfingbird.ru/share?url="];
 	surfingbird = [surfingbird stringByAppendingString:url];
@@ -435,7 +427,6 @@
 			addthis,
 			getpocket,
 			hackernews,
-			stumbleupon,
 			digg,
 			buffer,
 			flipboard,

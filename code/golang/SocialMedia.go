@@ -41,7 +41,6 @@ func SocialMediaInterface() SocialMedia {
 			"add.this",
 			"getpocket",
 			"hacker.news",
-			"stumbleupon",
 			"digg",
 			"buffer",
 			"flipboard",
@@ -99,7 +98,6 @@ func SocialMediaInterface() SocialMedia {
 	var renren string = "http://widget.renren.com/dialog/share?resourceUrl=" + sm.url + "&srcUrl=" + sm.url + "&title=" + sm.text + "&description=" + sm.desc
 	var skype string = "https://web.skype.com/share?url=" + sm.url + "&text=" + sm.text
 	var sms string = "sms:" + sm.phone_number + "?body=" + sm.text
-	var stumbleupon string = "http://www.stumbleupon.com/submit?url=" + sm.url + "&title=" + sm.text
 	var surfingbird string = "http://surfingbird.ru/share?url=" + sm.url + "&description=" + sm.desc + "&screenshot=" + sm.image + "&title=" + sm.title
 	var telegramme string = "https://t.me/share/url?url=" + sm.url + "&text=" + sm.text + "&to=" + sm.phone_number
 	var threema string = "threema://compose?text=" + sm.text + "&id=" + sm.user_id
@@ -152,9 +150,6 @@ func SocialMediaInterface() SocialMedia {
 	index++
 	
 	sm.urls[index] = hackernews
-	index++
-	
-	sm.urls[index] = stumbleupon
 	index++
 	
 	sm.urls[index] = digg

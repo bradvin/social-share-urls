@@ -3,14 +3,14 @@ import java.lang.*;
 import java.io.*;
 
 class SocialMedia {
-					/* All Social Media Sites
-					* -------------------------------------------------
-					*/
-		
-				/* All Social Media Sites ~ Nice Names
-				* -------------------------------------------------
-				*/
-				
+	/* All Social Media Sites
+	 * -------------------------------------------------
+	 */
+
+	/* All Social Media Sites ~ Nice Names
+	 * -------------------------------------------------
+	 */
+
 	public Map<String, String> GetSocialMediaSites_NiceNames() {
 		Map<String, String> socialmediasites = new HashMap<String, String>(){{
 			put("add.this", "AddThis");
@@ -39,7 +39,6 @@ class SocialMedia {
 			put("renren", "RenRen");
 			put("skype", "Skype");
 			put("sms", "SMS");
-			put("stumbleupon", "StumbleUpon");
 			put("surfingbird.ru", "SurfingBird.ru");
 			put("telegram.me", "Telegram.me");
 			put("threema", "Threema");
@@ -73,7 +72,6 @@ class SocialMedia {
 			"add.this",
 			"getpocket",
 			"hacker.news",
-			"stumbleupon",
 			"digg",
 			"buffer",
 			"flipboard",
@@ -182,7 +180,6 @@ class SocialMedia {
 			put("renren", "http://widget.renren.com/dialog/share?resourceUrl=" + args.get("url") + "&srcUrl=" + args.get("url") + "&title=" + args.get("text") + "&description=" + args.get("desc"));
 			put("skype", "https://web.skype.com/share?url=" + args.get("url") + "&text=" + args.get("text"));
 			put("sms", "sms:" + args.get("phone_number") + "?body=" + args.get("text"));
-			put("stumbleupon", "http://www.stumbleupon.com/submit?url=" + args.get("url") + "&title=" + args.get("text"));
 			put("surfingbird.ru", "http://surfingbird.ru/share?url=" + args.get("url") + "&description=" + args.get("desc") + "&screenshot=" + args.get("image") + "&title=" + args.get("title"));
 			put("telegram.me", "https://t.me/share/url?url=" + args.get("url") + "&text=" + args.get("text") + "&to=" + args.get("phone_number"));
 			put("threema", "threema://compose?text=" + args.get("text") + "&id=" + args.get("user_id"));

@@ -44,7 +44,6 @@ class SocialMedia {
 			"add.this",
 			"getpocket",
 			"hacker.news",
-			"stumbleupon",
 			"digg",
 			"buffer",
 			"flipboard",
@@ -169,9 +168,6 @@ SocialMedia::SocialMedia() {
 	char sms[URLSIZE];
 	sprintf(sms, "%s%s%s%s", "sms:", phone_number, "?body=", text);
 
-	char stumbleupon[URLSIZE];
-	sprintf(stumbleupon, "%s%s%s%s", "http://www.stumbleupon.com/submit?url=", url, "&title=", text);
-
 	char surfingbird[URLSIZE];
 	sprintf(surfingbird, "%s%s%s%s%s%s%s%s", "http://surfingbird.ru/share?url=", url, "&description=", desc, "&screenshot=", image, "&title=", title);
 	
@@ -216,7 +212,6 @@ SocialMedia::SocialMedia() {
 	strcpy(urls[i++], addthis);
 	strcpy(urls[i++], getpocket);
 	strcpy(urls[i++], hackernews);
-	strcpy(urls[i++], stumbleupon);
 	strcpy(urls[i++], digg);
 	strcpy(urls[i++], buffer);
 	strcpy(urls[i++], flipboard);

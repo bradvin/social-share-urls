@@ -33,7 +33,6 @@ Public Class SocialMedium
 			"add.this",
 			"getpocket",
 			"hacker.news",
-			"stumbleupon",
 			"digg",
 			"buffer",
 			"flipboard",
@@ -126,7 +125,6 @@ Public Class SocialMedium
 		Dim renren As String = "http://widget.renren.com/dialog/share?resourceUrl=" + url + "&srcUrl=" + url + "&title=" + text + "&description=" + desc
 		Dim skype As String = "https://web.skype.com/share?url=" + url + "&text=" + text
 		Dim sms As String = "sms:" + phone_number + "?body=" + text
-		Dim stumbleupon As String = "http://www.stumbleupon.com/submit?url=" + url + "&title=" + text
 		Dim surfingbird As String = "http://surfingbird.ru/share?url=" + url + "&description=" + desc + "&screenshot=" + image + "&title=" + title
 		Dim telegramme As String = "https://t.me/share/url?url=" + url + "&text=" + text + "&to=" + phone_number
 		Dim threema As String = "threema://compose?text=" + text + "&id=" + user_id
@@ -176,9 +174,6 @@ Public Class SocialMedium
 		index = index + 1
 		
 		urls(index) = hackernews
-		index = index + 1
-		
-		urls(index) = stumbleupon
 		index = index + 1
 		
 		urls(index) = digg

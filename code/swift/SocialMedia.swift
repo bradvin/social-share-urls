@@ -84,7 +84,6 @@ class SocialMedia {
 		var renren = "http://widget.renren.com/dialog/share?resourceUrl=" + url + "&srcUrl=" + url + "&title=" + text + "&description=" + desc
 		var skype = "https://web.skype.com/share?url=" + url + "&text=" + text
 		var sms = "sms:" + phone_number + "?body=" + text
-		var stumbleupon = "http://www.stumbleupon.com/submit?url=" + url + "&title=" + text
 		var surfingbird = "http://surfingbird.ru/share?url=" + url + "&description=" + desc + "&screenshot=" + image + "&title=" + title
 		var telegramme = "https://t.me/share/url?url=" + url + "&text=" + text + "&to=" + phone_number
 		var threema = "threema://compose?text=" + text + "&id=" + user_id
@@ -108,7 +107,6 @@ class SocialMedia {
 		self.urls.append(addthis)
 		self.urls.append(getpocket)
 		self.urls.append(hackernews)
-		self.urls.append(stumbleupon)
 		self.urls.append(digg)
 		self.urls.append(buffer)
 		self.urls.append(flipboard)
@@ -162,7 +160,6 @@ class SocialMedia {
 		"renren",
 		"skype",
 		"sms",
-		"stumbleupon",
 		"surfingbird.ru",
 		"telegram.me",
 		"threema",
@@ -188,7 +185,6 @@ class SocialMedia {
 		"add.this",
 		"getpocket",
 		"hacker.news",
-		"stumbleupon",
 		"digg",
 		"buffer",
 		"flipboard",

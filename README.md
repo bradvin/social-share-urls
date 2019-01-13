@@ -54,7 +54,6 @@ Some sites using this project :
 * <img src="./images/logo-icons/add.this.jpg" width="15px;"/> [AddThis](#addthis)
 * <img src="./images/logo-icons/getpocket.jpg" width="15px;"/> [GetPocket](#getpocket)
 * <img src="./images/logo-icons/hacker.news.jpg" width="15px;"/> [HackerNews](#hackernews)
-* <img src="./images/logo-icons/stumbleupon.jpg" width="15px;"/> [StumbleUpon](#stumbleupon)
 * <img src="./images/logo-icons/digg.jpg" width="15px;"/> [Digg](#digg)
 * <img src="./images/logo-icons/buffer.jpg" width="15px;"/> [Buffer](#buffer)
 * <img src="./images/logo-icons/flipboard.jpg" width="15px;"/> [FlipBoard](#flipboard)
@@ -108,6 +107,7 @@ Some sites using this project :
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [ScoopIt](#scoopit)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [SinnaWeibo](#sinaweibo)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [SlashDot](#slashdot)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [StumbleUpon / Mix.com](#stumbleupon)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Viber](#viber)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [WhatsApp](#whatsapp)
 
@@ -117,7 +117,7 @@ Your URL should be placed in the `url` parameter; if not available, you will nee
 
 Argument | Description | Used By
 --- | --- | ---
-{url} | The URL-encoded link you want to share.  Service may reject link if not encoded. | GoogleBookmarks, Facebook, Reddit, Twitter, LinkedIn, Tumblr, Pinterest, Blogger, LiveJournal, EverNote, AddThis, GetPocket, HackerNews, StumbleUpon, Digg, Buffer, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, Line.me, Skype, Telegram.me, QZone, VK, Weibo, OKru, Douban, XING, RenRen, GMail, Yahoo, WordPress
+{url} | The URL-encoded link you want to share.  Service may reject link if not encoded. | GoogleBookmarks, Facebook, Reddit, Twitter, LinkedIn, Tumblr, Pinterest, Blogger, LiveJournal, EverNote, AddThis, GetPocket, HackerNews, Digg, Buffer, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, Line.me, Skype, Telegram.me, QZone, VK, Weibo, OKru, Douban, XING, RenRen, GMail, Yahoo, WordPress
 {title} | The page title of the url you want to share. | GoogleBookmarks, Reddit, LinkedIn, Tumblr, Blogger, LiveJournal, EverNote, HackerNews, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, VK, Weibo, Douban, RenRen, EMail, GMail, Yahoo, WordPress
 {text} | A longer description of the content you are sharing. | GoogleBookmarks, Twitter, LinkedIn, Tumblr, Blogger, Buffer, InstaPaper, SurfingBird, Flattr, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress
 {hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#"). | GoogleBookmarks, Twitter, Tumblr, Flattr
@@ -400,25 +400,6 @@ https://news.ycombinator.com/submitlink?u={url}&t={title}
     * [The Old Reader: List of Sharing Service URLs](https://theoldreader.uservoice.com/knowledgebase/articles/294010-list-of-sharing-service-urls)
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
-
-### <a name="stumbleupon" /> StumbleUpon
-
-<img src="./images/logo-icons/stumbleupon.jpg" width="25px"/> <code>Global Rank :</code>  `1,948` (apr. 3, 2018)
-
-<code>Parameters :</code> `url`.
-
-```
-http://www.stumbleupon.com/submit?url={url}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: How to submit a link to StumbleUpon with a title](https://webapps.stackexchange.com/q/19942/182463)
-    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
-    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
-* *Test Notes :* Requires login.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
 ### <a name="digg" /> Digg
 
@@ -977,6 +958,12 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Links failed in 2018 with error message, "New bookmark creation is no longer supported."
 
     *  ~~https://slashdot.org/bookmark.pl?url={url}&title={title}~~
+
+### <a name="stumbleupon" /> StumbleUpon/Mix
+
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service moved from stumbleupon.com to mix.com, where it ceased to function `2019`.  Attempted use produces result, "We couldn't gather the information from this website.  Please double-check your link or try again later."
+
+    *  ~~http://mix.com/submit?url={url}~
 
 ### <a name="viber" /> Viber
 

@@ -63,7 +63,6 @@ struct SocialMedia_Interface {
 		"add.this",
 		"getpocket",
 		"hacker.news",
-		"stumbleupon",
 		"digg",
 		"buffer",
 		"flipboard",
@@ -114,7 +113,6 @@ struct SocialMedia_Interface {
 		"renren",
 		"skype",
 		"sms",
-		"stumbleupon",
 		"surfingbird.ru",
 		"telegram.me",
 		"threema",
@@ -219,9 +217,6 @@ struct SocialMedia_Interface buildUrls(void) {
 	char sms[URLSIZE];
 	sprintf(sms, "%s%s%s%s", "sms:", sma.phone_number, "?body=", text);
 	
-	char stumbleupon[URLSIZE];
-	sprintf(stumbleupon, "%s%s%s%s", "http://www.stumbleupon.com/submit?url=", sma.url, "&title=", text);
-	
 	char surfingbird[URLSIZE];
 	sprintf(surfingbird, "%s%s%s%s%s%s%s%s", "http://surfingbird.ru/share?url=", sma.url, "&description=", sma.desc, "&screenshot=", sma.image, "&title=", sma.title);
 	
@@ -267,7 +262,6 @@ struct SocialMedia_Interface buildUrls(void) {
 	strcpy(urllist[i++], addthis);
 	strcpy(urllist[i++], getpocket);
 	strcpy(urllist[i++], hackernews);
-	strcpy(urllist[i++], stumbleupon);
 	strcpy(urllist[i++], digg);
 	strcpy(urllist[i++], buffer);
 	strcpy(urllist[i++], flipboard);

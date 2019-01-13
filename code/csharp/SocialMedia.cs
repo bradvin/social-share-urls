@@ -41,7 +41,6 @@ public class SocialMedia
 		"add.this",
 		"getpocket",
 		"hacker.news",
-		"stumbleupon",
 		"digg",
 		"buffer",
 		"flipboard",
@@ -154,7 +153,6 @@ public class SocialMedia
 		string renren = "http://widget.renren.com/dialog/share?resourceUrl=" + url + "&srcUrl=" + url + "&title=" + text + "&description=" + desc;
 		string skype = "https://web.skype.com/share?url=" + url + "&text=" + text;
 		string sms = "sms:" + phone_number + "?body=" + text;
-		string stumbleupon = "http://www.stumbleupon.com/submit?url=" + url + "&title=" + text;
 		string surfingbird = "http://surfingbird.ru/share?url=" + url + "&description=" + desc + "&screenshot=" + image + "&title=" + title;
 		string telegramme = "https://t.me/share/url?url=" + url + "&text=" + text + "&to=" + phone_number;
 		string threema = "threema://compose?text=" + text + "&id=" + user_id;
@@ -180,7 +178,6 @@ public class SocialMedia
 		urls[i++] = addthis;
 		urls[i++] = getpocket;
 		urls[i++] = hackernews;
-		urls[i++] = stumbleupon;
 		urls[i++] = digg;
 		urls[i++] = buffer;
 		urls[i++] = flipboard;

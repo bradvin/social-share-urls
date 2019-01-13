@@ -36,7 +36,6 @@ export default class SocialShareMedia extends React.Component {
       renren: "RenRen",
       skype: "Skype",
       sms: "SMS",
-      stumbleupon: "StumbleUpon",
       "surfingbird.ru": "SurfingBird.ru",
       "telegram.me": "Telegram.me",
       threema: "Threema",
@@ -67,7 +66,6 @@ export default class SocialShareMedia extends React.Component {
       "add.this",
       "getpocket",
       "hacker.news",
-      "stumbleupon",
       "digg",
       "buffer",
       "flipboard",
@@ -257,17 +255,6 @@ export default class SocialShareMedia extends React.Component {
         desc,
       skype: "https://web.skype.com/share?url=" + url + "&text=" + text,
       sms: "sms:" + phone_number + "?body=" + text,
-      stumbleupon:
-        "http://www.stumbleupon.com/submit?url=" + url + "&title=" + text,
-      "surfingbird.ru":
-        "http://surfingbird.ru/share?url=" +
-        url +
-        "&description=" +
-        desc +
-        "&screenshot=" +
-        image +
-        "&title=" +
-        title,
       "telegram.me":
         "https://t.me/share/url?url=" +
         url +
