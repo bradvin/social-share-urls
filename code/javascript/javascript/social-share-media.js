@@ -124,22 +124,22 @@ function GetSocialMediaSiteLinks_WithShareLinks(args) {
 		}
 	}
 	
-	const url = encodeURIComponent(args.url);
-	const title = encodeURIComponent(args.title);
-	const image = encodeURIComponent(args.image);
-	const desc = encodeURIComponent(args.desc);
-	const app_id = encodeURIComponent(args.appid);
-	const redirect_url = encodeURIComponent(args.redirecturl);
-	const via = encodeURIComponent(args.via);
-	const hash_tags = encodeURIComponent(args.hashtags);
-	const provider = encodeURIComponent(args.provider);
-	const language = encodeURIComponent(args.language);
-	const user_id = encodeURIComponent(args.userid);
-	const category = encodeURIComponent(args.category);
-	const phone_number = encodeURIComponent(args.phonenumber);
-	const email_address = encodeURIComponent(args.emailaddress);
-	const cc_email_address = encodeURIComponent(args.ccemailaddress);
-	const bcc_email_address = encodeURIComponent(args.bccemailaddress);
+	const url = fixedEncodeURIComponent(args.url);
+	const title = fixedEncodeURIComponent(args.title);
+	const image = fixedEncodeURIComponent(args.image);
+	const desc = fixedEncodeURIComponent(args.desc);
+	const app_id = fixedEncodeURIComponent(args.appid);
+	const redirect_url = fixedEncodeURIComponent(args.redirecturl);
+	const via = fixedEncodeURIComponent(args.via);
+	const hash_tags = fixedEncodeURIComponent(args.hashtags);
+	const provider = fixedEncodeURIComponent(args.provider);
+	const language = fixedEncodeURIComponent(args.language);
+	const user_id = fixedEncodeURIComponent(args.userid);
+	const category = fixedEncodeURIComponent(args.category);
+	const phone_number = fixedEncodeURIComponent(args.phonenumber);
+	const email_address = fixedEncodeURIComponent(args.emailaddress);
+	const cc_email_address = fixedEncodeURIComponent(args.ccemailaddress);
+	const bcc_email_address = fixedEncodeURIComponent(args.bccemailaddress);
 	
 	var text = title;
 	
@@ -185,4 +185,10 @@ function GetSocialMediaSiteLinks_WithShareLinks(args) {
 		'xing':'https://www.xing.com/spi/shares/new?url=' + url,
 		'yahoo':'http://compose.mail.yahoo.com/?to=' + email_address + '&subject=' + title + '&body=' + text,
 	};
+}
+
+function fixedEncodeURIComponent(str) {
+	return encodeURIComponent(str).replace(/[!'()*]/g, function(c) {
+		return '%' + c.charCodeAt(0).toString(16);
+	});
 }
