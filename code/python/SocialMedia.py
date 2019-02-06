@@ -148,6 +148,7 @@ class SocialMedia:
             'twitter':'https://twitter.com/intent/tweet?url=' + args['url'] + '&text=' + text + '&via=' + args['via'] + '&hashtags=' + args['hash_tags'],
             'vk':'http://vk.com/share.php?url=' + args['url'] + '&title=' + args['title'] + '&comment=' + args['desc'],
             'weibo':'http://service.weibo.com/share/share.php?url=' + args['url'] + '&appkey=&title=' + args['title'] + '&pic=&ralateUid=',
+            "whatsapp": "https://api.whatsapp.com/send?text=" + args['url'] + "%20" + text,
             'xing':'https://www.xing.com/spi/shares/new?url=' + args['url'],
             'yahoo':'http://compose.mail.yahoo.com/?to=' + args['email_address'] + '&subject=' + args['title'] + '&body=' + text,
         }
