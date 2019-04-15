@@ -980,3 +980,4 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
     * Official WhatsApp Response: "Sorry, but your description was not clear enough for our agents to understand the issue. Please explain the issue more thoroughly." [Request #172349248330585]
     
     *  ~~whatsapp://send?text={url}~~
+    * Now works - https://wa.me/?text={}
