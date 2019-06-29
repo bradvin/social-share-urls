@@ -662,7 +662,7 @@ https://www.xing.com/spi/shares/new?url={url}
     * [XING: Groups > WordPress > Suche Social Media Plugin (German)](https://www.xing.com/communities/posts/suche-social-media-plugin-1010272530)
     * [Drupal: Adding support for XING](https://www.drupal.org/node/1049038)
     * [Kriesi.at: Xing in Social Share](https://kriesi.at/support/topic/xing-in-social-share/)
-* *Test Notes :* Requires login to work and precisely formatted URL (with protocal http/https parameters).
+* *Test Notes :* Requires login to work and precisely formatted URL (with protocol http/https parameters).
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
 
 ### <a name="renren" /> RenRen
