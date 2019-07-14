@@ -94,7 +94,6 @@ Some sites using this project :
 
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [AIM](#aim)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Baidu](#baidu)
-* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [EchoJS](#echojs)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Delicious](#delicious)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [EchoJS](#echojs)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [FBMessenger](#fbmessenger)
