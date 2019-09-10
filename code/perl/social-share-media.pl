@@ -24,7 +24,7 @@ sub GetSocialMediaSites_NiceNames {
 		'gmail'=>'GMail',
 		'hacker.news'=>'HackerNews',
 		'ok.ru'=>'OK.ru',
-		'pinterest.com'=>'Pinterest',
+		'pinterest'=>'Pinterest',
 		'qzone'=>'QZone',
 		'reddit'=>'Reddit',
 		'renren'=>'RenRen',
