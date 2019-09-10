@@ -33,7 +33,7 @@ class SocialMedia {
 			put("gmail", "GMail");
 			put("hacker.news", "HackerNews");
 			put("ok.ru", "OK.ru");
-			put("pinterest.com", "Pinterest");
+			put("pinterest", "Pinterest");
 			put("qzone", "QZone");
 			put("reddit", "Reddit");
 			put("renren", "RenRen");
