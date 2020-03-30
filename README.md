@@ -220,7 +220,7 @@ https://twitter.com/intent/tweet?url={url}&text={title}&via={user_id}&hashtags={
 ```
 
 <code>Source :</code>
-* *Official Source :* [Twitter: Tweet Button Parameter Reference](https://dev.twitter.com/web/tweet-button/parameters)
+* *Official Source :* [Twitter: Tweet Button](https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/overview)
 * *Unofficial Source :*
     * [StackOverflow: How do you include hashtags within Twitter share link text?](https://stackoverflow.com/a/13849543/2430549)
     * [StackOverflow: Custom design for Twitter button with events](https://stackoverflow.com/q/15413159/2430549)
