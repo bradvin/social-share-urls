@@ -331,7 +331,7 @@ http://www.livejournal.com/update.bml?subject={title}&event={url}
 <code>Parameters :</code> `url`, `title`.
 
 ```
-http://www.evernote.com/clip.action?url={url}&title={title}
+https://www.evernote.com/clip.action?url={url}&title={title}
 ```
 
 <code>Source :</code>
@@ -820,7 +820,7 @@ https://mail.google.com/mail/?view=cm&to={email_address}&su={title}&body={url}&b
 <code>Source :</code>
 * *Official Source :* Unable to locate.
 * *Unofficial Source :*
-    * [StackOverflow: Is the mail.google.com “API” documented?](https://stackoverflow.com/q/20956206/2430549)
+    * [StackOverflow: Is the mail.google.com “API” documented?](https://stackoverflow.com/a/56782038/2430549)
     * [StackOverflow: URL to compose a message in Gmail](https://stackoverflow.com/q/6548570/2430549)
     * [UbuntuForums: how to transform (firefox+gmail) in the system email client](https://ubuntuforums.org/showthread.php?t=346070)
 * *Test Notes :* None.
