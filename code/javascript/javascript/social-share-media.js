@@ -156,7 +156,7 @@ function GetSocialMediaSiteLinks_WithShareLinks(args) {
 		'digg':'http://digg.com/submit?url=' + url + '&title=' + text,
 		'douban':'http://www.douban.com/recommend/?url=' + url + '&title=' + text,
 		'email':'mailto:' + email_address + '?subject=' + title + '&body=' + desc,
-		'evernote':'http://www.evernote.com/clip.action?url=' + url + '&title=' + text,
+		'evernote':'https://www.evernote.com/clip.action?url=' + url + '&title=' + text,
 		'getpocket':'https://getpocket.com/edit?url=' + url,
 		'facebook':'http://www.facebook.com/sharer.php?u=' + url,
 		'flattr':'https://flattr.com/submit/auto?user_id=' + user_id + '&url=' + url + '&title=' + title + '&description=' + text + '&language=' + language + '&tags=' + hash_tags + '&hidden=HIDDEN&category=' + category,

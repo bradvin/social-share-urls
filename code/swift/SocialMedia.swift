@@ -65,7 +65,7 @@ class SocialMedia {
 		var digg = "http://digg.com/submit?url=" + url + "&title=" + text
 		var douban = "http://www.douban.com/recommend/?url=" + url + "&title=" + title
 		var email = "mailto:" + email_address + "?subject=" + title + "&body=" + desc
-		var evernote = "http://www.evernote.com/clip.action?url=" + url + "&title=" + text
+		var evernote = "https://www.evernote.com/clip.action?url=" + url + "&title=" + text
 		var getpocket = "https://getpocket.com/edit?url=" + url
 		var facebook = "http://www.facebook.com/sharer.php?u=" + url
 		var flattr = "https://flattr.com/submit/auto?user_id=" + user_id + "&url=" + url + "&title=" + title + "&description=" + text + "&language=" + language + "&tags=" + hash_tags + "&hidden=HIDDEN&category=" + category

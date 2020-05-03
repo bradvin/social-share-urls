@@ -161,7 +161,7 @@ class SocialMedia {
 			put("digg", "http://digg.com/submit?url=" + args.get("url") + "&title=" + args.get("text"));
 			put("douban", "http://www.douban.com/recommend/?url=" + args.get("url") + "&title=" + args.get("text"));
 			put("email", "mailto:" + args.get("email_address") + "?subject=" + args.get("title") + "&body=" + args.get("desc"));
-			put("evernote", "http://www.evernote.com/clip.action?url=" + args.get("url") + "&title=" + args.get("text"));
+			put("evernote", "https://www.evernote.com/clip.action?url=" + args.get("url") + "&title=" + args.get("text"));
 			put("getpocket", "https://getpocket.com/edit?url=" + args.get("url"));
 			put("facebook", "http://www.facebook.com/sharer.php?u=" + args.get("url"));
 			put("flattr", "https://flattr.com/submit/auto?user_id=" + args.get("user_id") + "&url=" + args.get("url") + "&title=" + args.get("title") + "&description=" + args.get("text") + "&language=" + args.get("language") + "&tags=" + args.get("hash_tags") + "&hidden=HIDDEN&category=" + args.get("category"));

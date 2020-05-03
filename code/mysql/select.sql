@@ -65,7 +65,7 @@ SELECT
 	CONCAT('http://digg.com/submit?url=', URL, '&title=', Title) as Digg,
 	CONCAT('http://www.douban.com/recommend/?url=', URL, '&title=', Title) as Douban,
 	CONCAT('mailto:', EmailAddress, '?subject=', Title, '&body=', URL) as Email,
-	CONCAT('http://www.evernote.com/clip.action?url=', URL, '&title=', Title) as EverNote,
+	CONCAT('https://www.evernote.com/clip.action?url=', URL, '&title=', Title) as EverNote,
 	CONCAT('https://getpocket.com/edit?url=', URL) as GetPocket,
 	CONCAT('http://www.facebook.com/sharer.php?u=', URL) as FaceBook,
 	CONCAT('https://flattr.com/submit/auto?user_id=', UserID, '&url=', URL, '&title=', Title, '&description=', Description, '&language=', Language, '&tags=', HashTags, '&hidden=HIDDEN&category=', category) as Flattr,

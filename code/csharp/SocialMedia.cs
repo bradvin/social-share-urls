@@ -134,7 +134,7 @@ public class SocialMedia
 		string digg = "http://digg.com/submit?url=" + url + "&title=" + text;
 		string douban = "http://www.douban.com/recommend/?url=" + url + "&title=" + title;
 		string email = "mailto:" + email_address + "?subject=" + title + "&body=" + desc;
-		string evernote = "http://www.evernote.com/clip.action?url=" + url + "&title=" + text;
+		string evernote = "https://www.evernote.com/clip.action?url=" + url + "&title=" + text;
 		string getpocket = "https://getpocket.com/edit?url=" + url;
 		string facebook = "http://www.facebook.com/sharer.php?u=" + url;
 		string flattr = "https://flattr.com/submit/auto?user_id=" + user_id + "&url=" + url + "&title=" + title + "&description=" + text + "&language=" + language + "&tags=" + hash_tags + "&hidden=HIDDEN&category=" + category;

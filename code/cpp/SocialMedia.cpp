@@ -112,7 +112,7 @@ SocialMedia::SocialMedia() {
 	sprintf(email, "%s%s%s%s%s%s", "mailto:", email_address, "?subject=", title, "&body=", desc);
 
 	char evernote[URLSIZE];
-	sprintf(evernote, "%s%s%s%s", "http://www.evernote.com/clip.action?url=", url, "&title=", title);
+	sprintf(evernote, "%s%s%s%s", "https://www.evernote.com/clip.action?url=", url, "&title=", title);
 	
 	char getpocket[URLSIZE];
 	sprintf(getpocket, "%s%s", "https://getpocket.com/edit?url=", url);

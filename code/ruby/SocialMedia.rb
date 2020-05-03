@@ -127,7 +127,7 @@ class SocialMedia
       'digg'=>'http://digg.com/submit?url=' + args['url'] + '&title=' + text,
       'douban'=>'http://www.douban.com/recommend/?url=' + args['url'] + '&title=' + text,
       'email'=>'mailto:' + args['email_address'] + '?subject=' + args['title'] + '&body=' + args['desc'],
-      'evernote'=>'http://www.evernote.com/clip.action?url=' + args['url'] + '&title=' + text,
+      'evernote'=>'https://www.evernote.com/clip.action?url=' + args['url'] + '&title=' + text,
       'getpocket'=>'https://getpocket.com/edit?url=' + args['url'],
       'facebook'=>'http://www.facebook.com/sharer.php?u=' + args['url'],
       'flattr'=>'https://flattr.com/submit/auto?user_id=' + args['user_id'] + '&url=' + args['url'] + '&title=' + args['title'] + '&description=' + text + '&language=' + args['language'] + '&tags=' + args['hash_tags'] + '&hidden=HIDDEN&category=' + args['category'],

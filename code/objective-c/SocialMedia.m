@@ -207,7 +207,7 @@
 	email = [email stringByAppendingString:fulltext];
 
 	NSString* evernote = @"";
-	evernote = [evernote stringByAppendingString:@"http://www.evernote.com/clip.action?url="];
+	evernote = [evernote stringByAppendingString:@"https://www.evernote.com/clip.action?url="];
 	evernote = [evernote stringByAppendingString:url];
 	evernote = [evernote stringByAppendingString:@"&title="];
 	evernote = [evernote stringByAppendingString:fulltext];

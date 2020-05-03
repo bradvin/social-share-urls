@@ -79,7 +79,7 @@ func SocialMediaInterface() SocialMedia {
 	var digg string = "http://digg.com/submit?url=" + sm.url + "&title=" + sm.text
 	var douban string = "http://www.douban.com/recommend/?url=" + sm.url + "&title=" + sm.title
 	var email string = "mailto:" + sm.email_address + "?subject=" + sm.title + "&body=" + sm.desc
-	var evernote string = "http://www.evernote.com/clip.action?url=" + sm.url + "&title=" + sm.text
+	var evernote string = "https://www.evernote.com/clip.action?url=" + sm.url + "&title=" + sm.text
 	var getpocket string = "https://getpocket.com/edit?url=" + sm.url
 	var facebook string = "http://www.facebook.com/sharer.php?u=" + sm.url
 	var flattr string = "https://flattr.com/submit/auto?user_id=" + sm.user_id + "&url=" + sm.url + "&title=" + sm.title + "&description=" + sm.text + "&language=" + sm.language + "&tags=" + sm.hash_tags + "&hidden=HIDDEN&category=" + sm.category

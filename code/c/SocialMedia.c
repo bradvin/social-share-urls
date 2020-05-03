@@ -161,7 +161,7 @@ struct SocialMedia_Interface buildUrls(void) {
 	sprintf(email, "%s%s%s%s%s%s", "mailto:", sma.email_address, "?subject=", sma.title, "&body=", sma.desc);
 
 	char evernote[URLSIZE];
-	sprintf(evernote, "%s%s%s%s", "http://www.evernote.com/clip.action?url=", sma.url, "&title=", sma.title);
+	sprintf(evernote, "%s%s%s%s", "https://www.evernote.com/clip.action?url=", sma.url, "&title=", sma.title);
 	
 	char getpocket[URLSIZE];
 	sprintf(getpocket, "%s%s", "https://getpocket.com/edit?url=", sma.url);

@@ -106,7 +106,7 @@ Public Class SocialMedium
 		Dim digg As String = "http://digg.com/submit?url=" + url + "&title=" + text
 		Dim douban As String = "http://www.douban.com/recommend/?url=" + url + "&title=" + title
 		Dim email As String = "mailto:" + email_address + "?subject=" + title + "&body=" + desc
-		Dim evernote As String = "http://www.evernote.com/clip.action?url=" + url + "&title=" + text
+		Dim evernote As String = "https://www.evernote.com/clip.action?url=" + url + "&title=" + text
 		Dim getpocket As String = "https://getpocket.com/edit?url=" + url
 		Dim facebook As String = "http://www.facebook.com/sharer.php?u=" + url
 		Dim flattr As String = "https://flattr.com/submit/auto?user_id=" + user_id + "&url=" + url + "&title=" + title + "&description=" + text + "&language=" + language + "&tags=" + hash_tags + "&hidden=HIDDEN&category=" + category

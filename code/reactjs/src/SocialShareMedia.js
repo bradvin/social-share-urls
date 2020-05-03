@@ -170,7 +170,7 @@ export default class SocialShareMedia extends React.Component {
       douban: "http://www.douban.com/recommend/?url=" + url + "&title=" + text,
       email: "mailto:" + email_address + "?subject=" + title + "&body=" + desc,
       evernote:
-        "http://www.evernote.com/clip.action?url=" + url + "&title=" + text,
+        "https://www.evernote.com/clip.action?url=" + url + "&title=" + text,
       getpocket: "https://getpocket.com/edit?url=" + url,
       facebook: "http://www.facebook.com/sharer.php?u=" + url,
       flattr:
