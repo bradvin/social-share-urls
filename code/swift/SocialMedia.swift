@@ -74,7 +74,7 @@ class SocialMedia {
 		var googlebookmarks = "https://www.google.com/bookmarks/mark?op=edit&bkmk=" + url + "&title=" + title + "&annotation=" + text + "&labels=" + hash_tags
 		var instapaper = "http://www.instapaper.com/edit?url=" + url + "&title=" + title + "&description=" + desc
 		var lineme = "https://lineit.line.me/share/ui?url=" + url + "&text=" + text
-		var linkedin = "https://www.linkedin.com/shareArticle?mini=true&url=" + url + "&title=" + title + "&summary=" + text + "&source=" + provider
+		var linkedin = "https://www.linkedin.com/sharing/share-offsite/?url=" + url
 		var livejournal = "http://www.livejournal.com/update.bml?subject=" + text + "&event=" + url
 		var hackernews = "https://news.ycombinator.com/submitlink?u=" + url + "&t=" + title
 		var okru = "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=" + url

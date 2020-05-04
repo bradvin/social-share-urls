@@ -188,7 +188,7 @@ struct SocialMedia_Interface buildUrls(void) {
 	sprintf(lineme, "%s%s%s%s", "https://lineit.line.me/share/ui?url=", sma.url, "&text=", text);
 	
 	char linkedin[URLSIZE];
-	sprintf(linkedin, "%s%s%s%s%s%s%s%s", "https://www.linkedin.com/shareArticle?mini=true&url=", sma.url, "&title=", sma.title, "&summary=", text, "&source=", sma.provider);
+	sprintf(linkedin, "%s%s", "https://www.linkedin.com/sharing/share-offsite/?url=", sma.url);
 	
 	char livejournal[URLSIZE];
 	sprintf(livejournal, "%s%s%s%s", "http://www.livejournal.com/update.bml?subject=", text, "&event=", sma.url);

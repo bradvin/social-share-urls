@@ -279,14 +279,8 @@
 	lineme = [lineme stringByAppendingString:fulltext];
 
 	NSString* linkedin = @"";
-	linkedin = [linkedin stringByAppendingString:@"https://www.linkedin.com/shareArticle?mini=true&url="];
+	linkedin = [linkedin stringByAppendingString:@"https://www.linkedin.com/sharing/share-offsite/?url="];
 	linkedin = [linkedin stringByAppendingString:url];
-	linkedin = [linkedin stringByAppendingString:@"&title="];
-	linkedin = [linkedin stringByAppendingString:title];
-	linkedin = [linkedin stringByAppendingString:@"&summary="];
-	linkedin = [linkedin stringByAppendingString:fulltext];
-	linkedin = [linkedin stringByAppendingString:@"&source="];
-	linkedin = [linkedin stringByAppendingString:provider];
 
 	NSString* livejournal = @"";
 	livejournal = [livejournal stringByAppendingString:@"http://www.livejournal.com/update.bml?subject="];

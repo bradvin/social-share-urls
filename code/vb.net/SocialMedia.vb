@@ -115,7 +115,7 @@ Public Class SocialMedium
 		Dim googlebookmarks As String = "https://www.google.com/bookmarks/mark?op=edit&bkmk=" + url + "&title=" + title + "&annotation=" + text + "&labels=" + hash_tags
 		Dim instapaper As String = "http://www.instapaper.com/edit?url=" + url + "&title=" + title + "&description=" + desc
 		Dim lineme As String = "https://lineit.line.me/share/ui?url=" + url + "&text=" + text
-		Dim linkedin As String = "https://www.linkedin.com/shareArticle?mini=true&url=" + url + "&title=" + title + "&summary=" + text + "&source=" + provider
+		Dim linkedin As String = "https://www.linkedin.com/sharing/share-offsite/?url=" + url
 		Dim livejournal As String = "http://www.livejournal.com/update.bml?subject=" + text + "&event=" + url
 		Dim hackernews As String = "https://news.ycombinator.com/submitlink?u=" + url + "&t=" + title
 		Dim okru As String = "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=" + url

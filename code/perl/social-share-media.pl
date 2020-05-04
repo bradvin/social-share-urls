@@ -138,7 +138,7 @@ sub GetSocialMediaSiteLinks_WithShareLinks {
 		'google.bookmarks'=>'https://www.google.com/bookmarks/mark?op=edit&bkmk=' . $url . '&title=' . $title . '&annotation=' . $text . '&labels=' . $hash_tags . '',
 		'instapaper'=>'http://www.instapaper.com/edit?url=' . $url . '&title=' . $title . '&description=' . $desc,
 		'line.me'=>'https://lineit.line.me/share/ui?url=' . $url . '&text=' . $text,
-		'linkedin'=>'https://www.linkedin.com/shareArticle?mini=true&url=' . $url . '&title=' . $title . '&summary=' . $text . '&source=' . $provider,
+		'linkedin'=>'https://www.linkedin.com/sharing/share-offsite/?url=' . $url,
 		'livejournal'=>'http://www.livejournal.com/update.bml?subject=' . $text . '&event=' . $url,
 		'hacker.news'=>'https://news.ycombinator.com/submitlink?u=' . $url . '&t=' . $title,
 		'ok.ru'=>'https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=' . $url,

@@ -88,7 +88,7 @@ func SocialMediaInterface() SocialMedia {
 	var googlebookmarks string = "https://www.google.com/bookmarks/mark?op=edit&bkmk=" + sm.url + "&title=" + sm.title + "&annotation=" + sm.text + "&labels=" + sm.hash_tags
 	var instapaper string = "http://www.instapaper.com/edit?url=" + sm.url + "&title=" + sm.title + "&description=" + sm.desc
 	var lineme string = "https://lineit.line.me/share/ui?url=" + sm.url + "&text=" + sm.text
-	var linkedin string = "https://www.linkedin.com/shareArticle?mini=true&url=" + sm.url + "&title=" + sm.title + "&summary=" + sm.text + "&source=" + sm.provider
+	var linkedin string = "https://www.linkedin.com/sharing/share-offsite/?url=" + sm.url
 	var livejournal string = "http://www.livejournal.com/update.bml?subject=" + sm.text + "&event=" + sm.url
 	var hackernews string = "https://news.ycombinator.com/submitlink?u=" + sm.url + "&t=" + sm.title
 	var okru string = "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=" + sm.url

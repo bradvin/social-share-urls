@@ -117,8 +117,8 @@ Your URL should be placed in the `url` parameter; if not available, you will nee
 Argument | Description | Used By
 --- | --- | ---
 {url} | The URL-encoded link you want to share.  Service may reject link if not encoded. | GoogleBookmarks, Facebook, Reddit, Twitter, LinkedIn, Tumblr, Pinterest, Blogger, LiveJournal, EverNote, AddThis, GetPocket, HackerNews, Digg, Buffer, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, Line.me, Skype, Telegram.me, QZone, VK, Weibo, OKru, Douban, XING, RenRen, GMail, Yahoo, WordPress
-{title} | The page title of the url you want to share. | GoogleBookmarks, Reddit, LinkedIn, Tumblr, Blogger, LiveJournal, EverNote, HackerNews, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, VK, Weibo, Douban, RenRen, EMail, GMail, Yahoo, WordPress
-{text} | A longer description of the content you are sharing. | GoogleBookmarks, Twitter, LinkedIn, Tumblr, Blogger, Buffer, InstaPaper, SurfingBird, Flattr, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress
+{title} | The page title of the url you want to share. | GoogleBookmarks, Reddit, Tumblr, Blogger, LiveJournal, EverNote, HackerNews, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, VK, Weibo, Douban, RenRen, EMail, GMail, Yahoo, WordPress
+{text} | A longer description of the content you are sharing. | GoogleBookmarks, Twitter, Tumblr, Blogger, Buffer, InstaPaper, SurfingBird, Flattr, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress
 {hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#"). | GoogleBookmarks, Twitter, Tumblr, Flattr
 {user_id} | The username/id of a particular user on a social media service. | Twitter, Flattr, Threema
 {email_address} | Where a social share is directed.  You will most likely want to leave this blank, so the user can fill it in. | EMail, GMail, Yahoo
@@ -129,7 +129,6 @@ Argument | Description | Used By
 {redirect_url} | The url a sharer will be redirected to after a successful share. | Facebook
 {page_type} | Type of page, either "page" or "popup." | Facebook
 {category} | A section to submit the share/comment to. | Flattr
-{provider} | Service providing the share link. | LinkedIn
 
 ## Multi-Language Social Media
 
@@ -147,6 +146,7 @@ https://www.google.com/bookmarks/mark?op=edit&bkmk={url}&title={title}&annotatio
 * *Official Source :* Unable to locate.
 * *Unofficial Source :*
     * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
+    * [StackOverflow: Google bookmarks script only saves about 1 in 5 links](https://stackoverflow.com/q/50498062/2430549)
     * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
     * [StackOverflow: Wordpress posts show http://google.com/bookmarks/mark?op=edit&title= in front of url](https://stackoverflow.com/q/44287426/2430549)
 * *Test Notes :* None.
@@ -230,22 +230,25 @@ https://twitter.com/intent/tweet?url={url}&text={title}&via={user_id}&hashtags={
 
 ### <a name="linkedin" /> LinkedIn
 
-<img src="./images/logo-icons/linkedin.jpg" width="25px"/> <code>Global Rank :</code>  `30` (apr. 3, 2018)
+<img src="./images/logo-icons/linkedin.jpg" width="25px"/> <code>Global Rank :</code>  `30` (may 3, 2020)
 
-<code>Parameters :</code> `url`, `title`, `summary`, `source`.
+<code>Parameters :</code> `url`.
 
 ```
-https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary={text}&source={provider}
+https://www.linkedin.com/sharing/share-offsite/?url={url}
 ```
 
 <code>Source :</code>
 * *Official Source :* [LinkedIn: Share On LinkedIn, Section: "Customized URL"](https://developer.linkedin.com/docs/share-on-linkedin)
 * *Unofficial Source :*
+    * [StackOverflow: Social Sharing With LinkedIn (April, 2020)](https://stackoverflow.com/a/61583006/2430549)
     * [StackOverflow: How to make custom linkedin share button](https://stackoverflow.com/q/10713542/2430549)
     * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
     * [StackOverflow: Social media sharing without scripts](https://stackoverflow.com/q/28548347/2430549)
+    * [StackOverflow: LinkedIn share url without javascript?](https://stackoverflow.com/a/61583050/2430549)
+    * [StackOverflow: LinkedIn Share Post URL](https://stackoverflow.com/a/61583095/2430549)
 * *Test Notes :* URL max is 1,024 characters, title/source max is 200 characters, and summary max is 256 characters.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, `2018`, `2020`.
 
 ### <a name="tumblr" /> Tumblr
 

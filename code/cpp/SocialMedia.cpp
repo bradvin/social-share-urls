@@ -139,7 +139,7 @@ SocialMedia::SocialMedia() {
 	sprintf(lineme, "%s%s%s%s", "https://lineit.line.me/share/ui?url=", url, "&text=", text);
 	
 	char linkedin[URLSIZE];
-	sprintf(linkedin, "%s%s%s%s%s%s%s%s", "https://www.linkedin.com/shareArticle?mini=true&url=", url, "&title=", title, "&summary=", text, "&source=", provider);
+	sprintf(linkedin, "%s%s", "https://www.linkedin.com/sharing/share-offsite/?url=", url);
 	
 	char livejournal[URLSIZE];
 	sprintf(livejournal, "%s%s%s%s", "http://www.livejournal.com/update.bml?subject=", text, "&event=", url);

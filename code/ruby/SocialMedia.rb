@@ -136,7 +136,7 @@ class SocialMedia
       'google.bookmarks'=>'https://www.google.com/bookmarks/mark?op=edit&bkmk=' + args['url'] + '&title=' + args['title'] + '&annotation=' + text + '&labels=' + args['hash_tags'],
       'instapaper'=>'http://www.instapaper.com/edit?url=' + args['url'] + '&title=' + args['title'] + '&description=' + args['desc'],
       'line.me'=>'https://lineit.line.me/share/ui?url=' + args['url'] + '&text=' + text,
-      'linkedin'=>'https://www.linkedin.com/shareArticle?mini=true&url=' + args['url'] + '&title=' + args['title'] + '&summary=' + text + '&source=' + args['provider'],
+      'linkedin'=>'https://www.linkedin.com/sharing/share-offsite/?url=' + args['url'],
       'livejournal'=>'http://www.livejournal.com/update.bml?subject=' + text + '&event=' + args['url'],
       'hacker.news'=>'https://news.ycombinator.com/submitlink?u=' + args['url'] + '&t=' + args['title'],
       'ok.ru'=>'https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=' + args['url'],

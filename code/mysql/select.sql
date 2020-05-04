@@ -74,7 +74,7 @@ SELECT
 	CONCAT('https://www.google.com/bookmarks/mark?op=edit&bkmk=', URL, '&title=', Title, '&annotation=', Description, '&labels=', HashTags) as GoogleBookmarks,
 	CONCAT('http://www.instapaper.com/edit?url=', URL, '&title=', Title, '&description=', Description) as InstaPaper,
 	CONCAT('https://lineit.line.me/share/ui?url=', URL, '&text=', Description) as LineMe,
-	CONCAT('https://www.linkedin.com/shareArticle?mini=true&url=', URL, '&title=', Title, '&summary=', Description, '&source=', Provider) as LinkedIn,
+	CONCAT('https://www.linkedin.com/sharing/share-offsite/?url=', URL) as LinkedIn,
 	CONCAT('http://www.livejournal.com/update.bml?subject=', Title, '&event=', URL) as LiveJournal,
 	CONCAT('https://news.ycombinator.com/submitlink?u=', URL, '&t=', Title) as HackerNews,
 	CONCAT('https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=', URL) as OKRU,

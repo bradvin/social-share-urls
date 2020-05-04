@@ -223,14 +223,8 @@ export default class SocialShareMedia extends React.Component {
         desc,
       "line.me": "https://lineit.line.me/share/ui?url=" + url + "&text=" + text,
       linkedin:
-        "https://www.linkedin.com/shareArticle?mini=true&url=" +
-        url +
-        "&title=" +
-        title +
-        "&summary=" +
-        text +
-        "&source=" +
-        provider,
+        "https://www.linkedin.com/sharing/share-offsite/?url=" +
+        url,
       livejournal:
         "http://www.livejournal.com/update.bml?subject=" +
         text +

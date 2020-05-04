@@ -143,7 +143,7 @@ public class SocialMedia
 		string googlebookmarks = "https://www.google.com/bookmarks/mark?op=edit&bkmk=" + url + "&title=" + title + "&annotation=" + text + "&labels=" + hash_tags;
 		string instapaper = "http://www.instapaper.com/edit?url=" + url + "&title=" + title + "&description=" + desc;
 		string lineme = "https://lineit.line.me/share/ui?url=" + url + "&text=" + text;
-		string linkedin = "https://www.linkedin.com/shareArticle?mini=true&url=" + url + "&title=" + title + "&summary=" + text + "&source=" + provider;
+		string linkedin = "https://www.linkedin.com/sharing/share-offsite/?url=" + url;
 		string livejournal = "http://www.livejournal.com/update.bml?subject=" + text + "&event=" + url;
 		string hackernews = "https://news.ycombinator.com/submitlink?u=" + url + "&t=" + title;
 		string okru = "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=" + url;

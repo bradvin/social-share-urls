@@ -170,7 +170,7 @@ class SocialMedia {
 			put("google.bookmarks", "https://www.google.com/bookmarks/mark?op=edit&bkmk=" + args.get("url") + "&title=" + args.get("title") + "&annotation=" + args.get("text") + "&labels=" + args.get("hash_tags"));
 			put("instapaper", "http://www.instapaper.com/edit?url=" + args.get("url") + "&title=" + args.get("title") + "&description=" + args.get("desc"));
 			put("line.me", "https://lineit.line.me/share/ui?url=" + args.get("url") + "&text=" + args.get("text"));
-			put("linkedin", "https://www.linkedin.com/shareArticle?mini=true&url=" + args.get("url") + "&title=" + args.get("title") + "&summary=" + args.get("text") + "&source=" + args.get("provider"));
+			put("linkedin", "https://www.linkedin.com/sharing/share-offsite/?url=" + args.get("url"));
 			put("livejournal", "http://www.livejournal.com/update.bml?subject=" + args.get("text") + "&event=" + args.get("url"));
 			put("hacker.news", "https://news.ycombinator.com/submitlink?u=" + args.get("url") + "&t=" + args.get("title"));
 			put("ok.ru", "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=" + args.get("url"));
