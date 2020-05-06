@@ -17,7 +17,6 @@ class SocialMedia {
 			put("blogger", "Blogger");
 			put("buffer", "Buffer");
 			put("diaspora", "Diaspora");
-			put("digg", "Digg");
 			put("douban", "Douban");
 			put("email", "EMail");
 			put("evernote", "EverNote");
@@ -46,6 +45,7 @@ class SocialMedia {
 			put("twitter", "Twitter");
 			put("vk", "VK");
 			put("weibo", "Weibo");
+			put("whatsapp", "WhatsApp");
 			put("xing", "Xing");
 			put("yahoo", "Yahoo");
 		}};
@@ -62,6 +62,7 @@ class SocialMedia {
 			"google.bookmarks",
 			"facebook",
 			"reddit",
+			"whatsapp",
 			"twitter",
 			"linkedin",
 			"tumblr",
@@ -72,7 +73,6 @@ class SocialMedia {
 			"add.this",
 			"getpocket",
 			"hacker.news",
-			"digg",
 			"buffer",
 			"flipboard",
 			"instapaper",
@@ -158,7 +158,6 @@ class SocialMedia {
 			put("blogger", "https://www.blogger.com/blog-this.g?u=" + args.get("url") + "&n=" + args.get("title") + "&t=" + args.get("desc"));
 			put("buffer", "https://buffer.com/add?text=" + args.get("text") + "&url=" + args.get("url"));
 			put("diaspora", "https://share.diasporafoundation.org/?title=" + args.get("title") + "&url=" + args.get("url"));
-			put("digg", "http://digg.com/submit?url=" + args.get("url") + "&title=" + args.get("text"));
 			put("douban", "http://www.douban.com/recommend/?url=" + args.get("url") + "&title=" + args.get("text"));
 			put("email", "mailto:" + args.get("email_address") + "?subject=" + args.get("title") + "&body=" + args.get("desc"));
 			put("evernote", "https://www.evernote.com/clip.action?url=" + args.get("url") + "&title=" + args.get("text"));
@@ -187,6 +186,7 @@ class SocialMedia {
 			put("twitter", "https://twitter.com/intent/tweet?url=" + args.get("url") + "&text=" + args.get("text") + "&via=" + args.get("via") + "&hashtags=" + args.get("hash_tags"));
 			put("vk", "http://vk.com/share.php?url=" + args.get("url") + "&title=" + args.get("title") + "&comment=" + args.get("desc"));
 			put("weibo", "http://service.weibo.com/share/share.php?url=" + args.get("url") + "&appkey=&title=" + args.get("title") + "&pic=&ralateUid=");
+			put("whatsapp", "https://api.whatsapp.com/send?text=" + args.get("text") + "%20" + args.get("url"));
 			put("xing", "https://www.xing.com/spi/shares/new?url=" + args.get("url"));
 			put("yahoo", "http://compose.mail.yahoo.com/?to=" + args.get("email_address") + "&subject=" + args.get("title") + "&body=" + args.get("text"));
 		}};

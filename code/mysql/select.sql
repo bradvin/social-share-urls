@@ -62,7 +62,6 @@ SELECT
 	CONCAT('https://www.blogger.com/blog-this.g?u=', URL, '&n=', Title, '&t=', Description) as Blogger,
 	CONCAT('https://buffer.com/add?text=', Description, '&url=', URL) as Buffer,
 	CONCAT('https://share.diasporafoundation.org/?title=', Title, '&url=', URL) as Diaspora,
-	CONCAT('http://digg.com/submit?url=', URL, '&title=', Title) as Digg,
 	CONCAT('http://www.douban.com/recommend/?url=', URL, '&title=', Title) as Douban,
 	CONCAT('mailto:', EmailAddress, '?subject=', Title, '&body=', URL) as Email,
 	CONCAT('https://www.evernote.com/clip.action?url=', URL, '&title=', Title) as EverNote,
@@ -91,6 +90,7 @@ SELECT
 	CONCAT('https://twitter.com/intent/tweet?url=', URL, '&text=', Description, '&via=', Via, '&hashtags=', HashTags) as Twitter,
 	CONCAT('http://vk.com/share.php?url=', URL, '&title=', Title, '&comment=', Description) as VK,
 	CONCAT('http://service.weibo.com/share/share.php?url=', URL, '&appkey=&title=', Title, '&pic=&ralateUid=') as Weibo,
+	CONCAT('https://api.whatsapp.com/send?text=', Title, "%20", Description, "%20", URL) as WhatsApp,
 	CONCAT('https://www.xing.com/spi/shares/new?url=', URL) as Xing,
 	CONCAT('http://compose.mail.yahoo.com/?to=', EmailAddress, '&subject=', Title, '&body=', URL) as Yahoo
 FROM URLRecord;

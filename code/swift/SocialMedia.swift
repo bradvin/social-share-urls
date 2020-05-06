@@ -62,7 +62,6 @@ class SocialMedia {
 		var blogger = "https://www.blogger.com/blog-this.g?u=" + url + "&n=" + title + "&t=" + desc
 		var buffer = "https://buffer.com/add?text=" + text + "&url=" + url
 		var diaspora = "https://share.diasporafoundation.org/?title=" + title + "&url=" + url
-		var digg = "http://digg.com/submit?url=" + url + "&title=" + text
 		var douban = "http://www.douban.com/recommend/?url=" + url + "&title=" + title
 		var email = "mailto:" + email_address + "?subject=" + title + "&body=" + desc
 		var evernote = "https://www.evernote.com/clip.action?url=" + url + "&title=" + text
@@ -91,12 +90,14 @@ class SocialMedia {
 		var twitter = "https://twitter.com/intent/tweet?url=" + url + "&text=" + text + "&via=" + via + "&hashtags=" + hash_tags
 		var vk = "http://vk.com/share.php?url=" + url + "&title=" + title + "&comment=" + desc
 		var weibo = "http://service.weibo.com/share/share.php?url=" + url + "&appkey=&title=" + title + "&pic=&ralateUid="
+		var whatsapp = "https://api.whatsapp.com/send?text=" + text + "%20" + url,
 		var xing = "https://www.xing.com/spi/shares/new?url=" + url
 		var yahoo = "http://compose.mail.yahoo.com/?to=" + email_address + "&subject=" + title + "&body=" + text
 
 		self.urls.append(googlebookmarks)
 		self.urls.append(facebook)
 		self.urls.append(reddit)
+		self.urls.append(whatsapp)
 		self.urls.append(twitter)
 		self.urls.append(linkedin)
 		self.urls.append(tumblr)
@@ -107,7 +108,6 @@ class SocialMedia {
 		self.urls.append(addthis)
 		self.urls.append(getpocket)
 		self.urls.append(hackernews)
-		self.urls.append(digg)
 		self.urls.append(buffer)
 		self.urls.append(flipboard)
 		self.urls.append(instapaper)
@@ -138,7 +138,6 @@ class SocialMedia {
 		"blogger",
 		"buffer",
 		"diaspora",
-		"digg",
 		"douban",
 		"email",
 		"evernote",
@@ -167,6 +166,7 @@ class SocialMedia {
 		"twitter",
 		"vk",
 		"weibo",
+		"whatsapp",
 		"xing",
 		"yahoo",
 	]
@@ -175,6 +175,7 @@ class SocialMedia {
 		"google.bookmarks",
 		"facebook",
 		"reddit",
+		"whatsapp",
 		"twitter",
 		"linkedin",
 		"tumblr",
@@ -185,7 +186,6 @@ class SocialMedia {
 		"add.this",
 		"getpocket",
 		"hacker.news",
-		"digg",
 		"buffer",
 		"flipboard",
 		"instapaper",

@@ -2,7 +2,7 @@ using System;
 
 public static class Globals
 {
-    public static readonly int SOCIALMEDIASERVICES = 37;
+    public static readonly int SOCIALMEDIASERVICES = 35;
     public static readonly int URLSIZE = 1024;
     public static readonly int ARGLENGTH = 1024;
 }
@@ -31,6 +31,7 @@ public class SocialMedia
 		"google.bookmarks",
 		"facebook",
 		"reddit",
+		"whatsapp",
 		"twitter",
 		"linkedin",
 		"tumblr",
@@ -41,7 +42,6 @@ public class SocialMedia
 		"add.this",
 		"getpocket",
 		"hacker.news",
-		"digg",
 		"buffer",
 		"flipboard",
 		"instapaper",
@@ -131,7 +131,6 @@ public class SocialMedia
 		string blogger = "https://www.blogger.com/blog-this.g?u=" + url + "&n=" + title + "&t=" + desc;
 		string buffer = "https://buffer.com/add?text=" + text + "&url=" + url;
 		string diaspora = "https://share.diasporafoundation.org/?title=" + title + "&url=" + url;
-		string digg = "http://digg.com/submit?url=" + url + "&title=" + text;
 		string douban = "http://www.douban.com/recommend/?url=" + url + "&title=" + title;
 		string email = "mailto:" + email_address + "?subject=" + title + "&body=" + desc;
 		string evernote = "https://www.evernote.com/clip.action?url=" + url + "&title=" + text;
@@ -160,6 +159,7 @@ public class SocialMedia
 		string twitter = "https://twitter.com/intent/tweet?url=" + url + "&text=" + text + "&via=" + via + "&hashtags=" + hash_tags;
 		string vk = "http://vk.com/share.php?url=" + url + "&title=" + title + "&comment=" + desc;
 		string weibo = "http://service.weibo.com/share/share.php?url=" + url + "&appkey=&title=" + title + "&pic=&ralateUid=";
+		string whatsapp = "https://api.whatsapp.com/send?text=" + text + '%20' + url;
 		string xing = "https://www.xing.com/spi/shares/new?url=" + url;
 		string yahoo = "http://compose.mail.yahoo.com/?to=" + email_address + "&subject=" + title + "&body=" + text;
 		
@@ -168,6 +168,7 @@ public class SocialMedia
 		urls[i++] = googlebookmarks;
 		urls[i++] = facebook;
 		urls[i++] = reddit;
+		urls[i++] = whatsapp;
 		urls[i++] = twitter;
 		urls[i++] = linkedin;
 		urls[i++] = tumblr;
@@ -178,7 +179,6 @@ public class SocialMedia
 		urls[i++] = addthis;
 		urls[i++] = getpocket;
 		urls[i++] = hackernews;
-		urls[i++] = digg;
 		urls[i++] = buffer;
 		urls[i++] = flipboard;
 		urls[i++] = instapaper;

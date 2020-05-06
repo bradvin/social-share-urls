@@ -23,6 +23,7 @@ Public Class SocialMedium
 			"google.bookmarks",
 			"facebook",
 			"reddit",
+			"whatsapp",
 			"twitter",
 			"linkedin",
 			"tumblr",
@@ -33,7 +34,6 @@ Public Class SocialMedium
 			"add.this",
 			"getpocket",
 			"hacker.news",
-			"digg",
 			"buffer",
 			"flipboard",
 			"instapaper",
@@ -103,7 +103,6 @@ Public Class SocialMedium
 		Dim blogger As String = "https://www.blogger.com/blog-this.g?u=" + url + "&n=" + title + "&t=" + desc
 		Dim buffer As String = "https://buffer.com/add?text=" + text + "&url=" + url
 		Dim diaspora As String = "https://share.diasporafoundation.org/?title=" + title + "&url=" + url
-		Dim digg As String = "http://digg.com/submit?url=" + url + "&title=" + text
 		Dim douban As String = "http://www.douban.com/recommend/?url=" + url + "&title=" + title
 		Dim email As String = "mailto:" + email_address + "?subject=" + title + "&body=" + desc
 		Dim evernote As String = "https://www.evernote.com/clip.action?url=" + url + "&title=" + text
@@ -132,6 +131,7 @@ Public Class SocialMedium
 		Dim twitter As String = "https://twitter.com/intent/tweet?url=" + url + "&text=" + text + "&via=" + via + "&hashtags=" + hash_tags
 		Dim vk As String = "http://vk.com/share.php?url=" + url + "&title=" + title + "&comment=" + desc
 		Dim weibo As String = "http://service.weibo.com/share/share.php?url=" + url + "&appkey=&title=" + title + "&pic=&ralateUid="
+		Dim whatsapp As String = "https://api.whatsapp.com/send?text=" + text + "%20" + url,
 		Dim xing As String = "https://www.xing.com/spi/shares/new?url=" + url
 		Dim yahoo As String = "http://compose.mail.yahoo.com/?to=" + email_address + "&subject=" + title + "&body=" + text
 
@@ -174,9 +174,6 @@ Public Class SocialMedium
 		index = index + 1
 		
 		urls(index) = hackernews
-		index = index + 1
-		
-		urls(index) = digg
 		index = index + 1
 		
 		urls(index) = buffer

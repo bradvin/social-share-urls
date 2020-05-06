@@ -82,6 +82,7 @@
 			@"google.bookmarks",
 			@"facebook",
 			@"reddit",
+			@"whatsapp",
 			@"twitter",
 			@"linkedin",
 			@"tumblr",
@@ -92,7 +93,6 @@
 			@"add.this",
 			@"getpocket",
 			@"hacker.news",
-			@"digg",
 			@"buffer",
 			@"flipboard",
 			@"instapaper",
@@ -121,7 +121,6 @@
 			@"blogger",
 			@"buffer",
 			@"diaspora",
-			@"digg",
 			@"douban",
 			@"email",
 			@"evernote",
@@ -150,6 +149,7 @@
 			@"twitter",
 			@"vk",
 			@"weibo",
+			@"whatsapp",
 			@"xing",
 			@"yahoo",
 	nil];
@@ -185,12 +185,6 @@
 	diaspora = [diaspora stringByAppendingString:title];
 	diaspora = [diaspora stringByAppendingString:@"&url="];
 	diaspora = [diaspora stringByAppendingString:url];
-
-	NSString* digg = @"";
-	digg = [digg stringByAppendingString:@"http://digg.com/submit?url="];
-	digg = [digg stringByAppendingString:url];
-	digg = [digg stringByAppendingString:@"&title="];
-	digg = [digg stringByAppendingString:title];
 
 	NSString* douban = @"";
 	douban = [douban stringByAppendingString:@"http://www.douban.com/recommend/?url="];
@@ -393,6 +387,12 @@
 	weibo = [weibo stringByAppendingString:title];
 	weibo = [weibo stringByAppendingString:@"&pic=&ralateUid="];
 
+	NSString* whatsapp = @"";
+	whatsapp = [whatsapp stringByAppendingString:@"https://api.whatsapp.com/send?text="];
+	whatsapp = [whatsapp stringByAppendingString:fulltext];
+	whatsapp = [whatsapp stringByAppendingString:@"%20"];
+	whatsapp = [whatsapp stringByAppendingString:url];
+
 	NSString* xing = @"";
 	xing = [xing stringByAppendingString:@"https://www.xing.com/spi/shares/new?url="];
 	xing = [xing stringByAppendingString:url];
@@ -411,6 +411,7 @@
 			googlebookmarks,
 			facebook,
 			reddit,
+			whatsapp,
 			twitter,
 			linkedin,
 			tumblr,
@@ -421,7 +422,6 @@
 			addthis,
 			getpocket,
 			hackernews,
-			digg,
 			buffer,
 			flipboard,
 			instapaper,

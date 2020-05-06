@@ -44,6 +44,7 @@ Some sites using this project :
 * <img src="./images/logo-icons/google.bookmarks.jpg" width="15px;"/> [GoogleBookmarks](#googlebookmarks)
 * <img src="./images/logo-icons/facebook.jpg" width="15px;"/> [Facebook](#facebook)
 * <img src="./images/logo-icons/reddit.jpg" width="15px;"/> [Reddit](#reddit)
+* <img src="./images/logo-icons/whatsapp.jpg" width="15px;"/> [WhatsApp](#whatsapp)
 * <img src="./images/logo-icons/twitter.jpg" width="15px;"/> [Twitter](#twitter)
 * <img src="./images/logo-icons/linkedin.jpg" width="15px;"/> [LinkedIn](#linkedin)
 * <img src="./images/logo-icons/tumblr.jpg" width="15px;"/> [Tumblr](#tumblr)
@@ -54,7 +55,6 @@ Some sites using this project :
 * <img src="./images/logo-icons/add.this.jpg" width="15px;"/> [AddThis](#addthis)
 * <img src="./images/logo-icons/getpocket.jpg" width="15px;"/> [GetPocket](#getpocket)
 * <img src="./images/logo-icons/hacker.news.jpg" width="15px;"/> [HackerNews](#hackernews)
-* <img src="./images/logo-icons/digg.jpg" width="15px;"/> [Digg](#digg)
 * <img src="./images/logo-icons/buffer.jpg" width="15px;"/> [Buffer](#buffer)
 * <img src="./images/logo-icons/flipboard.jpg" width="15px;"/> [FlipBoard](#flipboard)
 * <img src="./images/logo-icons/instapaper.jpg" width="15px;"/> [InstaPaper](#instapaper)
@@ -108,7 +108,7 @@ Some sites using this project :
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [SlashDot](#slashdot)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [StumbleUpon / Mix.com](#stumbleupon)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Viber](#viber)
-* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [WhatsApp](#whatsapp)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Digg](#digg)
 
 ## URL Arguments
 
@@ -124,7 +124,7 @@ Argument | Description | Used By
 {email_address} | Where a social share is directed.  You will most likely want to leave this blank, so the user can fill it in. | EMail, GMail, Yahoo
 {language_code} | A language code from the ISO 639-1 Code specification. | Flattr
 {image} | The url to the image/thumbnail to use when sharing. | SurfingBird, WordPress
-{phone_number} | An applicable phone number, if there is one. | SMS, Telegram.me
+{phone_number} | An applicable phone number, if there is one. | SMS, Telegram.me, Whatsapp
 {app_id} | The App ID. | Facebook
 {redirect_url} | The url a sharer will be redirected to after a successful share. | Facebook
 {page_type} | Type of page, either "page" or "popup." | Facebook
@@ -208,6 +208,29 @@ https://reddit.com/submit?url={url}&title={title}
     * [StackOverflow: Social media sharing without scripts](https://stackoverflow.com/q/28548347/2430549)
 * *Test Notes :* Regarding `title` Parameter: Unable to find official source.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+
+### <a name="whatsapp" /> WhatsApp
+
+<img src="./images/logo-icons/whatsapp.jpg" width="25px"/> <code>Global Rank :</code>  `70` (may 5, 2020)
+
+<code>Parameters :</code> `phone`, `text`.
+
+```
+https://api.whatsapp.com/send?phone={phone_number}&text={title}%20{url}
+```
+
+<code>Source :</code>
+* *Official Source :* [WhatsApp: How to use click to chat](https://faq.whatsapp.com/en/android/26000030/)
+* *Unofficial Source :*
+    * [StackOverflow: Mobile website “WhatsApp” button to send message to a specific number](https://stackoverflow.com/a/61617614/2430549)
+    * [StackOverflow: Web link to specific whatsapp contact](https://stackoverflow.com/q/30344476/2430549)
+    * [StackOverflow: whatsapp://send?text= Doesn't work](https://stackoverflow.com/a/48610575/2430549)
+    * [StackOverflow: Sharing link for WhatsApp Web version?](https://stackoverflow.com/a/42196525/2430549)
+    * [StackOverflow: Link to chat whatsapp desktop](https://stackoverflow.com/a/48760909/2430549)
+    * [StackOverflow: Sending message through WhatsApp](https://stackoverflow.com/q/15462874/2430549)
+    * [StackOverflow: Send text to specific contact programmatically (whatsapp)](https://stackoverflow.com/q/19081654/2430549)
+* *Test Notes :* Official source indicates a URL different from above, using wa.me as a domain.  But those URLs merely redirect to the URL up above, so I'll stick to using the actual, direct URL and saving the user an extra trip.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2020`.
 
 ### <a name="twitter" /> Twitter
 
@@ -403,24 +426,6 @@ https://news.ycombinator.com/submitlink?u={url}&t={title}
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
-### <a name="digg" /> Digg
-
-<img src="./images/logo-icons/digg.jpg" width="25px"/> <code>Global Rank :</code>  `2,367` (apr. 3, 2018)
-
-<code>Parameters :</code> `url`.
-
-```
-http://digg.com/submit?url={url}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/q/12448134/2430549)
-    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
-    * [StackOverflow: Social media sharing without scripts](https://stackoverflow.com/q/28548347/2430549)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
 
 ### <a name="buffer" /> Buffer
 
@@ -972,13 +977,13 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2018.  Confirmed after the test requirements: installing Viber on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Viber Official Specifications is a Failure](https://developers.viber.com/docs/tools/share-button/).  Official development @viber has been negligent in response to inquiries.
 
     * Official Viber Response: "Your feedback will be considered as our teams work on upcoming versions.  I’ll be closing this ticket, but feel free to reply to me with any further suggestions."  [Case: #4641960]
+    
+    * Further Retest Results in 2020: Viber has completely rewritten their API, as documented here, [Viber.com: Deep Links](https://developers.viber.com/docs/tools/deep-links/).  Further retesting reveals that both the old API and the brand-new API are still broken and inoperable.
 
     *  ~~viber://forward?text={url}~~
 
-### <a name="whatsapp" /> WhatsApp
+### <a name="digg" /> Digg
 
-* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2018.  Confirmed after the test requirements: installing WhatsApp on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Whatsapp Official Specifications is a Failure](https://faq.whatsapp.com/en/android/26000030/?category=5245251).
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2020.
 
-    * Official WhatsApp Response: "Sorry, but your description was not clear enough for our agents to understand the issue. Please explain the issue more thoroughly." [Request #172349248330585]
-    
-    *  ~~whatsapp://send?text={url}~~
+    * ~~http://digg.com/submit?url={url}~~

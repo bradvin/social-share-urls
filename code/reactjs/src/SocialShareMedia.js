@@ -14,7 +14,6 @@ export default class SocialShareMedia extends React.Component {
       blogger: "Blogger",
       buffer: "Buffer",
       diaspora: "Diaspora",
-      digg: "Digg",
       douban: "Douban",
       email: "EMail",
       evernote: "EverNote",
@@ -43,6 +42,7 @@ export default class SocialShareMedia extends React.Component {
       twitter: "Twitter",
       vk: "VK",
       weibo: "Weibo",
+      whatsapp: "WhatsApp",
       xing: "Xing",
       yahoo: "Yahoo"
     };
@@ -56,6 +56,7 @@ export default class SocialShareMedia extends React.Component {
       "google.bookmarks",
       "facebook",
       "reddit",
+      "whatsapp",
       "twitter",
       "linkedin",
       "tumblr",
@@ -66,7 +67,6 @@ export default class SocialShareMedia extends React.Component {
       "add.this",
       "getpocket",
       "hacker.news",
-      "digg",
       "buffer",
       "flipboard",
       "instapaper",
@@ -166,7 +166,6 @@ export default class SocialShareMedia extends React.Component {
       buffer: "https://buffer.com/add?text=" + text + "&url=" + url,
       diaspora:
         "https://share.diasporafoundation.org/?title=" + title + "&url=" + url,
-      digg: "http://digg.com/submit?url=" + url + "&title=" + text,
       douban: "http://www.douban.com/recommend/?url=" + url + "&title=" + text,
       email: "mailto:" + email_address + "?subject=" + title + "&body=" + desc,
       evernote:
@@ -288,6 +287,11 @@ export default class SocialShareMedia extends React.Component {
         "&appkey=&title=" +
         title +
         "&pic=&ralateUid=",
+      whatsapp:
+        "https://api.whatsapp.com/send?text=" + . $text + '%20' . $url +
+        text +
+        "%20" +
+        url,
       xing: "https://www.xing.com/spi/shares/new?url=" + url,
       yahoo:
         "http://compose.mail.yahoo.com/?to=" +

@@ -4,7 +4,7 @@
 #include <string.h>
 using namespace std;
 
-#define SOCIALMEDIASERVICES 37
+#define SOCIALMEDIASERVICES 35
 #define URLSIZE 1024
 #define ARGLENGTH 1024
 
@@ -34,6 +34,7 @@ class SocialMedia {
 			"google.bookmarks",
 			"facebook",
 			"reddit",
+			"whatsapp",
 			"twitter",
 			"linkedin",
 			"tumblr",
@@ -44,7 +45,6 @@ class SocialMedia {
 			"add.this",
 			"getpocket",
 			"hacker.news",
-			"digg",
 			"buffer",
 			"flipboard",
 			"instapaper",
@@ -101,9 +101,6 @@ SocialMedia::SocialMedia() {
 
 	char diaspora[URLSIZE];
 	sprintf(diaspora, "%s%s%s%s", "https://share.diasporafoundation.org/?title=", title, "&url=", url);
-	
-	char digg[URLSIZE];
-	sprintf(digg, "%s%s%s%s", "http://digg.com/submit?url=", url, "&title=", text);
 
 	char douban[URLSIZE];
 	sprintf(douban, "%s%s%s%s", "http://www.douban.com/recommend/?url=", url, "&title=", title);
@@ -189,6 +186,9 @@ SocialMedia::SocialMedia() {
 	char weibo[URLSIZE];
 	sprintf(weibo, "%s%s%s%s%s", "http://service.weibo.com/share/share.php?url=", url, "&appkey=&title=", title, "&pic=&ralateUid=");
 	
+	char whatsapp[URLSIZE];
+	sprintf(whatsapp, "%s%s%s%s", "https://api.whatsapp.com/send?text=", text, "%20", url);
+	
 	char xing[URLSIZE];
 	sprintf(xing, "%s%s", "https://www.xing.com/spi/shares/new?url=", url);
 	
@@ -202,6 +202,7 @@ SocialMedia::SocialMedia() {
 	strcpy(urls[i++], googlebookmarks);
 	strcpy(urls[i++], facebook);
 	strcpy(urls[i++], reddit);
+	strcpy(urls[i++], whatsapp);
 	strcpy(urls[i++], twitter);
 	strcpy(urls[i++], linkedin);
 	strcpy(urls[i++], tumblr);
@@ -212,7 +213,6 @@ SocialMedia::SocialMedia() {
 	strcpy(urls[i++], addthis);
 	strcpy(urls[i++], getpocket);
 	strcpy(urls[i++], hackernews);
-	strcpy(urls[i++], digg);
 	strcpy(urls[i++], buffer);
 	strcpy(urls[i++], flipboard);
 	strcpy(urls[i++], instapaper);

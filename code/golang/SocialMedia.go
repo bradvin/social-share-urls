@@ -1,6 +1,8 @@
 package main
 import "fmt"
 
+const socialmediacount int = 35
+
 type SocialMedia struct {
 	title,
 	url,
@@ -21,7 +23,7 @@ type SocialMedia struct {
 	text string
 
 	urls,
-	urlsOrderedByPopularity [37]string
+	urlsOrderedByPopularity [socialmediacount]string
 }
 
 func SocialMediaInterface() SocialMedia {
@@ -31,6 +33,7 @@ func SocialMediaInterface() SocialMedia {
 			"google.bookmarks",
 			"facebook",
 			"reddit",
+			"whatsapp",
 			"twitter",
 			"linkedin",
 			"tumblr",
@@ -41,7 +44,6 @@ func SocialMediaInterface() SocialMedia {
 			"add.this",
 			"getpocket",
 			"hacker.news",
-			"digg",
 			"buffer",
 			"flipboard",
 			"instapaper",
@@ -76,7 +78,6 @@ func SocialMediaInterface() SocialMedia {
 	var blogger string = "https://www.blogger.com/blog-this.g?u=" + sm.url + "&n=" + sm.title + "&t=" + sm.desc
 	var buffer string = "https://buffer.com/add?text=" + sm.text + "&url=" + sm.url
 	var diaspora string = "https://share.diasporafoundation.org/?title=" + sm.title + "&url=" + sm.url
-	var digg string = "http://digg.com/submit?url=" + sm.url + "&title=" + sm.text
 	var douban string = "http://www.douban.com/recommend/?url=" + sm.url + "&title=" + sm.title
 	var email string = "mailto:" + sm.email_address + "?subject=" + sm.title + "&body=" + sm.desc
 	var evernote string = "https://www.evernote.com/clip.action?url=" + sm.url + "&title=" + sm.text
@@ -105,117 +106,49 @@ func SocialMediaInterface() SocialMedia {
 	var twitter string = "https://twitter.com/intent/tweet?url=" + sm.url + "&text=" + sm.text + "&via=" + sm.via + "&hashtags=" + sm.hash_tags
 	var vk string = "http://vk.com/share.php?url=" + sm.url + "&title=" + sm.title + "&comment=" + sm.desc
 	var weibo string = "http://service.weibo.com/share/share.php?url=" + sm.url + "&appkey=&title=" + sm.title + "&pic=&ralateUid="
+	var whatsapp string = "https://api.whatsapp.com/send?text=" + sm.text + "%20" + sm.url
 	var xing string = "https://www.xing.com/spi/shares/new?url=" + sm.url
 	var yahoo string = "http://compose.mail.yahoo.com/?to=" + sm.email_address + "&subject=" + sm.title + "&body=" + sm.text
 
 		// NOTE : This ordering must identically match urlsOrderedByPopularity.
 
-	var index int = 0
-	index++
-	
-	sm.urls[index] = googlebookmarks
-	index++
-	
-	sm.urls[index] = facebook
-	index++
-	
-	sm.urls[index] = reddit
-	index++
-	
-	sm.urls[index] = twitter
-	index++
-	
-	sm.urls[index] = linkedin
-	index++
-	
-	sm.urls[index] = tumblr
-	index++
-	
-	sm.urls[index] = pinterest
-	index++
-	
-	sm.urls[index] = blogger
-	index++
-	
-	sm.urls[index] = livejournal
-	index++
-	
-	sm.urls[index] = evernote
-	index++
-	
-	sm.urls[index] = addthis
-	index++
-	
-	sm.urls[index] = getpocket
-	index++
-	
-	sm.urls[index] = hackernews
-	index++
-	
-	sm.urls[index] = digg
-	index++
-	
-	sm.urls[index] = buffer
-	index++
-	
-	sm.urls[index] = flipboard
-	index++
-	
-	sm.urls[index] = instapaper
-	index++
-	
-	sm.urls[index] = surfingbird
-	index++
-	
-	sm.urls[index] = flattr
-	index++
-	
-	sm.urls[index] = diaspora
-	index++
-	
-	sm.urls[index] = qzone
-	index++
-	
-	sm.urls[index] = vk
-	index++
-	
-	sm.urls[index] = weibo
-	index++
-	
-	sm.urls[index] = okru
-	index++
-	
-	sm.urls[index] = douban
-	index++
-	
-	sm.urls[index] = xing
-	index++
-	
-	sm.urls[index] = renren
-	index++
-	
-	sm.urls[index] = threema
-	index++
-	
-	sm.urls[index] = sms
-	index++
-	
-	sm.urls[index] = lineme
-	index++
-	
-	sm.urls[index] = skype
-	index++
-	
-	sm.urls[index] = telegramme
-	index++
-	
-	sm.urls[index] = email
-	index++
-	
-	sm.urls[index] = gmail
-	index++
-	
-	sm.urls[index] = yahoo
+        sm.urls = [...]string{
+		googlebookmarks,
+		facebook,
+		reddit,
+		whatsapp,
+		twitter,
+		linkedin,
+		tumblr,
+		pinterest,
+		blogger,
+		livejournal,
+		evernote,
+		addthis,
+		getpocket,
+		hackernews,
+		buffer,
+		flipboard,
+		instapaper,
+		surfingbird,
+		flattr,
+		diaspora,
+		qzone,
+		vk,
+		weibo,
+		okru,
+		douban,
+		xing,
+		renren,
+		threema,
+		sms,
+		lineme,
+		skype,
+		telegramme,
+		email,
+		gmail,
+		yahoo,
+        }
 
 	return sm
 }
@@ -232,7 +165,7 @@ func SocialMediaDefault() SocialMedia {
 func main(){
 	sm := SocialMediaInterface()
 
-	for i := 0; i < 37; i++ {
+	for i := 0; i < socialmediacount; i++ {
 		fmt.Println(sm.urlsOrderedByPopularity[i] + " : " + sm.urls[i]);
 	}
 }

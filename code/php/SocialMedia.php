@@ -1,21 +1,18 @@
 <?php
 
-	class SocialMedia
-	{
+	class SocialMedia {
 					# All Social Media Sites
 					# -------------------------------------------------
 		
 				# All Social Media Sites ~ Nice Names
 				# -------------------------------------------------
 				
-		public function GetSocialMediaSites_NiceNames()
-		{
+		public function GetSocialMediaSites_NiceNames() {
 			return [
 				'add.this'=>'AddThis',
 				'blogger'=>'Blogger',
 				'buffer'=>'Buffer',
 				'diaspora'=>'Diaspora',
-				'digg'=>'Digg',
 				'douban'=>'Douban',
 				'email'=>'EMail',
 				'evernote'=>'EverNote',
@@ -31,7 +28,7 @@
 				'gmail'=>'GMail',
 				'hacker.news'=>'HackerNews',
 				'ok.ru'=>'OK.ru',
-				'pinterest'=>'Pinterest',
+				'pinterest.com'=>'Pinterest',
 				'qzone'=>'QZone',
 				'reddit'=>'Reddit',
 				'renren'=>'RenRen',
@@ -43,6 +40,7 @@
 				'tumblr'=>'Tumblr',
 				'twitter'=>'Twitter',
 				'vk'=>'VK',
+				'whatsapp'=>'WhatsApp',
 				'weibo'=>'Weibo',
 				'xing'=>'Xing',
 				'yahoo'=>'Yahoo',
@@ -52,12 +50,12 @@
 				# Social Media Sites With Share Links
 				# -------------------------------------------------
 		
-		public function GetSocialMediaSites_WithShareLinks_OrderedByPopularity()
-		{
+		public function GetSocialMediaSites_WithShareLinks_OrderedByPopularity() {
 			return [
 				'google.bookmarks',
 				'facebook',
 				'reddit',
+				'whatsapp',
 				'twitter',
 				'linkedin',
 				'tumblr',
@@ -68,7 +66,6 @@
 				'add.this',
 				'getpocket',
 				'hacker.news',
-				'digg',
 				'buffer',
 				'flipboard',
 				'instapaper',
@@ -93,8 +90,7 @@
 			];
 		}
 		
-		public function GetSocialMediaSites_WithShareLinks_OrderedByAlphabet()
-		{
+		public function GetSocialMediaSites_WithShareLinks_OrderedByAlphabet() {
 			$nice_names = $this->GetSocialMediaSites_NiceNames();
 			
 			return array_keys($nice_names);
@@ -103,8 +99,7 @@
 				# Social Media Site Links With Share Links
 				# -------------------------------------------------
 		
-		public function GetSocialMediaSiteLinks_WithShareLinks($args)
-		{
+		public function GetSocialMediaSiteLinks_WithShareLinks($args) {
 			$url = urlencode($args['url']);
 			$title = urlencode($args['title']);
 			$image = urlencode($args['image']);
@@ -136,7 +131,6 @@
 				'blogger'=>'https://www.blogger.com/blog-this.g?u=' . $url . '&n=' . $title . '&t=' . $desc,
 				'buffer'=>'https://buffer.com/add?text=' . $text . '&url=' . $url,
 				'diaspora'=>'https://share.diasporafoundation.org/?title=' . $title . '&url=' . $url,
-				'digg'=>'http://digg.com/submit?url=' . $url . '&title=' . $text,
 				'douban'=>'http://www.douban.com/recommend/?url=' . $url . '&title=' . $text,
 				'email'=>'mailto:' . $email_address . '?subject=' . $title . '&body=' . $desc,
 				'evernote'=>'https://www.evernote.com/clip.action?url=' . $url . '&title=' . $text,
@@ -164,6 +158,7 @@
 				'tumblr'=>'https://www.tumblr.com/widgets/share/tool?canonicalUrl=' . $url . '&title=' . $title . '&caption=' . $desc . '&tags=' . $hash_tags,
 				'twitter'=>'https://twitter.com/intent/tweet?url=' . $url . '&text=' . $text . '&via=' . $via . '&hashtags=' . $hash_tags,
 				'vk'=>'http://vk.com/share.php?url=' . $url . '&title=' . $title . '&comment=' . $desc,
+				'whatsapp'=>'https://api.whatsapp.com/send?text=' . $text . '%20' . $url,
 				'weibo'=>'http://service.weibo.com/share/share.php?url=' . $url . '&appkey=&title=' . $title . '&pic=&ralateUid=',
 				'xing'=>'https://www.xing.com/spi/shares/new?url=' . $url,
 				'yahoo'=>'http://compose.mail.yahoo.com/?to=' . $email_address . '&subject=' . $title . '&body=' . $text,

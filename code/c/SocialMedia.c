@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define SOCIALMEDIASERVICES 37
+#define SOCIALMEDIASERVICES 35
 #define URLSIZE 1024
 #define ARGLENGTH 1024
 
@@ -53,6 +53,7 @@ struct SocialMedia_Interface {
 		"google.bookmarks",
 		"facebook",
 		"reddit",
+		"whatsapp",
 		"twitter",
 		"linkedin",
 		"tumblr",
@@ -63,7 +64,6 @@ struct SocialMedia_Interface {
 		"add.this",
 		"getpocket",
 		"hacker.news",
-		"digg",
 		"buffer",
 		"flipboard",
 		"instapaper",
@@ -91,7 +91,6 @@ struct SocialMedia_Interface {
 		"blogger",
 		"buffer",
 		"diaspora",
-		"digg",
 		"douban",
 		"email",
 		"evernote",
@@ -119,6 +118,7 @@ struct SocialMedia_Interface {
 		"tumblr",
 		"twitter",
 		"vk",
+		"whatsapp",
 		"weibo",
 		"xing",
 		"yahoo",
@@ -150,9 +150,6 @@ struct SocialMedia_Interface buildUrls(void) {
 
 	char diaspora[URLSIZE];
 	sprintf(diaspora, "%s%s%s%s", "https://share.diasporafoundation.org/?title=", sma.title, "&url=", sma.url);
-	
-	char digg[URLSIZE];
-	sprintf(digg, "%s%s%s%s", "http://digg.com/submit?url=", sma.url, "&title=", text);
 
 	char douban[URLSIZE];
 	sprintf(douban, "%s%s%s%s", "http://www.douban.com/recommend/?url=", sma.url, "&title=", sma.title);
@@ -235,6 +232,9 @@ struct SocialMedia_Interface buildUrls(void) {
 	char vk[URLSIZE];
 	sprintf(vk, "%s%s%s%s%s%s", "http://vk.com/share.php?url=", sma.url, "&title=", sma.title, "&comments=", sma.desc);
 	
+	char whatsapp[URLSIZE];
+	sprintf(whatsapp, "%s%s%s%s%s", "https://api.whatsapp.com/send?text=", sma.text, "%20", sma.url);
+	
 	char weibo[URLSIZE];
 	sprintf(weibo, "%s%s%s%s%s", "http://service.weibo.com/share/share.php?url=", sma.url, "&appkey=&title=", sma.title, "&pic=&ralateUid=");
 	
@@ -252,6 +252,7 @@ struct SocialMedia_Interface buildUrls(void) {
 	strcpy(urllist[i++], googlebookmarks);
 	strcpy(urllist[i++], facebook);
 	strcpy(urllist[i++], reddit);
+	strcpy(urllist[i++], whatsapp);
 	strcpy(urllist[i++], twitter);
 	strcpy(urllist[i++], linkedin);
 	strcpy(urllist[i++], tumblr);
@@ -262,7 +263,6 @@ struct SocialMedia_Interface buildUrls(void) {
 	strcpy(urllist[i++], addthis);
 	strcpy(urllist[i++], getpocket);
 	strcpy(urllist[i++], hackernews);
-	strcpy(urllist[i++], digg);
 	strcpy(urllist[i++], buffer);
 	strcpy(urllist[i++], flipboard);
 	strcpy(urllist[i++], instapaper);
