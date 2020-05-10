@@ -141,7 +141,8 @@ https://github.com/bradvin/social-share-urls
 
 `Code Sandbox` :
 
-* [IdeOne.com](https://ideone.com/j7ejMx)
+* [IdeOne.com (2020 - updated demo)](https://ideone.com/388cTT)
+* [IdeOne.com (2018 - old demo)](https://ideone.com/j7ejMx)
 
 `Sample Use` :
 

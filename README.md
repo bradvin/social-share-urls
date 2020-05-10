@@ -25,7 +25,7 @@ What we try to provide :
 
 ## Just Want the Gist?
 
-Want to download just the URL's from this project?  
+Want to download just the URL's from this project?
 
 Then check out our GitHub Gist : https://gist.github.com/HoldOffHunger/1998b92acb80bc83547baeaff68aaaf4
 
@@ -41,43 +41,38 @@ Some sites using this project :
 
 ### Multi-Language Social Media
 
-* <img src="./images/logo-icons/google.bookmarks.jpg" width="15px;"/> [GoogleBookmarks](#googlebookmarks)
 * <img src="./images/logo-icons/facebook.jpg" width="15px;"/> [Facebook](#facebook)
 * <img src="./images/logo-icons/reddit.jpg" width="15px;"/> [Reddit](#reddit)
-* <img src="./images/logo-icons/whatsapp.jpg" width="15px;"/> [WhatsApp](#whatsapp)
 * <img src="./images/logo-icons/twitter.jpg" width="15px;"/> [Twitter](#twitter)
 * <img src="./images/logo-icons/linkedin.jpg" width="15px;"/> [LinkedIn](#linkedin)
+* <img src="./images/logo-icons/whatsapp.jpg" width="15px;"/> [WhatsApp](#whatsapp)
 * <img src="./images/logo-icons/tumblr.jpg" width="15px;"/> [Tumblr](#tumblr)
 * <img src="./images/logo-icons/pinterest.jpg" width="15px;"/> [Pinterest](#pinterest)
 * <img src="./images/logo-icons/blogger.jpg" width="15px;"/> [Blogger](#blogger)
-* <img src="./images/logo-icons/livejournal.jpg" width="15px;"/> [LiveJournal](#livejournal)
 * <img src="./images/logo-icons/evernote.jpg" width="15px;"/> [EverNote](#evernote)
-* <img src="./images/logo-icons/add.this.jpg" width="15px;"/> [AddThis](#addthis)
+* <img src="./images/logo-icons/livejournal.jpg" width="15px;"/> [LiveJournal](#livejournal)
 * <img src="./images/logo-icons/getpocket.jpg" width="15px;"/> [GetPocket](#getpocket)
 * <img src="./images/logo-icons/hacker.news.jpg" width="15px;"/> [HackerNews](#hackernews)
-* <img src="./images/logo-icons/buffer.jpg" width="15px;"/> [Buffer](#buffer)
 * <img src="./images/logo-icons/flipboard.jpg" width="15px;"/> [FlipBoard](#flipboard)
+* <img src="./images/logo-icons/google.bookmarks.jpg" width="15px;"/> [GoogleBookmarks](#googlebookmarks)
 * <img src="./images/logo-icons/instapaper.jpg" width="15px;"/> [InstaPaper](#instapaper)
-* <img src="./images/logo-icons/surfingbird.ru.jpg" width="15px;"/> [SurfingBird](#surfingbird)
-* <img src="./images/logo-icons/flattr.jpg" width="15px;"/> [Flattr](#flattr)
 * <img src="./images/logo-icons/diaspora.jpg" width="15px;"/> [Diaspora](#diaspora)
 
 ### Non-English Social Media
 
 * <img src="./images/logo-icons/qzone.jpg" width="15px;"/> [QZone](#qzone)
 * <img src="./images/logo-icons/vk.jpg" width="15px;"/> [VK](#vk)
-* <img src="./images/logo-icons/weibo.jpg" width="15px;"/> [Weibo](#weibo)
 * <img src="./images/logo-icons/okru.jpg" width="15px;"/> [OKru](#okru)
 * <img src="./images/logo-icons/douban.jpg" width="15px;"/> [Douban](#douban)
-* <img src="./images/logo-icons/xing.jpg" width="15px;"/> [XING](#xing)
 * <img src="./images/logo-icons/renren.jpg" width="15px;"/> [RenRen](#renren)
+* <img src="./images/logo-icons/xing.jpg" width="15px;"/> [XING](#xing)
 * <img src="./images/logo-icons/threema.jpg" width="15px;"/> [Threema](#threema)
 
 ### Phone/Audio-Based Social Media
 
 * <img src="./images/logo-icons/sms.jpg" width="15px;"/> [SMS](#sms)
-* <img src="./images/logo-icons/line.me.jpg" width="15px;"/> [Line.me](#lineme)
 * <img src="./images/logo-icons/skype.jpg" width="15px;"/> [Skype](#skype)
+* <img src="./images/logo-icons/line.me.jpg" width="15px;"/> [Line.me](#lineme)
 * <img src="./images/logo-icons/telegram.me.jpg" width="15px;"/> [Telegram.me](#telegramme)
 
 ### Email-Based Social Media
@@ -90,7 +85,7 @@ Some sites using this project :
 
 * <img src="./images/logo-icons/wordpress.jpg" width="15px;"/> [WordPress](#wordpress)
 
-### Deprecated Social Media Share Links
+### Deprecated/Discontinued Social Media Share Links
 
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [AIM](#aim)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Baidu](#baidu)
@@ -109,6 +104,11 @@ Some sites using this project :
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [StumbleUpon / Mix.com](#stumbleupon)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Viber](#viber)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Digg](#digg)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [AddThis](#addthis)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Buffer](#buffer)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Flattr](#flattr)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Weibo](#weibo)
+* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [SurfingBird](#surfingbird)
 
 ## URL Arguments
 
@@ -132,29 +132,9 @@ Argument | Description | Used By
 
 ## Multi-Language Social Media
 
-### <a name="googlebookmarks" /> GoogleBookmarks
-
-<img src="./images/logo-icons/google.bookmarks.jpg" width="25px"/> <code>Global Rank :</code>  `1` (apr. 3, 2018)
-
-<code>Parameters :</code> `bkmk`, `title`, `annotation`, `labels`.
-
-```
-https://www.google.com/bookmarks/mark?op=edit&bkmk={url}&title={title}&annotation={text}&labels={hash_tags}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
-    * [StackOverflow: Google bookmarks script only saves about 1 in 5 links](https://stackoverflow.com/q/50498062/2430549)
-    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
-    * [StackOverflow: Wordpress posts show http://google.com/bookmarks/mark?op=edit&title= in front of url](https://stackoverflow.com/q/44287426/2430549)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
-
 ### <a name="facebook" /> Facebook
 
-<img src="./images/logo-icons/facebook.jpg" width="25px"/> <code>Global Rank :</code>  `3` (apr. 3, 2018)
+<img src="./images/logo-icons/facebook.jpg" width="25px"/> <code>Global Rank :</code>  `4` (may 9, 2020)
 
 #### Facebook (with Sharer)
 
@@ -171,7 +151,7 @@ https://www.facebook.com/sharer.php?u={url}
     * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
     * [StackOverflow: will facebook sharer functionality be supported?](https://stackoverflow.com/q/7907506/2430549)
 * *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, `2018`, `2020`.
 
 #### Facebook (with Share Dialog)
 
@@ -187,12 +167,12 @@ https://www.facebook.com/dialog/share?app_id={app_id}&display={page_type}&href={
     * [StackOverflow: How create a Facebook share button without SDK or custom app id?](https://stackoverflow.com/q/26547292/2430549)
     * [StackOverflow: Facebook Sharer PHP application redirect](https://stackoverflow.com/q/42727636/2430549)
     * [StackOverflow: What is redirect_url for the share dialog?](https://stackoverflow.com/q/33859108/2430549)
-* *Test Notes :* Requires registering in order to get an App_Id.  Working test account is available in the official documentation, so you can avoid this requirement for tesing and you can test with `https://www.facebook.com/dialog/share?app_id=145634995501895&someOtherParameters=SomeOtherValues`.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+* *Test Notes :* Requires registering in order to get an `App_Id`.  Tested and works with this url: https://www.facebook.com/dialog/share?app_id=182985995589570&display=page&href=http://www.earthfluent.com&redirect_uri=http://www.earthfluent.com
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, `2018`, `2020`.
 
 ### <a name="reddit" /> Reddit
 
-<img src="./images/logo-icons/reddit.jpg" width="25px"/> <code>Global Rank :</code>  `6` (apr. 3, 2018)
+<img src="./images/logo-icons/reddit.jpg" width="25px"/> <code>Global Rank :</code>  `19` (may 9, 2020)
 
 <code>Parameters :</code> `url`, `title`.
 
@@ -207,34 +187,11 @@ https://reddit.com/submit?url={url}&title={title}
     * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
     * [StackOverflow: Social media sharing without scripts](https://stackoverflow.com/q/28548347/2430549)
 * *Test Notes :* Regarding `title` Parameter: Unable to find official source.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
-
-### <a name="whatsapp" /> WhatsApp
-
-<img src="./images/logo-icons/whatsapp.jpg" width="25px"/> <code>Global Rank :</code>  `70` (may 5, 2020)
-
-<code>Parameters :</code> `phone`, `text`.
-
-```
-https://api.whatsapp.com/send?phone={phone_number}&text={title}%20{url}
-```
-
-<code>Source :</code>
-* *Official Source :* [WhatsApp: How to use click to chat](https://faq.whatsapp.com/en/android/26000030/)
-* *Unofficial Source :*
-    * [StackOverflow: Mobile website “WhatsApp” button to send message to a specific number](https://stackoverflow.com/a/61617614/2430549)
-    * [StackOverflow: Web link to specific whatsapp contact](https://stackoverflow.com/q/30344476/2430549)
-    * [StackOverflow: whatsapp://send?text= Doesn't work](https://stackoverflow.com/a/48610575/2430549)
-    * [StackOverflow: Sharing link for WhatsApp Web version?](https://stackoverflow.com/a/42196525/2430549)
-    * [StackOverflow: Link to chat whatsapp desktop](https://stackoverflow.com/a/48760909/2430549)
-    * [StackOverflow: Sending message through WhatsApp](https://stackoverflow.com/q/15462874/2430549)
-    * [StackOverflow: Send text to specific contact programmatically (whatsapp)](https://stackoverflow.com/q/19081654/2430549)
-* *Test Notes :* Official source indicates a URL different from above, using wa.me as a domain.  But those URLs merely redirect to the URL up above, so I'll stick to using the actual, direct URL and saving the user an extra trip.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2020`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, `2018`, `2020`.
 
 ### <a name="twitter" /> Twitter
 
-<img src="./images/logo-icons/twitter.jpg" width="25px"/> <code>Global Rank :</code>  `12` (apr. 3, 2018)
+<img src="./images/logo-icons/twitter.jpg" width="25px"/> <code>Global Rank :</code>  `47` (may 9, 2020)
 
 <code>Parameters :</code> `url`, `text`, `via`, `hashtags`.
 
@@ -249,11 +206,11 @@ https://twitter.com/intent/tweet?url={url}&text={title}&via={user_id}&hashtags={
     * [StackOverflow: Custom design for Twitter button with events](https://stackoverflow.com/q/15413159/2430549)
     * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
 * *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, `2018`, `2020`.
 
 ### <a name="linkedin" /> LinkedIn
 
-<img src="./images/logo-icons/linkedin.jpg" width="25px"/> <code>Global Rank :</code>  `30` (may 3, 2020)
+<img src="./images/logo-icons/linkedin.jpg" width="25px"/> <code>Global Rank :</code>  `60` (may 9, 2020)
 
 <code>Parameters :</code> `url`.
 
@@ -273,9 +230,33 @@ https://www.linkedin.com/sharing/share-offsite/?url={url}
 * *Test Notes :* URL max is 1,024 characters, title/source max is 200 characters, and summary max is 256 characters.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, `2018`, `2020`.
 
+### <a name="whatsapp" /> WhatsApp
+
+<img src="./images/logo-icons/whatsapp.jpg" width="25px"/> <code>Global Rank :</code>  `71` (may 5, 2020)
+
+<code>Parameters :</code> `phone`, `text`.
+
+```
+https://api.whatsapp.com/send?phone={phone_number}&text={title}%20{url}
+https://wa.me/{phone_number}?text={title}%20{url}
+```
+
+<code>Source :</code>
+* *Official Source :* [WhatsApp: How to use click to chat](https://faq.whatsapp.com/en/android/26000030/)
+* *Unofficial Source :*
+    * [StackOverflow: Mobile website “WhatsApp” button to send message to a specific number](https://stackoverflow.com/a/61617614/2430549)
+    * [StackOverflow: Web link to specific whatsapp contact](https://stackoverflow.com/q/30344476/2430549)
+    * [StackOverflow: whatsapp://send?text= Doesn't work](https://stackoverflow.com/a/48610575/2430549)
+    * [StackOverflow: Sharing link for WhatsApp Web version?](https://stackoverflow.com/a/42196525/2430549)
+    * [StackOverflow: Link to chat whatsapp desktop](https://stackoverflow.com/a/48760909/2430549)
+    * [StackOverflow: Sending message through WhatsApp](https://stackoverflow.com/q/15462874/2430549)
+    * [StackOverflow: Send text to specific contact programmatically (whatsapp)](https://stackoverflow.com/q/19081654/2430549)
+* *Test Notes :* Official source indicates a URL different from above, using wa.me as a domain.  But those URLs merely redirect to the URL up above, so I'll stick to using the actual, direct URL and saving the user an extra trip.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2020`.
+
 ### <a name="tumblr" /> Tumblr
 
-<img src="./images/logo-icons/tumblr.jpg" width="25px"/> <code>Global Rank :</code>  `57` (apr. 3, 2018)
+<img src="./images/logo-icons/tumblr.jpg" width="25px"/> <code>Global Rank :</code>  `115` (may 9, 2020)
 
 <code>Parameters :</code> `canonicalUrl`, `title`, `caption`, `tags`.
 
@@ -290,11 +271,11 @@ https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&capti
     * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
     * [StackOverflow: Sharing to Tumblr using AngularJS ng-click is banned](https://stackoverflow.com/q/32924603/2430549)
 * *Test Notes :* Requires login.  A described language parameter (`data-locale`) appeared to have no effect (and, therefore, is not listed here).
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, `2018`, `2020`.
 
 ### <a name="pinterest" />  Pinterest
 
-<img src="./images/logo-icons/pinterest.jpg" width="25px"/> <code>Global Rank :</code>  `79` (apr. 3, 2018)
+<img src="./images/logo-icons/pinterest.jpg" width="25px"/> <code>Global Rank :</code>  `152` (may 9, 2020)
 
 <code>Parameters :</code> `url`.
 
@@ -310,11 +291,11 @@ http://pinterest.com/pin/create/link/?url={url}
     * [StackOverflow: Pass an image to Pinterest when creating a pin?](https://stackoverflow.com/q/17115378/2430549)
     * [StackOverflow: Custom Pinterest button for custom URL (Text-Link, Image, or Both)](https://stackoverflow.com/q/11312923/2430549)
 * *Test Notes :* Requires the user to select an image to "pin" the URL with.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, `2018`, `2020`.
 
 ### <a name="blogger" /> Blogger
 
-<img src="./images/logo-icons/blogger.jpg" width="25px"/> <code>Global Rank :</code>  `183` (apr. 3, 2018)
+<img src="./images/logo-icons/blogger.jpg" width="25px"/> <code>Global Rank :</code>  `208` (may 9, 2020)
 
 <code>Parameters :</code> `u`, `n`, `t`.
 
@@ -329,11 +310,30 @@ https://www.blogger.com/blog-this.g?u={url}&n={title}&t={text}
     * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
     * [StackOverflow: How to embed 3rd party widgets on Blogger](https://stackoverflow.com/q/25821507/2430549)
 * *Test Notes :* Requires login, a blog tied to your blogger account, and either no `url` or that the `url` be perfectly formatted with protocols (http/https, etc.).
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
+
+### <a name="evernote" /> EverNote
+
+<img src="./images/logo-icons/evernote.jpg" width="25px"/> <code>Global Rank :</code>  `371` (may 9, 2020)
+
+<code>Parameters :</code> `url`, `title`.
+
+```
+https://www.evernote.com/clip.action?url={url}&title={title}
+```
+
+<code>Source :</code>
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [EverNote Discussion: Non-JavaScript web clipper?](https://discussion.evernote.com/topic/21170-archived-non-javascript-web-clipper/)
+    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
+    * [Andy Carter: Social Media Bookmarking Links](https://andy-carter.com/blog/social-media-bookmarking-links)
+* *Test Notes :* Requires login to work.  2020 update: No confirmation is required, the user clicks the link and it literally creates the "note" in the "default notebook," which seems like a security problem.  In regards to testing, though, it means you won't be able to see the link directly that you're trying to share, and must navigate to the "default notebook."
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="livejournal" /> LiveJournal
 
-<img src="./images/logo-icons/livejournal.jpg" width="25px"/> <code>Global Rank :</code>  `263` (apr. 3, 2018)
+<img src="./images/logo-icons/livejournal.jpg" width="25px"/> <code>Global Rank :</code>  `446` (may 9, 2020)
 
 <code>Parameters :</code> `subject`, `event`.
 
@@ -348,49 +348,11 @@ http://www.livejournal.com/update.bml?subject={title}&event={url}
     * [GitHubGists: StereoBooster, Embed](https://gist.github.com/stereobooster/912581)
     * [Forum.Ucoz.com: wraper (i dont know what the exact call)](http://forum.ucoz.com/forum/5-20226-1)
 * *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
-### <a name="evernote" /> EverNote
-
-<img src="./images/logo-icons/evernote.jpg" width="25px"/> <code>Global Rank :</code>  `494` (apr. 3, 2018)
-
-<code>Parameters :</code> `url`, `title`.
-
-```
-https://www.evernote.com/clip.action?url={url}&title={title}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [EverNote Discussion: Non-JavaScript web clipper?](https://discussion.evernote.com/topic/21170-archived-non-javascript-web-clipper/)
-    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
-    * [Andy Carter: Social Media Bookmarking Links](https://andy-carter.com/blog/social-media-bookmarking-links)
-* *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
-### <a name="addthis" /> AddThis
-
-<img src="./images/logo-icons/add.this.jpg" width="25px"/> <code>Global Rank :</code>  `561` (apr. 3, 2018)
-
-<code>Parameters :</code> `url`.
-
-```
-http://www.addthis.com/bookmark.php?url={url}
-```
-
-<code>Source :</code>
-* *Official Source :* [AddThis: Social Buttons](http://www.addthis.com/social-buttons)
-* *Unofficial Source :*
-    * [StackOverflow: Good looking sharethis / addthis / addtoany without javascript](https://stackoverflow.com/q/20816307/2430549)
-    * [StackOverflow: AddThis button will not work inside AJAX, but will work normally](https://stackoverflow.com/q/1603835/2430549)
-    * [StackOverflow: Impact of Share Button on Web Page Performance](https://stackoverflow.com/q/4902586/2430549)
-* *Test Notes :* The above-described url-format does not appear in the official documentation.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="getpocket" /> GetPocket
 
-<img src="./images/logo-icons/getpocket.jpg" width="25px"/> <code>Global Rank :</code>  `669` (apr. 3, 2018)
+<img src="./images/logo-icons/getpocket.jpg" width="25px"/> <code>Global Rank :</code>  `940` (may 9, 2020)
 
 <code>Parameters :</code> `url`.
 
@@ -404,12 +366,12 @@ https://getpocket.com/edit?url={url}
     * [StackOverflow: Post page to Pocket (Read it Later) programmatically](https://stackoverflow.com/q/13524972/2430549)
     * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
     * [StackOverflow: Auto-populate form via URL, then submit?](https://stackoverflow.com/q/17517825/2430549)
-* *Test Notes :* Regarding `url` Parameter: Unable to find official source.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Notes :* Regarding `url` Parameter: Unable to find official source.  2020 Update: Oddly, there is no confirmation here, either.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="hackernews" /> HackerNews
 
-<img src="./images/logo-icons/hacker.news.jpg" width="25px"/> <code>Global Rank :</code>  `1,650` (apr. 3, 2018)
+<img src="./images/logo-icons/hacker.news.jpg" width="25px"/> <code>Global Rank :</code>  `5,603` (may 9, 2020)
 
 <code>Parameters :</code> `u`, `t`.
 
@@ -424,31 +386,11 @@ https://news.ycombinator.com/submitlink?u={url}&t={title}
     * [Justin Duke: Creating Hacker News Share Links Seeded with a URL and Title](http://jmduke.com/posts/share-links-hacker-news/)
     * [The Old Reader: List of Sharing Service URLs](https://theoldreader.uservoice.com/knowledgebase/articles/294010-list-of-sharing-service-urls)
 * *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
-
-
-### <a name="buffer" /> Buffer
-
-<img src="./images/logo-icons/buffer.jpg" width="25px"/> <code>Global Rank :</code>  `2,487` (apr. 3, 2018)
-
-<code>Parameters :</code> `text`, `url`.
-
-```
-https://buffer.com/add?text={title}&url={url}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: How can I add text to end of a url with javascript?](https://stackoverflow.com/q/46722058/2430549)
-    * [Pinterest: (URL is in regular use)](https://www.pinterest.com/pin/)
-    * [GitHubGist: maheshwaghmare/social-share-url-patterns.txt](https://gist.github.com/maheshwaghmare/9cd0cbac931ead48c0a47a0c7f2ff88c)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`, `2020`.
 
 ### <a name="flipboard" /> FlipBoard
 
-<img src="./images/logo-icons/flipboard.jpg" width="25px"/> <code>Global Rank :</code>  `3,638` (apr. 3, 2018)
+<img src="./images/logo-icons/flipboard.jpg" width="25px"/> <code>Global Rank :</code>  `6,302` (may 9, 2020)
 
 <code>Parameters :</code> `title`, `url`.
 
@@ -463,11 +405,33 @@ https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={url}
     * [iOSBookMarklets: Flipboard Bookmarlet](https://iosbookmarklets.com/flipboard-bookmarklet/)
     * [The Old Reader: List of Sharing Service URLs](https://theoldreader.uservoice.com/knowledgebase/articles/294010-list-of-sharing-service-urls)
 * *Test Notes :* Requires login and properly formatted URL with http/https protocol.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
+
+### <a name="googlebookmarks" /> GoogleBookmarks
+
+<img src="./images/logo-icons/google.bookmarks.jpg" width="25px"/> <code>Global Rank :</code>  `13,206` (may 9, 2020; site: chrome.com)
+
+<code>Parameters :</code> `bkmk`, `title`, `annotation`, `labels`.
+
+```
+https://www.google.com/bookmarks/mark?op=edit&bkmk={url}&title={title}&annotation={text}&labels={hash_tags}
+```
+
+<code>Source :</code>
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [StackOverflow: Add to favourites link for Google Chrome](https://stackoverflow.com/a/61702086/2430549)
+    * [StackOverflow: Modify the Google 'Add Bookmark' bookmarklet to store bookmark without popup?](https://stackoverflow.com/a/6686996/2430549)
+    * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
+    * [StackOverflow: Google bookmarks script only saves about 1 in 5 links](https://stackoverflow.com/q/50498062/2430549)
+    * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
+    * [StackOverflow: Wordpress posts show http://google.com/bookmarks/mark?op=edit&title= in front of url](https://stackoverflow.com/q/44287426/2430549)
+* *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`, `2020`.
 
 ### <a name="instapaper" /> InstaPaper
 
-<img src="./images/logo-icons/instapaper.jpg" width="25px"/> <code>Global Rank :</code>  `13,660` (apr. 3, 2018)
+<img src="./images/logo-icons/instapaper.jpg" width="25px"/> <code>Global Rank :</code>  `32,169` (may 9, 2020)
 
 <code>Parameters :</code> `url`, `title`, `description`.
 
@@ -482,49 +446,11 @@ http://www.instapaper.com/edit?url={url}&title={title}&description={text}
     * [Binary Adventures: Creating an Instapaper clone in Quiver](http://www.speeckaert.io/blog/articles/creating-an-instapaper-clone-in-quiver.html)
     * [Google Chrome Help Forum: Instapaper Chrome Extension Tweaking](https://productforums.google.com/forum/#!topic/chrome/Wvv-67Dip30)
 * *Test Notes :* Requires login and Chrome (does not work in FireFox).
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
-### <a name="surfingbird" /> SurfingBird
-
-<img src="./images/logo-icons/surfingbird.ru.jpg" width="25px"/> <code>Global Rank :</code>  `21,985` (apr. 3, 2018)
-
-<code>Parameters :</code> `url`, `description`, `screenshot`, `title`.
-
-```
-http://surfingbird.ru/share?url={url}&description={text}&screenshot={image}&title={title}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [Github: Social-Likes, Surfingbird support](https://github.com/sapegin/social-likes/issues/97)
-    * [BootCDN: social-likes](http://www.bootcdn.cn/social-likes/readme/)
-    * [VeliovGroup: Social Share Buttons, Social HTML-Only Buttons](https://veliovgroup.com/article/QTA2494eT8ThrqcZi/social-share-buttons)
-* *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
-
-### <a name="flattr" /> Flattr
-
-<img src="./images/logo-icons/flattr.jpg" width="25px"/> <code>Global Rank :</code>  `132,899` (apr. 3, 2018)
-
-<code>Parameters :</code> `user_id`, `url`, `title`, `description`, `language`, `tags`, `category`.
-
-```
-https://flattr.com/submit/auto?user_id={user_id}&url={url}&title={title}&description={text}&language={language_code}&tags={hash_tags}&hidden=HIDDEN&category={category}
-```
-
-<code>Source :</code>
-* *Official Source :* [Flattr: URL Auto Submit Documentation](https://blog.flattr.com/2011/11/url-auto-submit-documentation/)
-* *Unofficial Source :*
-    * [StackOverflow: Can't Flattr an auto submit URL via the REST API](https://stackoverflow.com/q/8961900/2430549)
-    * [StackOverflow: Flattr Auto-Submit URL fails with Invalid Request](https://stackoverflow.com/q/8925055/2430549)
-    * [StackOverflow: Integrating Flattr into a chatbot](https://stackoverflow.com/q/39692368/2430549)
-* *Test Notes :* Requires all user_id, url, and title parameters to be precisely formatted.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="diaspora" /> Diaspora
 
-<img src="./images/logo-icons/diaspora.jpg" width="25px"/> <code>Global Rank :</code>  `262,184` (apr. 3, 2018)
+<img src="./images/logo-icons/diaspora.jpg" width="25px"/> <code>Global Rank :</code>  `300,660` (may 9, 2020)
 
 <code>Parameters :</code> `title`, `url`.
 
@@ -539,20 +465,20 @@ https://share.diasporafoundation.org/?title={title}&url={url}
     * [Drupal: Add Diaspora option](https://www.drupal.org/project/social_simple/issues/2898005)
     * [Mastodon Meta Discussion Board: Mastodon Share Button](https://discourse.joinmastodon.org/t/mastodon-share-button/762)
 * *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`, `2020`.
 
 ## Non-English Social Media
 
 ### <a name="qzone" /> QZone
 
-<img src="./images/logo-icons/qzone.jpg" width="25px"/> <code>Global Rank :</code>  `9` (apr. 3, 2018)
+<img src="./images/logo-icons/qzone.jpg" width="25px"/> <code>Global Rank :</code>  `5` (may 9, 2020)
 
 <code>Language :</code> Chinese.
 
 <code>Parameters :</code> `url`.
 
 ```
-http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}
+http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}&title={title}&summary={text}
 ```
 
 <code>Source :</code>
@@ -562,11 +488,11 @@ http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}
     * [StackOverflow: How to clear the element in a open popup box](https://stackoverflow.com/a/17159801/2430549)
     * [StackOverflow: How to use hexo to pop up a picture](https://stackoverflow.com/q/45308945/2430549)
 * *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="vk" /> VK
 
-<img src="./images/logo-icons/vk.jpg" width="25px"/> <code>Global Rank :</code>  `17` (apr. 3, 2018)
+<img src="./images/logo-icons/vk.jpg" width="25px"/> <code>Global Rank :</code>  `22` (may 9, 2020)
 
 <code>Language :</code> Russian.
 
@@ -582,33 +508,12 @@ http://vk.com/share.php?url={url}&title={title}&comment={text}
     * [DLE-FAQ.ru: Как настроить ссылки поделиться для соц сетей? (How to configure links to share for social networks?)](https://dle-faq.ru/faq/questhacks/17803-kak-nastroit-ssylki-podelitsya-dlya-soc-setey.html)
     * [PVSM.ru: 1000 и 1 репост: гайд по кнопке «поделиться» в русских соц сетях (1000 and 1 repost: a guide on the button "share" in Russian social networks)](http://www.pvsm.ru/vkontakte/128491)
     * [UC-Zone.3dn.ru: Кнопка «Поделиться ВКонтакте» для uCoz (The "Share ВКонтакте" button for uCoz)](http://uc-zone.3dn.ru/load/skripty_dlja_ucoz/news_files/knopka_podelitsja_vkontakte_dlja_ucoz/3-1-0-30)
-* *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
-### <a name="weibo" /> Weibo
-
-<img src="./images/logo-icons/weibo.jpg" width="25px"/> <code>Global Rank :</code>  `21` (apr. 3, 2018)
-
-<code>Language :</code> Chinese.
-
-<code>Parameters :</code> `url`, `title`, `pic`.
-
-```
-http://service.weibo.com/share/share.php?url={url}&appkey=&title={title}&pic=&ralateUid=
-```
-
-<code>Source :</code>
-* *Official Source :* [Weibo: ShareCode](http://open.weibo.com/wiki/ShareCode)
-* *Unofficial Source :*
-    * [StackOverflow: Renren, Weibo, and Baidu Like buttons using only HTML (No Javascript)](https://stackoverflow.com/q/10490443/2430549)
-    * [Blog.CSDN.net: QQ空间、新浪微博、腾讯微博等一键分享API链接代码](https://blog.csdn.net/qq_23994787/article/details/78162814)
-    * [CTOLib.com: Share.js：一键分享到微博、QQ空间、QQ好友、微信、腾讯微博等](http://java.ctolib.com/article/comments/1075)
-* *Test Notes :* Requires login and software install to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Notes :* 2020 Update: Requires login to test.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="okru" /> OKru
 
-<img src="./images/logo-icons/okru.jpg" width="25px"/> <code>Global Rank :</code>  `46` (apr. 3, 2018)
+<img src="./images/logo-icons/okru.jpg" width="25px"/> <code>Global Rank :</code>  `62` (may 9, 2020)
 
 <code>AKA :</code>  AKA "Odnoklassniki" (English: "Classmates").
 
@@ -627,18 +532,18 @@ https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl={url}
     * [mrmartineau/SimpleSharing](https://github.com/mrmartineau/SimpleSharing)
     * [Toster.ru: Как прокинуть картинку при шаринге ОК? (How to prokinut picture when Sharing OK?)](https://toster.ru/q/394966)
 * *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="douban" /> Douban
 
-<img src="./images/logo-icons/douban.jpg" width="25px"/> <code>Global Rank :</code>  `900` (apr. 3, 2018)
+<img src="./images/logo-icons/douban.jpg" width="25px"/> <code>Global Rank :</code>  `284` (may 9, 2020)
 
 <code>Language :</code> Chinese.
 
-<code>Parameters :</code> `url`, `title`.
+<code>Parameters :</code> `name`, `text`, `comment`.
 
 ```
-http://www.douban.com/recommend/?url={url}&title={title}
+http://www.douban.com/recommend/?name={title}&text={text}&comment={url}&href={url}
 ```
 
 <code>Source :</code>
@@ -648,33 +553,11 @@ http://www.douban.com/recommend/?url={url}&title={title}
     * [Blog.Sina.Com.cn: HTML页面分享 (HTML page sharing [This blog post contains pictures])](http://blog.sina.com.cn/s/blog_3f6b8ac00100ia1w.html)
     * [GitHub: surmon-china/surmon.me > surmon.me/components/layout/share.vue](https://github.com/surmon-china/surmon.me/blob/master/components/layout/share.vue)
 * *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
-### <a name="xing" /> XING
-
-<img src="./images/logo-icons/xing.jpg" width="25px"/> <code>Global Rank :</code>  `1,377` (apr. 3, 2018)
-
-<code>Language :</code> German.
-
-<code>Parameters :</code> `url`.
-
-```
-https://www.xing.com/spi/shares/new?url={url}
-```
-
-<code>Source :</code>
-* *Official Source :*
-    * [Share on XING with custom design](https://dev.xing.com/plugins/share_button/docs#custom-design)
-* *Unofficial Source :*
-    * [XING: Groups > WordPress > Suche Social Media Plugin (German)](https://www.xing.com/communities/posts/suche-social-media-plugin-1010272530)
-    * [Drupal: Adding support for XING](https://www.drupal.org/node/1049038)
-    * [Kriesi.at: Xing in Social Share](https://kriesi.at/support/topic/xing-in-social-share/)
-* *Test Notes :* Requires login to work and precisely formatted URL (with protocol http/https parameters).
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="renren" /> RenRen
 
-<img src="./images/logo-icons/renren.jpg" width="25px"/> <code>Global Rank :</code>  `1,508` (apr. 3, 2018)
+<img src="./images/logo-icons/renren.jpg" width="25px"/> <code>Global Rank :</code>  `1,220` (may 9, 2020)
 
 <code>AKA :</code> Xiaonei.
 
@@ -693,11 +576,33 @@ http://widget.renren.com/dialog/share?resourceUrl={url}&srcUrl={url}&title={titl
     * [OpenBugBounty.org: Open Bug Bounty ID: OBB-190277](https://www.openbugbounty.org/reports/190277/)
     * [TheCodingStuff.com: PHP social sharing URLs](https://thecodingstuff.com/php-social-sharing-urls/)
 * *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
+
+### <a name="xing" /> XING
+
+<img src="./images/logo-icons/xing.jpg" width="25px"/> <code>Global Rank :</code>  `1,749` (may 9, 2020)
+
+<code>Language :</code> German.
+
+<code>Parameters :</code> `url`.
+
+```
+https://www.xing.com/spi/shares/new?url={url}
+```
+
+<code>Source :</code>
+* *Official Source :*
+    * [Share on XING with custom design](https://dev.xing.com/plugins/share_button/docs#custom-design)
+* *Unofficial Source :*
+    * [XING: Groups > WordPress > Suche Social Media Plugin (German)](https://www.xing.com/communities/posts/suche-social-media-plugin-1010272530)
+    * [Drupal: Adding support for XING](https://www.drupal.org/node/1049038)
+    * [Kriesi.at: Xing in Social Share](https://kriesi.at/support/topic/xing-in-social-share/)
+* *Test Notes :* Requires login to work and precisely formatted URL (with protocol http/https parameters).
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="threema" /> Threema
 
-<img src="./images/logo-icons/threema.jpg" width="25px"/> <code>Global Rank :</code>  `82,555` (apr. 3, 2018)
+<img src="./images/logo-icons/threema.jpg" width="25px"/> <code>Global Rank :</code>  `20,144` (may 9, 2020)
 
 <code>Language :</code> German.
 
@@ -716,6 +621,7 @@ threema://compose?text={url}&id={user_id}
 * *Test Notes :* If no user_id is provided, user is asked to select a contact, and then the message with text parameter is filled in.  If you need to test without paying for the app, there are free trials here: `https://work.threema.ch/en/offers`.  Special thanks to Threema for providing free credentials to Social Share dev's for testing Threema.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
+
 ## Phone/Audio-Based Social Media
 
 ### <a name="sms" /> SMS
@@ -725,7 +631,7 @@ threema://compose?text={url}&id={user_id}
 <code>Parameters :</code> `sms`, `body`.
 
 ````
-sms:{phone_number}?body={text}
+sms:{phone_number}?body={url}{text}
 ````
 
 * *Official Source :* Unable to locate.
@@ -734,11 +640,30 @@ sms:{phone_number}?body={text}
     * [StackOverflow: Send SMS in android](https://stackoverflow.com/q/4967448/2430549)
     * [StackOverflow: How to pre-populate the sms body text via an html link](https://stackoverflow.com/q/6480462/2430549)
 * *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`, `2020`.
+
+### <a name="skype" /> Skype
+
+<img src="./images/logo-icons/skype.jpg" width="25px"/> <code>Global Rank :</code>  `175` (may 9, 2020)
+
+<code>Parameters :</code> `url`, `text`.
+
+```
+https://web.skype.com/share?url={url}&text={text}
+```
+
+<code>Source :</code>
+* *Official Source :* Unable to locate.
+* *Unofficial Source :*
+    * [StackOverflow: How to share website links in wechat](https://stackoverflow.com/q/38826417/2430549)
+    * [StackOverflow: web scraping - getting values of particular nodes inside an element](https://stackoverflow.com/q/36301454/2430549)
+    * [GitHub: Automattic/jetpack > Add Skype share button to Jetpack #3170](https://github.com/Automattic/jetpack/issues/3170)
+* *Test Notes :* Requires login to work. 2020 Update: Make sure to disable uBlock Origin when testing, otherwise Skype will appear to be blocked.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="lineme" /> Line.me
 
-<img src="./images/logo-icons/line.me.jpg" width="25px"/> <code>Global Rank :</code>  `360` (apr. 3, 2018)
+<img src="./images/logo-icons/line.me.jpg" width="25px"/> <code>Global Rank :</code>  `237` (may 9, 2020)
 
 <code>Parameters :</code> `url`, `text`.
 
@@ -753,30 +678,11 @@ https://lineit.line.me/share/ui?url={url}&text={text}
     * [zhi-yuan-chenge.blogspot.com: 【JS】LINE分享方法(桌機跟手機)](http://zhi-yuan-chenge.blogspot.com/2016/09/jsline.html)
     * [TheCodingStuff.com: PHP social sharing URLs](https://thecodingstuff.com/php-social-sharing-urls/)
 * *Test Notes :* Requires login to work and perfectly formatted URL with protocol parameters (http/https, etc.).  Creating an account requires software install.  Above-described URL parameters are not indicated in the official documentation.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
-
-### <a name="skype" /> Skype
-
-<img src="./images/logo-icons/skype.jpg" width="25px"/> <code>Global Rank :</code>  `375` (apr. 3, 2018)
-
-<code>Parameters :</code> `url`, `text`.
-
-```
-https://web.skype.com/share?url={url}&text={text}
-```
-
-<code>Source :</code>
-* *Official Source :* Unable to locate.
-* *Unofficial Source :*
-    * [StackOverflow: How to share website links in wechat](https://stackoverflow.com/q/38826417/2430549)
-    * [StackOverflow: web scraping - getting values of particular nodes inside an element](https://stackoverflow.com/q/36301454/2430549)
-    * [GitHub: Automattic/jetpack > Add Skype share button to Jetpack #3170](https://github.com/Automattic/jetpack/issues/3170)
-* *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="telegramme" /> Telegram.me
 
-<img src="./images/logo-icons/telegram.me.jpg" width="25px"/> <code>Global Rank :</code>  `456` (apr. 3, 2018)
+<img src="./images/logo-icons/telegram.me.jpg" width="25px"/> <code>Global Rank :</code>  `328` (may 9, 2020)
 
 <code>Parameters :</code> `url`, `text`, `to`.
 
@@ -792,7 +698,7 @@ tg://msg?url={url}&text={title}&to={phone_number}
     * [StackOverflow: Add some html and php codes bottom of wordpress post content](https://stackoverflow.com/q/42056234/2430549)
     * [StackOverflow: There's a new Telegram “button” for websites - need help to use it on blogspot](https://stackoverflow.com/q/33927242/2430549)
 * *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ## Email-Based Social Media
 
@@ -803,7 +709,7 @@ tg://msg?url={url}&text={title}&to={phone_number}
 <code>Parameters :</code> `mailto`, `subject`, `body`.
 
 ```
-mailto:{email_address}?subject={title}&body={text}
+mailto:{email_address}?subject={title}&body={url} {text}
 ```
 
 <code>Source :</code>
@@ -813,11 +719,11 @@ mailto:{email_address}?subject={title}&body={text}
     * [StackOverflow: MailTo with HTML body](https://stackoverflow.com/q/5620324/2430549)
     * [StackOverflow: mailto link multiple body lines](https://stackoverflow.com/q/10356329/2430549)
 * *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `1998` and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `1998`, `2018`, `2020`.
 
 ### <a name="gmail" /> GMail
 
-<img src="./images/logo-icons/gmail.jpg" width="25px"/> <code>Global Rank :</code>  `1` (apr. 3, 2018)
+<img src="./images/logo-icons/gmail.jpg" width="25px"/> <code>Global Rank :</code>  `1` (may 9, 2020)
 
 <code>Parameters :</code> `to`, `su`, `body`, `bcc`, `cc`.
 
@@ -832,11 +738,11 @@ https://mail.google.com/mail/?view=cm&to={email_address}&su={title}&body={url}&b
     * [StackOverflow: URL to compose a message in Gmail](https://stackoverflow.com/q/6548570/2430549)
     * [UbuntuForums: how to transform (firefox+gmail) in the system email client](https://ubuntuforums.org/showthread.php?t=346070)
 * *Test Notes :* None.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="yahoo" /> Yahoo
 
-<img src="./images/logo-icons/yahoo.jpg" width="25px"/> <code>Global Rank :</code>  `7` (apr. 3, 2018)
+<img src="./images/logo-icons/yahoo.jpg" width="25px"/> <code>Global Rank :</code>  `12` (may 9, 2020)
 
 <code>Parameters :</code> `to`, `subject`, `body`.
 
@@ -852,7 +758,7 @@ http://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}
     * [StackOverflow: mailto: links and webmail](https://stackoverflow.com/a/14139725/2430549)
     * [StackOverflow: javascript commands work singly but not sequentially as a bookmarklet](https://stackoverflow.com/q/25874385/2430549)
 * *Test Notes :* Requires login to work.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016` and `2018`.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ## Locally/Personally-Run Social Media
 
@@ -987,3 +893,36 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 * <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2020.
 
     * ~~http://digg.com/submit?url={url}~~
+
+### <a name="addthis" /> AddThis
+
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service started in 2018 and discontinued in 2020.  AddThis is now a marketing firm that tries to sell a social share URL list, much ours.  Except we're free -- free as in free beer and free speech!
+
+    * ~~http://www.addthis.com/bookmark.php?url={url}~~
+
+### <a name="buffer" /> Buffer
+
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2020.  Users may still use the api to share text and communicate, but URLs are forbidden, and are immediately rewritten to internal, buffer URLs, which have nothing to do with the content you want to share.
+
+    * ~~https://buffer.com/add?text={title}&url={url}~~
+    * ~~https://buff.ly/2LkcnVy~~
+    
+### <a name="flattr" /> Flattr
+
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2020.  Attempting to use the URL results in: "404
+Sorry, this page isn’t available."
+
+    * ~~https://flattr.com/submit/auto?user_id={user_id}&url={url}&title={title}&description={text}&language={language_code}&tags={hash_tags}&hidden=HIDDEN&category={category}~~
+
+### <a name="weibo" /> Weibo
+
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2020.  Updated documentation at https://open.weibo.com/wiki/ShareCode indicates their URL format has changed, but both formats result in 404 errors.
+
+    * ~~http://service.weibo.com/share/share.php?url={url}&appkey=&title={title}&pic={image}&ralateUid=~~
+    * ~~http://vtsina.com.cn/share/share.php?url={url}&appkey=&title={title}&pic={image}&ralateUid=~~
+    
+### <a name="surfingbird" /> SurfingBird
+
+* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2020, possibly in 2019.
+
+    * ~~http://surfingbird.ru/share?url={url}&description={text}&screenshot={image}&title={title}~~
