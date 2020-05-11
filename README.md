@@ -687,12 +687,12 @@ https://lineit.line.me/share/ui?url={url}&text={text}
 <code>Parameters :</code> `url`, `text`, `to`.
 
 ```
-https://t.me/share/url?url={url}&text={title}&to={phone_number}
-https://telegram.me/share/url?url={url}&text={title}&to={phone_number}
-tg://msg?url={url}&text={title}&to={phone_number}
+https://t.me/share/url?url={url}&text={title}
+https://telegram.me/share/url?url={url}&text={title}
+tg://msg_url?url={url}&text={title}
 ```
 
-* *Official Source :* Unable to locate.
+* *Official Source :* [Telegram Sharing Button](https://core.telegram.org/widgets/share#custom-buttons)
 * *Unofficial Source :*
     * [StackOverflow: Share a link via URL scheme (via Telegram for example)](https://stackoverflow.com/q/31356360/2430549)
     * [StackOverflow: Add some html and php codes bottom of wordpress post content](https://stackoverflow.com/q/42056234/2430549)
