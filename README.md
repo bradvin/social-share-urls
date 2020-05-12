@@ -116,13 +116,12 @@ Your URL should be placed in the `url` parameter; if not available, you will nee
 
 Argument | Description | Used By
 --- | --- | ---
-{url} | The URL-encoded link you want to share.  Service may reject link if not encoded. | GoogleBookmarks, Facebook, Reddit, Twitter, LinkedIn, Tumblr, Pinterest, Blogger, LiveJournal, EverNote, AddThis, GetPocket, HackerNews, Digg, Buffer, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, Line.me, Skype, Telegram.me, QZone, VK, Weibo, OKru, Douban, XING, RenRen, GMail, Yahoo, WordPress
-{title} | The page title of the url you want to share. | GoogleBookmarks, Reddit, Tumblr, Blogger, LiveJournal, EverNote, HackerNews, FlipBoard, InstaPaper, SurfingBird, Flattr, Diaspora, VK, Weibo, Douban, RenRen, EMail, GMail, Yahoo, WordPress
-{text} | A longer description of the content you are sharing. | GoogleBookmarks, Twitter, Tumblr, Blogger, Buffer, InstaPaper, SurfingBird, Flattr, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress
-{hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#"). | GoogleBookmarks, Twitter, Tumblr, Flattr
-{user_id} | The username/id of a particular user on a social media service. | Twitter, Flattr, Threema
+{url} | The URL-encoded link you want to share.  Service may reject link if not encoded. | GoogleBookmarks, Facebook, Reddit, Twitter, LinkedIn, Tumblr, Pinterest, Blogger, LiveJournal, EverNote, GetPocket, HackerNews, Digg, FlipBoard, InstaPaper, SurfingBird, Diaspora, Line.me, Skype, Telegram.me, QZone, VK, Weibo, OKru, Douban, XING, RenRen, GMail, Yahoo, WordPress
+{title} | The page title of the url you want to share. | GoogleBookmarks, Reddit, Tumblr, Blogger, LiveJournal, EverNote, HackerNews, FlipBoard, InstaPaper, SurfingBird, Diaspora, VK, Weibo, Douban, RenRen, EMail, GMail, Yahoo, WordPress
+{text} | A longer description of the content you are sharing. | GoogleBookmarks, Twitter, Tumblr, Blogger, InstaPaper, SurfingBird, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress
+{hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#"). | GoogleBookmarks, Twitter, Tumblr
+{user_id} | The username/id of a particular user on a social media service. | Twitter, Threema
 {email_address} | Where a social share is directed.  You will most likely want to leave this blank, so the user can fill it in. | EMail, GMail, Yahoo
-{language_code} | A language code from the ISO 639-1 Code specification. | Flattr
 {image} | The url to the image/thumbnail to use when sharing. | SurfingBird, WordPress
 {phone_number} | An applicable phone number, if there is one. | SMS, Telegram.me, Whatsapp
 {app_id} | The App ID. | Facebook
@@ -244,6 +243,7 @@ https://wa.me/{phone_number}?text={title}%20{url}
 <code>Source :</code>
 * *Official Source :* [WhatsApp: How to use click to chat](https://faq.whatsapp.com/en/android/26000030/)
 * *Unofficial Source :*
+    * [StackOverflow: flask Create social share components](https://stackoverflow.com/a/61719812/2430549)
     * [StackOverflow: Mobile website “WhatsApp” button to send message to a specific number](https://stackoverflow.com/a/61617614/2430549)
     * [StackOverflow: Web link to specific whatsapp contact](https://stackoverflow.com/q/30344476/2430549)
     * [StackOverflow: whatsapp://send?text= Doesn't work](https://stackoverflow.com/a/48610575/2430549)
@@ -484,6 +484,7 @@ http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}&title={titl
 <code>Source :</code>
 * *Official Source :* Unable to locate.
 * *Unofficial Source :*
+    * [StackOverflow: Getting social share buttons to work](https://stackoverflow.com/a/61719723/2430549)
     * [StackOverflow: social share css issue](https://stackoverflow.com/q/33186760/2430549)
     * [StackOverflow: How to clear the element in a open popup box](https://stackoverflow.com/a/17159801/2430549)
     * [StackOverflow: How to use hexo to pop up a picture](https://stackoverflow.com/q/45308945/2430549)
