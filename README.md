@@ -685,12 +685,12 @@ https://lineit.line.me/share/ui?url={url}&text={text}
 
 <img src="./images/logo-icons/telegram.me.jpg" width="25px"/> <code>Global Rank :</code>  `328` (may 9, 2020)
 
-<code>Parameters :</code> `url`, `text`, `to`.
+<code>Parameters :</code> `url`, `text`.
 
 ```
-https://t.me/share/url?url={url}&text={title}
-https://telegram.me/share/url?url={url}&text={title}
-tg://msg_url?url={url}&text={title}
+https://t.me/share/url?url={url}&text={text}
+https://telegram.me/share/url?url={url}&text={text}
+tg://msg_url?url={url}&text={text}
 ```
 
 * *Official Source :* [Telegram Sharing Button](https://core.telegram.org/widgets/share#custom-buttons)
