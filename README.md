@@ -123,7 +123,7 @@ Argument | Description | Used By
 {user_id} | The username/id of a particular user on a social media service. | Twitter, Threema
 {email_address} | Where a social share is directed.  You will most likely want to leave this blank, so the user can fill it in. | EMail, GMail, Yahoo
 {image} | The url to the image/thumbnail to use when sharing. | SurfingBird, WordPress
-{phone_number} | An applicable phone number, if there is one. | SMS, Telegram.me, Whatsapp
+{phone_number} | An applicable phone number, if there is one. | SMS, Whatsapp
 {app_id} | The App ID. | Facebook
 {redirect_url} | The url a sharer will be redirected to after a successful share. | Facebook
 {page_type} | Type of page, either "page" or "popup." | Facebook
@@ -237,7 +237,8 @@ https://www.linkedin.com/sharing/share-offsite/?url={url}
 
 ```
 https://api.whatsapp.com/send?phone={phone_number}&text={title}%20{url}
-https://wa.me/{phone_number}?text={title}%20{url}
+whatsapp://send/?text={text}%20{url}
+~~https://wa.me/{phone_number}?text={title}%20{url}~~
 ```
 
 <code>Source :</code>
@@ -251,7 +252,7 @@ https://wa.me/{phone_number}?text={title}%20{url}
     * [StackOverflow: Link to chat whatsapp desktop](https://stackoverflow.com/a/48760909/2430549)
     * [StackOverflow: Sending message through WhatsApp](https://stackoverflow.com/q/15462874/2430549)
     * [StackOverflow: Send text to specific contact programmatically (whatsapp)](https://stackoverflow.com/q/19081654/2430549)
-* *Test Notes :* Official source indicates a URL different from above, using wa.me as a domain.  But those URLs merely redirect to the URL up above, so I'll stick to using the actual, direct URL and saving the user an extra trip.
+* *Test Notes :* wa.me does not work unless a phone_number is supplied, so, for this reason, we are suggesting users use the api.whatsapp.com format.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2020`.
 
 ### <a name="tumblr" /> Tumblr
@@ -695,6 +696,8 @@ tg://msg_url?url={url}&text={text}
 
 * *Official Source :* [Telegram Sharing Button](https://core.telegram.org/widgets/share#custom-buttons)
 * *Unofficial Source :*
+    * [StackOverflow: Pre-filled message to a Telegram number](https://stackoverflow.com/q/58717593/2430549)
+    * [StackOverflow: Open telegram app from a link in a mobile web site](https://stackoverflow.com/q/59966809/2430549)
     * [StackOverflow: Share a link via URL scheme (via Telegram for example)](https://stackoverflow.com/q/31356360/2430549)
     * [StackOverflow: Add some html and php codes bottom of wordpress post content](https://stackoverflow.com/q/42056234/2430549)
     * [StackOverflow: There's a new Telegram “button” for websites - need help to use it on blogspot](https://stackoverflow.com/q/33927242/2430549)
