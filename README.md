@@ -238,7 +238,7 @@ https://www.linkedin.com/sharing/share-offsite/?url={url}
 <blockqoute><code>
 https://api.whatsapp.com/send?phone={phone_number}&text={title}%20{url}
 whatsapp://send/?text={text}%20{url}
-<s>https://wa.me/{phone_number}?text={title}%20{url}<s></code>
+<s>https://wa.me/{phone_number}?text={title}%20{url}</s></code>
 </blockqoute>
 
 <code>Source :</code>
