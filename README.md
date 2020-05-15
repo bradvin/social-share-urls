@@ -235,11 +235,11 @@ https://www.linkedin.com/sharing/share-offsite/?url={url}
 
 <code>Parameters :</code> `phone`, `text`.
 
-```
+<blockqoute><code>
 https://api.whatsapp.com/send?phone={phone_number}&text={title}%20{url}
 whatsapp://send/?text={text}%20{url}
-~~https://wa.me/{phone_number}?text={title}%20{url}~~
-```
+<s>https://wa.me/{phone_number}?text={title}%20{url}<s></code>
+</blockqoute>
 
 <code>Source :</code>
 * *Official Source :* [WhatsApp: How to use click to chat](https://faq.whatsapp.com/en/android/26000030/)
