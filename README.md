@@ -468,27 +468,6 @@ https://share.diasporafoundation.org/?title={title}&url={url}
 
 ## Non-English Social Media
 
-### <a name="weibo" /> Weibo
-
-<img src="./images/logo-icons/weibo.jpg" width="25px"/> <code>Global Rank :</code>  `16` (may 16, 2020)
-
-<code>Language :</code> Chinese.
-
-<code>Parameters :</code> `url`, `title`.
-
-```
-http://service.weibo.com/share/share.php?url={url}&appkey=&title={title}&pic=&ralateUid=
-```
-
-<code>Source :</code>
-* *Official Source :* [Weibo: ShareCode](http://open.weibo.com/wiki/ShareCode)
-* *Unofficial Source :*
-    * [StackOverflow: Renren, Weibo, and Baidu Like buttons using only HTML (No Javascript)](https://stackoverflow.com/q/10490443/2430549)
-    * [Blog.CSDN.net: QQ空间、新浪微博、腾讯微博等一键分享API链接代码](https://blog.csdn.net/qq_23994787/article/details/78162814)
-    * [CTOLib.com: Share.js：一键分享到微博、QQ空间、QQ好友、微信、腾讯微博等](http://java.ctolib.com/article/comments/1075)
-* *Test Notes :* Does not require login or software install, service was briefly down in early 2020.
-* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
-
 ### <a name="qzone" /> QZone
 
 <img src="./images/logo-icons/qzone.jpg" width="25px"/> <code>Global Rank :</code>  `5` (may 9, 2020)
@@ -509,6 +488,27 @@ http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={url}&title={titl
     * [StackOverflow: How to clear the element in a open popup box](https://stackoverflow.com/a/17159801/2430549)
     * [StackOverflow: How to use hexo to pop up a picture](https://stackoverflow.com/q/45308945/2430549)
 * *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
+
+### <a name="weibo" /> Weibo
+
+<img src="./images/logo-icons/weibo.jpg" width="25px"/> <code>Global Rank :</code>  `16` (may 16, 2020)
+
+<code>Language :</code> Chinese.
+
+<code>Parameters :</code> `url`, `title`.
+
+```
+http://service.weibo.com/share/share.php?url={url}&appkey=&title={title}&pic=&ralateUid=
+```
+
+<code>Source :</code>
+* *Official Source :* [Weibo: ShareCode](http://open.weibo.com/wiki/ShareCode)
+* *Unofficial Source :*
+    * [StackOverflow: Renren, Weibo, and Baidu Like buttons using only HTML (No Javascript)](https://stackoverflow.com/q/10490443/2430549)
+    * [Blog.CSDN.net: QQ空间、新浪微博、腾讯微博等一键分享API链接代码](https://blog.csdn.net/qq_23994787/article/details/78162814)
+    * [CTOLib.com: Share.js：一键分享到微博、QQ空间、QQ好友、微信、腾讯微博等](http://java.ctolib.com/article/comments/1075)
+* *Test Notes :* Does not require login or software install, service was briefly down in early 2020.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="vk" /> VK
