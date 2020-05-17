@@ -21,6 +21,8 @@ What we try to provide :
     * We include primary sources (official documentation or official dev blogs).  We try to provide at least one of these per service.
     * We also include secondary sources (like forum conversations or StackOverflow questions).  We try to provide at least three of these per service.
 
+* **History** : Hey, we've been around for a while, wh00!  Check out our [history page!](https://github.com/bradvin/social-share-urls/blob/master/HISTORY.md)
+
 <p align="center"><img src="./images/social-share-dev.jpg" width="400px;"/></p>
 
 ## Just Want the Gist?
