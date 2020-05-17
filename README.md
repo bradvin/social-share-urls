@@ -62,6 +62,7 @@ Some sites using this project :
 
 * <img src="./images/logo-icons/qzone.jpg" width="15px;"/> [QZone](#qzone)
 * <img src="./images/logo-icons/vk.jpg" width="15px;"/> [VK](#vk)
+* <img src="./images/logo-icons/weibo.jpg" width="15px;"/> [Weibo](#weibo)
 * <img src="./images/logo-icons/okru.jpg" width="15px;"/> [OKru](#okru)
 * <img src="./images/logo-icons/douban.jpg" width="15px;"/> [Douban](#douban)
 * <img src="./images/logo-icons/renren.jpg" width="15px;"/> [RenRen](#renren)
@@ -107,7 +108,6 @@ Some sites using this project :
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [AddThis](#addthis)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Buffer](#buffer)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Flattr](#flattr)
-* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Weibo](#weibo)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [SurfingBird](#surfingbird)
 
 ## URL Arguments
@@ -467,6 +467,27 @@ https://share.diasporafoundation.org/?title={title}&url={url}
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`, `2020`.
 
 ## Non-English Social Media
+
+### <a name="weibo" /> Weibo
+
+<img src="./images/logo-icons/weibo.jpg" width="25px"/> <code>Global Rank :</code>  `16` (may 16, 2020)
+
+<code>Language :</code> Chinese.
+
+<code>Parameters :</code> `url`, `title`.
+
+```
+http://service.weibo.com/share/share.php?url={url}&appkey=&title={title}&pic=&ralateUid=
+```
+
+<code>Source :</code>
+* *Official Source :* [Weibo: ShareCode](http://open.weibo.com/wiki/ShareCode)
+* *Unofficial Source :*
+    * [StackOverflow: Renren, Weibo, and Baidu Like buttons using only HTML (No Javascript)](https://stackoverflow.com/q/10490443/2430549)
+    * [Blog.CSDN.net: QQ空间、新浪微博、腾讯微博等一键分享API链接代码](https://blog.csdn.net/qq_23994787/article/details/78162814)
+    * [CTOLib.com: Share.js：一键分享到微博、QQ空间、QQ好友、微信、腾讯微博等](http://java.ctolib.com/article/comments/1075)
+* *Test Notes :* Does not require login or software install, service was briefly down in early 2020.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2016`, `2018`, `2020`.
 
 ### <a name="qzone" /> QZone
 
@@ -915,13 +936,6 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
 Sorry, this page isn’t available."
 
     * ~~https://flattr.com/submit/auto?user_id={user_id}&url={url}&title={title}&description={text}&language={language_code}&tags={hash_tags}&hidden=HIDDEN&category={category}~~
-
-### <a name="weibo" /> Weibo
-
-* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2020.  Updated documentation at https://open.weibo.com/wiki/ShareCode indicates their URL format has changed, but both formats result in 404 errors.
-
-    * ~~http://service.weibo.com/share/share.php?url={url}&appkey=&title={title}&pic={image}&ralateUid=~~
-    * ~~http://vtsina.com.cn/share/share.php?url={url}&appkey=&title={title}&pic={image}&ralateUid=~~
     
 ### <a name="surfingbird" /> SurfingBird
 
