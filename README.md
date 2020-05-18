@@ -2,7 +2,7 @@
 
 This project is intended to help you integrate sharing on social media within your code.  We have been actively doing this since 2013.
 
-![Share Links - Do You Have Them?](./images/social-share-2020.jpg "ShareLinks Icons")
+![Share Links - Do You Have Them?](../images/social-share-2020.gif "ShareLinks Icons")
 
 What we try to provide :
 
