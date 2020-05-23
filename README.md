@@ -147,7 +147,11 @@ https://www.facebook.com/sharer.php?u={url}
 <code>Source :</code>
 * *Official Source :* [FaceBook: We have changed the behavior of the sharer plugin...](https://developers.facebook.com/x/bugs/357750474364812/)
 * *Unofficial Source :*
-    * [StackOverflow: Facebook share link - no javascript](https://stackoverflow.com/q/9120539/2430549)
+    * [StackOverflow: Facebook share link - no javascript](https://stackoverflow.com/a/14618184/2430549)
+    * [StackOverflow: How to add facebook share button on my website?](https://stackoverflow.com/q/16463030/2430549)
+    * [StackOverflow: Facebook Share Button for Dynamic Url](https://stackoverflow.com/questions/21215676/facebook-share-button-for-dynamic-url)
+    * [StackOverflow: Facebook share button](https://stackoverflow.com/q/18035876/2430549)
+    * [StackOverflow: FaceBook share button to post content on FaceBook](https://stackoverflow.com/q/2988918/2430549)
     * [StackOverflow: Open source alternative to AddThis AddToAny, ShareThis etcfor Social Bookmarking](https://stackoverflow.com/a/31844778/2430549)
     * [StackOverflow: will facebook sharer functionality be supported?](https://stackoverflow.com/q/7907506/2430549)
 * *Test Notes :* None.
