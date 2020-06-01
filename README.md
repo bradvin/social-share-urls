@@ -145,7 +145,9 @@ https://www.facebook.com/sharer.php?u={url}
 ```
 
 <code>Source :</code>
-* *Official Source :* [FaceBook: We have changed the behavior of the sharer plugin...](https://developers.facebook.com/x/bugs/357750474364812/)
+* *Official Source :*
+    * [Facebook: Share Button](https://developers.facebook.com/docs/plugins/share-button/)
+    * [Facebook: We have changed the behavior of the sharer plugin...](https://developers.facebook.com/x/bugs/357750474364812/)
 * *Unofficial Source :*
     * [StackOverflow: Facebook share link - no javascript](https://stackoverflow.com/a/14618184/2430549)
     * [StackOverflow: How to add facebook share button on my website?](https://stackoverflow.com/q/16463030/2430549)
@@ -225,6 +227,7 @@ https://www.linkedin.com/sharing/share-offsite/?url={url}
 <code>Source :</code>
 * *Official Source :* [LinkedIn: Share On LinkedIn, Section: "Customized URL"](https://developer.linkedin.com/docs/share-on-linkedin)
 * *Unofficial Source :*
+    * [StackOverflow: Is there a single PHP API to post to multiple sharing sites (Twitter, Reddit, Linkedin, etc)?](https://stackoverflow.com/a/62137658/2430549)
     * [StackOverflow: Social Sharing With LinkedIn (April, 2020)](https://stackoverflow.com/a/61583006/2430549)
     * [StackOverflow: How to make custom linkedin share button](https://stackoverflow.com/q/10713542/2430549)
     * [StackOverflow: Social Share Links with Custom Icons](https://stackoverflow.com/a/49542173/2430549)
