@@ -284,7 +284,7 @@ https://github.com/bradvin/social-share-urls
 
 ### Wordpress
 
-<code>Site :</code> WordPress is software that lets you run a social website, which the creators would then probably make their own icons for.  But if you want to know more, [https://https://wordpress.org/](https://https://wordpress.org/)
+<code>Site :</code> WordPress is software that lets you run a social website, which the creators would then probably make their own icons for.  But if you want to know more, [https://wordpress.org/](https://wordpress.org/)
 
 <img src="../images/logo-icons-opaque-background/wordpress.png" width="50px"/> <img src="../images/logo-icons-white-background/wordpress.jpg" width="50px"/> <img src="../images/logo-icons/wordpress.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-01/wordpress.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-02/wordpress.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-03/wordpress.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-04/wordpress.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-05/wordpress.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-06/wordpress.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-07/wordpress.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-08/wordpress.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-09/wordpress.jpg" width="50px"/> <img src="../images/logo-icons-colorized-background-10/wordpress.jpg" width="50px"/>
 
