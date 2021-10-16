@@ -697,7 +697,7 @@ https://web.skype.com/share?url={url}&text={text}
 <code>Parameters :</code> `url`, `text`.
 
 ```
-https://lineit.line.me/share/ui?url={url}&text={text}
+https://social-plugins.line.me/lineit/share?url={url}
 ```
 
 <code>Source :</code>
