@@ -244,6 +244,7 @@ https://www.linkedin.com/sharing/share-offsite/?url={url}
 <code>Parameters :</code> `phone`, `text`.
 
 <code>https://api.whatsapp.com/send?phone={phone_number}&text={title}%20{url}</code><br>
+<code>https://web.whatsapp.com/send?text={url}</code><br>
 <code>whatsapp://send/?text={text}%20{url}</code><br>
 <code><s>https://wa.me/{phone_number}?text={title}%20{url}</s></code>
 
