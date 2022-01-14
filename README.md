@@ -663,7 +663,7 @@ threema://compose?text={url}&id={user_id}
 sms:{phone_number}?body={url}{text}
 ````
 
-* *Official Source :* Unable to locate.
+* *Official Source :* [RFC 5724: URI Scheme for Short Message Service (SMS)](https://datatracker.ietf.org/doc/html/rfc5724#section-2)
 * *Unofficial Source :*
     * [StackOverflow: How to programmatically send SMS on the iPhone?](https://stackoverflow.com/q/10848/2430549)
     * [StackOverflow: Send SMS in android](https://stackoverflow.com/q/4967448/2430549)
