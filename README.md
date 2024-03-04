@@ -43,6 +43,7 @@ Some sites using this project :
 ### Multi-Language Social Media
 
 * <img src="./images/logo-icons/facebook.jpg" width="15px;"/> [Facebook](#facebook)
+* <img src="./images/logo-icons/bluesky.jpg" width="15px;"/> [Bluesky](#bluesky)
 * <img src="./images/logo-icons/reddit.jpg" width="15px;"/> [Reddit](#reddit)
 * <img src="./images/logo-icons/twitter.jpg" width="15px;"/> [Twitter](#twitter)
 * <img src="./images/logo-icons/linkedin.jpg" width="15px;"/> [LinkedIn](#linkedin)
@@ -119,7 +120,7 @@ Argument | Description | Used By
 --- | --- | ---
 {url} | The URL-encoded link you want to share.  Service may reject link if not encoded. | GoogleBookmarks, Facebook, Reddit, Twitter, LinkedIn, Tumblr, Pinterest, Blogger, LiveJournal, EverNote, GetPocket, HackerNews, Digg, FlipBoard, InstaPaper, SurfingBird, Diaspora, Line.me, Skype, Telegram.me, QZone, VK, Weibo, OKru, Douban, XING, RenRen, GMail, Yahoo, WordPress
 {title} | The page title of the url you want to share. | GoogleBookmarks, Reddit, Tumblr, Blogger, LiveJournal, EverNote, HackerNews, FlipBoard, InstaPaper, SurfingBird, Diaspora, VK, Weibo, Douban, RenRen, EMail, GMail, Yahoo, WordPress
-{text} | A longer description of the content you are sharing. | GoogleBookmarks, Twitter, Tumblr, Blogger, InstaPaper, SurfingBird, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress
+{text} | A longer description of the content you are sharing. | GoogleBookmarks, Twitter, Tumblr, Blogger, InstaPaper, SurfingBird, SMS, Line.me, Skype, Telegram.me, VK, RenRen, Threema, EMail, WordPress, Bluesky
 {hash_tags} | Hashtags appended onto the tweet (comma separated. don't include "#"). | GoogleBookmarks, Twitter, Tumblr
 {user_id} | The username/id of a particular user on a social media service. | Twitter, Threema
 {email_address} | Where a social share is directed.  You will most likely want to leave this blank, so the user can fill it in. | EMail, GMail, Yahoo
@@ -175,6 +176,23 @@ https://www.facebook.com/dialog/share?app_id={app_id}&display={page_type}&href={
     * [StackOverflow: What is redirect_url for the share dialog?](https://stackoverflow.com/q/33859108/2430549)
 * *Test Notes :* Requires registering in order to get an `App_Id`.  Tested and works with this url: https://www.facebook.com/dialog/share?app_id=182985995589570&display=page&href=http://www.earthfluent.com&redirect_uri=http://www.earthfluent.com
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2013`, `2016`, `2018`, `2020`.
+
+
+### <a name="bluesky" /> Bluesky
+
+<img src="./images/logo-icons/bluesky.jpg" width="25px"/> <code>Global Rank :</code>  `2,509` (jan 1, 2024)
+
+<code>Parameters :</code> `text`.
+
+```
+https://bsky.app/intent/compose?text={title}%20{url}
+```
+
+<code>Source :</code>
+* *Official Source :* [Bluesky: Share on Bluesky](https://bsky.app/profile/bsky.app/post/3kmjboaopvn2f)
+* *Unofficial Source :* None.
+* *Test Notes :* None.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2024`.
 
 ### <a name="reddit" /> Reddit
 
